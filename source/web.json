@@ -1325,10 +1325,6 @@
     "text": "Exit focus",
     "context": "Focus mode: button at the top that leaves focus mode."
   },
-  "focus.status.running": {
-    "text": "Focusing",
-    "context": "Focus mode: badge above the task while the clock runs."
-  },
   "focus.status.paused": {
     "text": "Paused",
     "context": "Focus mode: badge above the task while the clock is paused. Also starts the browser tab title then."
