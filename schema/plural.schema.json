@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "plural.schema.json",
+  "title": "Plural forms",
+  "description": "One text per CLDR plural category. \"other\" is always required.",
+  "type": "object",
+  "required": ["other"],
+  "propertyNames": { "enum": ["zero", "one", "two", "few", "many", "other"] },
+  "additionalProperties": { "type": "string", "minLength": 1 }
+}

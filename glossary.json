@@ -1,0 +1,377 @@
+{
+  "$schema": "./schema/glossary.schema.json",
+  "terms": [
+    {
+      "term": "Saver",
+      "description": "The name of the app. Never translated, never transliterated.",
+      "doNotTranslate": true
+    },
+    {
+      "term": "Plus",
+      "description": "Name of the middle paid plan. A name, kept as it is.",
+      "doNotTranslate": true
+    },
+    {
+      "term": "Pro",
+      "description": "Name of the top paid plan (also \"Saver Pro\"). A name, kept as it is.",
+      "doNotTranslate": true
+    },
+    {
+      "term": "Discord",
+      "description": "The chat service. Saver has a Discord bot and Discord sign-in.",
+      "doNotTranslate": true
+    },
+    {
+      "term": "Google",
+      "description": "Used in \"Sign in with Google\" and similar.",
+      "doNotTranslate": true
+    },
+    {
+      "term": "Apple",
+      "description": "Used in \"Sign in with Apple\" and similar.",
+      "doNotTranslate": true
+    },
+    {
+      "term": "Free",
+      "description": "Name of the free plan, shown next to Plus and Pro. Use the short word your language uses for free plans.",
+      "translations": {
+        "id": "Gratis",
+        "de": "Kostenlos",
+        "es": "Gratis",
+        "fr": "Gratuit",
+        "it": "Gratis",
+        "pt-BR": "Grátis",
+        "tr": "Ücretsiz",
+        "ru": "Бесплатно",
+        "ar": "مجاني",
+        "hi": "फ़्री",
+        "ja": "無料",
+        "ko": "무료",
+        "zh-Hans": "免费版"
+      }
+    },
+    {
+      "term": "Space",
+      "description": "A place that holds tasks, bookmarks and habits. Personal or shared with other people. The central concept of Saver: use one short word and use it everywhere.",
+      "translations": {
+        "id": "Ruang",
+        "de": "Space",
+        "es": "Espacio",
+        "fr": "Espace",
+        "it": "Spazio",
+        "pt-BR": "Espaço",
+        "tr": "Alan",
+        "ru": "Пространство",
+        "ar": "مساحة",
+        "hi": "स्पेस",
+        "ja": "スペース",
+        "ko": "스페이스",
+        "zh-Hans": "空间"
+      }
+    },
+    {
+      "term": "Online space",
+      "description": "A space that is stored in the cloud, synced across devices and can be shared.",
+      "translations": {
+        "id": "Ruang online",
+        "de": "Online-Space",
+        "es": "Espacio online",
+        "fr": "Espace en ligne",
+        "it": "Spazio online",
+        "pt-BR": "Espaço online",
+        "tr": "Çevrimiçi alan",
+        "ru": "Онлайн-пространство",
+        "ar": "مساحة سحابية",
+        "hi": "ऑनलाइन स्पेस",
+        "ja": "オンラインスペース",
+        "ko": "온라인 스페이스",
+        "zh-Hans": "在线空间"
+      }
+    },
+    {
+      "term": "Offline space",
+      "description": "A space that only lives on this device and is not synced or shared.",
+      "translations": {
+        "id": "Ruang offline",
+        "de": "Offline-Space",
+        "es": "Espacio sin conexión",
+        "fr": "Espace hors ligne",
+        "it": "Spazio offline",
+        "pt-BR": "Espaço offline",
+        "tr": "Çevrimdışı alan",
+        "ru": "Офлайн-пространство",
+        "ar": "مساحة محلية",
+        "hi": "ऑफ़लाइन स्पेस",
+        "ja": "オフラインスペース",
+        "ko": "오프라인 스페이스",
+        "zh-Hans": "离线空间"
+      }
+    },
+    {
+      "term": "Task",
+      "description": "An item in the Tasks section that can be checked off (a to-do).",
+      "translations": {
+        "id": "Tugas",
+        "de": "Aufgabe",
+        "es": "Tarea",
+        "fr": "Tâche",
+        "it": "Attività",
+        "pt-BR": "Tarefa",
+        "tr": "Görev",
+        "ru": "Задача",
+        "ar": "مهمة",
+        "hi": "टास्क",
+        "ja": "タスク",
+        "ko": "할 일",
+        "zh-Hans": "任务"
+      }
+    },
+    {
+      "term": "Bookmark",
+      "description": "A saved link (web address) in the Bookmarks section.",
+      "translations": {
+        "id": "Bookmark",
+        "de": "Lesezeichen",
+        "es": "Marcador",
+        "fr": "Marque-page",
+        "it": "Segnalibro",
+        "pt-BR": "Favorito",
+        "tr": "Yer imi",
+        "ru": "Закладка",
+        "ar": "رابط",
+        "hi": "बुकमार्क",
+        "ja": "ブックマーク",
+        "ko": "북마크",
+        "zh-Hans": "书签"
+      }
+    },
+    {
+      "term": "Habit",
+      "description": "Something the user wants to do regularly, tracked day by day in the Habits section.",
+      "translations": {
+        "id": "Kebiasaan",
+        "de": "Gewohnheit",
+        "es": "Hábito",
+        "fr": "Habitude",
+        "it": "Abitudine",
+        "pt-BR": "Hábito",
+        "tr": "Alışkanlık",
+        "ru": "Привычка",
+        "ar": "عادة",
+        "hi": "आदत",
+        "ja": "習慣",
+        "ko": "습관",
+        "zh-Hans": "习惯"
+      }
+    },
+    {
+      "term": "Streak",
+      "description": "The number of days in a row a habit was done.",
+      "translations": {
+        "id": "Rentetan",
+        "de": "Serie",
+        "es": "Racha",
+        "fr": "Série",
+        "it": "Serie",
+        "pt-BR": "Sequência",
+        "tr": "Seri",
+        "ru": "Серия",
+        "ar": "سلسلة",
+        "hi": "स्ट्रीक",
+        "ja": "連続記録",
+        "ko": "연속 기록",
+        "zh-Hans": "连续天数"
+      }
+    },
+    {
+      "term": "Reminder",
+      "description": "A notification at a time the user chooses, for a task, bookmark or habit.",
+      "translations": {
+        "id": "Pengingat",
+        "de": "Erinnerung",
+        "es": "Recordatorio",
+        "fr": "Rappel",
+        "it": "Promemoria",
+        "pt-BR": "Lembrete",
+        "tr": "Hatırlatıcı",
+        "ru": "Напоминание",
+        "ar": "تذكير",
+        "hi": "रिमाइंडर",
+        "ja": "リマインダー",
+        "ko": "알림",
+        "zh-Hans": "提醒"
+      }
+    },
+    {
+      "term": "Folder",
+      "description": "Groups tasks or bookmarks inside a space. Folders can contain folders.",
+      "translations": {
+        "id": "Folder",
+        "de": "Ordner",
+        "es": "Carpeta",
+        "fr": "Dossier",
+        "it": "Cartella",
+        "pt-BR": "Pasta",
+        "tr": "Klasör",
+        "ru": "Папка",
+        "ar": "مجلد",
+        "hi": "फ़ोल्डर",
+        "ja": "フォルダ",
+        "ko": "폴더",
+        "zh-Hans": "文件夹"
+      }
+    },
+    {
+      "term": "Member",
+      "description": "A person who has access to a shared space.",
+      "translations": {
+        "id": "Anggota",
+        "de": "Mitglied",
+        "es": "Miembro",
+        "fr": "Membre",
+        "it": "Membro",
+        "pt-BR": "Membro",
+        "tr": "Üye",
+        "ru": "Участник",
+        "ar": "عضو",
+        "hi": "सदस्य",
+        "ja": "メンバー",
+        "ko": "멤버",
+        "zh-Hans": "成员"
+      }
+    },
+    {
+      "term": "Owner",
+      "description": "The member who created a space and controls who else is in it.",
+      "translations": {
+        "id": "Pemilik",
+        "de": "Besitzer",
+        "es": "Propietario",
+        "fr": "Propriétaire",
+        "it": "Proprietario",
+        "pt-BR": "Proprietário",
+        "tr": "Sahip",
+        "ru": "Владелец",
+        "ar": "المالك",
+        "hi": "मालिक",
+        "ja": "オーナー",
+        "ko": "소유자",
+        "zh-Hans": "所有者"
+      }
+    },
+    {
+      "term": "Collaborator",
+      "description": "Someone you share spaces with; plans limit how many you can have.",
+      "translations": {
+        "id": "Kolaborator",
+        "de": "Mitbearbeiter",
+        "es": "Colaborador",
+        "fr": "Collaborateur",
+        "it": "Collaboratore",
+        "pt-BR": "Colaborador",
+        "tr": "Ortak çalışan",
+        "ru": "Соавтор",
+        "ar": "متعاون",
+        "hi": "सहयोगी",
+        "ja": "共同作業者",
+        "ko": "공동 작업자",
+        "zh-Hans": "协作者"
+      }
+    },
+    {
+      "term": "Invite",
+      "description": "An invitation to join a space, sent as a link or code. As a noun (\"Create Invite\") and as a verb (\"Invite people\").",
+      "translations": {
+        "id": "Undangan",
+        "de": "Einladung",
+        "es": "Invitación",
+        "fr": "Invitation",
+        "it": "Invito",
+        "pt-BR": "Convite",
+        "tr": "Davet",
+        "ru": "Приглашение",
+        "ar": "دعوة",
+        "hi": "आमंत्रण",
+        "ja": "招待",
+        "ko": "초대",
+        "zh-Hans": "邀请"
+      }
+    },
+    {
+      "term": "Sync",
+      "description": "Keeping the same data on all devices of an account.",
+      "translations": {
+        "id": "Sinkronisasi",
+        "de": "Synchronisierung",
+        "es": "Sincronización",
+        "fr": "Synchronisation",
+        "it": "Sincronizzazione",
+        "pt-BR": "Sincronização",
+        "tr": "Senkronizasyon",
+        "ru": "Синхронизация",
+        "ar": "مزامنة",
+        "hi": "सिंक",
+        "ja": "同期",
+        "ko": "동기화",
+        "zh-Hans": "同步"
+      }
+    },
+    {
+      "term": "Black & White",
+      "description": "Name of the look in Settings that removes every color from the app.",
+      "translations": {
+        "id": "Hitam Putih",
+        "de": "Schwarzweiß",
+        "es": "Blanco y negro",
+        "fr": "Noir et blanc",
+        "it": "Bianco e nero",
+        "pt-BR": "Preto e branco",
+        "tr": "Siyah Beyaz",
+        "ru": "Чёрно-белый",
+        "ar": "أبيض وأسود",
+        "hi": "ब्लैक एंड व्हाइट",
+        "ja": "白黒",
+        "ko": "흑백",
+        "zh-Hans": "黑白"
+      }
+    },
+    {
+      "term": "Minimalist",
+      "description": "Name of one of the two visual themes of the app (the other one is \"Original\").",
+      "translations": {
+        "id": "Minimalis",
+        "de": "Minimalistisch",
+        "es": "Minimalista",
+        "fr": "Minimaliste",
+        "it": "Minimalista",
+        "pt-BR": "Minimalista",
+        "tr": "Minimalist",
+        "ru": "Минимализм",
+        "ar": "بسيط",
+        "hi": "मिनिमलिस्ट",
+        "ja": "ミニマリスト",
+        "ko": "미니멀",
+        "zh-Hans": "极简"
+      }
+    },
+    {
+      "term": "Original",
+      "description": "Name of the default visual theme of the app (the other one is \"Minimalist\").",
+      "translations": {
+        "id": "Asli",
+        "de": "Original",
+        "es": "Original",
+        "fr": "Original",
+        "it": "Originale",
+        "pt-BR": "Original",
+        "tr": "Orijinal",
+        "ru": "Оригинал",
+        "ar": "الأصلي",
+        "hi": "ओरिजिनल",
+        "ja": "オリジナル",
+        "ko": "오리지널",
+        "zh-Hans": "经典"
+      }
+    }
+  ]
+}

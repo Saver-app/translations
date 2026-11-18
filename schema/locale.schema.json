@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "locale.schema.json",
+  "title": "Translations of one project into one language",
+  "description": "Maps a key of the source file to its translation. Leave a key out when it is not translated yet.",
+  "type": "object",
+  "additionalProperties": {
+    "oneOf": [{ "type": "string", "minLength": 1 }, { "$ref": "plural.schema.json" }]
+  }
+}

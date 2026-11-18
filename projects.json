@@ -1,0 +1,41 @@
+{
+  "$schema": "./schema/projects.schema.json",
+  "projects": [
+    {
+      "id": "web",
+      "name": "Web app",
+      "app": "web",
+      "repository": "Saver-app/web-app",
+      "format": "web-json",
+      "path": "src/i18n/locales/{lang}.json",
+      "placeholders": "braces"
+    },
+    {
+      "id": "ios",
+      "name": "iOS app",
+      "app": "ios",
+      "repository": "Saver-app/iOS-app",
+      "format": "xcstrings",
+      "path": "Saver/Localizable.xcstrings",
+      "placeholders": "apple"
+    },
+    {
+      "id": "ios-share-extension",
+      "name": "iOS share extension",
+      "app": "ios",
+      "repository": "Saver-app/iOS-app",
+      "format": "xcstrings",
+      "path": "Saver share extension/Localizable.xcstrings",
+      "placeholders": "apple"
+    },
+    {
+      "id": "android",
+      "name": "Android app",
+      "app": "android",
+      "repository": "Saver-app/android-app",
+      "format": "android-xml",
+      "path": "app/src/main/res/values{-lang}/strings.xml",
+      "placeholders": "java"
+    }
+  ]
+}

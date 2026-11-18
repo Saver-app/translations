@@ -1,0 +1,31 @@
+name: Wrong or awkward translation
+description: Something in the app reads wrong in your language.
+labels: [translation]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. German (de)
+    validations:
+      required: true
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options: [iOS, Android, Web, Several]
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the app says now
+      description: Copy the text, or attach a screenshot.
+    validations:
+      required: true
+  - type: textarea
+    id: better
+    attributes:
+      label: What it should say
+    validations:
+      required: true

@@ -1,0 +1,2382 @@
+{
+  "common_cancel": {
+    "text": "Cancel",
+    "context": "Button that closes a dialog or sheet without saving anything."
+  },
+  "common_save": {
+    "text": "Save",
+    "context": "Button that saves the changes made in a sheet."
+  },
+  "common_create": {
+    "text": "Create",
+    "context": "Button that creates the new list, folder, bookmark, habit or space described in a sheet or dialog."
+  },
+  "common_done": {
+    "text": "Done",
+    "context": "Button that closes a screen or sheet once the person is finished with it."
+  },
+  "common_ok": {
+    "text": "OK",
+    "context": "Button that confirms a choice, such as a date or time picked in a picker dialog."
+  },
+  "common_delete": {
+    "text": "Delete",
+    "context": "Action that deletes an item: shown when a row is swiped and on confirm buttons."
+  },
+  "common_edit": {
+    "text": "Edit",
+    "context": "Action that opens an item for editing, shown when a row is swiped to the side."
+  },
+  "common_undo": {
+    "text": "Undo",
+    "context": "Button in the banner shown after a delete that brings the deleted item back."
+  },
+  "common_settings": {
+    "text": "Settings",
+    "context": "Title of the Settings screen and screen reader label of the toolbar button that opens it."
+  },
+  "common_back": {
+    "text": "Back",
+    "context": "Button that goes back to the previous screen or page."
+  },
+  "common_add": {
+    "text": "Add",
+    "context": "Screen reader label of the round plus button next to the tab bar that adds an item."
+  },
+  "common_selected": {
+    "text": "Selected",
+    "context": "Screen reader label of the check mark next to the option that is chosen right now."
+  },
+  "common_change": {
+    "text": "Change",
+    "context": "Screen reader action on a button showing a date or time that opens a picker to change it."
+  },
+  "common_copy": {
+    "text": "Copy",
+    "context": "Screen reader action on an invite link that copies it to the clipboard."
+  },
+  "common_opens_in_browser": {
+    "text": "Opens in your browser",
+    "context": "Screen reader hint on a settings row that opens a website."
+  },
+  "common_increase": {
+    "text": "Increase %1$s",
+    "context": "Screen reader label of the plus button of a number stepper.",
+    "placeholders": {
+      "%1$s": "Name of the number, such as Completions per day"
+    }
+  },
+  "common_decrease": {
+    "text": "Decrease %1$s",
+    "context": "Screen reader label of the minus button of a number stepper.",
+    "placeholders": {
+      "%1$s": "Name of the number, such as Completions per day"
+    }
+  },
+  "common_label_value": {
+    "text": "%1$s, %2$s",
+    "context": "Screen reader text of a button that shows a value: its label, then the value, e.g. 'Reminder time, 9:00 AM'.",
+    "placeholders": {
+      "%1$s": "Label, such as Reminder time",
+      "%2$s": "The value, such as a date or a time"
+    }
+  },
+  "common_fraction": {
+    "text": "%1$d/%2$d",
+    "context": "A count out of a total in a tight spot, e.g. '3/5' tasks done or '12/15' characters typed.",
+    "placeholders": {
+      "%1$d": "The count so far",
+      "%2$d": "The total"
+    }
+  },
+  "common_count_of_total": {
+    "text": "%1$d of %2$d",
+    "context": "A count out of a total, e.g. '2 of 6' synced spaces used, or '2 of 3' completions of a habit on one day.",
+    "placeholders": {
+      "%1$d": "The count so far",
+      "%2$d": "The total"
+    }
+  },
+  "common_error_with_reason": {
+    "text": "%1$s %2$s",
+    "context": "Joins an error message and its reason, e.g. 'Could not save that task. No connection.' Change only the spacing or punctuation.",
+    "placeholders": {
+      "%1$s": "The error message, a full sentence",
+      "%2$s": "The reason, a full sentence that may come from a server in English"
+    }
+  },
+  "common_error_generic": {
+    "text": "Something went wrong. Please try again.",
+    "context": "Error shown when an action failed for an unknown reason."
+  },
+  "common_error_check_connection": {
+    "text": "Check your connection and try again.",
+    "context": "Text under a 'Could not load' title when tasks, bookmarks or habits failed to load."
+  },
+  "common_error_open_url": {
+    "text": "Could not open %1$s",
+    "context": "Message shown when a website could not be opened in the browser.",
+    "placeholders": {
+      "%1$s": "Address of the website"
+    }
+  },
+  "common_error_restore": {
+    "text": "Could not restore that item.",
+    "context": "Message shown when Undo could not bring back a deleted task, list, bookmark or folder."
+  },
+  "common_error_update_order": {
+    "text": "Could not update the order.",
+    "context": "Message shown when a new order of items could not be saved."
+  },
+  "common_error_move": {
+    "text": "Could not move that item.",
+    "context": "Message shown when a dragged item could not be moved to its new place."
+  },
+  "common_error_cannot_move": {
+    "text": "That item cannot be moved there.",
+    "context": "Reason shown when an item was dropped where it is not allowed, such as inside itself."
+  },
+  "onboarding_skip": {
+    "text": "Skip",
+    "context": "Button at the top of the introduction that closes it right away."
+  },
+  "onboarding_continue": {
+    "text": "Continue",
+    "context": "Button at the bottom of the introduction that goes to the next page."
+  },
+  "onboarding_get_started": {
+    "text": "Get Started",
+    "context": "Button on the last page of the introduction that closes it and opens the app."
+  },
+  "onboarding_page_indicator": {
+    "text": "Page %1$d of %2$d",
+    "context": "Screen reader text of the page dots at the bottom of the introduction.",
+    "placeholders": {
+      "%1$d": "Number of the current page",
+      "%2$d": "Number of pages"
+    }
+  },
+  "onboarding_logo": {
+    "text": "Saver logo",
+    "context": "Screen reader description of the app logo on the first introduction page."
+  },
+  "onboarding_welcome_title": {
+    "text": "Organize what matters",
+    "context": "Headline of the first introduction page, below the app name."
+  },
+  "onboarding_welcome_message": {
+    "text": "Keep your tasks, bookmarks, and habits together in one simple space.",
+    "context": "Text below the headline of the first introduction page."
+  },
+  "onboarding_spaces_title": {
+    "text": "Everything lives in a space",
+    "context": "Title of the introduction page about spaces, the separate collections of tasks, bookmarks and habits."
+  },
+  "onboarding_spaces_message": {
+    "text": "Spaces keep related tasks, bookmarks, and habits together. Tap the space name to switch, create, or join one.",
+    "context": "Text of the introduction page about spaces."
+  },
+  "onboarding_spaces_demo_tap": {
+    "text": "Tap the space name",
+    "context": "Hint above the small working preview of the space switcher in the introduction."
+  },
+  "onboarding_spaces_demo_choose": {
+    "text": "Choose a space",
+    "context": "Hint above the space switcher preview in the introduction while its list is open."
+  },
+  "onboarding_spaces_demo_show": {
+    "text": "Show spaces",
+    "context": "Screen reader action on the space name in the introduction preview that opens the list of spaces."
+  },
+  "onboarding_spaces_demo_personal": {
+    "text": "Personal",
+    "context": "Name of an example space in the space switcher preview of the introduction."
+  },
+  "onboarding_spaces_demo_shared": {
+    "text": "Shared",
+    "context": "Name of an example shared space in the space switcher preview of the introduction."
+  },
+  "onboarding_spaces_demo_viewing": {
+    "text": "Now viewing %1$s",
+    "context": "Confirmation in the introduction preview after an example space was picked.",
+    "placeholders": {
+      "%1$s": "Name of the example space, such as Personal"
+    }
+  },
+  "onboarding_shortcuts_title": {
+    "text": "Create anything quickly",
+    "context": "Title of the introduction page about the plus button."
+  },
+  "onboarding_shortcuts_message": {
+    "text": "Tap + to create an item. Touch and hold + to create a task list or bookmark folder.",
+    "context": "Text of the introduction page about the plus button. + is the plus button next to the tab bar."
+  },
+  "onboarding_create_demo_try": {
+    "text": "Choose a tab, then try the plus",
+    "context": "Hint above the working preview of the tab bar and the plus button in the introduction."
+  },
+  "onboarding_create_demo_created": {
+    "text": "Created inside this preview",
+    "context": "Hint shown after something was created in the introduction preview. Nothing is saved."
+  },
+  "onboarding_create_demo_long_click": {
+    "text": "Create list",
+    "context": "Screen reader name of the touch and hold action of the plus button in the introduction preview."
+  },
+  "onboarding_create_demo_hold_list": {
+    "text": "Touch and hold + to create a list",
+    "context": "Tip in the introduction preview after a task was created. + is the plus button."
+  },
+  "onboarding_create_demo_hold_folder": {
+    "text": "Touch and hold + to create a folder",
+    "context": "Tip in the introduction preview after a bookmark was created. + is the plus button."
+  },
+  "onboarding_create_demo_habit": {
+    "text": "Read",
+    "context": "Name of the example habit that the introduction preview creates, as in 'read a book'."
+  },
+  "onboarding_account_title": {
+    "text": "Sign in to sync your spaces",
+    "context": "Title of the introduction page about accounts."
+  },
+  "onboarding_account_message": {
+    "text": "Saver works offline without an account. Sign in whenever you want to sync online spaces across your devices.",
+    "context": "Text of the introduction page about accounts."
+  },
+  "onboarding_account_demo_note": {
+    "text": "You’ll find this in Settings, under Account.",
+    "context": "Note shown after tapping the sign in button in the introduction preview."
+  },
+  "onboarding_invites_title": {
+    "text": "Share a space",
+    "context": "Title of the introduction page about sharing spaces."
+  },
+  "onboarding_invites_message": {
+    "text": "Invite other people to an online space and organize together.",
+    "context": "Text of the introduction page about sharing spaces."
+  },
+  "onboarding_invite_demo_space": {
+    "text": "Weekend plans",
+    "context": "Name of an example shared space in the introduction preview."
+  },
+  "onboarding_invite_demo_subtitle": {
+    "text": "Invite people to this space",
+    "context": "Text below the example space name in the introduction preview."
+  },
+  "onboarding_invite_demo_copied": {
+    "text": "Copied in this preview",
+    "context": "Note shown after tapping the example invite link in the introduction. Nothing is copied."
+  },
+  "onboarding_invite_demo_share": {
+    "text": "Share invite",
+    "context": "Button in the introduction preview that stands for sharing an invite link."
+  },
+  "onboarding_invite_demo_share_note": {
+    "text": "Sharing opens from a real online space",
+    "context": "Note shown after tapping Share invite in the introduction preview."
+  },
+  "login_sign_in": {
+    "text": "Sign In",
+    "context": "Button that signs in with email and password, link that switches the screen to signing in, and buttons elsewhere that open the sign in screen."
+  },
+  "login_create_account": {
+    "text": "Create Account",
+    "context": "Button that creates an account with email and password, and link that switches the sign in screen to creating one."
+  },
+  "login_sign_in_subtitle": {
+    "text": "Sign in to continue",
+    "context": "Text below the app icon on the sign in screen while signing in."
+  },
+  "login_sign_up_subtitle": {
+    "text": "Create your account",
+    "context": "Text below the app icon on the sign in screen while creating an account."
+  },
+  "login_no_account": {
+    "text": "Don’t have an account?",
+    "context": "Text before the Create Account link at the bottom of the sign in screen."
+  },
+  "login_have_account": {
+    "text": "Already have an account?",
+    "context": "Text before the Sign In link at the bottom of the screen that creates an account."
+  },
+  "login_email": {
+    "text": "Email",
+    "context": "Placeholder of the email address field on the sign in screen."
+  },
+  "login_password": {
+    "text": "Password",
+    "context": "Placeholder of the password field on the sign in screen."
+  },
+  "login_show_password": {
+    "text": "Show password",
+    "context": "Screen reader label of the eye button that shows the typed password."
+  },
+  "login_hide_password": {
+    "text": "Hide password",
+    "context": "Screen reader label of the eye button that hides the typed password again."
+  },
+  "login_forgot_password": {
+    "text": "Forgot Password?",
+    "context": "Link on the sign in screen that emails a link to reset the password."
+  },
+  "login_sending": {
+    "text": "Sending…",
+    "context": "Shown instead of Forgot Password? while the reset email is being sent."
+  },
+  "login_reset_sent": {
+    "text": "We sent a reset link to %1$s.",
+    "context": "Confirmation on the sign in screen after the password reset email was sent.",
+    "placeholders": {
+      "%1$s": "Email address"
+    }
+  },
+  "login_please_wait": {
+    "text": "Please Wait…",
+    "context": "Shown on the sign in button while signing in."
+  },
+  "login_or": {
+    "text": "or",
+    "context": "Word on the line between the email sign in and the Google and Apple buttons."
+  },
+  "login_continue_google": {
+    "text": "Continue with Google",
+    "context": "Button that signs in with a Google account."
+  },
+  "login_continue_apple": {
+    "text": "Continue with Apple",
+    "context": "Button that signs in with an Apple account."
+  },
+  "login_legal_text": {
+    "text": "By continuing, you agree to Saver’s Terms of Service and acknowledge the Privacy Policy.",
+    "context": "Legal note at the bottom of the sign in screen, above the links to the documents."
+  },
+  "login_verify_email_notice": {
+    "text": "Please verify your email before signing in.",
+    "context": "Error on the sign in screen for an account whose email address was never confirmed."
+  },
+  "login_error_invalid_email_input": {
+    "text": "Enter a valid email address.",
+    "context": "Error on the sign in screen when the email field does not hold an email address."
+  },
+  "login_error_short_password": {
+    "text": "Your password needs at least 6 characters.",
+    "context": "Error on the sign in screen when the password is too short."
+  },
+  "login_error_no_connection": {
+    "text": "No connection. Check your internet and try again.",
+    "context": "Error on the sign in screen when the device is offline."
+  },
+  "login_error_sign_in_closed": {
+    "text": "The sign in was closed before it finished.",
+    "context": "Error when the Google or Apple sign in window was closed early."
+  },
+  "login_error_no_google_account": {
+    "text": "There is no Google account on this device. Add one in the Android settings and try again.",
+    "context": "Error when signing in with Google on a device without a Google account."
+  },
+  "login_error_google_failed": {
+    "text": "Google did not return an account.",
+    "context": "Error when the Google sign in ended without an account."
+  },
+  "login_error_invalid_email": {
+    "text": "That email address is not valid.",
+    "context": "Error from the server when the email address is not valid."
+  },
+  "login_error_wrong_credentials": {
+    "text": "The email or password is wrong.",
+    "context": "Error when signing in with a wrong email or password."
+  },
+  "login_error_email_in_use": {
+    "text": "An account with this email already exists. Sign in instead.",
+    "context": "Error when creating an account with an email address that already has one."
+  },
+  "login_error_other_provider": {
+    "text": "This email already belongs to an account that signs in another way.",
+    "context": "Error when the email belongs to an account that signs in with Google or Apple."
+  },
+  "login_error_weak_password": {
+    "text": "Choose a stronger password.",
+    "context": "Error when creating an account with a password that is too weak."
+  },
+  "login_error_too_many_attempts": {
+    "text": "Too many attempts. Please wait a moment and try again.",
+    "context": "Error after too many failed sign in attempts."
+  },
+  "login_error_account_disabled": {
+    "text": "This account has been disabled.",
+    "context": "Error when signing in to an account that was disabled."
+  },
+  "legal_privacy_short": {
+    "text": "Privacy",
+    "context": "Short link to the privacy policy at the bottom of the sign in screen."
+  },
+  "legal_terms_short": {
+    "text": "Terms",
+    "context": "Short link to the terms of service at the bottom of the sign in screen."
+  },
+  "legal_refunds_short": {
+    "text": "Refunds",
+    "context": "Short link to the refund and withdrawal policy at the bottom of the sign in screen."
+  },
+  "legal_notice": {
+    "text": "Legal Notice",
+    "context": "Link to the legal notice (the imprint of the company behind Saver), on the sign in screen and in About Saver."
+  },
+  "legal_privacy_policy": {
+    "text": "Privacy Policy",
+    "context": "Row in About Saver that opens the privacy policy on the website."
+  },
+  "legal_terms_of_service": {
+    "text": "Terms of Service",
+    "context": "Row in About Saver that opens the terms of service on the website."
+  },
+  "legal_refunds": {
+    "text": "Refunds & Withdrawal",
+    "context": "Row in About Saver that opens the refund and withdrawal policy on the website."
+  },
+  "legal_data_request": {
+    "text": "Personal Data Request",
+    "context": "Row in About Saver that opens the form to ask for or delete one's personal data."
+  },
+  "legal_credits": {
+    "text": "Credits",
+    "context": "Row in About Saver that opens the credits for the libraries and artwork Saver uses."
+  },
+  "verify_email_title": {
+    "text": "Check your inbox",
+    "context": "Title of the screen shown after creating an account, until the email address is confirmed."
+  },
+  "verify_email_message": {
+    "text": "We sent a link to %1$s. Open it to confirm your email address, then come back here.",
+    "context": "Text of the screen that waits for the email address to be confirmed.",
+    "placeholders": {
+      "%1$s": "Email address"
+    }
+  },
+  "verify_email_confirmed": {
+    "text": "I Confirmed My Email",
+    "context": "Button that checks whether the email address was confirmed."
+  },
+  "verify_email_not_confirmed": {
+    "text": "Your email is not confirmed yet.",
+    "context": "Note shown when the email address was not confirmed yet."
+  },
+  "verify_email_resend": {
+    "text": "Send the Link Again",
+    "context": "Button that sends the confirmation email again."
+  },
+  "verify_email_resent": {
+    "text": "We sent a new link.",
+    "context": "Note shown after the confirmation email was sent again."
+  },
+  "verify_email_log_out": {
+    "text": "Log Out",
+    "context": "Button on the confirm email screen that signs out."
+  },
+  "nav_tab_tasks": {
+    "text": "Tasks",
+    "context": "Label of the tasks tab in the tab bar, and its switch in the navigation settings.",
+    "maxLength": 12
+  },
+  "nav_tab_bookmarks": {
+    "text": "Bookmarks",
+    "context": "Label of the bookmarks tab in the tab bar, and its switch in the navigation settings.",
+    "maxLength": 12
+  },
+  "nav_tab_habits": {
+    "text": "Habits",
+    "context": "Label of the habits tab in the tab bar, and its switch in the navigation settings.",
+    "maxLength": 12
+  },
+  "home_no_access_title": {
+    "text": "No Access",
+    "context": "Title shown when the owner of a shared space has not allowed any tab."
+  },
+  "home_no_access_message": {
+    "text": "The space owner hasn’t given you access to its contents.",
+    "context": "Text shown when the owner of a shared space has not allowed any tab."
+  },
+  "spaces_title": {
+    "text": "Spaces",
+    "context": "Title of the sheet that lists all spaces. Also shown in the space button at the top of the home screen when a space has no name."
+  },
+  "spaces_switch": {
+    "text": "Switch space",
+    "context": "Screen reader label of the arrow next to the space name at the top of the home screen."
+  },
+  "spaces_create_invite": {
+    "text": "Create invite",
+    "context": "Screen reader label of the toolbar button in the spaces sheet that opens the invite settings."
+  },
+  "spaces_add": {
+    "text": "Add space",
+    "context": "Screen reader label of the plus button in the spaces sheet that offers to create or join a space."
+  },
+  "spaces_create": {
+    "text": "Create Space",
+    "context": "Menu item and dialog title for creating a new space."
+  },
+  "spaces_join": {
+    "text": "Join Space",
+    "context": "Menu item, dialog title, screen title and button for joining a space with an invite."
+  },
+  "spaces_join_action": {
+    "text": "Join",
+    "context": "Button in the Join Space dialog."
+  },
+  "spaces_search": {
+    "text": "Search spaces",
+    "context": "Placeholder of the search field in the spaces sheet."
+  },
+  "spaces_empty": {
+    "text": "No Spaces",
+    "context": "Shown in the spaces sheet when no space matches the search."
+  },
+  "spaces_untitled": {
+    "text": "Untitled Space",
+    "context": "Name shown for a space without a name."
+  },
+  "spaces_online": {
+    "text": "Online",
+    "context": "Below a space name: the space is synced with the account and can be shared."
+  },
+  "spaces_offline": {
+    "text": "Offline",
+    "context": "Below a space name: the space is only stored on this device."
+  },
+  "spaces_name": {
+    "text": "Space name",
+    "context": "Placeholder of the name field when creating a space, and label of the name field in the space settings."
+  },
+  "spaces_name_limit": {
+    "text": {
+      "one": "Use up to %1$d characters.",
+      "other": "Use up to %1$d characters."
+    },
+    "context": "Text in the Create Space dialog about the longest name allowed.",
+    "placeholders": {
+      "%1$d": "Maximum number of characters"
+    }
+  },
+  "spaces_default_name": {
+    "text": "New space",
+    "context": "Name given to a space created without a name, such as the first space on a new device."
+  },
+  "spaces_invite_link": {
+    "text": "Invite link",
+    "context": "Placeholder of the field in the Join Space dialog, and label of the row that shows an invite link."
+  },
+  "spaces_join_sign_in_title": {
+    "text": "Couldn’t Join Space",
+    "context": "Title of the dialog shown when someone tries to join a space while signed out."
+  },
+  "spaces_join_sign_in_message": {
+    "text": "Sign in to Saver before joining an online space.",
+    "context": "Text of the dialog shown when someone tries to join a space while signed out."
+  },
+  "spaces_leave": {
+    "text": "Leave",
+    "context": "Action that leaves a space someone else owns: shown when a space is swiped and on the confirm button."
+  },
+  "spaces_leave_title": {
+    "text": "Leave Space?",
+    "context": "Title of the dialog that confirms leaving a space someone else owns."
+  },
+  "spaces_delete_title": {
+    "text": "Delete Space?",
+    "context": "Title of the dialog that confirms deleting a space."
+  },
+  "spaces_leave_message": {
+    "text": "You will lose access to “%1$s”. You can join again with an invite.",
+    "context": "Text of the dialog that confirms leaving a space.",
+    "placeholders": {
+      "%1$s": "Name of the space"
+    }
+  },
+  "spaces_delete_online_message": {
+    "text": "“%1$s” and everything in it will be deleted for all members. This can’t be undone.",
+    "context": "Text of the dialog that confirms deleting an online space.",
+    "placeholders": {
+      "%1$s": "Name of the space"
+    }
+  },
+  "spaces_delete_offline_message": {
+    "text": "“%1$s” and everything in it will be removed from this device. This can’t be undone.",
+    "context": "Text of the dialog that confirms deleting a space stored only on this device.",
+    "placeholders": {
+      "%1$s": "Name of the space"
+    }
+  },
+  "spaces_error_create": {
+    "text": "Could not create that space.",
+    "context": "Message shown when a new space could not be created."
+  },
+  "spaces_error_join": {
+    "text": "Could not join that space.",
+    "context": "Message shown when joining a space failed."
+  },
+  "spaces_error_leave": {
+    "text": "Could not leave that space.",
+    "context": "Message shown when leaving a space failed."
+  },
+  "spaces_error_delete": {
+    "text": "Could not delete that space.",
+    "context": "Message shown when deleting a space failed."
+  },
+  "spaces_error_enter_invite": {
+    "text": "Enter an invite link or space ID.",
+    "context": "Reason shown when joining a space with an empty invite field."
+  },
+  "spaces_error_sign_in_to_leave": {
+    "text": "Sign in before leaving a synced space.",
+    "context": "Reason shown when leaving an online space while signed out."
+  },
+  "spaces_error_sign_in_to_publish": {
+    "text": "Sign in to make this space online.",
+    "context": "Reason shown when making a space online while signed out."
+  },
+  "spaces_error_offline_missing": {
+    "text": "The offline space is no longer stored on this device.",
+    "context": "Reason shown when a space should be made online but is gone from the device."
+  },
+  "spaces_error_no_space_id": {
+    "text": "The server did not return a space ID.",
+    "context": "Reason shown when the server did not answer as expected while making a space online."
+  },
+  "share_sheet_title": {
+    "text": "Save to Saver",
+    "context": "Title of the sheet shown when something is shared into Saver from another app."
+  },
+  "share_task": {
+    "text": "Task",
+    "context": "Option to save something shared into Saver as a task. Also a choice in the Share to Saver settings."
+  },
+  "share_bookmark": {
+    "text": "Bookmark",
+    "context": "Option to save something shared into Saver as a bookmark. Also a choice in the Share to Saver settings."
+  },
+  "share_title_placeholder": {
+    "text": "Title",
+    "context": "Placeholder of the title field in the Save to Saver sheet."
+  },
+  "share_error_save": {
+    "text": "Could not save that share.",
+    "context": "Message shown when something shared into Saver could not be saved."
+  },
+  "share_default_task_title": {
+    "text": "New Task",
+    "context": "Title of a task saved from a share that brought no text of its own."
+  },
+  "share_default_bookmark_title": {
+    "text": "New Bookmark",
+    "context": "Title of a bookmark saved from a share that brought no text of its own."
+  },
+  "sort_by": {
+    "text": "Sort by",
+    "context": "Heading of the menu that picks the order of a section."
+  },
+  "sort_menu_description": {
+    "text": "%1$s sort and reorder",
+    "context": "Screen reader label of the sort button next to a section title.",
+    "placeholders": {
+      "%1$s": "Title of the section, such as Tasks or Folders"
+    }
+  },
+  "sort_mode_manual": {
+    "text": "Manual",
+    "context": "Sort order: the order the person arranged by dragging."
+  },
+  "sort_mode_newest": {
+    "text": "Newest first",
+    "context": "Sort order: the most recently created items first."
+  },
+  "sort_mode_oldest": {
+    "text": "Oldest first",
+    "context": "Sort order: the oldest items first."
+  },
+  "sort_mode_title_ascending": {
+    "text": "Title A to Z",
+    "context": "Sort order: alphabetical by title."
+  },
+  "sort_mode_title_descending": {
+    "text": "Title Z to A",
+    "context": "Sort order: reverse alphabetical by title."
+  },
+  "swipe_hint_title": {
+    "text": "Swipe for quick actions",
+    "context": "Title of the one-time tip that rows can be swiped to the side."
+  },
+  "swipe_hint_delete": {
+    "text": "Swipe left to delete.",
+    "context": "One-time tip for tasks. In right-to-left languages rows are swiped the other way: to the right to delete."
+  },
+  "swipe_hint_edit_delete": {
+    "text": "Swipe right to edit, or left to delete.",
+    "context": "One-time tip for bookmarks and habits. In right-to-left languages the directions are mirrored: left to edit, right to delete."
+  },
+  "swipe_hint_dismiss": {
+    "text": "Got it",
+    "context": "Screen reader label of the close button of the swipe tip."
+  },
+  "check_state_completed": {
+    "text": "completed",
+    "context": "Screen reader state of the check circle of a task or habit that is done."
+  },
+  "check_state_open": {
+    "text": "open",
+    "context": "Screen reader state of the check circle of a task or habit that is not done yet."
+  },
+  "todos_section_lists": {
+    "text": "Lists",
+    "context": "Title of the section with task lists."
+  },
+  "todos_list_count": {
+    "text": {
+      "one": "%1$d list",
+      "other": "%1$d lists"
+    },
+    "context": "Number of task lists, below the Lists section title and on a list card.",
+    "placeholders": {
+      "%1$d": "Number of lists"
+    }
+  },
+  "todos_section_tasks": {
+    "text": "Tasks",
+    "context": "Title of the section with tasks."
+  },
+  "todos_section_no_tasks": {
+    "text": "No tasks",
+    "context": "Below the Tasks section title when there are no tasks."
+  },
+  "todos_open_task_count": {
+    "text": {
+      "one": "%1$d open task",
+      "other": "%1$d open tasks"
+    },
+    "context": "Number of tasks that are not done yet, below the Tasks section title.",
+    "placeholders": {
+      "%1$d": "Number of open tasks"
+    }
+  },
+  "todos_empty_title": {
+    "text": "No todos yet",
+    "context": "Title shown on the tasks tab when there are no tasks or lists."
+  },
+  "todos_empty_message": {
+    "text": "Your tasks and lists will appear here.",
+    "context": "Text shown on the tasks tab when there are no tasks or lists."
+  },
+  "todos_empty_list_title": {
+    "text": "No todos in this list",
+    "context": "Title shown in an opened list that holds no tasks or lists."
+  },
+  "todos_empty_list_message": {
+    "text": "Tasks and lists you add here will appear here.",
+    "context": "Text shown in an opened list that holds no tasks or lists."
+  },
+  "todos_no_tasks_title": {
+    "text": "No tasks yet",
+    "context": "Shown in the Tasks section of the tasks tab when there are lists but no tasks."
+  },
+  "todos_no_tasks_message": {
+    "text": "Tasks you add will appear here.",
+    "context": "Shown in the Tasks section of the tasks tab when there are lists but no tasks."
+  },
+  "todos_no_tasks_list_title": {
+    "text": "No tasks in this list",
+    "context": "Shown in the Tasks section of an opened list that holds lists but no tasks."
+  },
+  "todos_no_tasks_list_message": {
+    "text": "Tasks you add here will appear here.",
+    "context": "Shown in the Tasks section of an opened list that holds lists but no tasks."
+  },
+  "todos_read_only": {
+    "text": "You can view the tasks in this space but not change them.",
+    "context": "Notice above the tasks of a space that may only be viewed."
+  },
+  "todos_error_load": {
+    "text": "Could not load tasks",
+    "context": "Title shown when the tasks tab could not be loaded."
+  },
+  "todos_error_load_list": {
+    "text": "Could not load this list",
+    "context": "Title shown when an opened task list could not be loaded."
+  },
+  "todos_untitled_list": {
+    "text": "Untitled list",
+    "context": "Name shown for a task list without a name."
+  },
+  "todos_new_list": {
+    "text": "New list",
+    "context": "Toolbar button and touch and hold action of the plus button that create a new task list."
+  },
+  "todos_reset_completed": {
+    "text": "Reset completed tasks",
+    "context": "Toolbar button of an opened list that marks all its done tasks as not done."
+  },
+  "todos_move_out": {
+    "text": "Move out of this list",
+    "context": "Banner shown while a task is dragged in an opened list. Dropping it there moves the task to the list around this one."
+  },
+  "todos_list_empty": {
+    "text": "Empty list",
+    "context": "On a task list card when the list holds nothing."
+  },
+  "todos_list_task_count": {
+    "text": {
+      "one": "%1$d task",
+      "other": "%1$d tasks"
+    },
+    "context": "Number of tasks on a task list card.",
+    "placeholders": {
+      "%1$d": "Number of tasks"
+    }
+  },
+  "todos_list_summary": {
+    "text": "%1$s, %2$s",
+    "context": "On a task list card that holds tasks and lists, e.g. '3 tasks, 2 lists'.",
+    "placeholders": {
+      "%1$s": "Number of tasks, such as 3 tasks",
+      "%2$s": "Number of lists, such as 2 lists"
+    }
+  },
+  "todos_task_placeholder": {
+    "text": "New task",
+    "context": "Placeholder of the title of a new task, also shown for a task without a title."
+  },
+  "todos_subtask_placeholder": {
+    "text": "New subtask",
+    "context": "Placeholder of the title of a new subtask, also shown for a subtask without a title."
+  },
+  "todos_add_notes": {
+    "text": "Add notes",
+    "context": "Placeholder of the notes field below the title of a task being edited."
+  },
+  "todos_subtask_progress": {
+    "text": {
+      "one": "%1$d/%2$d subtasks",
+      "other": "%1$d/%2$d subtasks"
+    },
+    "context": "On a task card: how many of its subtasks are done.",
+    "placeholders": {
+      "%1$d": "Number of subtasks done",
+      "%2$d": "Number of all subtasks"
+    }
+  },
+  "todos_expand_subtasks": {
+    "text": "Expand subtasks",
+    "context": "Screen reader label of the arrow on a task card that shows its subtasks."
+  },
+  "todos_collapse_subtasks": {
+    "text": "Collapse subtasks",
+    "context": "Screen reader label of the arrow on a task card that hides its subtasks."
+  },
+  "todos_add_subtask": {
+    "text": "Add subtask",
+    "context": "Screen reader label of the plus button on a task card that adds a subtask."
+  },
+  "todos_new_list_title": {
+    "text": "New List",
+    "context": "Title of the sheet that creates a task list."
+  },
+  "todos_edit_list_title": {
+    "text": "Edit List",
+    "context": "Title of the sheet that renames a task list and sets its reminder."
+  },
+  "todos_list_header": {
+    "text": "List",
+    "context": "Heading above the name field in the task list sheet."
+  },
+  "todos_list_name": {
+    "text": "List name",
+    "context": "Placeholder of the name field in the task list sheet."
+  },
+  "todos_list_default_name": {
+    "text": "New list",
+    "context": "Name given to a task list that is created without a name."
+  },
+  "todos_task_deleted": {
+    "text": "Task deleted",
+    "context": "Banner with an Undo button shown after a task was deleted."
+  },
+  "todos_list_deleted": {
+    "text": "List deleted",
+    "context": "Banner with an Undo button shown after a task list was deleted."
+  },
+  "todos_error_save_task": {
+    "text": "Could not save that task.",
+    "context": "Message shown when a new task could not be saved."
+  },
+  "todos_error_update_task": {
+    "text": "Could not update that task.",
+    "context": "Message shown when a change to a task could not be saved."
+  },
+  "todos_error_delete_task": {
+    "text": "Could not delete that task.",
+    "context": "Message shown when a task could not be deleted."
+  },
+  "todos_error_delete_list": {
+    "text": "Could not delete that list.",
+    "context": "Message shown when a task list could not be deleted."
+  },
+  "todos_error_create_list": {
+    "text": "Could not create that list.",
+    "context": "Message shown when a new task list could not be created."
+  },
+  "todos_error_save_list": {
+    "text": "Could not save that list.",
+    "context": "Message shown when a change to a task list could not be saved."
+  },
+  "todos_error_reset": {
+    "text": "Could not reset the tasks.",
+    "context": "Message shown when the done tasks of a list could not be reset."
+  },
+  "bookmarks_section_folders": {
+    "text": "Folders",
+    "context": "Title of the section with bookmark folders."
+  },
+  "bookmarks_folder_count": {
+    "text": {
+      "one": "%1$d folder",
+      "other": "%1$d folders"
+    },
+    "context": "Number of folders, below the Folders section title and on a folder card.",
+    "placeholders": {
+      "%1$d": "Number of folders"
+    }
+  },
+  "bookmarks_section_bookmarks": {
+    "text": "Bookmarks",
+    "context": "Title of the section with bookmarks."
+  },
+  "bookmarks_section_none": {
+    "text": "No bookmarks",
+    "context": "Below the Bookmarks section title when there are no bookmarks."
+  },
+  "bookmarks_count": {
+    "text": {
+      "one": "%1$d bookmark",
+      "other": "%1$d bookmarks"
+    },
+    "context": "Number of bookmarks, below the Bookmarks section title and on a folder card.",
+    "placeholders": {
+      "%1$d": "Number of bookmarks"
+    }
+  },
+  "bookmarks_empty_title": {
+    "text": "No bookmarks yet",
+    "context": "Title shown on the bookmarks tab when there are no bookmarks."
+  },
+  "bookmarks_empty_message": {
+    "text": "Your bookmarks and folders will appear here.",
+    "context": "Text shown on the bookmarks tab when there are no bookmarks or folders."
+  },
+  "bookmarks_none_message": {
+    "text": "Bookmarks you add will appear here.",
+    "context": "Text shown on the bookmarks tab when there are folders but no bookmarks."
+  },
+  "bookmarks_empty_folder_title": {
+    "text": "No bookmarks in this folder",
+    "context": "Title shown in an opened folder that holds no bookmarks."
+  },
+  "bookmarks_empty_folder_message": {
+    "text": "Bookmarks and folders you add here will appear here.",
+    "context": "Text shown in an opened folder that holds no bookmarks or folders."
+  },
+  "bookmarks_none_folder_message": {
+    "text": "Bookmarks you add here will appear here.",
+    "context": "Text shown in an opened folder that holds folders but no bookmarks."
+  },
+  "bookmarks_read_only": {
+    "text": "You can view the bookmarks in this space but not change them.",
+    "context": "Notice above the bookmarks of a space that may only be viewed."
+  },
+  "bookmarks_error_load": {
+    "text": "Could not load bookmarks",
+    "context": "Title shown when the bookmarks tab could not be loaded."
+  },
+  "bookmarks_error_load_folder": {
+    "text": "Could not load this folder",
+    "context": "Title shown when an opened bookmark folder could not be loaded."
+  },
+  "bookmarks_untitled_folder": {
+    "text": "Untitled folder",
+    "context": "Name shown for a bookmark folder without a name."
+  },
+  "bookmarks_untitled": {
+    "text": "Untitled Bookmark",
+    "context": "Title shown for a bookmark without a title."
+  },
+  "bookmarks_new_folder": {
+    "text": "New folder",
+    "context": "Toolbar button and touch and hold action of the plus button that create a new bookmark folder."
+  },
+  "bookmarks_move_out": {
+    "text": "Move out of this folder",
+    "context": "Banner shown while a bookmark is dragged in an opened folder. Dropping it there moves it to the folder around this one."
+  },
+  "bookmarks_folder_empty": {
+    "text": "Empty folder",
+    "context": "On a folder card when the folder holds nothing."
+  },
+  "bookmarks_folder_summary": {
+    "text": "%1$s, %2$s",
+    "context": "On a folder card that holds bookmarks and folders, e.g. '3 bookmarks, 2 folders'.",
+    "placeholders": {
+      "%1$s": "Number of bookmarks, such as 3 bookmarks",
+      "%2$s": "Number of folders, such as 2 folders"
+    }
+  },
+  "bookmarks_open_link": {
+    "text": "Open link",
+    "context": "Screen reader action of a bookmark card that opens its link."
+  },
+  "bookmarks_no_url": {
+    "text": "No URL",
+    "context": "Shown below a bookmark that has no link."
+  },
+  "bookmarks_new_title": {
+    "text": "New Bookmark",
+    "context": "Title of the sheet that creates a bookmark."
+  },
+  "bookmarks_edit_title": {
+    "text": "Edit Bookmark",
+    "context": "Title of the sheet that edits a bookmark."
+  },
+  "bookmarks_header": {
+    "text": "Bookmark",
+    "context": "Heading above the title and link fields in the bookmark sheet."
+  },
+  "bookmarks_title_placeholder": {
+    "text": "Bookmark title",
+    "context": "Placeholder of the title field in the bookmark sheet."
+  },
+  "bookmarks_url_placeholder": {
+    "text": "URL",
+    "context": "Placeholder of the link field in the bookmark sheet."
+  },
+  "bookmarks_default_title": {
+    "text": "New Bookmark",
+    "context": "Title given to a bookmark saved without a title and without a link to take one from."
+  },
+  "bookmarks_new_folder_title": {
+    "text": "New Folder",
+    "context": "Title of the sheet that creates a bookmark folder."
+  },
+  "bookmarks_edit_folder_title": {
+    "text": "Edit Folder",
+    "context": "Title of the sheet that renames a bookmark folder and sets its reminder."
+  },
+  "bookmarks_folder_header": {
+    "text": "Folder",
+    "context": "Heading above the name field in the folder sheet."
+  },
+  "bookmarks_folder_name": {
+    "text": "Folder name",
+    "context": "Placeholder of the name field in the folder sheet."
+  },
+  "bookmarks_folder_default_name": {
+    "text": "New folder",
+    "context": "Name given to a bookmark folder that is created without a name."
+  },
+  "bookmarks_deleted": {
+    "text": "Bookmark deleted",
+    "context": "Banner with an Undo button shown after a bookmark was deleted."
+  },
+  "bookmarks_folder_deleted": {
+    "text": "Folder deleted",
+    "context": "Banner with an Undo button shown after a bookmark folder was deleted."
+  },
+  "bookmarks_error_open_link": {
+    "text": "Could not open that link.",
+    "context": "Message shown when the link of a bookmark could not be opened."
+  },
+  "bookmarks_error_save": {
+    "text": "Could not save that bookmark.",
+    "context": "Message shown when a bookmark could not be saved."
+  },
+  "bookmarks_error_delete": {
+    "text": "Could not delete that bookmark.",
+    "context": "Message shown when a bookmark could not be deleted."
+  },
+  "bookmarks_error_create_folder": {
+    "text": "Could not create that folder.",
+    "context": "Message shown when a new bookmark folder could not be created."
+  },
+  "bookmarks_error_save_folder": {
+    "text": "Could not save that folder.",
+    "context": "Message shown when a change to a bookmark folder could not be saved."
+  },
+  "bookmarks_error_delete_folder": {
+    "text": "Could not delete that folder.",
+    "context": "Message shown when a bookmark folder could not be deleted."
+  },
+  "habits_section": {
+    "text": "Habits",
+    "context": "Title of the section with all habits on the habits tab."
+  },
+  "habits_count": {
+    "text": {
+      "one": "%1$d habit",
+      "other": "%1$d habits"
+    },
+    "context": "Number of habits, below the Habits section title.",
+    "placeholders": {
+      "%1$d": "Number of habits"
+    }
+  },
+  "habits_empty_title": {
+    "text": "No habits yet",
+    "context": "Title shown on the habits tab when there are no habits."
+  },
+  "habits_empty_message": {
+    "text": "Your habits will appear here.",
+    "context": "Text shown on the habits tab when there are no habits."
+  },
+  "habits_read_only": {
+    "text": "You can view the habits in this space but not change them.",
+    "context": "Notice above the habits of a space that may only be viewed."
+  },
+  "habits_error_load": {
+    "text": "Could not load habits",
+    "context": "Title shown when the habits tab could not be loaded."
+  },
+  "habits_untitled": {
+    "text": "Habit",
+    "context": "Name shown for a habit without a name."
+  },
+  "habits_show_detailed": {
+    "text": "Show detailed habit view",
+    "context": "Toolbar button on the habits tab that switches to large habit cards."
+  },
+  "habits_show_compact": {
+    "text": "Show compact habit view",
+    "context": "Toolbar button on the habits tab that switches to small habit rows."
+  },
+  "habits_streak_none": {
+    "text": "No streak",
+    "context": "Screen reader text of the flame badge of a habit that has no streak."
+  },
+  "habits_streak_days": {
+    "text": {
+      "one": "%1$d day streak",
+      "other": "%1$d days streak"
+    },
+    "context": "Screen reader text of the flame badge of a daily habit: for how many days in a row it was done.",
+    "placeholders": {
+      "%1$d": "Number of days"
+    }
+  },
+  "habits_streak_weeks": {
+    "text": {
+      "one": "%1$d week streak",
+      "other": "%1$d weeks streak"
+    },
+    "context": "Screen reader text of the flame badge of a weekly habit: for how many weeks in a row it was done.",
+    "placeholders": {
+      "%1$d": "Number of weeks"
+    }
+  },
+  "habits_streak_windows": {
+    "text": {
+      "one": "%1$d window streak",
+      "other": "%1$d windows streak"
+    },
+    "context": "Screen reader text of the flame badge of a habit with its own period (window) length: for how many periods in a row it was done.",
+    "placeholders": {
+      "%1$d": "Number of periods"
+    }
+  },
+  "habits_streak_pending": {
+    "text": "%1$s, current requirement not completed",
+    "context": "Screen reader text of a streak that only continues if today's or this period's goal is still reached.",
+    "placeholders": {
+      "%1$s": "The streak, such as 5 days streak"
+    }
+  },
+  "habits_show_month": {
+    "text": "Show monthly completions for %1$s",
+    "context": "Screen reader label of the calendar button on a habit card that opens the month view.",
+    "placeholders": {
+      "%1$s": "Name of the habit"
+    }
+  },
+  "habits_progress_week": {
+    "text": {
+      "one": "%1$d / %2$d per week",
+      "other": "%1$d / %2$d per week"
+    },
+    "context": "On a weekly habit card: days done this week out of the days required per week. The plural depends on the days required.",
+    "placeholders": {
+      "%1$d": "Days done this week",
+      "%2$d": "Days required per week"
+    }
+  },
+  "habits_progress_window": {
+    "text": {
+      "one": "%1$d / %2$d per %3$d days",
+      "other": "%1$d / %2$d per %3$d days"
+    },
+    "context": "On a habit card: days done in the current period out of the days required in it. The plural depends on the length of the period.",
+    "placeholders": {
+      "%1$d": "Days done in this period",
+      "%2$d": "Days required in a period",
+      "%3$d": "Length of the period in days"
+    }
+  },
+  "habits_per_day": {
+    "text": {
+      "one": "%1$d per day",
+      "other": "%1$d per day"
+    },
+    "context": "On a habit card: how many times the habit has to be done each day.",
+    "placeholders": {
+      "%1$d": "Completions required per day"
+    }
+  },
+  "habits_day_description": {
+    "text": "%1$s %2$d",
+    "context": "Screen reader name of a day on a habit card, e.g. 'Monday 17'.",
+    "placeholders": {
+      "%1$s": "Name of the weekday",
+      "%2$d": "Day of the month"
+    }
+  },
+  "habits_day_complete": {
+    "text": "complete",
+    "context": "Screen reader state of a habit day that is done."
+  },
+  "habits_day_not_complete": {
+    "text": "not complete",
+    "context": "Screen reader state of a habit day that is not done."
+  },
+  "habits_day_future": {
+    "text": "future date",
+    "context": "Screen reader state of a day in the future, which cannot be ticked off yet."
+  },
+  "habits_day_future_state": {
+    "text": "%1$s, future date",
+    "context": "Screen reader state of a day in the future, which cannot be ticked off yet.",
+    "placeholders": {
+      "%1$s": "State of the day, such as not complete"
+    }
+  },
+  "habits_compact_check_today": {
+    "text": "%1$s, today",
+    "context": "Screen reader label of the check circle of a compact habit row, which ticks off today.",
+    "placeholders": {
+      "%1$s": "Name of the habit"
+    }
+  },
+  "habits_compact_check_count": {
+    "text": {
+      "one": "%1$s, %2$d of %3$d completions today",
+      "other": "%1$s, %2$d of %3$d completions today"
+    },
+    "context": "Screen reader label of the check circle of a compact habit row for a habit done several times a day.",
+    "placeholders": {
+      "%1$s": "Name of the habit",
+      "%2$d": "Completions today",
+      "%3$d": "Completions required per day"
+    }
+  },
+  "habits_compact_today": {
+    "text": {
+      "one": "%1$d of %2$d today",
+      "other": "%1$d of %2$d today"
+    },
+    "context": "Below the name in a compact habit row: completions today out of those required. The plural depends on the completions required.",
+    "placeholders": {
+      "%1$d": "Completions today",
+      "%2$d": "Completions required per day"
+    }
+  },
+  "habits_previous_month": {
+    "text": "Previous month",
+    "context": "Screen reader label of the arrow in the habit month view that shows the month before."
+  },
+  "habits_next_month": {
+    "text": "Next month",
+    "context": "Screen reader label of the arrow in the habit month view that shows the month after."
+  },
+  "habits_month_completed": {
+    "text": {
+      "one": "%1$d of %2$d days completed",
+      "other": "%1$d of %2$d days completed"
+    },
+    "context": "Below the calendar in the habit month view. The plural depends on the number of days in the month.",
+    "placeholders": {
+      "%1$d": "Days done in this month",
+      "%2$d": "Days in this month"
+    }
+  },
+  "habits_new_title": {
+    "text": "New Habit",
+    "context": "Title of the sheet that creates a habit."
+  },
+  "habits_edit_title": {
+    "text": "Edit Habit",
+    "context": "Title of the sheet that edits a habit."
+  },
+  "habits_title_placeholder": {
+    "text": "Habit title",
+    "context": "Placeholder of the name field in the habit sheet."
+  },
+  "habits_requirement": {
+    "text": "Requirement",
+    "context": "Heading of the group in the habit sheet that sets how often the habit has to be done."
+  },
+  "habits_schedule": {
+    "text": "Schedule",
+    "context": "Label of the row in the habit sheet that picks how the habit repeats."
+  },
+  "habits_mode_everyday": {
+    "text": "Everyday",
+    "context": "Habit schedule: the habit has to be done every day."
+  },
+  "habits_mode_week": {
+    "text": "Days per week",
+    "context": "Habit schedule: the habit has to be done on a number of days each week."
+  },
+  "habits_mode_fortnight": {
+    "text": "Days per 14 days",
+    "context": "Habit schedule: the habit has to be done on a number of days in every 14 days."
+  },
+  "habits_mode_custom": {
+    "text": "Custom",
+    "context": "Habit schedule: a number of days in a period (window) of any length."
+  },
+  "habits_required_days": {
+    "text": "Required days",
+    "context": "Number stepper in the habit sheet: on how many days of a period the habit has to be done."
+  },
+  "habits_window_days": {
+    "text": "Window days",
+    "context": "Number stepper in the habit sheet: the length in days of a custom period (window)."
+  },
+  "habits_completions_per_day": {
+    "text": "Completions per day",
+    "context": "Number stepper in the habit sheet: how often the habit has to be done each day."
+  },
+  "habits_window_starts": {
+    "text": "Window starts",
+    "context": "Row and date button in the habit sheet that set the first day of the habit's periods (windows)."
+  },
+  "habits_reminder_every_day": {
+    "text": "Every day",
+    "context": "Option of a habit reminder: remind every day."
+  },
+  "habits_reminder_selected_days": {
+    "text": "Selected days",
+    "context": "Option of a habit reminder: remind only on chosen weekdays."
+  },
+  "habits_reminder_time": {
+    "text": "Time",
+    "context": "Label of the row with the time of a habit reminder."
+  },
+  "habits_deleted": {
+    "text": "Habit deleted",
+    "context": "Banner with an Undo button shown after a habit was deleted."
+  },
+  "habits_error_update": {
+    "text": "Could not update that habit.",
+    "context": "Message shown when ticking off a habit day could not be saved."
+  },
+  "habits_error_create": {
+    "text": "Could not create that habit.",
+    "context": "Message shown when a new habit could not be created."
+  },
+  "habits_error_save": {
+    "text": "Could not save that habit.",
+    "context": "Message shown when a change to a habit could not be saved."
+  },
+  "habits_error_delete": {
+    "text": "Could not delete that habit.",
+    "context": "Message shown when a habit could not be deleted."
+  },
+  "habits_error_restore": {
+    "text": "Could not restore that habit.",
+    "context": "Message shown when Undo could not bring back a deleted habit."
+  },
+  "habits_error_sign_in": {
+    "text": "Sign in before adding a habit to an online space.",
+    "context": "Reason shown when adding a habit to an online space while signed out."
+  },
+  "reminders_title": {
+    "text": "Reminder",
+    "context": "Heading of the reminder group in edit sheets, name of the switch in the reminder sheet, and screen reader label of the bell on cards."
+  },
+  "reminders_indicator_set": {
+    "text": "Reminder set",
+    "context": "Screen reader label of the bell icon on a list or folder card that has a reminder."
+  },
+  "reminders_add": {
+    "text": "Add reminder",
+    "context": "Button on a task being edited that opens the reminder sheet."
+  },
+  "reminders_edit_title": {
+    "text": "Edit Reminder",
+    "context": "Title of the sheet that sets or removes the reminder of a task."
+  },
+  "reminders_remind_me": {
+    "text": "Remind me",
+    "context": "Switch that turns a reminder on."
+  },
+  "reminders_one_time": {
+    "text": "One-time",
+    "context": "Option of a reminder: remind once."
+  },
+  "reminders_repeating": {
+    "text": "Repeating",
+    "context": "Option of a reminder: remind every week on chosen weekdays."
+  },
+  "reminders_time": {
+    "text": "Reminder time",
+    "context": "Label of the row with the reminder's date and time, and screen reader name of the time button."
+  },
+  "reminders_date": {
+    "text": "Reminder date",
+    "context": "Screen reader name of the button with the reminder's date."
+  },
+  "reminders_choose_weekday": {
+    "text": "Choose at least one weekday.",
+    "context": "Warning below the weekday buttons when no weekday is chosen."
+  },
+  "reminders_time_passed": {
+    "text": "This time has passed. Choose a future time to receive another reminder.",
+    "context": "Warning in the reminder rows when the picked time is in the past."
+  },
+  "reminders_sound": {
+    "text": "Sound",
+    "context": "Switch that makes a reminder play a sound."
+  },
+  "reminders_important": {
+    "text": "Important",
+    "context": "Switch that shows a reminder with the highest priority."
+  },
+  "reminders_important_footer": {
+    "text": "Important reminders are shown with the highest priority.",
+    "context": "Explanation below the Important switch."
+  },
+  "reminders_notifications_off": {
+    "text": "The reminder is saved, but notifications are turned off for Saver.",
+    "context": "Note in the reminder rows when Android notifications are turned off for Saver."
+  },
+  "reminders_open_notification_settings": {
+    "text": "Open Notification Settings",
+    "context": "Link that opens the Android notification settings of Saver."
+  },
+  "reminders_exact_alarms_off": {
+    "text": "Android may deliver this reminder a few minutes late until Saver is allowed to set exact alarms.",
+    "context": "Note in the reminder rows when Saver may not set exact alarms."
+  },
+  "reminders_allow_exact_alarms": {
+    "text": "Allow Exact Alarms",
+    "context": "Link that opens the Android setting that allows exact alarms for Saver."
+  },
+  "reminders_summary_weekdays": {
+    "text": "%1$s at %2$s",
+    "context": "Summary of a repeating reminder on a card, e.g. 'M, W at 9:00 AM'.",
+    "placeholders": {
+      "%1$s": "Short weekday names, such as M, W",
+      "%2$s": "Time of the reminder"
+    }
+  },
+  "reminders_weekday_separator": {
+    "text": "%1$s, %2$s",
+    "context": "Joins short weekday names in the summary of a repeating reminder, once for each further day: 'M, W', then 'M, W, F'.",
+    "placeholders": {
+      "%1$s": "The weekdays so far",
+      "%2$s": "The next weekday"
+    }
+  },
+  "reminders_error_save": {
+    "text": "Could not save that reminder.",
+    "context": "Message shown when a reminder could not be saved."
+  },
+  "settings_manage": {
+    "text": "Manage",
+    "context": "Heading of the first group in Settings: account, subscription and space."
+  },
+  "settings_account": {
+    "text": "Account",
+    "context": "Row in Settings that opens the account page, title of that page and heading of its group."
+  },
+  "settings_subscription": {
+    "text": "Subscription",
+    "context": "Row in Settings that opens the subscription page, title of that page and heading of its group."
+  },
+  "settings_space": {
+    "text": "Space",
+    "context": "Row in Settings that opens the settings of the current space, title of that page and heading of its first group."
+  },
+  "settings_make_it_yours": {
+    "text": "Make it yours",
+    "context": "Heading of the group in Settings with theme, navigation, sharing and language."
+  },
+  "settings_theme": {
+    "text": "Theme",
+    "context": "Row in Settings that opens the theme page, and title of that page."
+  },
+  "settings_theme_summary": {
+    "text": "%1$s · %2$s",
+    "context": "Value of the Theme row in Settings, e.g. 'Saver Color · System'.",
+    "placeholders": {
+      "%1$s": "Name of the style, such as Saver Color",
+      "%2$s": "Name of the appearance, such as System"
+    }
+  },
+  "settings_navigation": {
+    "text": "Navigation",
+    "context": "Row in Settings that opens the page choosing the tabs, and title of that page."
+  },
+  "settings_navigation_count": {
+    "text": {
+      "one": "%1$d shown",
+      "other": "%1$d shown"
+    },
+    "context": "Value of the Navigation row in Settings: how many tabs are shown.",
+    "placeholders": {
+      "%1$d": "Number of tabs shown"
+    }
+  },
+  "settings_share": {
+    "text": "Share to Saver",
+    "context": "Row in Settings and title of the page that sets what Saver suggests when something is shared into it from another app."
+  },
+  "settings_language": {
+    "text": "Language",
+    "context": "Row in Settings that opens the language picker, and title of that page."
+  },
+  "settings_language_system": {
+    "text": "System default",
+    "context": "First option of the language picker: Saver uses the language of the device. Also the value of the Language row."
+  },
+  "settings_support": {
+    "text": "Support",
+    "context": "Heading of the group in Settings with help, about and the community links."
+  },
+  "settings_help": {
+    "text": "Help & Getting Started",
+    "context": "Row in Settings that opens the introduction again."
+  },
+  "settings_about": {
+    "text": "About Saver",
+    "context": "Row in Settings that opens the page with the version and the legal documents, and title of that page."
+  },
+  "settings_website": {
+    "text": "Saver Website",
+    "context": "Row in Settings that opens the Saver website."
+  },
+  "settings_discord": {
+    "text": "Join the Discord",
+    "context": "Row in Settings that opens the invite to the Saver community on Discord."
+  },
+  "settings_danger_zone": {
+    "text": "Danger Zone",
+    "context": "Heading of the group with the actions that delete an account or a space."
+  },
+  "settings_log_into_saver": {
+    "text": "Log into Saver",
+    "context": "Button on the Account and Subscription pages for people who are signed out. Also shown in the introduction preview."
+  },
+  "theme_style": {
+    "text": "Style",
+    "context": "Heading of the group on the theme page that picks the colors of Saver."
+  },
+  "theme_saver_color": {
+    "text": "Saver Color",
+    "context": "Name of the colorful style of Saver."
+  },
+  "theme_saver_color_description": {
+    "text": "Warm backgrounds with colorful accents.",
+    "context": "Description of the Saver Color style."
+  },
+  "theme_black_white": {
+    "text": "Black & White",
+    "context": "Name of the monochrome style of Saver."
+  },
+  "theme_black_white_description": {
+    "text": "A clean monochrome look across Saver.",
+    "context": "Description of the Black & White style."
+  },
+  "theme_appearance": {
+    "text": "Appearance",
+    "context": "Heading of the group on the theme page that picks light or dark mode."
+  },
+  "theme_appearance_footer": {
+    "text": "System follows your device's light or dark appearance.",
+    "context": "Explanation below the appearance options."
+  },
+  "theme_appearance_system": {
+    "text": "System",
+    "context": "Appearance option that follows the light or dark mode of the device."
+  },
+  "theme_appearance_light": {
+    "text": "Light",
+    "context": "Appearance option: always light."
+  },
+  "theme_appearance_dark": {
+    "text": "Dark",
+    "context": "Appearance option: always dark."
+  },
+  "navigation_header": {
+    "text": "Show in navigation",
+    "context": "Heading of the switches that show or hide the tabs."
+  },
+  "navigation_footer": {
+    "text": "At least one stays visible.",
+    "context": "Explanation below the tab switches: the last visible tab cannot be hidden."
+  },
+  "share_settings_header": {
+    "text": "Default destination",
+    "context": "Heading of the options on the Share to Saver page."
+  },
+  "share_settings_footer": {
+    "text": "Choose what Saver preselects when you share something to it. You can always switch between Task and Bookmark before saving.",
+    "context": "Explanation below the options on the Share to Saver page."
+  },
+  "share_settings_ask": {
+    "text": "Ask Every Time",
+    "context": "Share option: Saver suggests task or bookmark depending on what is shared."
+  },
+  "share_settings_ask_description": {
+    "text": "Suggest Task or Bookmark based on what you share.",
+    "context": "Description of the Ask Every Time option."
+  },
+  "share_settings_task_description": {
+    "text": "Preselect Task when the share sheet opens.",
+    "context": "Description of the Task option on the Share to Saver page."
+  },
+  "share_settings_bookmark_description": {
+    "text": "Preselect Bookmark when the share sheet opens.",
+    "context": "Description of the Bookmark option on the Share to Saver page."
+  },
+  "about_app_information": {
+    "text": "App information",
+    "context": "Heading of the group in About Saver with the version numbers."
+  },
+  "about_version": {
+    "text": "Version",
+    "context": "Label of the row with the version of Saver."
+  },
+  "about_build": {
+    "text": "Build",
+    "context": "Label of the row with the build number of Saver."
+  },
+  "about_legal": {
+    "text": "Legal",
+    "context": "Heading of the group in About Saver with the legal documents."
+  },
+  "account_display_name": {
+    "text": "Display name",
+    "context": "Label of the field with the name other members of a space see."
+  },
+  "account_name_placeholder": {
+    "text": "Your name",
+    "context": "Placeholder of the display name field."
+  },
+  "account_email": {
+    "text": "Email",
+    "context": "Label of the row with the email address of the account."
+  },
+  "account_email_unknown": {
+    "text": "Unknown",
+    "context": "Shown instead of the email address of an account that has none."
+  },
+  "account_verify_email": {
+    "text": "Verify email",
+    "context": "Row that sends a new link to confirm the email address."
+  },
+  "account_verify_email_subtitle": {
+    "text": "Send a new verification link",
+    "context": "Text below the Verify email row."
+  },
+  "account_verification_sent": {
+    "text": "Verification email sent.",
+    "context": "Message shown after the confirmation email was sent."
+  },
+  "account_log_out": {
+    "text": "Log Out",
+    "context": "Button on the account page that signs out."
+  },
+  "account_logging_out": {
+    "text": "Logging Out…",
+    "context": "Shown on the Log Out button while signing out."
+  },
+  "account_logged_out_title": {
+    "text": "Logged Out",
+    "context": "Title of the dialog shown after signing out."
+  },
+  "account_logged_out_message": {
+    "text": "You’re signed out. Everything already on this device stays here, and syncing resumes when you log back in.",
+    "context": "Text of the dialog shown after signing out."
+  },
+  "account_connections": {
+    "text": "Connections",
+    "context": "Heading of the group with connected services such as Discord."
+  },
+  "account_connections_footer": {
+    "text": "Connect Discord to use Saver from the Saver bot.",
+    "context": "Explanation below the Discord row."
+  },
+  "account_connect_discord": {
+    "text": "Connect Discord",
+    "context": "Row that connects a Discord account."
+  },
+  "account_discord_account": {
+    "text": "Discord account",
+    "context": "Name shown for the connected Discord account when it has no name."
+  },
+  "account_discord_connected": {
+    "text": "Connected. Tap to disconnect.",
+    "context": "Text below the connected Discord account."
+  },
+  "account_disconnect_discord_title": {
+    "text": "Disconnect Discord?",
+    "context": "Title of the dialog that confirms disconnecting Discord."
+  },
+  "account_disconnect_discord_message": {
+    "text": "The Saver bot will no longer reach your spaces from this Discord account.",
+    "context": "Text of the dialog that confirms disconnecting Discord."
+  },
+  "account_disconnect": {
+    "text": "Disconnect",
+    "context": "Button that disconnects the Discord account."
+  },
+  "account_discord_disconnected": {
+    "text": "Discord disconnected.",
+    "context": "Message shown after Discord was disconnected."
+  },
+  "account_delete": {
+    "text": "Delete Account",
+    "context": "Row and confirm button that delete the account."
+  },
+  "account_deleting": {
+    "text": "Deleting Account…",
+    "context": "Shown on the Delete Account row while the account is being deleted."
+  },
+  "account_delete_owner_footer": {
+    "text": "Delete the online spaces you own before deleting your account.",
+    "context": "Explanation below Delete Account while the account still owns online spaces."
+  },
+  "account_delete_footer": {
+    "text": "Deleting your account removes it from Saver and from every space you joined.",
+    "context": "Explanation below Delete Account."
+  },
+  "account_delete_title": {
+    "text": "Delete your account?",
+    "context": "Title of the dialog that confirms deleting the account."
+  },
+  "account_delete_message": {
+    "text": "This permanently deletes your Saver account. This cannot be undone.",
+    "context": "Text of the dialog that confirms deleting the account."
+  },
+  "account_error_update_name": {
+    "text": "Could not update your name.",
+    "context": "Message shown when the display name could not be saved."
+  },
+  "account_error_verification": {
+    "text": "Could not send the verification email.",
+    "context": "Message shown when the confirmation email could not be sent."
+  },
+  "account_error_log_out": {
+    "text": "Could not log out.",
+    "context": "Message shown when signing out failed."
+  },
+  "account_error_open_discord": {
+    "text": "Could not open Discord.",
+    "context": "Message shown when the Discord website could not be opened."
+  },
+  "account_error_disconnect_discord": {
+    "text": "Could not disconnect Discord.",
+    "context": "Message shown when disconnecting Discord failed."
+  },
+  "account_error_delete": {
+    "text": "Could not delete your account.",
+    "context": "Message shown when deleting the account failed."
+  },
+  "subscription_plan": {
+    "text": "Plan",
+    "context": "Heading of the group with the current plan."
+  },
+  "subscription_current_plan": {
+    "text": "Current plan",
+    "context": "Label of the row with the name of the current plan."
+  },
+  "subscription_plan_free": {
+    "text": "Free",
+    "context": "Name of the free plan, e.g. after Current plan and in 'Free plan includes'. The paid plans are called Plus and Pro."
+  },
+  "subscription_plan_includes": {
+    "text": "%1$s plan includes",
+    "context": "Heading of the group with the limits of the current plan.",
+    "placeholders": {
+      "%1$s": "Name of the plan: Free, Plus or Pro"
+    }
+  },
+  "subscription_view_options": {
+    "text": "View Plan Options",
+    "context": "Button that opens the plans on the website, shown on the free plan."
+  },
+  "subscription_manage": {
+    "text": "Manage Plan",
+    "context": "Button that opens the plans on the website, shown on a paid plan."
+  },
+  "subscription_usage": {
+    "text": "Usage",
+    "context": "Heading of the group that shows how much of the plan is used."
+  },
+  "subscription_usage_footer": {
+    "text": "Counted across the spaces you own. Plans are managed on the Saver website.",
+    "context": "Explanation below the usage of the plan."
+  },
+  "subscription_counting": {
+    "text": "Counting your synced items…",
+    "context": "Shown while the usage of the plan is being counted."
+  },
+  "subscription_error_usage": {
+    "text": "Could not load your usage. Try again",
+    "context": "Button shown when the usage could not be counted; tapping it tries again."
+  },
+  "subscription_synced_spaces": {
+    "text": "Synced spaces",
+    "context": "Number of online spaces the plan allows, or how many of them are used."
+  },
+  "subscription_synced_tasks": {
+    "text": "Synced tasks",
+    "context": "Number of tasks in online spaces the plan allows, or how many of them are used."
+  },
+  "subscription_synced_bookmarks": {
+    "text": "Synced bookmarks",
+    "context": "Number of bookmarks in online spaces the plan allows, or how many of them are used."
+  },
+  "subscription_active_habits": {
+    "text": "Active habits",
+    "context": "Number of habits the plan allows, or how many of them are used."
+  },
+  "subscription_collaborators": {
+    "text": "Collaborators per space",
+    "context": "Number of people the plan allows in each space."
+  },
+  "space_no_spaces": {
+    "text": "No spaces available",
+    "context": "Shown on the space settings page when there is no space."
+  },
+  "space_owner_only": {
+    "text": "Only the owner can change the name.",
+    "context": "Note below the name of a space someone else owns."
+  },
+  "space_sharing": {
+    "text": "Sharing",
+    "context": "Heading of the group with permissions, invites and members."
+  },
+  "space_permissions": {
+    "text": "Permissions",
+    "context": "Row and heading for what members of a space may view and change, also the heading in the invite and member sheets."
+  },
+  "space_permissions_subtitle": {
+    "text": "Defaults for people who join",
+    "context": "Text below the Permissions row."
+  },
+  "space_invite_links": {
+    "text": "Invite Links",
+    "context": "Row that opens the invites of a space, and heading of the invite group."
+  },
+  "space_invite_links_subtitle": {
+    "text": "Create and manage ways to join",
+    "context": "Text below the Invite Links row."
+  },
+  "space_members": {
+    "text": "Members",
+    "context": "Row that opens the members of a space, title of that page and heading of its group."
+  },
+  "space_members_subtitle": {
+    "text": "People with access to this space",
+    "context": "Text below the Members row."
+  },
+  "space_sync": {
+    "text": "Sync",
+    "context": "Heading of the group that makes an offline space online."
+  },
+  "space_make_online": {
+    "text": "Make Space Online",
+    "context": "Row that uploads a space stored on this device so it syncs and can be shared."
+  },
+  "space_making_online": {
+    "text": "Making Space Online…",
+    "context": "Shown on the Make Space Online row while the space is being uploaded."
+  },
+  "space_sign_in_to_sync": {
+    "text": "Sign in to sync this space.",
+    "context": "Text below Make Space Online for people who are signed out."
+  },
+  "space_sync_subtitle": {
+    "text": "Sync it across your devices and share it.",
+    "context": "Text below Make Space Online."
+  },
+  "space_now_online": {
+    "text": "%1$s is now online.",
+    "context": "Message shown after a space was made online.",
+    "placeholders": {
+      "%1$s": "Name of the space"
+    }
+  },
+  "space_leave": {
+    "text": "Leave Space",
+    "context": "Row and confirm button that leave a space someone else owns."
+  },
+  "space_delete": {
+    "text": "Delete Space",
+    "context": "Row and confirm button that delete a space."
+  },
+  "space_leave_subtitle": {
+    "text": "Remove it from your account and this device.",
+    "context": "Text below Leave Space."
+  },
+  "space_delete_online_subtitle": {
+    "text": "Permanently delete it for every member.",
+    "context": "Text below Delete Space for an online space."
+  },
+  "space_delete_offline_subtitle": {
+    "text": "Remove this space and its items from this device.",
+    "context": "Text below Delete Space for a space stored on this device."
+  },
+  "space_leave_message": {
+    "text": "This removes the space from your account and from this device.",
+    "context": "Text of the dialog that confirms leaving a space."
+  },
+  "space_delete_online_message": {
+    "text": "This deletes the online space for every member.",
+    "context": "Text of the dialog that confirms deleting an online space."
+  },
+  "space_delete_offline_message": {
+    "text": "This removes the local space and its local items from this device.",
+    "context": "Text of the dialog that confirms deleting a space stored on this device."
+  },
+  "space_error_rename": {
+    "text": "Could not rename that space.",
+    "context": "Message shown when the new name of a space could not be saved."
+  },
+  "space_error_make_online": {
+    "text": "Could not make this space online.",
+    "context": "Message shown when a space could not be made online."
+  },
+  "space_view_tasks": {
+    "text": "View Tasks",
+    "context": "Switch that lets members see the tasks of the space."
+  },
+  "space_edit_tasks": {
+    "text": "Edit Tasks",
+    "context": "Switch that lets members change the tasks of the space."
+  },
+  "space_view_bookmarks": {
+    "text": "View Bookmarks",
+    "context": "Switch that lets members see the bookmarks of the space."
+  },
+  "space_edit_bookmarks": {
+    "text": "Edit Bookmarks",
+    "context": "Switch that lets members change the bookmarks of the space."
+  },
+  "space_view_habits": {
+    "text": "View Habits",
+    "context": "Switch that lets members see the habits of the space."
+  },
+  "space_edit_habits": {
+    "text": "Edit Habits",
+    "context": "Switch that lets members change the habits of the space."
+  },
+  "space_default_permissions": {
+    "text": "Default Permissions",
+    "context": "Title of the page with the permissions new members get."
+  },
+  "space_permissions_unavailable": {
+    "text": "Permissions aren’t available right now. Please try again.",
+    "context": "Shown when the permissions of a space could not be loaded."
+  },
+  "space_unavailable": {
+    "text": "This space is no longer available.",
+    "context": "Shown when the space was deleted or access to it was removed."
+  },
+  "space_permissions_footer": {
+    "text": "Applies to the general invite. Edit also enables viewing.",
+    "context": "Explanation below the default permissions."
+  },
+  "space_save_permissions": {
+    "text": "Save Permissions",
+    "context": "Button that saves the default permissions."
+  },
+  "space_saving": {
+    "text": "Saving…",
+    "context": "Shown on the Save Permissions button while saving."
+  },
+  "space_permissions_saved": {
+    "text": "Permissions saved.",
+    "context": "Message shown after the permissions were saved."
+  },
+  "space_error_save_permissions": {
+    "text": "Could not save the permissions.",
+    "context": "Message shown when permissions could not be saved."
+  },
+  "space_invites": {
+    "text": "Invites",
+    "context": "Title of the page with the invites of a space."
+  },
+  "space_invites_make_online": {
+    "text": "Make this space online to invite people.",
+    "context": "Shown on the invites page of a space stored only on this device."
+  },
+  "space_invites_general": {
+    "text": "General Invite",
+    "context": "Heading of the group with the one invite link that anyone can use."
+  },
+  "space_invites_general_public_footer": {
+    "text": "Anyone with this link can join with the default permissions.",
+    "context": "Explanation below the general invite while it is on."
+  },
+  "space_invites_general_private_footer": {
+    "text": "Turn this on to let anyone with the link join.",
+    "context": "Explanation below the general invite while it is off."
+  },
+  "space_invites_general_unavailable": {
+    "text": "The general invite isn’t available right now.",
+    "context": "Shown when the general invite could not be loaded."
+  },
+  "space_invites_public": {
+    "text": "Public Invite",
+    "context": "Switch that turns the general invite link on."
+  },
+  "space_invites_share": {
+    "text": "Share Invite Link",
+    "context": "Button that shares an invite link with another app."
+  },
+  "space_invites_copied": {
+    "text": "Invite link copied.",
+    "context": "Message shown after an invite link was copied."
+  },
+  "space_invites_create": {
+    "text": "Create Invite",
+    "context": "Row that creates a new invite with its own limits."
+  },
+  "space_invites_creating": {
+    "text": "Creating Invite…",
+    "context": "Shown on the Create Invite row while the invite is being created."
+  },
+  "space_invites_create_subtitle": {
+    "text": "Set how often it can be used, when it expires and what it allows",
+    "context": "Text below the Create Invite row."
+  },
+  "space_invites_unavailable": {
+    "text": "Invites aren’t available right now. Please try again.",
+    "context": "Shown when the invites could not be loaded."
+  },
+  "space_invites_none": {
+    "text": "No custom invites",
+    "context": "Shown when a space has no invites besides the general one."
+  },
+  "space_invites_used": {
+    "text": {
+      "one": "%1$d of %2$d used",
+      "other": "%1$d of %2$d used"
+    },
+    "context": "How often a custom invite was used out of how often it may be used. The plural depends on the limit.",
+    "placeholders": {
+      "%1$d": "Times used",
+      "%2$d": "Times it may be used"
+    }
+  },
+  "space_invites_never_expires": {
+    "text": "Never expires",
+    "context": "An invite that has no end date, below the invite and as a switch in its settings."
+  },
+  "space_invites_expires_on": {
+    "text": "Expires %1$s",
+    "context": "Below an invite: the day it stops working.",
+    "placeholders": {
+      "%1$s": "Date"
+    }
+  },
+  "space_invites_row_summary": {
+    "text": "%1$s · %2$s",
+    "context": "Below a custom invite, e.g. '1 of 5 used · Expires Nov 24, 2026'.",
+    "placeholders": {
+      "%1$s": "How often it was used, such as 1 of 5 used",
+      "%2$s": "When it expires, such as Never expires"
+    }
+  },
+  "space_invite_new": {
+    "text": "New Invite",
+    "context": "Title of the sheet shown right after an invite was created."
+  },
+  "space_invite_settings": {
+    "text": "Invite Settings",
+    "context": "Title of the sheet that edits an existing invite."
+  },
+  "space_invite_header": {
+    "text": "Invite",
+    "context": "Heading of the group with the link in the invite sheet."
+  },
+  "space_invite_tap_to_copy": {
+    "text": "Tap to copy the link",
+    "context": "Shown instead of the invite link until it has been loaded."
+  },
+  "space_invite_limits": {
+    "text": "Limits",
+    "context": "Heading of the group with how often and how long an invite can be used."
+  },
+  "space_invite_used_times": {
+    "text": {
+      "one": "Used %1$d times so far.",
+      "other": "Used %1$d times so far."
+    },
+    "context": "Explanation below the limits of an invite.",
+    "placeholders": {
+      "%1$d": "Times the invite was used"
+    }
+  },
+  "space_invite_uses": {
+    "text": "Uses",
+    "context": "Number stepper: how often an invite may be used."
+  },
+  "space_invite_expires": {
+    "text": "Expires",
+    "context": "Label of the row with the day an invite stops working."
+  },
+  "space_invite_permissions_footer": {
+    "text": "Applies to this invite. Edit also enables viewing.",
+    "context": "Explanation below the permissions of an invite."
+  },
+  "space_invite_delete": {
+    "text": "Delete Invite",
+    "context": "Button and confirm button that delete an invite."
+  },
+  "space_invite_delete_title": {
+    "text": "Delete Invite?",
+    "context": "Title of the dialog that confirms deleting an invite."
+  },
+  "space_invite_delete_message": {
+    "text": "Anyone using this link will no longer be able to join the space.",
+    "context": "Text of the dialog that confirms deleting an invite."
+  },
+  "space_error_update_general_invite": {
+    "text": "Could not update the general invite.",
+    "context": "Message shown when the general invite could not be turned on or off."
+  },
+  "space_error_create_invite": {
+    "text": "Could not create an invite.",
+    "context": "Message shown when an invite could not be created."
+  },
+  "space_error_invite_details": {
+    "text": "Invite details were not returned.",
+    "context": "Reason shown when the server did not answer as expected while creating an invite."
+  },
+  "space_error_invite_code": {
+    "text": "The invite code was not returned.",
+    "context": "Reason shown when the server did not return the code of an invite."
+  },
+  "space_error_invite_link": {
+    "text": "Could not load the invite link.",
+    "context": "Message shown when the link of an invite could not be loaded."
+  },
+  "space_error_save_invite": {
+    "text": "Could not save that invite.",
+    "context": "Message shown when the changes to an invite could not be saved."
+  },
+  "space_error_delete_invite": {
+    "text": "Could not delete that invite.",
+    "context": "Message shown when an invite could not be deleted."
+  },
+  "space_members_unavailable": {
+    "text": "Members aren’t available right now. Please try again.",
+    "context": "Shown when the members of a space could not be loaded."
+  },
+  "space_members_none": {
+    "text": "No other members",
+    "context": "Shown when nobody else has joined the space."
+  },
+  "space_member_you": {
+    "text": "%1$s (you)",
+    "context": "The person's own name in the member list.",
+    "placeholders": {
+      "%1$s": "Name of the person"
+    }
+  },
+  "space_member_owner": {
+    "text": "Owner",
+    "context": "Below the name of the member who owns the space."
+  },
+  "space_member": {
+    "text": "Member",
+    "context": "Below the name of a member without a join date, heading of the member sheet, and name shown for a member without one."
+  },
+  "space_member_joined_on": {
+    "text": "Joined %1$s",
+    "context": "Below the name of a member: the day they joined.",
+    "placeholders": {
+      "%1$s": "Date"
+    }
+  },
+  "space_member_name": {
+    "text": "Name",
+    "context": "Label of the row with the name of a member."
+  },
+  "space_member_account_id": {
+    "text": "Account ID",
+    "context": "Label of the row with the shortened account ID of a member."
+  },
+  "space_member_joined": {
+    "text": "Joined",
+    "context": "Label of the row with the day a member joined."
+  },
+  "space_member_permissions_footer": {
+    "text": "Edit also enables viewing.",
+    "context": "Explanation below the permissions of a member."
+  },
+  "space_member_remove": {
+    "text": "Remove Member",
+    "context": "Button and confirm button that remove a member from the space."
+  },
+  "space_member_remove_title": {
+    "text": "Remove Member?",
+    "context": "Title of the dialog that confirms removing a member."
+  },
+  "space_member_remove_message": {
+    "text": "The member loses access to this space.",
+    "context": "Text of the dialog that confirms removing a member."
+  },
+  "space_error_remove_member": {
+    "text": "Could not remove that member.",
+    "context": "Message shown when a member could not be removed."
+  },
+  "invite_loading_space": {
+    "text": "Loading Space",
+    "context": "Shown instead of the space name while it is loading."
+  },
+  "invite_shared_space": {
+    "text": "Shared Space",
+    "context": "Shown instead of the space name when it could not be loaded."
+  },
+  "invite_already_member": {
+    "text": "You are already a member",
+    "context": "Below the space name when the person already belongs to the space."
+  },
+  "invite_space_invitation": {
+    "text": "Space Invitation",
+    "context": "Below the space name on the screen an invite link opens."
+  },
+  "invite_code": {
+    "text": "Invite Code",
+    "context": "Label of the row with the code of the invite."
+  },
+  "invite_status": {
+    "text": "Status",
+    "context": "Label of the row that says whether the person already joined."
+  },
+  "invite_already_joined": {
+    "text": "Already Joined",
+    "context": "Status: the person already belongs to the space."
+  },
+  "invite_ready": {
+    "text": "Ready to Join",
+    "context": "Status: the person can join the space."
+  },
+  "invite_sign_in_required": {
+    "text": "Sign in required",
+    "context": "Title of the note shown to people who are signed out."
+  },
+  "invite_sign_in_message": {
+    "text": "Use your Saver account before joining this space.",
+    "context": "Text of the note shown to people who are signed out."
+  },
+  "invite_open_space": {
+    "text": "Open Space",
+    "context": "Button that opens a space the person already belongs to."
+  },
+  "invite_opening": {
+    "text": "Opening…",
+    "context": "Shown on the button while the space is being opened."
+  },
+  "invite_joining": {
+    "text": "Joining…",
+    "context": "Shown on the button while joining the space."
+  },
+  "discord_connecting": {
+    "text": "Connecting Discord…",
+    "context": "Shown while the Discord account is being connected."
+  },
+  "discord_connected": {
+    "text": "Discord Connected",
+    "context": "Title shown after the Discord account was connected."
+  },
+  "discord_connected_message": {
+    "text": "You can now use the Saver bot with your account.",
+    "context": "Text shown after the Discord account was connected."
+  },
+  "discord_failed": {
+    "text": "Discord Didn’t Connect",
+    "context": "Title shown when the Discord account could not be connected."
+  },
+  "discord_error_reason": {
+    "text": "Discord did not connect: %1$s",
+    "context": "Shown when Discord refused the connection.",
+    "placeholders": {
+      "%1$s": "Reason given by Discord, usually in English"
+    }
+  },
+  "discord_error_no_code": {
+    "text": "Discord did not return a code.",
+    "context": "Shown when Discord returned without the code Saver needs."
+  },
+  "discord_error_expired": {
+    "text": "This Discord link has expired. Please try again.",
+    "context": "Shown when the link back from Discord is too old."
+  },
+  "discord_error_sign_in": {
+    "text": "Sign in before connecting Discord.",
+    "context": "Shown when Discord is connected while signed out."
+  },
+  "discord_error_connect": {
+    "text": "Could not connect Discord.",
+    "context": "Shown when the server could not connect the Discord account."
+  },
+  "notification_channel_reminders": {
+    "text": "Reminders",
+    "context": "Name of the notification category for reminders in the Android settings."
+  },
+  "notification_channel_reminders_description": {
+    "text": "Reminders for your Saver tasks, bookmarks and habits.",
+    "context": "Description of the reminder notification category in the Android settings."
+  },
+  "notification_channel_silent": {
+    "text": "Silent reminders",
+    "context": "Name of the notification category for reminders without sound in the Android settings."
+  },
+  "notification_channel_silent_description": {
+    "text": "Saver reminders that do not play a sound.",
+    "context": "Description of the silent reminder notification category in the Android settings."
+  },
+  "notification_task_title": {
+    "text": "Task reminder",
+    "context": "Title of a reminder notification for a task without a title."
+  },
+  "notification_task_text": {
+    "text": "This task is due for your attention.",
+    "context": "Text of a reminder notification for a task."
+  },
+  "notification_bookmark_title": {
+    "text": "Bookmark reminder",
+    "context": "Title of a reminder notification for a bookmark without a title."
+  },
+  "notification_bookmark_text": {
+    "text": "You asked Saver to bring this bookmark back.",
+    "context": "Text of a reminder notification for a bookmark."
+  },
+  "notification_habit_title": {
+    "text": "Habit reminder",
+    "context": "Title of a reminder notification for a habit without a name."
+  },
+  "notification_habit_text": {
+    "text": "Time to keep your streak going.",
+    "context": "Text of a reminder notification for a habit."
+  }
+}

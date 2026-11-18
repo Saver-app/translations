@@ -1,0 +1,3152 @@
+{
+  "common.cancel": {
+    "text": "Cancel",
+    "context": "Any dialog: button that closes it without changing anything."
+  },
+  "common.save": {
+    "text": "Save",
+    "context": "Any form or dialog: button that saves the changes."
+  },
+  "common.delete": {
+    "text": "Delete",
+    "context": "Menus and settings: button or menu item that deletes the thing it belongs to."
+  },
+  "common.edit": {
+    "text": "Edit",
+    "context": "Menu of a task, bookmark or habit: item that opens it for editing."
+  },
+  "common.rename": {
+    "text": "Rename",
+    "context": "Menu of a list or folder: item that renames it."
+  },
+  "common.done": {
+    "text": "Done",
+    "context": "Dialogs: button that closes the dialog once its work is finished."
+  },
+  "common.confirm": {
+    "text": "Confirm",
+    "context": "Question dialogs: default button that answers yes."
+  },
+  "common.close": {
+    "text": "Close",
+    "context": "Every dialog: accessible label of the X button in its corner."
+  },
+  "common.undo": {
+    "text": "Undo",
+    "context": "Short message at the bottom of the screen: button that brings back what was just deleted.",
+    "maxLength": 12
+  },
+  "common.tryAgain": {
+    "text": "Try again",
+    "context": "Button that retries loading something that failed to load."
+  },
+  "common.name": {
+    "text": "Name",
+    "context": "Label of the field where a space, list, folder or habit gets its name."
+  },
+  "common.untitled": {
+    "text": "Untitled",
+    "context": "Shown instead of the title of a task, list, bookmark or folder that has none."
+  },
+  "common.error.generic": {
+    "text": "Something went wrong.",
+    "context": "Error message used when nothing more specific is known."
+  },
+  "common.copyFailed": {
+    "text": "Could not copy. Select the text and copy it manually.",
+    "context": "Error message when copying a link or token to the clipboard failed."
+  },
+  "app.title": {
+    "text": "Saver - Tasks, Bookmarks & Habits",
+    "context": "Browser tab title of pages without a name of their own. Saver is the app name."
+  },
+  "app.pageTitle": {
+    "text": "{page} - Saver",
+    "context": "Browser tab title of a page, for example 'Tasks - Saver'.",
+    "placeholders": {
+      "{page}": "Name of the page, for example Tasks or Settings"
+    }
+  },
+  "app.opening": {
+    "text": "Opening Saver",
+    "context": "Loading screen: read by screen readers while the app starts."
+  },
+  "sections.todos": {
+    "text": "Tasks",
+    "context": "Name of the Tasks section: navigation, page title, search results and the tab bar on phones.",
+    "maxLength": 16
+  },
+  "sections.bookmarks": {
+    "text": "Bookmarks",
+    "context": "Name of the Bookmarks section: navigation, page title, search results and the tab bar on phones.",
+    "maxLength": 16
+  },
+  "sections.habits": {
+    "text": "Habits",
+    "context": "Name of the Habits section: navigation, page title and the tab bar on phones.",
+    "maxLength": 16
+  },
+  "theme.system": {
+    "text": "System",
+    "context": "Appearance choice that follows the light or dark mode of the device."
+  },
+  "theme.light": {
+    "text": "Light",
+    "context": "Appearance choice for the light mode."
+  },
+  "theme.dark": {
+    "text": "Dark",
+    "context": "Appearance choice for the dark mode."
+  },
+  "app.sidebar.collapse": {
+    "text": "Collapse sidebar",
+    "context": "Sidebar: button that makes the sidebar narrow, showing only icons."
+  },
+  "app.sidebar.expand": {
+    "text": "Expand sidebar",
+    "context": "Sidebar: button that makes the narrow sidebar wide again."
+  },
+  "app.spaceSwitcher.label": {
+    "text": "Space: {space}. Switch space",
+    "context": "Sidebar and phone header: accessible label of the button that shows the open space and switches to another.",
+    "placeholders": {
+      "{space}": "Name of the open space"
+    }
+  },
+  "app.spaceSwitcher.labelEmpty": {
+    "text": "Space: none. Switch space",
+    "context": "Sidebar and phone header: accessible label of the space switcher when no space is open."
+  },
+  "app.spaceSwitcher.tooltipEmpty": {
+    "text": "Spaces",
+    "context": "Narrow sidebar: tooltip of the space switcher when no space is open."
+  },
+  "app.spaceSwitcher.noSpace": {
+    "text": "No space",
+    "context": "Sidebar and phone header: shown instead of a space name when there is no space yet."
+  },
+  "app.spaceSwitcher.yours": {
+    "text": "Your space",
+    "context": "Sidebar: small line under the name of a space the person owns."
+  },
+  "app.spaceSwitcher.createOne": {
+    "text": "Create one",
+    "context": "Sidebar: small line under 'No space', inviting the person to create a space."
+  },
+  "app.spaceMenu.heading": {
+    "text": "Spaces",
+    "context": "Space switcher menu: heading above the list of spaces."
+  },
+  "app.spaceMenu.shared": {
+    "text": "Shared",
+    "context": "Space switcher menu: small tag on a space someone else owns.",
+    "maxLength": 12
+  },
+  "app.spaceMenu.empty": {
+    "text": "No spaces yet.",
+    "context": "Space switcher menu: shown when the person is in no space."
+  },
+  "app.spaceMenu.invite": {
+    "text": "Invite people",
+    "context": "Space switcher menu: item that creates an invite link for the open space."
+  },
+  "app.spaceMenu.settings": {
+    "text": "Space settings",
+    "context": "Space switcher menu: item that opens the settings of the open space."
+  },
+  "app.search": {
+    "text": "Search",
+    "context": "Sidebar and phone header: button that opens search and commands."
+  },
+  "app.shortcut.ctrl": {
+    "text": "Ctrl",
+    "context": "Sidebar: the Control key as printed on keyboards in the shortcut hint 'Ctrl K' (German keyboards say Strg).",
+    "maxLength": 5
+  },
+  "app.sectionsNav": {
+    "text": "Sections",
+    "context": "Accessible name of the navigation between Tasks, Bookmarks and Habits."
+  },
+  "app.upsell.title": {
+    "text": "Get more from Saver",
+    "context": "Sidebar: title of the card that opens the upgrade dialog, shown on the free plan."
+  },
+  "app.upsell.detail": {
+    "text": "More spaces, tasks and habits",
+    "context": "Sidebar: line under 'Get more from Saver' on the upgrade card."
+  },
+  "app.account.label": {
+    "text": "Account",
+    "context": "Phone header: accessible label of the round button with the person's initial that opens the account menu."
+  },
+  "app.account.labelNamed": {
+    "text": "Account: {name}",
+    "context": "Sidebar: accessible label of the button that opens the account menu.",
+    "placeholders": {
+      "{name}": "The person's display name"
+    }
+  },
+  "app.account.fallbackName": {
+    "text": "You",
+    "context": "Shown as the person's own name when their account has no name and no email."
+  },
+  "app.account.appearance": {
+    "text": "Appearance",
+    "context": "Account menu: heading above the System, Light and Dark choices."
+  },
+  "app.account.plans": {
+    "text": "Plans",
+    "context": "Account menu: item that shows the plans, for people who already pay."
+  },
+  "app.add": {
+    "text": "Add",
+    "context": "Phones: accessible label of the round + button that adds a task, bookmark or habit to the open page."
+  },
+  "app.spacesError.title": {
+    "text": "Your spaces could not be loaded",
+    "context": "Main area: title shown when the list of spaces failed to load."
+  },
+  "app.spacesError.message": {
+    "text": "Check your connection, then reload the page.",
+    "context": "Main area: advice under 'Your spaces could not be loaded'."
+  },
+  "app.reload": {
+    "text": "Reload",
+    "context": "Main area: button that reloads the page after the spaces failed to load."
+  },
+  "app.firstSpace.title": {
+    "text": "Create your first space",
+    "context": "Main area: title shown to someone who is in no space yet."
+  },
+  "app.firstSpace.message": {
+    "text": "A space holds tasks, bookmarks and habits. Keep one for yourself or share it.",
+    "context": "Main area: explanation under 'Create your first space'."
+  },
+  "app.firstSpace.create": {
+    "text": "Create a space",
+    "context": "Main area: button under 'Create your first space' that opens the dialog to create one."
+  },
+  "palette.title": {
+    "text": "Search and commands",
+    "context": "Search window (Ctrl K): its accessible name."
+  },
+  "palette.placeholderSpace": {
+    "text": "Search {space} or run a command",
+    "context": "Search window: placeholder of the search field while a space is open.",
+    "placeholders": {
+      "{space}": "Name of the open space"
+    }
+  },
+  "palette.placeholder": {
+    "text": "Run a command",
+    "context": "Search window: placeholder of the search field when no space is open."
+  },
+  "palette.empty": {
+    "text": "Nothing found.",
+    "context": "Search window: shown when nothing matches what was typed."
+  },
+  "palette.group.goTo": {
+    "text": "Go to",
+    "context": "Search window: heading above the commands that open Tasks, Bookmarks, Habits or Settings."
+  },
+  "palette.group.create": {
+    "text": "Create",
+    "context": "Search window: heading above the commands that add a new task, bookmark or habit."
+  },
+  "palette.group.spaces": {
+    "text": "Spaces",
+    "context": "Search window: heading above the list of spaces to switch to."
+  },
+  "palette.group.more": {
+    "text": "More",
+    "context": "Search window: heading above other commands such as dark mode and signing out."
+  },
+  "palette.newTask": {
+    "text": "New task",
+    "context": "Search window: command that opens Tasks and starts adding a task."
+  },
+  "palette.newBookmark": {
+    "text": "New bookmark",
+    "context": "Search window: command that opens Bookmarks and starts adding a bookmark."
+  },
+  "palette.newHabit": {
+    "text": "New habit",
+    "context": "Search window: command that opens Habits and starts adding a habit."
+  },
+  "palette.current": {
+    "text": "Current",
+    "context": "Search window: small note next to the space that is open right now."
+  },
+  "palette.joinSpace": {
+    "text": "Join a space",
+    "context": "Search window: command that opens the dialog to join a space with an invite link."
+  },
+  "palette.switchToLight": {
+    "text": "Switch to light mode",
+    "context": "Search window: command that turns on the light appearance."
+  },
+  "palette.switchToDark": {
+    "text": "Switch to dark mode",
+    "context": "Search window: command that turns on the dark appearance."
+  },
+  "palette.folder": {
+    "text": "Folder",
+    "context": "Search window: note next to a search result that is a bookmark folder."
+  },
+  "auth.pageTitle": {
+    "text": "Sign in",
+    "context": "Browser tab title of the sign-in page, shown as 'Sign in - Saver'."
+  },
+  "auth.brand.headline": {
+    "text": "Tasks, habits and bookmarks.",
+    "context": "Sign-in page, dark brand panel: large headline next to the form."
+  },
+  "auth.brand.tagline": {
+    "text": "All in one place.",
+    "context": "Sign-in page, dark brand panel: short yellow line under the headline."
+  },
+  "auth.brand.description": {
+    "text": "Shared spaces that stay in sync across the web, your phone and your browser.",
+    "context": "Sign-in page, dark brand panel: sentence under the headline."
+  },
+  "auth.preview.listName": {
+    "text": "Weekend",
+    "context": "Sign-in page, picture of the app: name of a sample task list.",
+    "maxLength": 24
+  },
+  "auth.preview.progress": {
+    "text": "2 of 4 done",
+    "context": "Sign-in page, picture of the app: progress of the sample list (2 of its 4 tasks are done).",
+    "maxLength": 24
+  },
+  "auth.preview.task1": {
+    "text": "Book the train tickets",
+    "context": "Sign-in page, picture of the app: a sample task, shown as done.",
+    "maxLength": 32
+  },
+  "auth.preview.task2": {
+    "text": "Renew the library card",
+    "context": "Sign-in page, picture of the app: a sample task, shown as done.",
+    "maxLength": 32
+  },
+  "auth.preview.task3": {
+    "text": "Pick up fresh groceries",
+    "context": "Sign-in page, picture of the app: a sample task, still open.",
+    "maxLength": 32
+  },
+  "auth.preview.task4": {
+    "text": "Call Alex about dinner",
+    "context": "Sign-in page, picture of the app: a sample task, still open. Alex is a first name; use a common one of your language.",
+    "maxLength": 32
+  },
+  "auth.preview.habit": {
+    "text": "Read 20 minutes",
+    "context": "Sign-in page, picture of the app: name of a sample daily habit.",
+    "maxLength": 28
+  },
+  "auth.legal.label": {
+    "text": "Legal",
+    "context": "Sign-in pages: accessible name of the row of legal links at the bottom."
+  },
+  "auth.legal.privacy": {
+    "text": "Privacy",
+    "context": "Sign-in pages: link to the privacy policy."
+  },
+  "auth.legal.terms": {
+    "text": "Terms",
+    "context": "Sign-in pages: link to the terms of service."
+  },
+  "auth.legal.refunds": {
+    "text": "Refund policy",
+    "context": "Sign-in pages: link to the refund policy."
+  },
+  "auth.legal.notice": {
+    "text": "Legal notice",
+    "context": "Sign-in pages: link to the legal notice (German 'Impressum')."
+  },
+  "auth.login.title": {
+    "text": "Welcome back",
+    "context": "Sign-in page: title of the sign-in form."
+  },
+  "auth.login.message": {
+    "text": "Sign in to pick up your tasks, bookmarks and habits.",
+    "context": "Sign-in page: line under 'Welcome back'."
+  },
+  "auth.signUp.title": {
+    "text": "Create your account",
+    "context": "Sign-in page: title of the form for a new account."
+  },
+  "auth.signUp.message": {
+    "text": "One account keeps everything in sync across your devices.",
+    "context": "Sign-in page: line under 'Create your account'."
+  },
+  "auth.continueWithGoogle": {
+    "text": "Continue with Google",
+    "context": "Sign-in page: button that signs in with a Google account."
+  },
+  "auth.continueWithApple": {
+    "text": "Continue with Apple",
+    "context": "Sign-in page: button that signs in with an Apple account."
+  },
+  "auth.orWithEmail": {
+    "text": "or with email",
+    "context": "Sign-in page: small divider text between the Google and Apple buttons and the email form."
+  },
+  "auth.email": {
+    "text": "Email",
+    "context": "Sign-in page: label of the email address field."
+  },
+  "auth.password": {
+    "text": "Password",
+    "context": "Sign-in page: label of the password field."
+  },
+  "auth.confirmPassword": {
+    "text": "Confirm password",
+    "context": "Sign-up and new-password forms: label of the field where the password is typed a second time."
+  },
+  "auth.showPassword": {
+    "text": "Show password",
+    "context": "Password field: accessible label of the eye button that shows the typed password."
+  },
+  "auth.hidePassword": {
+    "text": "Hide password",
+    "context": "Password field: accessible label of the eye button that hides the typed password again."
+  },
+  "auth.forgotPassword": {
+    "text": "Forgot password?",
+    "context": "Sign-in page: link that opens the form to reset the password."
+  },
+  "auth.signIn": {
+    "text": "Sign in",
+    "context": "Button or link that signs in, or leads to the sign-in page."
+  },
+  "auth.createAccount": {
+    "text": "Create account",
+    "context": "Sign-in page: button that creates the new account."
+  },
+  "auth.newToSaver": {
+    "text": "New to Saver?",
+    "context": "Sign-in page: question before the 'Create an account' link."
+  },
+  "auth.createAnAccount": {
+    "text": "Create an account",
+    "context": "Sign-in page: link after 'New to Saver?' that switches to the sign-up form."
+  },
+  "auth.haveAccount": {
+    "text": "Already have an account?",
+    "context": "Sign-up form: question before the 'Sign in' link."
+  },
+  "auth.agreement": {
+    "text": "By continuing, you agree to Saver's Terms of Service and Privacy Policy.",
+    "context": "Sign-in page: note above the legal links at the bottom."
+  },
+  "auth.signOut": {
+    "text": "Sign out",
+    "context": "Account menu, search window, settings and the verification screen: signs the person out."
+  },
+  "auth.signOutError": {
+    "text": "Could not sign out. Try again.",
+    "context": "Account menu: error message when signing out failed."
+  },
+  "auth.backToSignIn": {
+    "text": "Back to sign in",
+    "context": "Password reset pages: button or link back to the sign-in form."
+  },
+  "auth.reset.title": {
+    "text": "Reset your password",
+    "context": "Forgot-password form: title."
+  },
+  "auth.reset.message": {
+    "text": "Enter the email of your account and we will send you a link to choose a new password.",
+    "context": "Forgot-password form: explanation under the title."
+  },
+  "auth.reset.sent": {
+    "text": "If an account exists for {email}, a reset link is on its way. Check your inbox.",
+    "context": "Forgot-password form: confirmation after the reset link was requested.",
+    "placeholders": {
+      "{email}": "The email address that was entered"
+    }
+  },
+  "auth.reset.send": {
+    "text": "Send reset link",
+    "context": "Forgot-password form: button that sends the reset email."
+  },
+  "auth.reset.error": {
+    "text": "The reset email could not be sent.",
+    "context": "Forgot-password form: error message when sending the reset email failed."
+  },
+  "auth.reset.errorCheckAddress": {
+    "text": "The reset email could not be sent. Check the address and try again.",
+    "context": "Forgot-password form: error message when the server could not send the reset email."
+  },
+  "auth.error.enterEmail": {
+    "text": "Enter your email address.",
+    "context": "Sign-in page: error message when the email field is empty."
+  },
+  "auth.error.invalidEmail": {
+    "text": "Enter a valid email address.",
+    "context": "Sign-in page: error message when the email address is not valid."
+  },
+  "auth.error.enterPassword": {
+    "text": "Enter your password.",
+    "context": "Sign-in page: error message when the password field is empty."
+  },
+  "auth.error.shortPassword": {
+    "text": "Use at least 6 characters for your password.",
+    "context": "Sign-up form: error message when the new password is too short."
+  },
+  "auth.error.passwordsDiffer": {
+    "text": "The passwords do not match.",
+    "context": "Sign-up and new-password forms: error message when the two passwords are different."
+  },
+  "auth.error.wrongCredentials": {
+    "text": "Either the email or password is incorrect, or you haven't created an account yet.",
+    "context": "Sign-in page: error message when signing in with email and password failed."
+  },
+  "auth.error.emailInUse": {
+    "text": "An account with this email already exists. Sign in instead.",
+    "context": "Sign-up form: error message when the email address already has an account."
+  },
+  "auth.error.tooManyAttempts": {
+    "text": "Too many attempts. Wait a moment, then try again.",
+    "context": "Sign-in page: error message after too many failed attempts."
+  },
+  "auth.error.network": {
+    "text": "Saver could not reach the server. Check your connection and try again.",
+    "context": "Sign-in page: error message when there is no connection."
+  },
+  "auth.error.unauthorizedDomain": {
+    "text": "This domain is not authorized for sign in.",
+    "context": "Sign-in page: error message when the site address is not allowed to sign in (a setup problem)."
+  },
+  "auth.error.google.canceled": {
+    "text": "Google sign in was canceled before it finished.",
+    "context": "Sign-in page: error message when the Google sign-in window was closed early."
+  },
+  "auth.error.google.popupBlocked": {
+    "text": "Your browser blocked the Google sign in window. Allow popups for Saver and try again.",
+    "context": "Sign-in page: error message when the browser blocked the Google sign-in window."
+  },
+  "auth.error.google.notEnabled": {
+    "text": "Google sign in is not enabled.",
+    "context": "Sign-in page: error message when signing in with Google is switched off."
+  },
+  "auth.error.google.failedWithReason": {
+    "text": "Google sign in failed: {reason}",
+    "context": "Sign-in page: error message when signing in with Google failed for a reason given by the server.",
+    "placeholders": {
+      "{reason}": "The reason as reported, usually an English sentence"
+    }
+  },
+  "auth.error.google.failed": {
+    "text": "Google sign in failed. Please try again.",
+    "context": "Sign-in page: error message when signing in with Google failed without a reason."
+  },
+  "auth.error.apple.canceled": {
+    "text": "Apple sign in was canceled before it finished.",
+    "context": "Sign-in page: error message when the Apple sign-in window was closed early."
+  },
+  "auth.error.apple.popupBlocked": {
+    "text": "Your browser blocked the Apple sign in window. Allow popups for Saver and try again.",
+    "context": "Sign-in page: error message when the browser blocked the Apple sign-in window."
+  },
+  "auth.error.apple.notEnabled": {
+    "text": "Apple sign in is not enabled.",
+    "context": "Sign-in page: error message when signing in with Apple is switched off."
+  },
+  "auth.error.apple.failedWithReason": {
+    "text": "Apple sign in failed: {reason}",
+    "context": "Sign-in page: error message when signing in with Apple failed for a given reason.",
+    "placeholders": {
+      "{reason}": "The reason, for example 'Apple sign in could not be loaded.'"
+    }
+  },
+  "auth.error.apple.failed": {
+    "text": "Apple sign in failed. Please try again.",
+    "context": "Sign-in page: error message when signing in with Apple failed without a reason."
+  },
+  "auth.error.signIn.notEnabled": {
+    "text": "Sign in is not enabled.",
+    "context": "Sign-in page: error message when signing in with email and password is switched off."
+  },
+  "auth.error.signIn.failedWithReason": {
+    "text": "Sign in failed: {reason}",
+    "context": "Sign-in page: error message when signing in with email failed for a reason given by the server.",
+    "placeholders": {
+      "{reason}": "The reason as reported, usually an English sentence"
+    }
+  },
+  "auth.error.signIn.failed": {
+    "text": "Sign in failed. Please try again.",
+    "context": "Sign-in page: error message when signing in with email failed without a reason."
+  },
+  "auth.error.signUp.notEnabled": {
+    "text": "Sign up is not enabled.",
+    "context": "Sign-up form: error message when creating accounts with email is switched off."
+  },
+  "auth.error.signUp.failedWithReason": {
+    "text": "Sign up failed: {reason}",
+    "context": "Sign-up form: error message when creating the account failed for a reason given by the server.",
+    "placeholders": {
+      "{reason}": "The reason as reported, usually an English sentence"
+    }
+  },
+  "auth.error.signUp.failed": {
+    "text": "Sign up failed. Please try again.",
+    "context": "Sign-up form: error message when creating the account failed without a reason."
+  },
+  "auth.apple.unavailable": {
+    "text": "Apple sign in is unavailable.",
+    "context": "Sign-in page: reason shown after 'Apple sign in failed:' when Apple's sign-in script did not start."
+  },
+  "auth.apple.loadFailed": {
+    "text": "Apple sign in could not be loaded.",
+    "context": "Sign-in page: reason shown after 'Apple sign in failed:' when Apple's sign-in script could not be downloaded."
+  },
+  "auth.apple.noToken": {
+    "text": "Apple did not return an identity token.",
+    "context": "Sign-in page: reason shown after 'Apple sign in failed:' when Apple's answer was incomplete."
+  },
+  "auth.verify.title": {
+    "text": "Check your inbox",
+    "context": "Email verification screen: title, shown to new email accounts until they confirm their address."
+  },
+  "auth.verify.message": {
+    "text": "We sent a verification link to {email}. Open it, then come back here.",
+    "context": "Email verification screen: explanation under the title. The address is shown in bold.",
+    "placeholders": {
+      "{email}": "The email address of the account"
+    }
+  },
+  "auth.verify.messageNoEmail": {
+    "text": "We sent a verification link to your email. Open it, then come back here.",
+    "context": "Email verification screen: explanation under the title when the address is unknown."
+  },
+  "auth.verify.notYet": {
+    "text": "Not verified yet. Open the link in the email we sent.",
+    "context": "Email verification screen: note after 'I've verified my email' when the address is still unconfirmed."
+  },
+  "auth.verify.checkError": {
+    "text": "Could not check right now.",
+    "context": "Email verification screen: error message when checking the verification failed."
+  },
+  "auth.verify.sent": {
+    "text": "Verification email sent.",
+    "context": "Email verification screen: confirmation after the email was sent again."
+  },
+  "auth.verify.sendError": {
+    "text": "The email could not be sent. Try again in a minute.",
+    "context": "Email verification screen: error message when sending the email again failed."
+  },
+  "auth.verify.done": {
+    "text": "I've verified my email",
+    "context": "Email verification screen: button the person presses after opening the link."
+  },
+  "auth.verify.resend": {
+    "text": "Resend email",
+    "context": "Email verification screen: button that sends the verification email again."
+  },
+  "auth.action.invalidTitle": {
+    "text": "This link does not work",
+    "context": "Page opened from an account email: title when the link is broken."
+  },
+  "auth.action.invalidMessage": {
+    "text": "It may be incomplete or already used. Open the newest email from Saver and try again.",
+    "context": "Page opened from an account email: explanation under 'This link does not work'."
+  },
+  "auth.action.expiredTitle": {
+    "text": "This link has expired",
+    "context": "Page opened from an account email: title when the verification or reset link no longer works."
+  },
+  "auth.openSaver": {
+    "text": "Open Saver",
+    "context": "Pages outside the app: button that opens the app."
+  },
+  "auth.verifyEmail.working": {
+    "text": "Verifying your email",
+    "context": "Page opened from the verification email: title while the address is being confirmed."
+  },
+  "auth.verifyEmail.oneMoment": {
+    "text": "One moment.",
+    "context": "Page opened from the verification email: line under 'Verifying your email'."
+  },
+  "auth.verifyEmail.expiredMessage": {
+    "text": "Verification links work once. Sign in and ask for a new one.",
+    "context": "Page opened from the verification email: explanation under 'This link has expired'."
+  },
+  "auth.verifyEmail.error": {
+    "text": "We could not verify this email.",
+    "context": "Page opened from the verification email: error message when the confirmation failed."
+  },
+  "auth.verifyEmail.doneTitle": {
+    "text": "Email verified",
+    "context": "Page opened from the verification email: title once the address is confirmed."
+  },
+  "auth.verifyEmail.doneMessage": {
+    "text": "Your address is confirmed. You are all set.",
+    "context": "Page opened from the verification email: line under 'Email verified'."
+  },
+  "auth.verifyEmail.continue": {
+    "text": "Continue to Saver",
+    "context": "Page opened from the verification email: button that opens the app."
+  },
+  "auth.newPassword.invalid": {
+    "text": "This reset link is no longer valid.",
+    "context": "Page opened from the password reset email: error message when the link no longer works."
+  },
+  "auth.newPassword.enter": {
+    "text": "Enter a new password.",
+    "context": "New-password form: error message when the password field is empty."
+  },
+  "auth.newPassword.short": {
+    "text": "Use at least 6 characters.",
+    "context": "New-password form: error message when the new password is too short."
+  },
+  "auth.newPassword.error": {
+    "text": "We could not update this password.",
+    "context": "New-password form: error message when saving the new password failed."
+  },
+  "auth.newPassword.doneTitle": {
+    "text": "Password updated",
+    "context": "New-password form: title once the new password is saved."
+  },
+  "auth.newPassword.doneMessage": {
+    "text": "You can sign in with your new password now.",
+    "context": "New-password form: line under 'Password updated'."
+  },
+  "auth.newPassword.expiredMessage": {
+    "text": "Reset links work once and only for a short time. Request a new one from the sign-in page.",
+    "context": "Page opened from the password reset email: explanation under 'This link has expired'."
+  },
+  "auth.newPassword.title": {
+    "text": "Choose a new password",
+    "context": "New-password form: title."
+  },
+  "auth.newPassword.forEmail": {
+    "text": "For {email}.",
+    "context": "New-password form: line under the title naming the account. The address is shown in bold.",
+    "placeholders": {
+      "{email}": "The email address of the account"
+    }
+  },
+  "auth.newPassword.checking": {
+    "text": "Checking your link…",
+    "context": "New-password form: line under the title while the link is checked."
+  },
+  "auth.newPassword.label": {
+    "text": "New password",
+    "context": "New-password form: label of the password field."
+  },
+  "auth.newPassword.submit": {
+    "text": "Update password",
+    "context": "New-password form: button that saves the new password."
+  },
+  "invitePage.title": {
+    "text": "You have been invited",
+    "context": "Page an invite link opens: title."
+  },
+  "invitePage.message": {
+    "text": "Join this space to work on the same tasks, bookmarks and habits.",
+    "context": "Page an invite link opens: line under the title."
+  },
+  "invitePage.unnamedSpace": {
+    "text": "a shared space",
+    "context": "Page an invite link opens: shown in bold instead of the space name when the name is unknown."
+  },
+  "invitePage.sharedSpace": {
+    "text": "Shared space on Saver",
+    "context": "Page an invite link opens: small line under the name of the space."
+  },
+  "invitePage.signInToJoin": {
+    "text": "Sign in to join",
+    "context": "Page an invite link opens: button for visitors who are not signed in."
+  },
+  "invitePage.joiningAs": {
+    "text": "Joining as {name}",
+    "context": "Page an invite link opens: note under the Join button.",
+    "placeholders": {
+      "{name}": "Display name or email address of the signed-in person"
+    }
+  },
+  "invitePage.ownerLimit": {
+    "text": "The owner of this space cannot add more people right now.",
+    "context": "Page an invite link opens: error message when the owner's plan has no room for another member."
+  },
+  "invitePage.planLimit": {
+    "text": "Your plan does not allow joining another space.",
+    "context": "Page an invite link opens: error message when the person's own plan has no room for another space."
+  },
+  "invitePage.error": {
+    "text": "Could not accept this invite. Please try again.",
+    "context": "Page an invite link opens: error message when joining failed."
+  },
+  "invitePage.unavailableTitle": {
+    "text": "This invite is no longer available",
+    "context": "Page an invite link opens: title when the invite expired or was used up."
+  },
+  "invitePage.unavailableMessage": {
+    "text": "It may have expired or already been used. Ask the person who shared it for a new link.",
+    "context": "Page an invite link opens: explanation under 'This invite is no longer available'."
+  },
+  "linkDevice.title": {
+    "text": "Link your reMarkable",
+    "context": "Page the QR code of a reMarkable tablet opens: title, also the browser tab title. reMarkable is a brand of e-paper tablets."
+  },
+  "linkDevice.signInMessage": {
+    "text": "Sign in to your Saver account to finish linking your tablet.",
+    "context": "Link-your-reMarkable page: explanation for visitors who are not signed in."
+  },
+  "linkDevice.enterCode": {
+    "text": "Enter the code shown on your tablet's screen.",
+    "context": "Link-your-reMarkable page: explanation above the pairing code field."
+  },
+  "linkDevice.codeLabel": {
+    "text": "Pairing code",
+    "context": "Link-your-reMarkable page: accessible label of the field for the code the tablet shows."
+  },
+  "linkDevice.enterAll": {
+    "text": "Enter all {count} characters.",
+    "context": "Link-your-reMarkable page: error message when the pairing code is incomplete.",
+    "placeholders": {
+      "{count}": "Length of the pairing code, currently 8"
+    }
+  },
+  "linkDevice.submit": {
+    "text": "Link tablet",
+    "context": "Link-your-reMarkable page and Settings › Connections: button that approves the tablet."
+  },
+  "linkDevice.error": {
+    "text": "Could not link that tablet.",
+    "context": "Link-your-reMarkable page and Settings › Connections: error message when linking failed."
+  },
+  "linkDevice.linkedTitle": {
+    "text": "Tablet linked",
+    "context": "Link-your-reMarkable page: title once the tablet was approved."
+  },
+  "linkDevice.linkedMessage": {
+    "text": "Your reMarkable finishes signing in on its own within a few seconds. You can close this page.",
+    "context": "Link-your-reMarkable page: explanation under 'Tablet linked'."
+  },
+  "linkDevice.backToSaver": {
+    "text": "Back to Saver",
+    "context": "Link-your-reMarkable page: button that opens the app."
+  },
+  "discord.connecting": {
+    "text": "Connecting Discord",
+    "context": "Page Discord returns to after linking an account: title while the connection is finished."
+  },
+  "discord.finishing": {
+    "text": "Finishing the connection.",
+    "context": "Discord return page: line under 'Connecting Discord'."
+  },
+  "discord.connected": {
+    "text": "Discord connected",
+    "context": "Discord return page: title once the Discord account is linked."
+  },
+  "discord.linkedTo": {
+    "text": "Your Saver account is now linked to {name}.",
+    "context": "Discord return page: line under 'Discord connected'.",
+    "placeholders": {
+      "{name}": "The Discord user name"
+    }
+  },
+  "discord.linked": {
+    "text": "Your Saver account is now linked to Discord.",
+    "context": "Discord return page: line under 'Discord connected' when the user name is unknown."
+  },
+  "discord.notConnected": {
+    "text": "Discord was not connected",
+    "context": "Discord return page: title when linking the account failed or was cancelled."
+  },
+  "discord.cancelled": {
+    "text": "The request was cancelled.",
+    "context": "Discord return page: explanation when the person cancelled on Discord."
+  },
+  "discord.noCode": {
+    "text": "Discord did not return an authorization code.",
+    "context": "Discord return page: explanation when Discord's answer was incomplete."
+  },
+  "discord.unverified": {
+    "text": "This sign-in session could not be verified. Start again from Settings.",
+    "context": "Discord return page: explanation when the page was not opened from this browser's own request."
+  },
+  "discord.error": {
+    "text": "Could not connect Discord.",
+    "context": "Discord return page: error message when linking the account failed."
+  },
+  "discord.backToSettings": {
+    "text": "Back to settings",
+    "context": "Discord return page: button back to Settings › Connections."
+  },
+  "board.breadcrumb": {
+    "text": "Breadcrumb",
+    "context": "Tasks and Bookmarks: accessible name of the path of lists or folders above the page title."
+  },
+  "board.back": {
+    "text": "Back",
+    "context": "Tasks and Bookmarks: round button that goes up to the enclosing list or folder."
+  },
+  "board.sort.label": {
+    "text": "Sort: {order}",
+    "context": "Tasks, Bookmarks and Habits: accessible label of the sort button.",
+    "placeholders": {
+      "{order}": "The current sort order, for example 'Newest first'"
+    }
+  },
+  "board.sort.heading": {
+    "text": "Sort by",
+    "context": "Sort menu: heading above the sort orders."
+  },
+  "sort.manual": {
+    "text": "Manual",
+    "context": "Sort order: the order the person arranged by dragging."
+  },
+  "sort.newest": {
+    "text": "Newest first",
+    "context": "Sort order: most recently added first."
+  },
+  "sort.oldest": {
+    "text": "Oldest first",
+    "context": "Sort order: earliest added first."
+  },
+  "sort.titleAscending": {
+    "text": "Title A–Z",
+    "context": "Sort order: alphabetical by title."
+  },
+  "sort.titleDescending": {
+    "text": "Title Z–A",
+    "context": "Sort order: reverse alphabetical by title."
+  },
+  "board.composer.add": {
+    "text": "Add",
+    "context": "Field at the top of Tasks, Bookmarks and Habits: button that adds what was typed.",
+    "maxLength": 12
+  },
+  "board.moveTo": {
+    "text": "Move to…",
+    "context": "Menu of a task, list, bookmark or folder: item that opens a dialog to move it elsewhere."
+  },
+  "board.dragHandle": {
+    "text": "Move {title}",
+    "context": "Tasks, Bookmarks and Habits: accessible label of the grip that drags an item to a new place.",
+    "placeholders": {
+      "{title}": "Title of the task, bookmark or habit"
+    }
+  },
+  "board.hasReminder": {
+    "text": "Has a reminder",
+    "context": "Tasks and Bookmarks: accessible label of the bell icon on an item with a reminder."
+  },
+  "board.addReminder": {
+    "text": "Add reminder",
+    "context": "Menu of a task, list or bookmark: item that sets up a reminder."
+  },
+  "board.editReminder": {
+    "text": "Edit reminder",
+    "context": "Menu of a task, list or bookmark: item that changes its existing reminder."
+  },
+  "board.loadErrorMessage": {
+    "text": "Check your connection and reload the page.",
+    "context": "Tasks, Bookmarks and Habits: advice when the page failed to load."
+  },
+  "board.manualOrderError": {
+    "text": "Could not switch to manual order.",
+    "context": "Tasks, Bookmarks and Habits: error message when the sort order could not be changed to manual."
+  },
+  "board.orderError": {
+    "text": "Could not save the new order.",
+    "context": "Tasks, Bookmarks and Habits: error message when a drag to a new place could not be saved."
+  },
+  "board.restoreError": {
+    "text": "Could not restore it.",
+    "context": "Tasks and Bookmarks: error message when undoing a deletion failed."
+  },
+  "board.deleteError": {
+    "text": "Could not delete it.",
+    "context": "Tasks and Bookmarks: error message when deleting failed."
+  },
+  "board.moved": {
+    "text": "Moved to “{name}”.",
+    "context": "Tasks and Bookmarks: confirmation after an item was moved into a list or folder.",
+    "placeholders": {
+      "{name}": "Name of the list or folder"
+    }
+  },
+  "board.moveError": {
+    "text": "Could not move that item.",
+    "context": "Tasks and Bookmarks: error message when moving an item failed."
+  },
+  "board.move.title": {
+    "text": "Move “{name}”",
+    "context": "Move dialog: title.",
+    "placeholders": {
+      "{name}": "Title of the item being moved"
+    }
+  },
+  "board.move.chooseList": {
+    "text": "Choose the list it should go into.",
+    "context": "Move dialog for a task or list: line under the title."
+  },
+  "board.move.chooseFolder": {
+    "text": "Choose the folder it should go into.",
+    "context": "Move dialog for a bookmark or folder: line under the title."
+  },
+  "board.move.topLevel": {
+    "text": "Top level",
+    "context": "Move dialog: first choice, which moves the item out of every list or folder."
+  },
+  "board.move.movedToTop": {
+    "text": "Moved to the top level.",
+    "context": "Tasks and Bookmarks: confirmation after an item was moved out of every list or folder."
+  },
+  "board.move.noList": {
+    "text": "There is no list to move it into yet.",
+    "context": "Move dialog for a task: shown when the space has no lists."
+  },
+  "board.move.noFolder": {
+    "text": "There is no folder to move it into yet.",
+    "context": "Move dialog for a bookmark: shown when the space has no folders."
+  },
+  "board.dnd.instructions": {
+    "text": "Press space to pick this up. Use the arrow keys to move it, space to drop it, or escape to cancel.",
+    "context": "Read by screen readers on items that can be dragged with the keyboard."
+  },
+  "board.dnd.pickedUp": {
+    "text": "Picked up {item}.",
+    "context": "Read by screen readers when an item is picked up to be dragged.",
+    "placeholders": {
+      "{item}": "Title of the item"
+    }
+  },
+  "board.dnd.over": {
+    "text": "{item} is over {target}.",
+    "context": "Read by screen readers while an item is dragged over another one.",
+    "placeholders": {
+      "{item}": "Title of the dragged item",
+      "{target}": "Title of the item under it"
+    }
+  },
+  "board.dnd.droppedAt": {
+    "text": "Dropped {item} at {target}.",
+    "context": "Read by screen readers when a dragged item is dropped.",
+    "placeholders": {
+      "{item}": "Title of the dropped item",
+      "{target}": "Title of the item where it was dropped"
+    }
+  },
+  "board.dnd.dropped": {
+    "text": "Dropped {item}.",
+    "context": "Read by screen readers when a dragged item is dropped outside any target.",
+    "placeholders": {
+      "{item}": "Title of the dropped item"
+    }
+  },
+  "board.dnd.cancelled": {
+    "text": "Moving {item} was cancelled.",
+    "context": "Read by screen readers when a drag is cancelled.",
+    "placeholders": {
+      "{item}": "Title of the item"
+    }
+  },
+  "board.dnd.unnamed": {
+    "text": "the item",
+    "context": "Read by screen readers instead of an item's title in the drag messages above when it has none."
+  },
+  "tasks.noAccess.title": {
+    "text": "No access to tasks",
+    "context": "Tasks: title shown when the space does not share its tasks with the person."
+  },
+  "tasks.noAccess.message": {
+    "text": "The owner of this space has not shared its tasks with you.",
+    "context": "Tasks: explanation under 'No access to tasks'."
+  },
+  "tasks.subtitle.nothingOpen": {
+    "text": "Nothing open",
+    "context": "Tasks: line under the page title when every task is done."
+  },
+  "tasks.subtitle.open": {
+    "text": {
+      "one": "{count} open",
+      "other": "{count} open"
+    },
+    "context": "Tasks: line under the page title with the number of tasks not done yet.",
+    "placeholders": {
+      "{count}": "Number of open tasks"
+    }
+  },
+  "tasks.hideCompleted": {
+    "text": "Hide completed",
+    "context": "Tasks, sort menu: checkbox that hides tasks that are done."
+  },
+  "tasks.newList.action": {
+    "text": "New list",
+    "context": "Tasks: button and dialog title for creating a task list."
+  },
+  "tasks.newList.defaultName": {
+    "text": "New list",
+    "context": "Tasks: name a new list gets when none is typed; also the placeholder of the name field."
+  },
+  "tasks.newList.create": {
+    "text": "Create list",
+    "context": "New list dialog: button that creates the list."
+  },
+  "tasks.newList.error": {
+    "text": "Could not create that list.",
+    "context": "Tasks: error message when creating a list failed."
+  },
+  "tasks.listOptions": {
+    "text": "List options",
+    "context": "Tasks: accessible label of the ⋯ button that opens the menu of a list."
+  },
+  "tasks.deleteList": {
+    "text": "Delete list",
+    "context": "Menu of a task list: item that deletes the list and everything in it."
+  },
+  "tasks.rename.list": {
+    "text": "Rename list",
+    "context": "Rename dialog for a task list: title."
+  },
+  "tasks.rename.task": {
+    "text": "Rename task",
+    "context": "Rename dialog for a task: title."
+  },
+  "tasks.renameError": {
+    "text": "Could not rename it.",
+    "context": "Tasks: error message when renaming a task or list failed."
+  },
+  "tasks.composer.placeholder": {
+    "text": "Add a task",
+    "context": "Tasks: placeholder of the field at the top that adds a task."
+  },
+  "tasks.composer.placeholderInList": {
+    "text": "Add a task to {list}",
+    "context": "Tasks, inside a list: placeholder of the field at the top that adds a task.",
+    "placeholders": {
+      "{list}": "Name of the open list"
+    }
+  },
+  "tasks.defaultTitle": {
+    "text": "New task",
+    "context": "Tasks: title a task gets when it is added without one."
+  },
+  "tasks.defaultSubtaskTitle": {
+    "text": "New subtask",
+    "context": "Tasks: title a subtask gets when it is added without one."
+  },
+  "tasks.addError": {
+    "text": "Could not add that task.",
+    "context": "Tasks: error message when adding a task failed."
+  },
+  "tasks.updateError": {
+    "text": "Could not update that task.",
+    "context": "Tasks: error message when ticking a task off (or back on) failed."
+  },
+  "tasks.saveError": {
+    "text": "Could not save that task.",
+    "context": "Tasks: error message when saving an edited task failed."
+  },
+  "tasks.deleted.task": {
+    "text": "Task deleted.",
+    "context": "Tasks: short message after a task was deleted, next to an Undo button."
+  },
+  "tasks.deleted.list": {
+    "text": "List deleted.",
+    "context": "Tasks: short message after an empty list was deleted, next to an Undo button."
+  },
+  "tasks.deleted.taskWithItems": {
+    "text": {
+      "one": "Task and {count} item inside deleted.",
+      "other": "Task and {count} items inside deleted."
+    },
+    "context": "Tasks: short message after a task and its subtasks were deleted, next to an Undo button.",
+    "placeholders": {
+      "{count}": "Number of subtasks deleted with it"
+    }
+  },
+  "tasks.deleted.listWithItems": {
+    "text": {
+      "one": "List and {count} item inside deleted.",
+      "other": "List and {count} items inside deleted."
+    },
+    "context": "Tasks: short message after a list and everything in it were deleted, next to an Undo button.",
+    "placeholders": {
+      "{count}": "Number of tasks and lists deleted with it"
+    }
+  },
+  "tasks.loadError": {
+    "text": "Tasks could not be loaded",
+    "context": "Tasks: title shown when the tasks failed to load."
+  },
+  "tasks.empty.title": {
+    "text": "No tasks yet",
+    "context": "Tasks: title of the empty page."
+  },
+  "tasks.empty.listTitle": {
+    "text": "This list is empty",
+    "context": "Tasks, inside a list: title when the list has nothing in it."
+  },
+  "tasks.empty.message": {
+    "text": "Type above and press Enter to add the first one.",
+    "context": "Tasks: hint on the empty page, pointing at the field at the top."
+  },
+  "tasks.empty.readOnly": {
+    "text": "Nothing has been added here yet.",
+    "context": "Tasks: hint on the empty page for people who may only view."
+  },
+  "tasks.section.lists": {
+    "text": "Lists",
+    "context": "Tasks: heading above the task lists."
+  },
+  "tasks.section.tasks": {
+    "text": "Tasks",
+    "context": "Tasks: heading above the tasks, below the lists."
+  },
+  "tasks.listCount": {
+    "text": {
+      "one": "{count} list",
+      "other": "{count} lists"
+    },
+    "context": "Tasks: number of lists, next to the Lists heading and on the card of a list.",
+    "placeholders": {
+      "{count}": "Number of lists"
+    }
+  },
+  "tasks.taskCount": {
+    "text": {
+      "one": "{count} task",
+      "other": "{count} tasks"
+    },
+    "context": "Tasks: number of tasks on the card of a list.",
+    "placeholders": {
+      "{count}": "Number of tasks"
+    }
+  },
+  "tasks.allDone": {
+    "text": "All done",
+    "context": "Tasks: note next to the Tasks heading when every task is done."
+  },
+  "tasks.openTaskCount": {
+    "text": {
+      "one": "{count} open task",
+      "other": "{count} open tasks"
+    },
+    "context": "Tasks: note next to the Tasks heading with the number of tasks not done yet.",
+    "placeholders": {
+      "{count}": "Number of open tasks"
+    }
+  },
+  "tasks.showCompleted": {
+    "text": {
+      "one": "Show {count} completed task",
+      "other": "Show {count} completed tasks"
+    },
+    "context": "Tasks: button under the list that shows the hidden tasks that are done.",
+    "placeholders": {
+      "{count}": "Number of hidden tasks"
+    }
+  },
+  "tasks.markDone": {
+    "text": "Mark {title} as done",
+    "context": "Tasks: accessible label of the round checkbox of an open task.",
+    "placeholders": {
+      "{title}": "Title of the task"
+    }
+  },
+  "tasks.markNotDone": {
+    "text": "Mark {title} as not done",
+    "context": "Tasks: accessible label of the round checkbox of a task that is done.",
+    "placeholders": {
+      "{title}": "Title of the task"
+    }
+  },
+  "tasks.addSubtask": {
+    "text": "Add subtask",
+    "context": "Tasks: button and menu item that adds a subtask under a task."
+  },
+  "tasks.taskOptions": {
+    "text": "Task options",
+    "context": "Tasks: accessible label of the ⋯ button that opens the menu of a task."
+  },
+  "tasks.showSubtasks": {
+    "text": "Show subtasks",
+    "context": "Tasks: accessible label of the arrow that unfolds the subtasks of a task."
+  },
+  "tasks.hideSubtasks": {
+    "text": "Hide subtasks",
+    "context": "Tasks: accessible label of the arrow that folds the subtasks of a task away."
+  },
+  "tasks.subtask.placeholder": {
+    "text": "Add a subtask",
+    "context": "Tasks: placeholder of the field that adds a subtask under a task."
+  },
+  "tasks.subtask.label": {
+    "text": "Add a subtask to {title}",
+    "context": "Tasks: accessible label of the field that adds a subtask.",
+    "placeholders": {
+      "{title}": "Title of the parent task"
+    }
+  },
+  "tasks.editor.title": {
+    "text": "Task title",
+    "context": "Tasks: accessible label of the title field while a task is edited."
+  },
+  "tasks.editor.notes": {
+    "text": "Notes",
+    "context": "Tasks: accessible label of the notes field while a task is edited."
+  },
+  "tasks.editor.notesPlaceholder": {
+    "text": "Add notes",
+    "context": "Tasks: placeholder of the notes field while a task is edited."
+  },
+  "bookmarks.noAccess.title": {
+    "text": "No access to bookmarks",
+    "context": "Bookmarks: title shown when the space does not share its bookmarks with the person."
+  },
+  "bookmarks.noAccess.message": {
+    "text": "The owner of this space has not shared its bookmarks with you.",
+    "context": "Bookmarks: explanation under 'No access to bookmarks'."
+  },
+  "bookmarks.count": {
+    "text": {
+      "one": "{count} bookmark",
+      "other": "{count} bookmarks"
+    },
+    "context": "Bookmarks: number of bookmarks under the page title, next to the Bookmarks heading and on the card of a folder.",
+    "placeholders": {
+      "{count}": "Number of bookmarks"
+    }
+  },
+  "bookmarks.folderCount": {
+    "text": {
+      "one": "{count} folder",
+      "other": "{count} folders"
+    },
+    "context": "Bookmarks: number of folders next to the Folders heading and on the card of a folder.",
+    "placeholders": {
+      "{count}": "Number of folders"
+    }
+  },
+  "bookmarks.newFolder.action": {
+    "text": "New folder",
+    "context": "Bookmarks: button and dialog title for creating a bookmark folder."
+  },
+  "bookmarks.newFolder.defaultName": {
+    "text": "New folder",
+    "context": "Bookmarks: name a new folder gets when none is typed; also the placeholder of the name field."
+  },
+  "bookmarks.newFolder.create": {
+    "text": "Create folder",
+    "context": "New folder dialog: button that creates the folder."
+  },
+  "bookmarks.newFolder.error": {
+    "text": "Could not create that folder.",
+    "context": "Bookmarks: error message when creating a folder failed."
+  },
+  "bookmarks.folderOptions": {
+    "text": "Folder options",
+    "context": "Bookmarks: accessible label of the ⋯ button that opens the menu of a folder."
+  },
+  "bookmarks.deleteFolder": {
+    "text": "Delete folder",
+    "context": "Menu of a bookmark folder: item that deletes the folder and everything in it."
+  },
+  "bookmarks.composer.title": {
+    "text": "Title",
+    "context": "Bookmarks: placeholder of the title field at the top that adds a bookmark."
+  },
+  "bookmarks.composer.link": {
+    "text": "Paste a link",
+    "context": "Bookmarks: placeholder of the link field at the top that adds a bookmark."
+  },
+  "bookmarks.link": {
+    "text": "Link",
+    "context": "Bookmarks: label of the field for a bookmark's web address."
+  },
+  "bookmarks.saveError": {
+    "text": "Could not save that bookmark.",
+    "context": "Bookmarks: error message when adding a bookmark failed."
+  },
+  "bookmarks.deleted.bookmark": {
+    "text": "Bookmark deleted.",
+    "context": "Bookmarks: short message after a bookmark was deleted, next to an Undo button."
+  },
+  "bookmarks.deleted.folder": {
+    "text": "Folder deleted.",
+    "context": "Bookmarks: short message after an empty folder was deleted, next to an Undo button."
+  },
+  "bookmarks.deleted.folderWithItems": {
+    "text": {
+      "one": "Folder and {count} item inside deleted.",
+      "other": "Folder and {count} items inside deleted."
+    },
+    "context": "Bookmarks: short message after a folder and everything in it were deleted, next to an Undo button.",
+    "placeholders": {
+      "{count}": "Number of bookmarks and folders deleted with it"
+    }
+  },
+  "bookmarks.loadError": {
+    "text": "Bookmarks could not be loaded",
+    "context": "Bookmarks: title shown when the bookmarks failed to load."
+  },
+  "bookmarks.empty.title": {
+    "text": "No bookmarks yet",
+    "context": "Bookmarks: title of the empty page."
+  },
+  "bookmarks.empty.folderTitle": {
+    "text": "This folder is empty",
+    "context": "Bookmarks, inside a folder: title when the folder has nothing in it."
+  },
+  "bookmarks.empty.message": {
+    "text": "Paste a link above to keep it, or save pages with the Saver browser extension.",
+    "context": "Bookmarks: hint on the empty page, pointing at the fields at the top."
+  },
+  "bookmarks.empty.readOnly": {
+    "text": "Nothing has been saved here yet.",
+    "context": "Bookmarks: hint on the empty page for people who may only view."
+  },
+  "bookmarks.section.folders": {
+    "text": "Folders",
+    "context": "Bookmarks: heading above the folders."
+  },
+  "bookmarks.section.bookmarks": {
+    "text": "Bookmarks",
+    "context": "Bookmarks: heading above the bookmarks, below the folders."
+  },
+  "bookmarks.noLink": {
+    "text": "No link yet",
+    "context": "Bookmarks: shown under the title of a bookmark that has no web address."
+  },
+  "bookmarks.openInNewTab": {
+    "text": "Open {title} in a new tab",
+    "context": "Bookmarks: accessible label of the button that opens a bookmark in a new browser tab.",
+    "placeholders": {
+      "{title}": "Title of the bookmark"
+    }
+  },
+  "bookmarks.options": {
+    "text": "Bookmark options",
+    "context": "Bookmarks: accessible label of the ⋯ button that opens the menu of a bookmark."
+  },
+  "bookmarks.copyLink": {
+    "text": "Copy link",
+    "context": "Menu of a bookmark: item that copies its web address."
+  },
+  "bookmarks.linkCopied": {
+    "text": "Link copied.",
+    "context": "Bookmarks: confirmation after a bookmark's web address was copied."
+  },
+  "bookmarks.edit.title": {
+    "text": "Edit bookmark",
+    "context": "Bookmark dialog: title when a bookmark is edited."
+  },
+  "bookmarks.edit.renameFolder": {
+    "text": "Rename folder",
+    "context": "Bookmark dialog: title when a folder is renamed."
+  },
+  "bookmarks.edit.titleLabel": {
+    "text": "Title",
+    "context": "Bookmark dialog: label of the title field."
+  },
+  "bookmarks.defaultTitle": {
+    "text": "New bookmark",
+    "context": "Bookmarks: title a bookmark gets when it is saved without a title or link."
+  },
+  "bookmarks.saveChangesError": {
+    "text": "Could not save the changes.",
+    "context": "Bookmarks: error message when saving an edited bookmark or folder failed."
+  },
+  "habits.noAccess.title": {
+    "text": "No access to habits",
+    "context": "Habits: title shown when the space does not share its habits with the person."
+  },
+  "habits.noAccess.message": {
+    "text": "Habits in this space are private to the people its owner chose.",
+    "context": "Habits: explanation under 'No access to habits'."
+  },
+  "habits.count": {
+    "text": {
+      "one": "{count} habit",
+      "other": "{count} habits"
+    },
+    "context": "Habits: number of habits under the page title.",
+    "placeholders": {
+      "{count}": "Number of habits"
+    }
+  },
+  "habits.composer.placeholder": {
+    "text": "Add a habit",
+    "context": "Habits: placeholder of the field at the top that adds a habit."
+  },
+  "habits.fallbackName": {
+    "text": "Habit",
+    "context": "Habits: shown instead of the name of a habit that has none."
+  },
+  "habits.addError": {
+    "text": "Could not add that habit.",
+    "context": "Habits: error message when adding a habit failed."
+  },
+  "habits.deleted": {
+    "text": "Habit deleted.",
+    "context": "Habits: short message after a habit was deleted, next to an Undo button."
+  },
+  "habits.restoreError": {
+    "text": "Could not restore that habit.",
+    "context": "Habits: error message when undoing a deletion failed."
+  },
+  "habits.deleteError": {
+    "text": "Could not delete that habit.",
+    "context": "Habits: error message when deleting a habit failed."
+  },
+  "habits.saveError": {
+    "text": "Could not save that habit.",
+    "context": "Habits: error message when saving an edited habit failed."
+  },
+  "habits.dayError": {
+    "text": "Could not save that day.",
+    "context": "Habits: error message when ticking a day off failed."
+  },
+  "habits.loadError": {
+    "text": "Habits could not be loaded",
+    "context": "Habits: title shown when the habits failed to load."
+  },
+  "habits.empty.title": {
+    "text": "No habits yet",
+    "context": "Habits: title of the empty page."
+  },
+  "habits.empty.message": {
+    "text": "Name something you want to do regularly. Saver keeps the streak.",
+    "context": "Habits: hint on the empty page, pointing at the field at the top."
+  },
+  "habits.empty.readOnly": {
+    "text": "Nothing is being tracked here yet.",
+    "context": "Habits: hint on the empty page for people who may only view."
+  },
+  "habits.openCalendar": {
+    "text": "Open calendar",
+    "context": "Habit card: accessible label of the calendar button that opens the month view."
+  },
+  "habits.options": {
+    "text": "Habit options",
+    "context": "Habit card: accessible label of the ⋯ button that opens the menu of a habit."
+  },
+  "habits.calendar": {
+    "text": "Calendar",
+    "context": "Menu of a habit: item that opens the month view."
+  },
+  "habits.streak.none": {
+    "text": "No streak yet",
+    "context": "Habit card: tooltip of the flame when the habit has never had a streak."
+  },
+  "habits.streak.noneBestDays": {
+    "text": {
+      "one": "No streak right now · best {count} day",
+      "other": "No streak right now · best {count} days"
+    },
+    "context": "Habit card: tooltip of the flame of a daily habit without a running streak, with its longest one.",
+    "placeholders": {
+      "{count}": "Longest streak in days"
+    }
+  },
+  "habits.streak.noneBestWeeks": {
+    "text": {
+      "one": "No streak right now · best {count} week",
+      "other": "No streak right now · best {count} weeks"
+    },
+    "context": "Habit card: tooltip of the flame of a weekly habit without a running streak, with its longest one.",
+    "placeholders": {
+      "{count}": "Longest streak in weeks"
+    }
+  },
+  "habits.streak.noneBestWindows": {
+    "text": {
+      "one": "No streak right now · best {count} window",
+      "other": "No streak right now · best {count} windows"
+    },
+    "context": "Habit card: tooltip of the flame of a habit with a custom period ('window' of days) without a running streak.",
+    "placeholders": {
+      "{count}": "Longest streak in periods"
+    }
+  },
+  "habits.streak.days": {
+    "text": {
+      "one": "{count} day in a row",
+      "other": "{count} days in a row"
+    },
+    "context": "Habit card: tooltip of the flame of a daily habit with a running streak.",
+    "placeholders": {
+      "{count}": "Length of the streak in days"
+    }
+  },
+  "habits.streak.weeks": {
+    "text": {
+      "one": "{count} week in a row",
+      "other": "{count} weeks in a row"
+    },
+    "context": "Habit card: tooltip of the flame of a weekly habit with a running streak.",
+    "placeholders": {
+      "{count}": "Length of the streak in weeks"
+    }
+  },
+  "habits.streak.windows": {
+    "text": {
+      "one": "{count} window in a row",
+      "other": "{count} windows in a row"
+    },
+    "context": "Habit card: tooltip of the flame of a habit with a custom period ('window' of days) and a running streak.",
+    "placeholders": {
+      "{count}": "Length of the streak in periods"
+    }
+  },
+  "habits.streak.keepGoing": {
+    "text": "keep it going today",
+    "context": "Habit card: added to the streak tooltip after a middle dot when today still needs doing to keep the streak."
+  },
+  "habits.streak.best": {
+    "text": "best {count}",
+    "context": "Habit card: added to the streak tooltip after a middle dot when the longest streak was longer.",
+    "placeholders": {
+      "{count}": "Length of the longest streak"
+    }
+  },
+  "habits.progress.thisWeek": {
+    "text": "{progress} this week",
+    "context": "Habit card: progress of a weekly goal. {progress} is shown in bold, for example '3 / 5'.",
+    "placeholders": {
+      "{progress}": "Days done and days needed, for example 3 / 5"
+    }
+  },
+  "habits.progress.inDays": {
+    "text": {
+      "one": "{progress} in {count} day",
+      "other": "{progress} in {count} days"
+    },
+    "context": "Habit card: progress of a goal over a period of days. {progress} is shown in bold, for example '3 / 10'.",
+    "placeholders": {
+      "{progress}": "Days done and days needed, for example 3 / 10",
+      "{count}": "Length of the period in days"
+    }
+  },
+  "habits.perDay": {
+    "text": {
+      "one": "{count} per day",
+      "other": "{count} per day"
+    },
+    "context": "Habit card: how often per day the habit has to be done (only shown when more than once).",
+    "placeholders": {
+      "{count}": "Times per day"
+    }
+  },
+  "habits.weekLabel": {
+    "text": "{name}, this week",
+    "context": "Habit card: accessible name of the row of this week's days.",
+    "placeholders": {
+      "{name}": "Name of the habit"
+    }
+  },
+  "habits.day.done": {
+    "text": "{day}: done",
+    "context": "Habit card and calendar: accessible label of a day that is done.",
+    "placeholders": {
+      "{day}": "The date, for example 'Monday, November 17'"
+    }
+  },
+  "habits.day.notDone": {
+    "text": "{day}: not done",
+    "context": "Habit card and calendar: accessible label of a day that is not done.",
+    "placeholders": {
+      "{day}": "The date, for example 'Monday, November 17'"
+    }
+  },
+  "habits.day.progress": {
+    "text": "{day}: {count} of {total}",
+    "context": "Habit card and calendar: accessible label of a day of a habit done several times a day.",
+    "placeholders": {
+      "{day}": "The date, for example 'Monday, November 17'",
+      "{count}": "Times done that day",
+      "{total}": "Times needed per day"
+    }
+  },
+  "habits.goal.everyday": {
+    "text": "Every day",
+    "context": "Habit calendar: the goal of a daily habit, under its name."
+  },
+  "habits.goal.perWeek": {
+    "text": {
+      "one": "{count} day a week",
+      "other": "{count} days a week"
+    },
+    "context": "Habit calendar: the goal of a weekly habit, under its name.",
+    "placeholders": {
+      "{count}": "Days needed each week"
+    }
+  },
+  "habits.goal.perWindow": {
+    "text": {
+      "one": "{count} day every {window} days",
+      "other": "{count} days every {window} days"
+    },
+    "context": "Habit calendar: the goal of a habit with a custom period, under its name.",
+    "placeholders": {
+      "{count}": "Days needed in each period",
+      "{window}": "Length of the period in days (2 or more)"
+    }
+  },
+  "habits.calendar.previous": {
+    "text": "Previous month",
+    "context": "Habit calendar: accessible label of the arrow that shows the previous month."
+  },
+  "habits.calendar.next": {
+    "text": "Next month",
+    "context": "Habit calendar: accessible label of the arrow that shows the next month."
+  },
+  "habits.calendar.completed": {
+    "text": {
+      "one": "{count} day completed",
+      "other": "{count} days completed"
+    },
+    "context": "Habit calendar: line under the month name.",
+    "placeholders": {
+      "{count}": "Days done in the month shown"
+    }
+  },
+  "habits.calendar.backToThisMonth": {
+    "text": "Back to this month",
+    "context": "Habit calendar: button that jumps back to the current month."
+  },
+  "habits.edit.title": {
+    "text": "Edit habit",
+    "context": "Habit dialog: title."
+  },
+  "habits.edit.howOften": {
+    "text": "How often",
+    "context": "Habit dialog: heading above the four kinds of goal."
+  },
+  "habits.mode.everyday": {
+    "text": "Every day",
+    "context": "Habit dialog: kind of goal where the habit is done daily."
+  },
+  "habits.mode.everydayHint": {
+    "text": "The streak counts consecutive days.",
+    "context": "Habit dialog: explanation of the 'Every day' goal."
+  },
+  "habits.mode.week": {
+    "text": "Days per week",
+    "context": "Habit dialog: kind of goal where the habit is done on a number of days each week."
+  },
+  "habits.mode.weekHint": {
+    "text": "Reach the goal each week to keep the streak.",
+    "context": "Habit dialog: explanation of the 'Days per week' goal."
+  },
+  "habits.mode.fortnight": {
+    "text": "Days per 14 days",
+    "context": "Habit dialog: kind of goal where the habit is done on a number of days every two weeks."
+  },
+  "habits.mode.fortnightHint": {
+    "text": "Reach the goal every two weeks.",
+    "context": "Habit dialog: explanation of the 'Days per 14 days' goal."
+  },
+  "habits.mode.custom": {
+    "text": "Custom",
+    "context": "Habit dialog: kind of goal with a period of any length."
+  },
+  "habits.mode.customHint": {
+    "text": "Pick your own window length.",
+    "context": "Habit dialog: explanation of the 'Custom' goal; the window is the period of days the goal counts over."
+  },
+  "habits.edit.daysToReach": {
+    "text": "Days to reach",
+    "context": "Habit dialog: label of the field for how many days of each period have to be done."
+  },
+  "habits.edit.windowSize": {
+    "text": "Window in days",
+    "context": "Habit dialog: label of the field for the length of the period the goal counts over."
+  },
+  "habits.edit.timesPerDay": {
+    "text": "Times per day",
+    "context": "Habit dialog: label of the field for how often a day the habit has to be done."
+  },
+  "habits.edit.windowStarts": {
+    "text": "Window starts",
+    "context": "Habit dialog: label of the date field for when the counted periods begin."
+  },
+  "reminders.everyDay": {
+    "text": "Every day at {time}",
+    "context": "Tasks: when a reminder repeats daily, shown under the task.",
+    "placeholders": {
+      "{time}": "Time of day, for example 9:00 AM"
+    }
+  },
+  "reminders.weekdays": {
+    "text": "{days} at {time}",
+    "context": "Tasks: when a reminder repeats on some weekdays, shown under the task.",
+    "placeholders": {
+      "{days}": "Short weekday names, for example 'Mon, Wed, Fri'",
+      "{time}": "Time of day, for example 9:00 AM"
+    }
+  },
+  "reminders.addTitle": {
+    "text": "Add reminder",
+    "context": "Reminder dialog: title when the item has no reminder yet."
+  },
+  "reminders.editTitle": {
+    "text": "Edit reminder",
+    "context": "Reminder dialog: title when the item already has a reminder."
+  },
+  "reminders.date": {
+    "text": "Date",
+    "context": "Reminder dialog: label of the date field."
+  },
+  "reminders.time": {
+    "text": "Time",
+    "context": "Reminder dialog: label of the time field."
+  },
+  "reminders.repeatWeekly": {
+    "text": "Repeat weekly",
+    "context": "Reminder dialog: heading above the weekday buttons that make the reminder repeat."
+  },
+  "reminders.playSound": {
+    "text": "Play a sound",
+    "context": "Reminder dialog: switch for a sound with the notification."
+  },
+  "reminders.important": {
+    "text": "Important",
+    "context": "Reminder dialog: switch that marks the reminder as important."
+  },
+  "reminders.importantHint": {
+    "text": "Can break through Focus on your phone.",
+    "context": "Reminder dialog: explanation under 'Important'. Focus is the do-not-disturb feature of iPhones; use Apple's name for it in your language."
+  },
+  "reminders.note": {
+    "text": "Reminders arrive as notifications in the Saver apps on your phone.",
+    "context": "Reminder dialog: note at the bottom."
+  },
+  "reminders.remove": {
+    "text": "Remove",
+    "context": "Reminder dialog: button that deletes the reminder."
+  },
+  "reminders.chooseDateTime": {
+    "text": "Choose a date and time.",
+    "context": "Reminder dialog: error message when the date or time is missing."
+  },
+  "reminders.chooseFuture": {
+    "text": "Choose a time in the future.",
+    "context": "Reminder dialog: error message when a one-time reminder lies in the past."
+  },
+  "reminders.saved": {
+    "text": "Reminder saved.",
+    "context": "Confirmation after a reminder was saved."
+  },
+  "reminders.saveError": {
+    "text": "Could not save the reminder.",
+    "context": "Reminder dialog: error message when saving failed."
+  },
+  "reminders.removed": {
+    "text": "Reminder removed.",
+    "context": "Confirmation after a reminder was deleted."
+  },
+  "reminders.removeError": {
+    "text": "Could not remove the reminder.",
+    "context": "Reminder dialog: error message when deleting the reminder failed."
+  },
+  "spaces.sharedWithYou": {
+    "text": "Shared with you",
+    "context": "Sidebar and space settings: says a space belongs to someone else; also the heading above those spaces."
+  },
+  "spaces.create.title": {
+    "text": "Create a space",
+    "context": "Create space dialog: title."
+  },
+  "spaces.create.description": {
+    "text": "A space keeps its own tasks, bookmarks and habits. Invite others whenever you like.",
+    "context": "Create space dialog: explanation under the title."
+  },
+  "spaces.create.defaultName": {
+    "text": "New space",
+    "context": "Create space dialog: placeholder of the name field, and the name a space gets when none is typed."
+  },
+  "spaces.create.action": {
+    "text": "Create space",
+    "context": "Button, menu item and command that creates a new space."
+  },
+  "spaces.create.done": {
+    "text": "Space created.",
+    "context": "Confirmation after a space was created."
+  },
+  "spaces.create.error": {
+    "text": "Could not create that space.",
+    "context": "Create space dialog: error message when creating the space failed."
+  },
+  "spaces.create.noId": {
+    "text": "The server did not return a space ID.",
+    "context": "Create space dialog: error message when the server's answer was incomplete."
+  },
+  "spaces.joinWithLink": {
+    "text": "Join with a link",
+    "context": "Button and menu item that opens the dialog to join a space with an invite link."
+  },
+  "spaces.join.title": {
+    "text": "Join a space",
+    "context": "Join space dialog: title."
+  },
+  "spaces.join.description": {
+    "text": "Paste the invite link someone shared with you.",
+    "context": "Join space dialog: explanation under the title."
+  },
+  "spaces.join.label": {
+    "text": "Invite link or code",
+    "context": "Join space dialog: label of the field for the invite link."
+  },
+  "spaces.join.action": {
+    "text": "Join space",
+    "context": "Join space dialog and invite page: button that joins the space."
+  },
+  "spaces.join.empty": {
+    "text": "Enter an invite link or code.",
+    "context": "Join space dialog: error message when the field is empty."
+  },
+  "spaces.join.unreadable": {
+    "text": "Could not read that invite.",
+    "context": "Join space dialog: error message when the text is not an invite link."
+  },
+  "spaces.join.done": {
+    "text": "You joined the space.",
+    "context": "Confirmation after the person joined a space."
+  },
+  "spaces.join.error": {
+    "text": "Could not join that space.",
+    "context": "Join space dialog: error message when joining failed."
+  },
+  "spaces.leave.title": {
+    "text": "Leave {space}?",
+    "context": "Question dialog before leaving a space someone else owns.",
+    "placeholders": {
+      "{space}": "Name of the space"
+    }
+  },
+  "spaces.leave.message": {
+    "text": "You lose access to everything in it. You can rejoin later with an invite.",
+    "context": "Question dialog before leaving a space: explanation."
+  },
+  "spaces.leave.action": {
+    "text": "Leave space",
+    "context": "Space switcher menu and question dialog: button that leaves the space."
+  },
+  "spaces.leave.done": {
+    "text": "You left {space}.",
+    "context": "Confirmation after the person left a space.",
+    "placeholders": {
+      "{space}": "Name of the space"
+    }
+  },
+  "spaces.leave.error": {
+    "text": "Could not leave that space.",
+    "context": "Space switcher menu: error message when leaving the space failed."
+  },
+  "spaces.invite.title": {
+    "text": "Invite to {space}",
+    "context": "Invite dialog: title.",
+    "placeholders": {
+      "{space}": "Name of the space"
+    }
+  },
+  "spaces.invite.description": {
+    "text": "Anyone with this link can join once. It expires in 7 days; change that in the space settings.",
+    "context": "Invite dialog: explanation under the title."
+  },
+  "spaces.invite.creating": {
+    "text": "Creating an invite…",
+    "context": "Invite dialog: shown while the invite link is being created."
+  },
+  "spaces.invite.link": {
+    "text": "Invite link",
+    "context": "Invite dialogs: label of the field with the invite link."
+  },
+  "spaces.invite.copyLink": {
+    "text": "Copy link",
+    "context": "Invite dialog: button that copies the invite link."
+  },
+  "spaces.invite.copyLinkLabel": {
+    "text": "Copy invite link",
+    "context": "Invite dialogs and space settings: accessible label of the copy button next to an invite link."
+  },
+  "spaces.invite.copied": {
+    "text": "Invite link copied.",
+    "context": "Confirmation after an invite link was copied."
+  },
+  "spaces.invite.createError": {
+    "text": "Could not create an invite.",
+    "context": "Error message when creating an invite link failed."
+  },
+  "spaces.invite.noDetails": {
+    "text": "Invite details were not returned.",
+    "context": "Error message when the server's answer to creating an invite was incomplete."
+  },
+  "spaces.invite.noCode": {
+    "text": "Invite code was not returned.",
+    "context": "Error message when the server's answer when copying an invite was incomplete."
+  },
+  "spaces.overview.find": {
+    "text": "Find a space",
+    "context": "Settings › Spaces: placeholder and label of the field that filters the spaces."
+  },
+  "spaces.overview.usage": {
+    "text": {
+      "one": "{count} space · the {plan} plan allows {limit}",
+      "other": "{count} spaces · the {plan} plan allows {limit}"
+    },
+    "context": "Settings › Spaces: how many spaces the person is in, and how many their plan allows.",
+    "placeholders": {
+      "{count}": "Number of spaces",
+      "{plan}": "Plan name: Free, Plus or Pro",
+      "{limit}": "Number of spaces the plan allows"
+    }
+  },
+  "spaces.overview.noMatch": {
+    "text": "No space matches",
+    "context": "Settings › Spaces: title when no space name contains the filter text."
+  },
+  "spaces.overview.noMatchMessage": {
+    "text": "Nothing is called “{query}”.",
+    "context": "Settings › Spaces: line under 'No space matches'.",
+    "placeholders": {
+      "{query}": "The text typed into the filter"
+    }
+  },
+  "spaces.overview.empty": {
+    "text": "No spaces yet",
+    "context": "Settings › Spaces: title when the person is in no space."
+  },
+  "spaces.overview.emptyMessage": {
+    "text": "Create one or join with a link.",
+    "context": "Settings › Spaces: line under 'No spaces yet'."
+  },
+  "spaces.overview.yours": {
+    "text": "Your spaces",
+    "context": "Settings › Spaces: heading above the spaces the person owns."
+  },
+  "spaces.overview.open": {
+    "text": "Open",
+    "context": "Settings › Spaces: small tag on the space that is open in the app right now.",
+    "maxLength": 12
+  },
+  "spaces.settings.allSpaces": {
+    "text": "All spaces",
+    "context": "Space settings: link back to the list of spaces."
+  },
+  "spaces.settings.youOwn": {
+    "text": "You own this space",
+    "context": "Space settings: line under the space name when the person owns it."
+  },
+  "spaces.area.todos": {
+    "text": "Tasks",
+    "context": "Permissions table: the area of a space that holds its tasks."
+  },
+  "spaces.area.bookmarks": {
+    "text": "Bookmarks",
+    "context": "Permissions table: the area of a space that holds its bookmarks."
+  },
+  "spaces.area.habits": {
+    "text": "Habits",
+    "context": "Permissions table: the area of a space that holds its habits."
+  },
+  "spaces.area.members": {
+    "text": "Members",
+    "context": "Permissions table: the list of people in a space."
+  },
+  "spaces.permissions.area": {
+    "text": "Area",
+    "context": "Permissions table: column heading above Tasks, Bookmarks, Habits and Members.",
+    "maxLength": 16
+  },
+  "spaces.permissions.view": {
+    "text": "View",
+    "context": "Permissions table: column heading of the switches that allow seeing an area.",
+    "maxLength": 8
+  },
+  "spaces.permissions.edit": {
+    "text": "Edit",
+    "context": "Permissions table: column heading of the switches that allow changing an area.",
+    "maxLength": 8
+  },
+  "spaces.permissions.viewTodos": {
+    "text": "View Tasks",
+    "context": "Permissions table: accessible label of the switch that lets a member see the tasks."
+  },
+  "spaces.permissions.editTodos": {
+    "text": "Edit Tasks",
+    "context": "Permissions table: accessible label of the switch that lets a member change the tasks."
+  },
+  "spaces.permissions.viewBookmarks": {
+    "text": "View Bookmarks",
+    "context": "Permissions table: accessible label of the switch that lets a member see the bookmarks."
+  },
+  "spaces.permissions.editBookmarks": {
+    "text": "Edit Bookmarks",
+    "context": "Permissions table: accessible label of the switch that lets a member change the bookmarks."
+  },
+  "spaces.permissions.viewHabits": {
+    "text": "View Habits",
+    "context": "Permissions table: accessible label of the switch that lets a member see the habits."
+  },
+  "spaces.permissions.editHabits": {
+    "text": "Edit Habits",
+    "context": "Permissions table: accessible label of the switch that lets a member change the habits."
+  },
+  "spaces.permissions.viewMembers": {
+    "text": "View Members",
+    "context": "Permissions table: accessible label of the switch that lets a member see the other members."
+  },
+  "spaces.permissions.editMembers": {
+    "text": "Edit Members",
+    "context": "Permissions table: accessible label of the switch that lets a member manage the other members."
+  },
+  "spaces.access.canEdit": {
+    "text": "Can edit {areas}",
+    "context": "Space settings: what a member or invite may do, under the name.",
+    "placeholders": {
+      "{areas}": "A list such as 'tasks, bookmarks', built from the words below"
+    }
+  },
+  "spaces.access.canView": {
+    "text": "Can view {areas}",
+    "context": "Space settings: what a member or invite may do, under the name.",
+    "placeholders": {
+      "{areas}": "A list such as 'tasks, bookmarks', built from the words below"
+    }
+  },
+  "spaces.access.canEditAndView": {
+    "text": "Can edit {editable} · view {viewable}",
+    "context": "Space settings: what a member or invite may change and what they may only see.",
+    "placeholders": {
+      "{editable}": "Areas they can change, for example 'tasks, bookmarks'",
+      "{viewable}": "Areas they can only see, for example 'habits'"
+    }
+  },
+  "spaces.access.none": {
+    "text": "No access yet",
+    "context": "Space settings: shown under a member or invite that may see nothing."
+  },
+  "spaces.access.todos": {
+    "text": "tasks",
+    "context": "Space settings: the tasks of a space inside 'Can edit …' and 'Can view …' (lowercase in English)."
+  },
+  "spaces.access.bookmarks": {
+    "text": "bookmarks",
+    "context": "Space settings: the bookmarks of a space inside 'Can edit …' and 'Can view …' (lowercase in English)."
+  },
+  "spaces.access.habits": {
+    "text": "habits",
+    "context": "Space settings: the habits of a space inside 'Can edit …' and 'Can view …' (lowercase in English)."
+  },
+  "spaces.members.title": {
+    "text": "Members",
+    "context": "Space settings: title of the card that lists the people in the space."
+  },
+  "spaces.members.description": {
+    "text": "Decide what each person can see and change.",
+    "context": "Space settings: explanation under 'Members', shown to the owner."
+  },
+  "spaces.members.fallbackName": {
+    "text": "Member",
+    "context": "Space settings: shown instead of the name of a member who has none."
+  },
+  "spaces.members.youTag": {
+    "text": "You",
+    "context": "Space settings: small tag next to the person's own entry in the member list.",
+    "maxLength": 12
+  },
+  "spaces.members.ownerTag": {
+    "text": "Owner",
+    "context": "Space settings: small tag next to the owner in the member list.",
+    "maxLength": 12
+  },
+  "spaces.members.fullAccess": {
+    "text": "Full access",
+    "context": "Space settings: shown under the owner in the member list."
+  },
+  "spaces.members.access": {
+    "text": "Access",
+    "context": "Space settings: button next to a member that opens their permissions."
+  },
+  "spaces.members.accessFor": {
+    "text": "Access for {name}",
+    "context": "Member permissions dialog: title.",
+    "placeholders": {
+      "{name}": "Name of the member"
+    }
+  },
+  "spaces.members.accessSaved": {
+    "text": "Access updated.",
+    "context": "Confirmation after a member's permissions were saved."
+  },
+  "spaces.members.accessError": {
+    "text": "Could not update the access.",
+    "context": "Member permissions dialog: error message when saving failed."
+  },
+  "spaces.members.remove": {
+    "text": "Remove {name}",
+    "context": "Space settings: accessible label of the button that removes a member from the space.",
+    "placeholders": {
+      "{name}": "Name of the member"
+    }
+  },
+  "spaces.members.removeTitle": {
+    "text": "Remove {name}?",
+    "context": "Question dialog before a member is removed from the space.",
+    "placeholders": {
+      "{name}": "Name of the member"
+    }
+  },
+  "spaces.members.removeMessage": {
+    "text": "They lose access to this space. You can invite them again later.",
+    "context": "Question dialog before a member is removed: explanation."
+  },
+  "spaces.members.removeConfirm": {
+    "text": "Remove",
+    "context": "Question dialog before a member is removed: button that removes them."
+  },
+  "spaces.members.removed": {
+    "text": "{name} was removed.",
+    "context": "Confirmation after a member was removed from the space.",
+    "placeholders": {
+      "{name}": "Name of the member"
+    }
+  },
+  "spaces.members.removeError": {
+    "text": "Could not remove that member.",
+    "context": "Error message when removing a member failed."
+  },
+  "spaces.invites.title": {
+    "text": "Invites",
+    "context": "Space settings: title of the card with the invite links."
+  },
+  "spaces.invites.description": {
+    "text": "Bring people in with a personal invite, or open a general link anyone can use.",
+    "context": "Space settings: explanation under 'Invites'."
+  },
+  "spaces.invites.new": {
+    "text": "New invite",
+    "context": "Space settings: button that creates a personal invite link."
+  },
+  "spaces.generalLink.title": {
+    "text": "General link",
+    "context": "Space settings: switch that turns on one link anyone can use to join."
+  },
+  "spaces.generalLink.description": {
+    "text": "Anyone with this link can join with the default permissions.",
+    "context": "Space settings: explanation under 'General link'."
+  },
+  "spaces.generalLink.label": {
+    "text": "Link",
+    "context": "Space settings: label of the field with the general link."
+  },
+  "spaces.generalLink.copy": {
+    "text": "Copy link",
+    "context": "Space settings: accessible label of the copy button next to the general link."
+  },
+  "spaces.generalLink.copied": {
+    "text": "Link copied.",
+    "context": "Space settings: read by screen readers after the general link was copied."
+  },
+  "spaces.generalLink.on": {
+    "text": "Anyone with the link can join now.",
+    "context": "Confirmation after the general link was switched on."
+  },
+  "spaces.generalLink.off": {
+    "text": "The general link is switched off.",
+    "context": "Confirmation after the general link was switched off."
+  },
+  "spaces.generalLink.error": {
+    "text": "Could not change the link.",
+    "context": "Error message when switching the general link on or off failed."
+  },
+  "spaces.invites.personal": {
+    "text": "Personal invites",
+    "context": "Space settings: heading above the list of personal invite links."
+  },
+  "spaces.invites.empty": {
+    "text": "No invites yet.",
+    "context": "Space settings: shown when there are no personal invites."
+  },
+  "spaces.invites.usage": {
+    "text": "{used} of {limit} used",
+    "context": "Space settings: how often a personal invite was used, out of how often it may be.",
+    "placeholders": {
+      "{used}": "Times used",
+      "{limit}": "Times it may be used"
+    }
+  },
+  "spaces.invites.active": {
+    "text": "Active",
+    "context": "Space settings: tag on an invite that still works.",
+    "maxLength": 12
+  },
+  "spaces.invites.used": {
+    "text": "Used",
+    "context": "Space settings: tag on an invite that was used as often as allowed.",
+    "maxLength": 12
+  },
+  "spaces.invites.expired": {
+    "text": "Expired",
+    "context": "Space settings: tag on an invite whose time ran out.",
+    "maxLength": 12
+  },
+  "spaces.invites.expires": {
+    "text": "Expires {date}",
+    "context": "Space settings: when a personal invite stops working.",
+    "placeholders": {
+      "{date}": "Date and time, for example 'Nov 24, 2026, 3:00 PM'"
+    }
+  },
+  "spaces.invites.neverExpires": {
+    "text": "Never expires",
+    "context": "Space settings: shown for a personal invite without an end date."
+  },
+  "spaces.invites.edit": {
+    "text": "Edit invite",
+    "context": "Space settings: accessible label of the pencil button of an invite."
+  },
+  "spaces.invites.delete": {
+    "text": "Delete invite",
+    "context": "Space settings: trash button of an invite, and the confirm button of the question before deleting it."
+  },
+  "spaces.invites.showFewer": {
+    "text": "Show fewer",
+    "context": "Space settings: button that folds the long list of invites away again."
+  },
+  "spaces.invites.showMore": {
+    "text": {
+      "one": "Show {count} more",
+      "other": "Show {count} more"
+    },
+    "context": "Space settings: button that shows the rest of the personal invites.",
+    "placeholders": {
+      "{count}": "Number of hidden invites"
+    }
+  },
+  "spaces.invites.deleteTitle": {
+    "text": "Delete this invite?",
+    "context": "Question dialog before an invite is deleted."
+  },
+  "spaces.invites.deleteMessage": {
+    "text": "Its link stops working. People who already joined stay in the space.",
+    "context": "Question dialog before an invite is deleted: explanation."
+  },
+  "spaces.invites.deleted": {
+    "text": "Invite deleted.",
+    "context": "Confirmation after an invite was deleted."
+  },
+  "spaces.invites.deleteError": {
+    "text": "Could not delete the invite.",
+    "context": "Error message when deleting an invite failed."
+  },
+  "spaces.invites.copyError": {
+    "text": "Could not copy the link.",
+    "context": "Error message when an invite link could not be copied to the clipboard."
+  },
+  "spaces.invites.copyInviteError": {
+    "text": "Could not copy that invite.",
+    "context": "Error message when the link of an invite could not be fetched for copying."
+  },
+  "spaces.inviteDialog.createdTitle": {
+    "text": "Invite created",
+    "context": "Invite dialog in space settings: title right after a new invite was created."
+  },
+  "spaces.inviteDialog.editTitle": {
+    "text": "Edit invite",
+    "context": "Invite dialog in space settings: title when an existing invite is changed."
+  },
+  "spaces.inviteDialog.createdDescription": {
+    "text": "Share the link, and adjust who it is for below.",
+    "context": "Invite dialog: line under 'Invite created'."
+  },
+  "spaces.inviteDialog.usedTimes": {
+    "text": {
+      "one": "Used {used} of {count} time.",
+      "other": "Used {used} of {count} times."
+    },
+    "context": "Invite dialog: line under 'Edit invite'.",
+    "placeholders": {
+      "{used}": "Times the invite was used",
+      "{count}": "Times it may be used"
+    }
+  },
+  "spaces.inviteDialog.limit": {
+    "text": "How many people can use it",
+    "context": "Invite dialog: label of the field for how often the invite can be used."
+  },
+  "spaces.inviteDialog.expires": {
+    "text": "Expires",
+    "context": "Invite dialog: label of the field for when the invite stops working."
+  },
+  "spaces.inviteDialog.neverExpires": {
+    "text": "Never expires",
+    "context": "Invite dialog: switch that makes the invite work without an end date."
+  },
+  "spaces.inviteDialog.saveChanges": {
+    "text": "Save changes",
+    "context": "Invite dialog: button that saves the invite."
+  },
+  "spaces.inviteDialog.limitRange": {
+    "text": "The limit has to be between 1 and 100.",
+    "context": "Invite dialog: error message when the number of uses is out of range."
+  },
+  "spaces.inviteDialog.limitBelowUsed": {
+    "text": "The limit cannot be below how often it was used.",
+    "context": "Invite dialog: error message when the number of uses is lower than the uses so far."
+  },
+  "spaces.inviteDialog.chooseExpiry": {
+    "text": "Choose when it expires.",
+    "context": "Invite dialog: error message when the end date is missing."
+  },
+  "spaces.inviteDialog.saved": {
+    "text": "Invite saved.",
+    "context": "Confirmation after an invite was saved."
+  },
+  "spaces.inviteDialog.saveError": {
+    "text": "Could not save the invite.",
+    "context": "Invite dialog: error message when saving failed."
+  },
+  "spaces.name.title": {
+    "text": "Name",
+    "context": "Space settings: title of the card with the space's name."
+  },
+  "spaces.name.label": {
+    "text": "Space name",
+    "context": "Space settings: accessible label of the name field."
+  },
+  "spaces.name.ownerOnly": {
+    "text": "Only the owner can rename this space.",
+    "context": "Space settings: note under the name field for members who are not the owner."
+  },
+  "spaces.name.required": {
+    "text": "A space needs a name.",
+    "context": "Space settings: error message when the name field is empty."
+  },
+  "spaces.name.saved": {
+    "text": "Space renamed.",
+    "context": "Confirmation after a space was renamed."
+  },
+  "spaces.name.error": {
+    "text": "Could not rename the space.",
+    "context": "Error message when renaming the space failed."
+  },
+  "spaces.defaults.title": {
+    "text": "Default permissions",
+    "context": "Space settings: title of the card with what new members may do."
+  },
+  "spaces.defaults.description": {
+    "text": "What new members get from the general link and from new invites.",
+    "context": "Space settings: explanation under 'Default permissions'."
+  },
+  "spaces.defaults.saved": {
+    "text": "Default permissions saved.",
+    "context": "Confirmation after the default permissions were saved."
+  },
+  "spaces.defaults.error": {
+    "text": "Could not save the permissions.",
+    "context": "Error message when saving the default permissions failed."
+  },
+  "spaces.delete.cardTitle": {
+    "text": "Delete space",
+    "context": "Space settings: title of the red card that deletes the space."
+  },
+  "spaces.delete.description": {
+    "text": "Deletes the space and everything in it for all members.",
+    "context": "Space settings: explanation in the 'Delete space' card."
+  },
+  "spaces.delete.title": {
+    "text": "Delete {space}?",
+    "context": "Question dialog before a space is deleted.",
+    "placeholders": {
+      "{space}": "Name of the space"
+    }
+  },
+  "spaces.delete.message": {
+    "text": "Every task, bookmark and habit in this space is deleted for everyone in it. This cannot be undone.",
+    "context": "Question dialog before a space is deleted: explanation."
+  },
+  "spaces.delete.confirm": {
+    "text": "Delete space",
+    "context": "Question dialog before a space is deleted: button that deletes it."
+  },
+  "spaces.delete.done": {
+    "text": "Space deleted.",
+    "context": "Confirmation after a space was deleted."
+  },
+  "spaces.delete.error": {
+    "text": "Could not delete the space.",
+    "context": "Error message when deleting the space failed."
+  },
+  "spaces.leave.cardTitle": {
+    "text": "Leave space",
+    "context": "Space settings: title of the red card for leaving a space someone else owns."
+  },
+  "spaces.leave.description": {
+    "text": "You can rejoin later if someone invites you again.",
+    "context": "Space settings: explanation in the 'Leave space' card."
+  },
+  "spaces.leave.button": {
+    "text": "Leave",
+    "context": "Space settings: button in the 'Leave space' card."
+  },
+  "spaces.leave.settingsError": {
+    "text": "Could not leave the space.",
+    "context": "Space settings: error message when leaving the space failed."
+  },
+  "plans.planName": {
+    "text": "{plan} plan",
+    "context": "Account menu and Settings › Plan: the person's plan.",
+    "placeholders": {
+      "{plan}": "Plan name: Free, Plus or Pro (not translated)"
+    }
+  },
+  "plans.upgrade": {
+    "text": "Upgrade",
+    "context": "Account menu and Settings › Plan: opens the upgrade dialog, on the free plan."
+  },
+  "plans.viewPlans": {
+    "text": "View plans",
+    "context": "Search window and Settings › Plan: opens the dialog with the plans."
+  },
+  "plans.quota.todos": {
+    "text": {
+      "one": "Your {plan} plan includes {count} synced task. Delete an item or upgrade to add another.",
+      "other": "Your {plan} plan includes {count} synced tasks. Delete an item or upgrade to add another."
+    },
+    "context": "Upgrade dialog: shown when adding a task would go over the plan's limit.",
+    "placeholders": {
+      "{plan}": "Plan name: Free, Plus or Pro",
+      "{count}": "Number of tasks the plan includes"
+    }
+  },
+  "plans.quota.bookmarks": {
+    "text": {
+      "one": "Your {plan} plan includes {count} synced bookmark. Delete an item or upgrade to add another.",
+      "other": "Your {plan} plan includes {count} synced bookmarks. Delete an item or upgrade to add another."
+    },
+    "context": "Upgrade dialog: shown when adding a bookmark would go over the plan's limit.",
+    "placeholders": {
+      "{plan}": "Plan name: Free, Plus or Pro",
+      "{count}": "Number of bookmarks the plan includes"
+    }
+  },
+  "plans.quota.habits": {
+    "text": {
+      "one": "Your {plan} plan includes {count} active habit. Delete an item or upgrade to add another.",
+      "other": "Your {plan} plan includes {count} active habits. Delete an item or upgrade to add another."
+    },
+    "context": "Upgrade dialog: shown when adding a habit would go over the plan's limit.",
+    "placeholders": {
+      "{plan}": "Plan name: Free, Plus or Pro",
+      "{count}": "Number of habits the plan includes"
+    }
+  },
+  "plans.plus.title": {
+    "text": "For personal productivity across all your devices",
+    "context": "Upgrade dialog: headline of the Plus plan."
+  },
+  "plans.pro.title": {
+    "text": "For shared spaces, teams, and Discord communities",
+    "context": "Upgrade dialog: headline of the Pro plan."
+  },
+  "plans.benefit.spaces": {
+    "text": {
+      "one": "Create up to {count} space",
+      "other": "Create up to {count} spaces"
+    },
+    "context": "Upgrade dialog: what a paid plan includes.",
+    "placeholders": {
+      "{count}": "Number of spaces: 6 for Plus, 20 for Pro"
+    }
+  },
+  "plans.benefit.sync": {
+    "text": "Sync up to {tasks} tasks and {bookmarks} bookmarks",
+    "context": "Upgrade dialog: what a paid plan includes.",
+    "placeholders": {
+      "{tasks}": "Number of tasks: 750 for Plus, 3,000 for Pro",
+      "{bookmarks}": "Number of bookmarks: 300 for Plus, 1,500 for Pro"
+    }
+  },
+  "plans.benefit.habits": {
+    "text": {
+      "one": "Track up to {count} active habit",
+      "other": "Track up to {count} active habits"
+    },
+    "context": "Upgrade dialog: what a paid plan includes.",
+    "placeholders": {
+      "{count}": "Number of habits: 15 for Plus, 50 for Pro"
+    }
+  },
+  "plans.benefit.collaborators": {
+    "text": {
+      "one": "{count} collaborator across all spaces",
+      "other": "{count} collaborators across all spaces"
+    },
+    "context": "Upgrade dialog: what a paid plan includes.",
+    "placeholders": {
+      "{count}": "Number of people: 5 for Plus, 10 for Pro"
+    }
+  },
+  "plans.benefit.branding": {
+    "text": "Custom Discord bot branding",
+    "context": "Upgrade dialog: Pro includes giving the Saver bot on Discord your own name and picture."
+  },
+  "plans.benefit.noBranding": {
+    "text": "No custom Discord bot branding",
+    "context": "Upgrade dialog: Plus does not include giving the Saver bot on Discord your own name and picture."
+  },
+  "plans.error.notConfigured": {
+    "text": "Checkout has not been configured for this build yet.",
+    "context": "Upgrade dialog: error message when payments are not set up (a problem of the build)."
+  },
+  "plans.error.loadCheckout": {
+    "text": "Could not load the checkout.",
+    "context": "Upgrade dialog: error message when the payment page could not be downloaded."
+  },
+  "plans.error.checkoutUnavailable": {
+    "text": "The checkout is unavailable.",
+    "context": "Upgrade dialog: error message when the payment page did not start."
+  },
+  "plans.error.signInToView": {
+    "text": "Sign in to view plans.",
+    "context": "Upgrade dialog: error message when nobody is signed in."
+  },
+  "plans.error.signInToUpgrade": {
+    "text": "Sign in to upgrade.",
+    "context": "Upgrade dialog: error message when nobody is signed in."
+  },
+  "plans.error.noPlans": {
+    "text": "No Saver plans are available right now.",
+    "context": "Upgrade dialog: error message when no plans could be offered."
+  },
+  "plans.error.planGone": {
+    "text": "The selected plan is no longer available.",
+    "context": "Upgrade dialog: error message when the chosen plan disappeared in the meantime."
+  },
+  "upgrade.title": {
+    "text": "Upgrade Saver",
+    "context": "Upgrade dialog: title."
+  },
+  "upgrade.currentPlan": {
+    "text": "You are on the {plan} plan.",
+    "context": "Upgrade dialog: line under the title.",
+    "placeholders": {
+      "{plan}": "Plan name: Free, Plus or Pro"
+    }
+  },
+  "upgrade.planLabel": {
+    "text": "Plan",
+    "context": "Upgrade dialog: accessible name of the Plus / Pro switch."
+  },
+  "upgrade.freeIncludes": {
+    "text": "Free includes {spaces} spaces, {tasks} tasks, {bookmarks} bookmarks and {habits} habits.",
+    "context": "Upgrade dialog: what the Free plan includes, under the list of benefits. Free is the plan name.",
+    "placeholders": {
+      "{spaces}": "Number of spaces, currently 2",
+      "{tasks}": "Number of tasks, currently 75",
+      "{bookmarks}": "Number of bookmarks, currently 25",
+      "{habits}": "Number of habits, currently 3"
+    }
+  },
+  "upgrade.loading": {
+    "text": "Loading plans…",
+    "context": "Upgrade dialog: shown while the prices load."
+  },
+  "upgrade.loadError": {
+    "text": "Plans could not be loaded.",
+    "context": "Upgrade dialog: error message when the prices failed to load."
+  },
+  "upgrade.monthly": {
+    "text": "Monthly",
+    "context": "Upgrade dialog: title of the monthly price option.",
+    "maxLength": 16
+  },
+  "upgrade.yearly": {
+    "text": "Yearly",
+    "context": "Upgrade dialog: title of the yearly price option.",
+    "maxLength": 16
+  },
+  "upgrade.billedMonthly": {
+    "text": "Billed monthly",
+    "context": "Upgrade dialog: small line under the monthly price.",
+    "maxLength": 24
+  },
+  "upgrade.billedYearly": {
+    "text": "Billed yearly",
+    "context": "Upgrade dialog: small line under the yearly price.",
+    "maxLength": 24
+  },
+  "upgrade.priceUnavailable": {
+    "text": "Unavailable",
+    "context": "Upgrade dialog: shown instead of a price that is not offered.",
+    "maxLength": 16
+  },
+  "upgrade.upgradeTo": {
+    "text": "Upgrade to {plan}",
+    "context": "Upgrade dialog: button that starts the checkout.",
+    "placeholders": {
+      "{plan}": "Plan name: Plus or Pro"
+    }
+  },
+  "upgrade.unavailable": {
+    "text": "Unavailable",
+    "context": "Upgrade dialog: button text when no price can be bought."
+  },
+  "upgrade.terms": {
+    "text": "Cancel anytime. Subscriptions renew automatically unless cancelled before renewal.",
+    "context": "Upgrade dialog: note under the prices."
+  },
+  "upgrade.welcome": {
+    "text": "Welcome to Saver {plan}.",
+    "context": "Confirmation after a plan was bought.",
+    "placeholders": {
+      "{plan}": "Plan name: Plus or Pro"
+    }
+  },
+  "upgrade.checkoutError": {
+    "text": "The checkout could not be completed.",
+    "context": "Upgrade dialog: error message when the payment failed."
+  },
+  "upgrade.checkoutNotStarted": {
+    "text": "Checkout could not start. Your selected plan was not charged.",
+    "context": "Upgrade dialog: error message when the payment page did not open."
+  },
+  "upgrade.rateLimited": {
+    "text": "That was a lot at once. Wait a few seconds and try again.",
+    "context": "Error message when too many requests were made in a short time."
+  },
+  "upgrade.ownerLimit": {
+    "text": "Ask the space owner to upgrade their plan.",
+    "context": "Error message when a limit of the space owner's plan was reached."
+  },
+  "upgrade.limitReached": {
+    "text": "A plan limit was reached.",
+    "context": "Upgrade dialog: message at the top when a limit of the person's plan was reached."
+  },
+  "settings.title": {
+    "text": "Settings",
+    "context": "Title of the settings page; also the menu item and command that open it."
+  },
+  "settings.back": {
+    "text": "Back to Saver",
+    "context": "Settings: accessible label of the back arrow that returns to the app."
+  },
+  "settings.navLabel": {
+    "text": "Settings",
+    "context": "Settings: accessible name of the row of setting sections."
+  },
+  "settings.nav.account": {
+    "text": "Account",
+    "context": "Settings: section with the profile, sign-out and account deletion.",
+    "maxLength": 20
+  },
+  "settings.nav.appearance": {
+    "text": "Appearance",
+    "context": "Settings: section with theme, language, style and navigation.",
+    "maxLength": 20
+  },
+  "settings.nav.plan": {
+    "text": "Plan",
+    "context": "Settings: section with the person's subscription plan.",
+    "maxLength": 20
+  },
+  "settings.nav.connections": {
+    "text": "Connections",
+    "context": "Settings: section with Discord, reMarkable and the other Saver apps.",
+    "maxLength": 20
+  },
+  "settings.nav.spaces": {
+    "text": "Spaces",
+    "context": "Settings: section with every space the person is in.",
+    "maxLength": 20
+  },
+  "settings.account.profile": {
+    "text": "Profile",
+    "context": "Settings › Account: title of the card with the person's name."
+  },
+  "settings.account.noEmail": {
+    "text": "No email on this account",
+    "context": "Settings › Account: shown instead of the email address when the account has none."
+  },
+  "settings.account.displayName": {
+    "text": "Display name",
+    "context": "Settings › Account: label of the name field."
+  },
+  "settings.account.displayNameHint": {
+    "text": "Shown to the people you share spaces with.",
+    "context": "Settings › Account: note under the name field."
+  },
+  "settings.account.nameSaved": {
+    "text": "Name updated.",
+    "context": "Settings › Account: confirmation after the name was saved."
+  },
+  "settings.account.nameError": {
+    "text": "Could not update your name.",
+    "context": "Settings › Account: error message when saving the name failed."
+  },
+  "settings.account.session": {
+    "text": "Session",
+    "context": "Settings › Account: title of the card with the sign-out button."
+  },
+  "settings.account.sessionDescription": {
+    "text": "Signing out keeps everything in your account.",
+    "context": "Settings › Account: explanation in the 'Session' card."
+  },
+  "settings.account.signOutError": {
+    "text": "Could not sign out.",
+    "context": "Settings › Account: error message when signing out failed."
+  },
+  "settings.account.deleteCardTitle": {
+    "text": "Delete account",
+    "context": "Settings › Account: title of the red card that deletes the account."
+  },
+  "settings.account.deleteDescription": {
+    "text": "Removes your account and takes you out of every space you joined.",
+    "context": "Settings › Account: explanation in the 'Delete account' card."
+  },
+  "settings.account.ownsSpaces": {
+    "text": "You still own spaces. Delete them in their settings first, then you can delete your account.",
+    "context": "Settings › Account: shown in the 'Delete account' card instead of the explanation while the person owns spaces."
+  },
+  "settings.account.deleteTitle": {
+    "text": "Delete your account?",
+    "context": "Question dialog before the account is deleted."
+  },
+  "settings.account.deleteMessage": {
+    "text": "This removes your account for good and takes you out of every space. It cannot be undone.",
+    "context": "Question dialog before the account is deleted: explanation."
+  },
+  "settings.account.deleteConfirm": {
+    "text": "Delete account",
+    "context": "Question dialog before the account is deleted: button that permanently deletes it."
+  },
+  "settings.account.deleteError": {
+    "text": "Could not delete your account.",
+    "context": "Settings › Account: error message when deleting the account failed."
+  },
+  "settings.theme.title": {
+    "text": "Theme",
+    "context": "Settings › Appearance: title of the card with the System, Light and Dark choices."
+  },
+  "settings.theme.description": {
+    "text": "Follow your device or pick a side.",
+    "context": "Settings › Appearance: explanation under 'Theme'."
+  },
+  "settings.language.title": {
+    "text": "Language",
+    "context": "Settings › Appearance: title of the card where the language of the app is chosen."
+  },
+  "settings.language.description": {
+    "text": "The language Saver uses in this browser.",
+    "context": "Settings › Appearance: explanation under 'Language'."
+  },
+  "settings.language.button": {
+    "text": "Language: {language}",
+    "context": "Settings › Appearance: accessible label of the button that opens the list of languages.",
+    "placeholders": {
+      "{language}": "The current choice, for example 'Deutsch' or 'System default (English)'"
+    }
+  },
+  "settings.language.system": {
+    "text": "System default ({language})",
+    "context": "Settings › Appearance: choice that follows the language of the browser.",
+    "placeholders": {
+      "{language}": "Name of the language this resolves to, in that language, for example 'English' or 'Deutsch'"
+    }
+  },
+  "settings.style.title": {
+    "text": "Style",
+    "context": "Settings › Appearance: title of the card with the color styles."
+  },
+  "settings.style.original": {
+    "text": "Saver Color",
+    "context": "Settings › Appearance: name of the default color style."
+  },
+  "settings.style.originalDescription": {
+    "text": "Black, white and a few colors that carry meaning.",
+    "context": "Settings › Appearance: description of the 'Saver Color' style."
+  },
+  "settings.style.minimalist": {
+    "text": "Black & White",
+    "context": "Settings › Appearance: name of the style without any colors."
+  },
+  "settings.style.minimalistDescription": {
+    "text": "A clean monochrome look across Saver.",
+    "context": "Settings › Appearance: description of the 'Black & White' style."
+  },
+  "settings.sections.title": {
+    "text": "Sections",
+    "context": "Settings › Appearance: title of the card that shows or hides Tasks, Bookmarks and Habits."
+  },
+  "settings.sections.description": {
+    "text": "Choose what shows up in the navigation. A space can still hide sections it does not share with you.",
+    "context": "Settings › Appearance: explanation under 'Sections'."
+  },
+  "settings.sections.showTodos": {
+    "text": "Show Tasks",
+    "context": "Settings › Appearance: accessible label of the switch that shows the Tasks section."
+  },
+  "settings.sections.showBookmarks": {
+    "text": "Show Bookmarks",
+    "context": "Settings › Appearance: accessible label of the switch that shows the Bookmarks section."
+  },
+  "settings.sections.showHabits": {
+    "text": "Show Habits",
+    "context": "Settings › Appearance: accessible label of the switch that shows the Habits section."
+  },
+  "settings.sections.lastVisible": {
+    "text": "At least one section has to stay visible.",
+    "context": "Settings › Appearance: message when the person tries to hide the last visible section."
+  },
+  "settings.plan.freeDescription": {
+    "text": "Everything you need to get started.",
+    "context": "Settings › Plan: line under 'Free plan'."
+  },
+  "settings.plan.paidDescription": {
+    "text": "Thank you for supporting Saver.",
+    "context": "Settings › Plan: line under the name of a paid plan."
+  },
+  "settings.plan.syncedSpaces": {
+    "text": "Synced spaces",
+    "context": "Settings › Plan: label above the bar that shows how many spaces are used."
+  },
+  "settings.plan.usage": {
+    "text": "{used} of {limit}",
+    "context": "Settings › Plan: spaces used out of the plan's limit, for example '2 of 6'.",
+    "placeholders": {
+      "{used}": "Spaces used",
+      "{limit}": "Spaces the plan allows"
+    }
+  },
+  "settings.plan.included": {
+    "text": "Included",
+    "context": "Settings › Plan: title of the card with the plan's limits."
+  },
+  "settings.plan.includedDescription": {
+    "text": "What the {plan} plan allows.",
+    "context": "Settings › Plan: explanation under 'Included'.",
+    "placeholders": {
+      "{plan}": "Plan name: Free, Plus or Pro"
+    }
+  },
+  "settings.plan.spaces": {
+    "text": "Spaces",
+    "context": "Settings › Plan: limit row for the number of spaces."
+  },
+  "settings.plan.todos": {
+    "text": "Synced tasks",
+    "context": "Settings › Plan: limit row for the number of tasks."
+  },
+  "settings.plan.bookmarks": {
+    "text": "Synced bookmarks",
+    "context": "Settings › Plan: limit row for the number of bookmarks."
+  },
+  "settings.plan.habits": {
+    "text": "Active habits",
+    "context": "Settings › Plan: limit row for the number of habits."
+  },
+  "settings.plan.collaborators": {
+    "text": "Collaborators across your spaces",
+    "context": "Settings › Plan: limit row for the number of people the person can share with."
+  },
+  "settings.discord.connectedAs": {
+    "text": "Connected as {name}.",
+    "context": "Settings › Connections: line in the Discord card once an account is linked.",
+    "placeholders": {
+      "{name}": "Discord name of the linked account, or 'ID 1234…'"
+    }
+  },
+  "settings.discord.id": {
+    "text": "ID {id}",
+    "context": "Settings › Connections: stands in for the Discord name when only the account number is known.",
+    "placeholders": {
+      "{id}": "The Discord account number"
+    }
+  },
+  "settings.discord.description": {
+    "text": "Link your Discord account to use the Saver bot with your spaces.",
+    "context": "Settings › Connections: explanation in the Discord card before an account is linked."
+  },
+  "settings.discord.connect": {
+    "text": "Connect",
+    "context": "Settings › Connections: button that links a Discord account."
+  },
+  "settings.discord.disconnect": {
+    "text": "Disconnect",
+    "context": "Settings › Connections: button that unlinks the Discord account."
+  },
+  "settings.discord.disconnected": {
+    "text": "Discord disconnected.",
+    "context": "Settings › Connections: confirmation after the Discord account was unlinked."
+  },
+  "settings.discord.disconnectError": {
+    "text": "Could not disconnect Discord.",
+    "context": "Settings › Connections: error message when unlinking Discord failed."
+  },
+  "settings.discord.storageBlocked": {
+    "text": "Discord could not be opened because this browser blocks session storage.",
+    "context": "Settings › Connections: error message when the browser prevents linking Discord."
+  },
+  "settings.remarkable.title": {
+    "text": "reMarkable tablet",
+    "context": "Settings › Connections: title of the card for reMarkable tablets (a brand of e-paper tablets)."
+  },
+  "settings.remarkable.description": {
+    "text": "Use Saver on a reMarkable. Enter the code the tablet shows, or scan its QR code with your phone.",
+    "context": "Settings › Connections: explanation in the reMarkable card."
+  },
+  "settings.remarkable.link": {
+    "text": "Link",
+    "context": "Settings › Connections: button that links a reMarkable tablet with a code."
+  },
+  "settings.remarkable.linkTitle": {
+    "text": "Link a reMarkable",
+    "context": "Settings › Connections: title of the dialog that asks for the tablet's code."
+  },
+  "settings.remarkable.codeLabel": {
+    "text": "Code shown on the tablet",
+    "context": "Settings › Connections: label of the code field in the 'Link a reMarkable' dialog."
+  },
+  "settings.remarkable.codeLength": {
+    "text": "The code has {count} characters.",
+    "context": "Settings › Connections: error message when the tablet's code has the wrong length.",
+    "placeholders": {
+      "{count}": "Length of the code, currently 8"
+    }
+  },
+  "settings.remarkable.linked": {
+    "text": "Tablet linked. It finishes signing in shortly.",
+    "context": "Settings › Connections: confirmation after a tablet was linked."
+  },
+  "settings.remarkable.loadError": {
+    "text": "Linked devices could not be loaded.",
+    "context": "Settings › Connections: shown when the list of linked tablets failed to load, before a 'Try again' button."
+  },
+  "settings.remarkable.noDevices": {
+    "text": "No device is linked yet.",
+    "context": "Settings › Connections: shown when no tablet is linked."
+  },
+  "settings.remarkable.linkedAndUsed": {
+    "text": "Linked {linked} · last used {used}",
+    "context": "Settings › Connections: dates under a linked tablet.",
+    "placeholders": {
+      "{linked}": "Date it was linked",
+      "{used}": "Date it was last used"
+    }
+  },
+  "settings.remarkable.linkedOn": {
+    "text": "Linked {date}",
+    "context": "Settings › Connections: date under a linked tablet.",
+    "placeholders": {
+      "{date}": "Date it was linked, for example 'Nov 17, 2026'"
+    }
+  },
+  "settings.remarkable.lastUsed": {
+    "text": "last used {date}",
+    "context": "Settings › Connections: date under a linked tablet whose link date is unknown (lowercase in English).",
+    "placeholders": {
+      "{date}": "Date it was last used, for example 'Nov 17, 2026'"
+    }
+  },
+  "settings.remarkable.linkedDevice": {
+    "text": "Linked device",
+    "context": "Settings › Connections: shown under a linked tablet when no dates are known."
+  },
+  "settings.remarkable.revoke": {
+    "text": "Revoke",
+    "context": "Settings › Connections: button that takes away a tablet's access, and its confirm button."
+  },
+  "settings.remarkable.revokeTitle": {
+    "text": "Revoke “{name}”?",
+    "context": "Question dialog before a tablet's access is taken away.",
+    "placeholders": {
+      "{name}": "Name of the tablet"
+    }
+  },
+  "settings.remarkable.revokeMessage": {
+    "text": "The device loses access to your Saver account until you link it again.",
+    "context": "Question dialog before a tablet's access is taken away: explanation."
+  },
+  "settings.remarkable.revoked": {
+    "text": "Device access revoked.",
+    "context": "Settings › Connections: confirmation after a tablet's access was taken away."
+  },
+  "settings.remarkable.revokeError": {
+    "text": "Could not revoke that device.",
+    "context": "Settings › Connections: error message when taking away a tablet's access failed."
+  },
+  "settings.remarkable.createToken": {
+    "text": "Create a device token manually",
+    "context": "Settings › Connections: link that creates a secret token to type into a tablet by hand."
+  },
+  "settings.remarkable.tokenError": {
+    "text": "Could not create a device token.",
+    "context": "Settings › Connections: error message when creating a device token failed."
+  },
+  "settings.token.title": {
+    "text": "Device token",
+    "context": "Device token dialog: title."
+  },
+  "settings.token.description": {
+    "text": "Copy it now. For your security it is shown only once.",
+    "context": "Device token dialog: explanation under the title."
+  },
+  "settings.token.label": {
+    "text": "Token",
+    "context": "Device token dialog: label of the field with the token."
+  },
+  "settings.token.copy": {
+    "text": "Copy token",
+    "context": "Device token dialog: accessible label of the copy button next to the token."
+  },
+  "settings.token.copied": {
+    "text": "Token copied.",
+    "context": "Device token dialog: read by screen readers after the token was copied."
+  },
+  "settings.token.private": {
+    "text": "Keep it private",
+    "context": "Device token dialog: small tag under the token.",
+    "maxLength": 24
+  },
+  "settings.apps.title": {
+    "text": "Saver everywhere",
+    "context": "Settings › Connections: title of the card with links to the other Saver apps."
+  },
+  "settings.apps.description": {
+    "text": "The same spaces on every device.",
+    "context": "Settings › Connections: explanation under 'Saver everywhere'."
+  },
+  "settings.apps.ios": {
+    "text": "iPhone and iPad",
+    "context": "Settings › Connections: link to the Saver app in the App Store."
+  },
+  "settings.apps.chrome": {
+    "text": "Chrome extension",
+    "context": "Settings › Connections: link to the Saver extension for the Chrome browser."
+  },
+  "settings.apps.chromeDetail": {
+    "text": "Save any page in one click",
+    "context": "Settings › Connections: line under 'Chrome extension'."
+  },
+  "settings.apps.safari": {
+    "text": "Safari extension",
+    "context": "Settings › Connections: link to the Saver extension for the Safari browser."
+  },
+  "errors.sessionEnded": {
+    "text": "Your session has ended. Sign in again.",
+    "context": "Error message when the account was signed out on the server, for example after it was deleted elsewhere."
+  },
+  "errors.signInToChange": {
+    "text": "Sign in before changing synced data.",
+    "context": "Error message when something is changed while nobody is signed in."
+  },
+  "errors.signInToAddHabit": {
+    "text": "Sign in before adding a habit.",
+    "context": "Habits: error message when a habit is added while nobody is signed in."
+  },
+  "errors.cannotMove": {
+    "text": "That item cannot be moved there.",
+    "context": "Tasks and Bookmarks: error message when an item would be moved into itself or too deep."
+  }
+}

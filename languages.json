@@ -1,0 +1,250 @@
+{
+  "$schema": "./schema/languages.schema.json",
+  "sourceLanguage": "en",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "other"
+      ],
+      "platforms": {
+        "ios": "en",
+        "android": "",
+        "web": "en"
+      },
+      "status": "source",
+      "style": "Source language. Short, plain, friendly sentences. Sentence case on the web, Title Case for buttons and titles on iOS and Android, as the apps already do."
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "nativeName": "Bahasa Indonesia",
+      "dir": "ltr",
+      "plurals": [
+        "other"
+      ],
+      "platforms": {
+        "ios": "id",
+        "android": "in",
+        "web": "id"
+      },
+      "status": "machine",
+      "style": "Address the user with \"Anda\". Natural, friendly everyday Indonesian as in popular productivity apps, no stiff officialese."
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "other"
+      ],
+      "platforms": {
+        "ios": "de",
+        "android": "de",
+        "web": "de"
+      },
+      "status": "machine",
+      "style": "Address the user with informal \"du\" (lowercase). Friendly and direct. Buttons use the infinitive (\"Speichern\", \"Space löschen\"). Avoid needless anglicisms, but keep established product terms from the glossary."
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "many",
+        "other"
+      ],
+      "platforms": {
+        "ios": "es",
+        "android": "es",
+        "web": "es"
+      },
+      "status": "machine",
+      "style": "Neutral international Spanish, address the user with \"tú\". Buttons use the infinitive (\"Guardar\", \"Eliminar espacio\")."
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "many",
+        "other"
+      ],
+      "platforms": {
+        "ios": "fr",
+        "android": "fr",
+        "web": "fr"
+      },
+      "status": "machine",
+      "style": "Address the user with \"vous\". Buttons use the infinitive (\"Enregistrer\", \"Supprimer l’espace\"). Use French typography: a narrow no-break space before : ; ? ! and typographic apostrophes."
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "many",
+        "other"
+      ],
+      "platforms": {
+        "ios": "it",
+        "android": "it",
+        "web": "it"
+      },
+      "status": "machine",
+      "style": "Address the user with informal \"tu\". Buttons use the infinitive (\"Salva\" is also fine where it is the established UI verb)."
+    },
+    {
+      "code": "pt-BR",
+      "name": "Portuguese (Brazil)",
+      "nativeName": "Português (Brasil)",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "many",
+        "other"
+      ],
+      "platforms": {
+        "ios": "pt-BR",
+        "android": "pt-rBR",
+        "web": "pt-BR"
+      },
+      "status": "machine",
+      "style": "Brazilian Portuguese, address the user with \"você\". Friendly and simple."
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "other"
+      ],
+      "platforms": {
+        "ios": "tr",
+        "android": "tr",
+        "web": "tr"
+      },
+      "status": "machine",
+      "style": "Address the user informally (\"sen\" forms), as most Turkish consumer apps do. Buttons use the short imperative (\"Kaydet\", \"Sil\")."
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "nativeName": "Русский",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "few",
+        "many",
+        "other"
+      ],
+      "platforms": {
+        "ios": "ru",
+        "android": "ru",
+        "web": "ru"
+      },
+      "status": "machine",
+      "style": "Address the user with \"вы\" (lowercase). Buttons use the infinitive or short imperative common in Russian UIs (\"Сохранить\", \"Удалить\")."
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "nativeName": "العربية",
+      "dir": "rtl",
+      "plurals": [
+        "zero",
+        "one",
+        "two",
+        "few",
+        "many",
+        "other"
+      ],
+      "platforms": {
+        "ios": "ar",
+        "android": "ar",
+        "web": "ar"
+      },
+      "status": "machine",
+      "style": "Modern Standard Arabic. Right-to-left. Prefer neutral verbal nouns for buttons (\"حفظ\", \"حذف\"). Keep Western digits as the apps format numbers themselves."
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "nativeName": "हिन्दी",
+      "dir": "ltr",
+      "plurals": [
+        "one",
+        "other"
+      ],
+      "platforms": {
+        "ios": "hi",
+        "android": "hi",
+        "web": "hi"
+      },
+      "status": "machine",
+      "style": "Address the user with \"आप\". Everyday Hindi as used in popular Indian apps: keep common English tech words that people actually say (ऐप, लिंक, ईमेल) instead of heavy Sanskritised terms."
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "dir": "ltr",
+      "plurals": [
+        "other"
+      ],
+      "platforms": {
+        "ios": "ja",
+        "android": "ja",
+        "web": "ja"
+      },
+      "status": "machine",
+      "style": "Polite です/ます style for sentences, short noun forms for buttons and titles (\"保存\", \"スペースを削除\"). No spaces between Japanese words."
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "nativeName": "한국어",
+      "dir": "ltr",
+      "plurals": [
+        "other"
+      ],
+      "platforms": {
+        "ios": "ko",
+        "android": "ko",
+        "web": "ko"
+      },
+      "status": "machine",
+      "style": "Polite 해요체 for sentences, short noun forms for buttons and titles (\"저장\", \"스페이스 삭제\")."
+    },
+    {
+      "code": "zh-Hans",
+      "name": "Chinese (Simplified)",
+      "nativeName": "简体中文",
+      "dir": "ltr",
+      "plurals": [
+        "other"
+      ],
+      "platforms": {
+        "ios": "zh-Hans",
+        "android": "zh-rCN",
+        "web": "zh-Hans"
+      },
+      "status": "machine",
+      "style": "Simplified Chinese for mainland China. Address the user with \"你\". Use full-width Chinese punctuation, no spaces between Chinese characters, a space between Chinese and Latin words is optional but be consistent."
+    }
+  ]
+}

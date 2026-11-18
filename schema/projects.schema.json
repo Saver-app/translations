@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "projects.schema.json",
+  "title": "Projects that use these translations",
+  "type": "object",
+  "required": ["projects"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "app", "format", "path", "placeholders"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "description": "Also the file name under source/ and locales/<language>/." },
+          "name": { "type": "string" },
+          "app": { "enum": ["web", "ios", "android"], "description": "Which app checkout the generated files go into." },
+          "repository": { "type": "string" },
+          "format": { "enum": ["web-json", "xcstrings", "android-xml"] },
+          "path": {
+            "type": "string",
+            "description": "Where the generated file lives in the app. {lang} and {-lang} are replaced by the platform code of the language."
+          },
+          "placeholders": { "enum": ["braces", "apple", "java"] }
+        }
+      }
+    }
+  }
+}

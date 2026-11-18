@@ -1,0 +1,209 @@
+{
+  "Preparing your share…": {
+    "text": "Preparing your share…",
+    "context": "Title shown while the shared content is read."
+  },
+  "Saver is reading the shared content.": {
+    "text": "Saver is reading the shared content.",
+    "context": "Text shown while the shared content is read."
+  },
+  "Cancel": {
+    "text": "Cancel",
+    "context": "Toolbar button that closes the share sheet without saving."
+  },
+  "Save as": {
+    "text": "Save as",
+    "context": "Header above the choice between Task and Bookmark, and the accessibility label of that choice."
+  },
+  "Task": {
+    "text": "Task",
+    "context": "Option and card title: save the shared content as a task."
+  },
+  "Bookmark": {
+    "text": "Bookmark",
+    "context": "Option and card title: save the shared content as a bookmark."
+  },
+  "Save to": {
+    "text": "Save to",
+    "context": "Header above the space the item is saved to."
+  },
+  "Current Space": {
+    "text": "Current Space",
+    "context": "Shown as the destination when Saver has not shared its list of spaces yet."
+  },
+  "Save to list": {
+    "text": "Save to list",
+    "context": "Header above the task list the new task is saved to."
+  },
+  "Save to folder": {
+    "text": "Save to folder",
+    "context": "Header above the bookmark folder the new bookmark is saved to."
+  },
+  "No List": {
+    "text": "No List",
+    "context": "Option of the list picker: save the task outside of any list."
+  },
+  "No Folder": {
+    "text": "No Folder",
+    "context": "Option of the folder picker: save the bookmark outside of any folder."
+  },
+  "What needs doing?": {
+    "text": "What needs doing?",
+    "context": "Placeholder of the task title field."
+  },
+  "%lld/%lld characters": {
+    "text": "%1$lld/%2$lld characters",
+    "context": "Counter under the task title field. Phrase it so it works for any number, e.g. “Characters: 12/1000”.",
+    "placeholders": {
+      "%1$lld": "Number of characters typed",
+      "%2$lld": "Maximum number of characters (1000)"
+    }
+  },
+  "Title": {
+    "text": "Title",
+    "context": "Placeholder of the bookmark title field."
+  },
+  "Website address (optional)": {
+    "text": "Website address (optional)",
+    "context": "Placeholder of the bookmark's web address field."
+  },
+  "New Task": {
+    "text": "New Task",
+    "context": "Title given to a task when the shared content has no text."
+  },
+  "New Bookmark": {
+    "text": "New Bookmark",
+    "context": "Title given to a bookmark when the shared content has no title or address."
+  },
+  "Save Task": {
+    "text": "Save Task",
+    "context": "Toolbar button that saves the shared content as a task."
+  },
+  "Save Bookmark": {
+    "text": "Save Bookmark",
+    "context": "Toolbar button that saves the shared content as a bookmark."
+  },
+  "Remind me": {
+    "text": "Remind me",
+    "context": "Switch that adds a reminder to the new task or bookmark."
+  },
+  "Reminder style": {
+    "text": "Reminder style",
+    "context": "Label of the segmented control that chooses between a one-time and a repeating reminder."
+  },
+  "One-time": {
+    "text": "One-time",
+    "context": "Reminder style option: the reminder goes off once, at a date and time."
+  },
+  "Repeating": {
+    "text": "Repeating",
+    "context": "Reminder style option: the reminder repeats on selected weekdays."
+  },
+  "Reminder time": {
+    "text": "Reminder time",
+    "context": "Label of the reminder's date and time picker."
+  },
+  "Choose at least one weekday.": {
+    "text": "Choose at least one weekday.",
+    "context": "Hint under the weekday buttons of a repeating reminder when none is selected."
+  },
+  "Sound": {
+    "text": "Sound",
+    "context": "Switch of the reminder: play a sound when it goes off."
+  },
+  "Important": {
+    "text": "Important",
+    "context": "Switch of the reminder: deliver it as a Time Sensitive notification."
+  },
+  "Time Sensitive notifications can appear during Focus.": {
+    "text": "Time Sensitive notifications can appear during Focus.",
+    "context": "Explanation under the Important switch. “Time Sensitive” and “Focus” are iOS feature names; use the names iOS uses in your language."
+  },
+  "Time Sensitive notifications are disabled. Important reminders will still be delivered normally.": {
+    "text": "Time Sensitive notifications are disabled. Important reminders will still be delivered normally.",
+    "context": "Explanation under the Important switch when Time Sensitive notifications are turned off for Saver. Use the iOS name for Time Sensitive notifications."
+  },
+  "Checking notification access…": {
+    "text": "Checking notification access…",
+    "context": "Shown while Saver asks for permission to send notifications."
+  },
+  "Notifications are off. The item and reminder will still be saved.": {
+    "text": "Notifications are off. The item and reminder will still be saved.",
+    "context": "Warning when Saver may not send notifications."
+  },
+  "Saver couldn’t confirm notification access. The item and reminder will still be saved.": {
+    "text": "Saver couldn’t confirm notification access. The item and reminder will still be saved.",
+    "context": "Warning when the notification permission could not be checked."
+  },
+  "Saved to Saver": {
+    "text": "Saved to Saver",
+    "context": "Title shown after the item was saved."
+  },
+  "Saved to your current space.": {
+    "text": "Saved to your current space.",
+    "context": "Text shown after saving when the space is not known."
+  },
+  "Saved to %@.": {
+    "text": "Saved to %@.",
+    "context": "Text shown after saving.",
+    "placeholders": {
+      "%@": "Name of the space"
+    }
+  },
+  "Reminder scheduled.": {
+    "text": "Reminder scheduled.",
+    "context": "Shown after saving when the reminder was scheduled."
+  },
+  "Reminder saved. Enable notifications in Settings to receive it.": {
+    "text": "Reminder saved. Enable notifications in Settings to receive it.",
+    "context": "Shown after saving when notifications are off."
+  },
+  "Reminder saved, but its time has already passed.": {
+    "text": "Reminder saved, but its time has already passed.",
+    "context": "Shown after saving when the reminder's time is in the past."
+  },
+  "Reminder saved, but it couldn’t be scheduled right now.": {
+    "text": "Reminder saved, but it couldn’t be scheduled right now.",
+    "context": "Shown after saving when the reminder could not be scheduled."
+  },
+  "Couldn’t Save": {
+    "text": "Couldn’t Save",
+    "context": "Title shown when the share could not be read or saved."
+  },
+  "Try Again": {
+    "text": "Try Again",
+    "context": "Button that tries to read or save the share again."
+  },
+  "Saver couldn’t read anything from this share.": {
+    "text": "Saver couldn’t read anything from this share.",
+    "context": "Error when the shared content is empty."
+  },
+  "Saver couldn’t read this share. Please try again.": {
+    "text": "Saver couldn’t read this share. Please try again.",
+    "context": "Error when the shared content could not be read."
+  },
+  "Saver couldn’t save this item right now. Please try again.": {
+    "text": "Saver couldn’t save this item right now. Please try again.",
+    "context": "Error when saving failed."
+  },
+  "Saver couldn’t access its shared inbox. Please open Saver once and try again.": {
+    "text": "Saver couldn’t access its shared inbox. Please open Saver once and try again.",
+    "context": "Error when the share extension cannot reach the app's storage."
+  },
+  "Task reminder": {
+    "text": "Task reminder",
+    "context": "Title of a reminder notification for a task without a title."
+  },
+  "Bookmark reminder": {
+    "text": "Bookmark reminder",
+    "context": "Title of a reminder notification for a bookmark without a title."
+  },
+  "This task is due for your attention.": {
+    "text": "This task is due for your attention.",
+    "context": "Text of a task's reminder notification, under the task's title."
+  },
+  "You asked Saver to bring this bookmark back.": {
+    "text": "You asked Saver to bring this bookmark back.",
+    "context": "Text of a bookmark's reminder notification, under the bookmark's title."
+  }
+}

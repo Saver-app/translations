@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "languages.schema.json",
+  "title": "Supported languages",
+  "type": "object",
+  "required": ["sourceLanguage", "languages"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "sourceLanguage": { "type": "string" },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "name", "nativeName", "dir", "plurals", "platforms", "status"],
+        "additionalProperties": false,
+        "properties": {
+          "code": { "type": "string", "description": "BCP 47 code, also the folder name under locales/." },
+          "name": { "type": "string", "description": "English name." },
+          "nativeName": { "type": "string", "description": "Name in the language itself, as shown in language pickers." },
+          "dir": { "enum": ["ltr", "rtl"] },
+          "plurals": {
+            "type": "array",
+            "items": { "enum": ["zero", "one", "two", "few", "many", "other"] },
+            "contains": { "const": "other" }
+          },
+          "platforms": {
+            "type": "object",
+            "description": "Code of the language on each platform: iOS localization, Android resource qualifier, web locale.",
+            "properties": {
+              "ios": { "type": "string" },
+              "android": { "type": "string" },
+              "web": { "type": "string" }
+            }
+          },
+          "status": {
+            "enum": ["source", "machine", "review", "reviewed"],
+            "description": "source: the language the apps are written in. machine: translated by AI, not checked by a native speaker yet. review: a native speaker is checking it. reviewed: checked by a native speaker."
+          },
+          "style": { "type": "string", "description": "Tone and conventions for translators." }
+        }
+      }
+    }
+  }
+}

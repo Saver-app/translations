@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Source strings of one project",
+  "description": "Maps a key to the English text and the context translators need. See docs/format.md.",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": ["text", "context"],
+    "additionalProperties": false,
+    "properties": {
+      "text": {
+        "description": "The English text, or one text per plural category.",
+        "oneOf": [{ "type": "string", "minLength": 1 }, { "$ref": "plural.schema.json" }]
+      },
+      "context": {
+        "description": "Where the string appears and what it does, in one short sentence.",
+        "type": "string"
+      },
+      "placeholders": {
+        "description": "What each placeholder stands for, keyed by the placeholder as written in the text.",
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      },
+      "maxLength": {
+        "description": "Hard limit in characters for tight spots.",
+        "type": "integer",
+        "minimum": 1
+      }
+    }
+  }
+}
