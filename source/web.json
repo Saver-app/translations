@@ -1325,6 +1325,18 @@
     "text": "Exit focus",
     "context": "Focus mode: button at the top that leaves focus mode."
   },
+  "focus.options": {
+    "text": "Focus options",
+    "context": "Focus mode: tooltip of the sliders button at the top that opens the display options."
+  },
+  "focus.options.subtasks": {
+    "text": "Show subtasks",
+    "context": "Focus mode, display options: checkbox item. Off hides the checklist of the task's subtasks."
+  },
+  "focus.options.next": {
+    "text": "Show next task",
+    "context": "Focus mode, display options: checkbox item. Off hides the title of the task that comes next; Skip stays."
+  },
   "focus.status.paused": {
     "text": "Paused",
     "context": "Focus mode: badge above the task while the clock is paused. Also starts the browser tab title then."
@@ -1370,6 +1382,10 @@
     "placeholders": {
       "{title}": "Title of the next task"
     }
+  },
+  "focus.done.nextUnnamed": {
+    "text": "Next task",
+    "context": "Focus mode: button after a task was checked off that opens the next task, used when the next task's title is set to be hidden."
   },
   "focus.done.calendar": {
     "text": "Open calendar",
@@ -1435,11 +1451,11 @@
   },
   "focus.list.upNext": {
     "text": "Up next",
-    "context": "Focus mode on a list: label before the title of the task that comes after the current one."
+    "context": "Focus mode: label before the title of the task that comes after the current one, in a list or among the task's siblings."
   },
   "focus.list.skip": {
     "text": "Skip",
-    "context": "Focus mode on a list: button that leaves the current task open and goes on to the next one. It comes round again later."
+    "context": "Focus mode: button that leaves the current task open and goes on to the next one in the list, or among the task's siblings. It comes round again later."
   },
   "focus.list.lastTask": {
     "text": "Last task in this list",
