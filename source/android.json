@@ -136,6 +136,10 @@
     "text": "That item cannot be moved there.",
     "context": "Reason shown when an item was dropped where it is not allowed, such as inside itself."
   },
+  "common_untitled": {
+    "text": "Untitled",
+    "context": "Shown instead of the title of a task or calendar entry that has none."
+  },
   "onboarding_skip": {
     "text": "Skip",
     "context": "Button at the top of the introduction that closes it right away."
@@ -930,6 +934,269 @@
   "todos_error_reset": {
     "text": "Could not reset the tasks.",
     "context": "Message shown when the done tasks of a list could not be reset."
+  },
+  "todos_focus": {
+    "text": "Focus",
+    "context": "Button next to \"Add reminder\" while a task is being edited; opens focus mode for that task. Keep it short."
+  },
+  "todos_focus_list": {
+    "text": "Focus on list",
+    "context": "Screen reader label of the toolbar button of an opened list that works through its open tasks one by one in focus mode."
+  },
+  "todos_focus_continue": {
+    "text": "%1$s so far. Continue in focus mode",
+    "context": "Screen reader label of the small clock badge on a task that already has time from focus mode which is not in the calendar yet; tapping it continues in focus mode.",
+    "placeholders": {
+      "%1$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "todos_calendar": {
+    "text": "Calendar",
+    "context": "Screen reader label of the toolbar button on the Tasks tab that opens the calendar of focus time."
+  },
+  "focus_exit": {
+    "text": "Exit focus",
+    "context": "Screen reader label of the close button at the top of focus mode, which leaves it."
+  },
+  "focus_status_running": {
+    "text": "Focusing",
+    "context": "Small status label above the task in focus mode while its clock runs; also the text of the notification that shows the running clock."
+  },
+  "focus_status_paused": {
+    "text": "Paused",
+    "context": "Small status label above the task in focus mode while its clock is paused."
+  },
+  "focus_clock_caption": {
+    "text": "Time spent on this task",
+    "context": "Caption under the big clock in focus mode."
+  },
+  "focus_pause": {
+    "text": "Pause",
+    "context": "Button in focus mode that pauses the clock."
+  },
+  "focus_resume": {
+    "text": "Resume",
+    "context": "Button in focus mode that starts the paused clock again."
+  },
+  "focus_mark_done": {
+    "text": "Mark as done",
+    "context": "Main button in focus mode: checks the task off and saves its time in the calendar."
+  },
+  "focus_subtasks": {
+    "text": "Subtasks",
+    "context": "Heading of the checklist of subtasks in focus mode."
+  },
+  "focus_hint": {
+    "text": "When you check the task off, the time goes into your calendar.",
+    "context": "Note at the bottom of focus mode."
+  },
+  "focus_hint_offline": {
+    "text": "Tasks in offline spaces stay on this device, so their time is not saved to your calendar.",
+    "context": "Note at the bottom of focus mode for a task in an offline space, whose time is not saved to the calendar."
+  },
+  "focus_done_title": {
+    "text": "Done",
+    "context": "Title shown after a task was checked off in focus mode."
+  },
+  "focus_done_saved": {
+    "text": "%1$s saved to your calendar",
+    "context": "Shown after a task was checked off in focus mode.",
+    "placeholders": {
+      "%1$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "focus_done_next": {
+    "text": "Next: %1$s",
+    "context": "Button after checking a task off in focus mode that opens the next open task.",
+    "placeholders": {
+      "%1$s": "Title of the next task"
+    }
+  },
+  "focus_done_calendar": {
+    "text": "Open calendar",
+    "context": "Button after checking a task off in focus mode that opens the calendar."
+  },
+  "focus_done_back": {
+    "text": "Back to tasks",
+    "context": "Button that leaves focus mode after a task or a whole list was checked off."
+  },
+  "focus_time_saved": {
+    "text": "%1$s saved to your calendar.",
+    "context": "Short notice after a task with time from focus mode was checked off.",
+    "placeholders": {
+      "%1$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "focus_save_error": {
+    "text": "Could not save. The task is still open and its time was kept.",
+    "context": "Notice when checking off a task in focus mode could not be saved."
+  },
+  "focus_missing_title": {
+    "text": "This task is not here anymore",
+    "context": "Title in focus mode when the task was deleted or cannot be opened."
+  },
+  "focus_missing_message": {
+    "text": "It may have been deleted, or it is in a space you cannot open.",
+    "context": "Message under \"This task is not here anymore\" in focus mode."
+  },
+  "focus_read_only_title": {
+    "text": "You cannot check off tasks here",
+    "context": "Title in focus mode for a task in a space where the person may not edit tasks."
+  },
+  "focus_read_only_message": {
+    "text": "The owner of this space has not let you edit its tasks.",
+    "context": "Message under \"You cannot check off tasks here\" in focus mode."
+  },
+  "focus_already_done_title": {
+    "text": "This task is already done",
+    "context": "Title in focus mode when the task was already checked off."
+  },
+  "focus_already_done_message": {
+    "text": "Choose an open task to focus on.",
+    "context": "Message under \"This task is already done\" when it has no time to keep."
+  },
+  "focus_already_done_with_time": {
+    "text": "It was checked off somewhere else while its clock ran. Keep the %1$s in your calendar?",
+    "context": "Question in focus mode when the task was checked off on another device while its clock ran here.",
+    "placeholders": {
+      "%1$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "focus_already_done_save": {
+    "text": "Save to calendar",
+    "context": "Button that puts the time of an already checked off task into the calendar."
+  },
+  "focus_already_done_discard": {
+    "text": "Discard",
+    "context": "Button that throws away the time of an already checked off task."
+  },
+  "focus_list_up_next": {
+    "text": "Up next",
+    "context": "Label before the title of the next task while working through a list in focus mode."
+  },
+  "focus_list_skip": {
+    "text": "Skip",
+    "context": "Button next to the next task while working through a list; moves on without checking the current task off."
+  },
+  "focus_list_last_task": {
+    "text": "Last task in this list",
+    "context": "Shown instead of the next task when the current one is the last open task of the list."
+  },
+  "focus_list_progress": {
+    "text": {
+      "one": "%1$d of %2$d task done",
+      "other": "%1$d of %2$d tasks done"
+    },
+    "context": "Screen reader text of the progress bar while working through a list in focus mode.",
+    "placeholders": {
+      "%1$d": "Number of tasks done",
+      "%2$d": "Number of tasks in the list"
+    }
+  },
+  "focus_list_checked_off": {
+    "text": "Checked off: %1$s",
+    "context": "Short notice after checking a task off while working through a list; the next task opens at once.",
+    "placeholders": {
+      "%1$s": "Title of the task"
+    }
+  },
+  "focus_list_checked_off_with_time": {
+    "text": "Checked off: %1$s · %2$s saved",
+    "context": "Short notice after checking a task off while working through a list, with the time that went into the calendar.",
+    "placeholders": {
+      "%1$s": "Title of the task",
+      "%2$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "focus_list_all_done_title": {
+    "text": "List done",
+    "context": "Title of the summary at the end of working through a list in focus mode."
+  },
+  "focus_list_all_done_total": {
+    "text": "Total",
+    "context": "Last row of the summary of a list in focus mode: the time of all its tasks together."
+  },
+  "focus_list_all_done_nothing_left": {
+    "text": "Every task in this list is checked off.",
+    "context": "Shown in focus mode when every task of the list was already checked off."
+  },
+  "calendar_title": {
+    "text": "Calendar",
+    "context": "Title of the calendar of focus time."
+  },
+  "calendar_week_total": {
+    "text": "%1$s · %2$s focused",
+    "context": "Line under the calendar title: the week and the focus time in it.",
+    "placeholders": {
+      "%1$s": "The week, such as \"Nov 16 – Nov 22\"",
+      "%2$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "calendar_previous_week": {
+    "text": "Previous week",
+    "context": "Screen reader label of the button that shows the week before."
+  },
+  "calendar_next_week": {
+    "text": "Next week",
+    "context": "Screen reader label of the button that shows the week after."
+  },
+  "calendar_this_week": {
+    "text": "This week",
+    "context": "Button that goes back to the current week in the calendar."
+  },
+  "calendar_day_total": {
+    "text": "%1$s focused",
+    "context": "Screen reader text of a day in the calendar: the focus time on that day.",
+    "placeholders": {
+      "%1$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "calendar_range": {
+    "text": "%1$s – %2$s",
+    "context": "A range of two dates or two times in the calendar, such as \"Nov 16 – Nov 22\" or \"9:00 AM – 10:30 AM\".",
+    "placeholders": {
+      "%1$s": "The start",
+      "%2$s": "The end"
+    }
+  },
+  "calendar_empty_week": {
+    "text": "No focus time this week. Open a task in focus mode; when you check it off, its time shows up here.",
+    "context": "Note at the top of the calendar when the shown week has no focus time."
+  },
+  "calendar_empty_day": {
+    "text": "No focus time on this day.",
+    "context": "Shown under the days of the week when the selected day has no focus time."
+  },
+  "calendar_load_error_title": {
+    "text": "Your calendar could not be loaded",
+    "context": "Title when the calendar could not be loaded."
+  },
+  "calendar_sign_in_title": {
+    "text": "Sign in to keep a calendar",
+    "context": "Title of the calendar while signed out."
+  },
+  "calendar_sign_in_message": {
+    "text": "Focus time is saved to your account, so the calendar needs you to be signed in.",
+    "context": "Message under the title of the calendar while signed out, above the Sign In button."
+  },
+  "calendar_entry_total": {
+    "text": "Focused for %1$s",
+    "context": "Shown in the details of a calendar entry: how long the person worked on the task.",
+    "placeholders": {
+      "%1$s": "A length of time such as \"1 hr, 5 min\" or \"45 sec\""
+    }
+  },
+  "calendar_entry_delete": {
+    "text": "Delete entry",
+    "context": "Button in the details of a calendar entry that deletes it."
+  },
+  "calendar_entry_deleted": {
+    "text": "Entry deleted",
+    "context": "Notice with Undo after a calendar entry was deleted."
+  },
+  "calendar_entry_delete_error": {
+    "text": "Could not delete the entry.",
+    "context": "Notice when a calendar entry could not be deleted."
   },
   "bookmarks_section_folders": {
     "text": "Folders",
@@ -2354,6 +2621,14 @@
   "notification_channel_silent_description": {
     "text": "Saver reminders that do not play a sound.",
     "context": "Description of the silent reminder notification category in the Android settings."
+  },
+  "notification_channel_focus": {
+    "text": "Focus mode",
+    "context": "Name of the notification category of the focus mode clock, shown in the Android notification settings."
+  },
+  "notification_channel_focus_description": {
+    "text": "Shows the clock while you focus on a task and Saver is in the background.",
+    "context": "Description of the notification category of the focus mode clock in the Android notification settings."
   },
   "notification_task_title": {
     "text": "Task reminder",
