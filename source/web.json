@@ -1298,6 +1298,261 @@
     "text": "Add notes",
     "context": "Tasks: placeholder of the notes field while a task is edited."
   },
+  "tasks.focus.start": {
+    "text": "Focus on this task",
+    "context": "Tasks: tooltip of the clock button on a task row. Opens focus mode: a full-screen view with only this task and a clock of the time spent on it."
+  },
+  "tasks.focus.menu": {
+    "text": "Focus",
+    "context": "Tasks: item in the menu of a task that opens focus mode for it. A verb, like the other items (Edit, Delete)."
+  },
+  "tasks.focus.continue": {
+    "text": "{duration} so far. Continue in focus mode",
+    "context": "Tasks: label of the small clock under a task that already has time from focus mode. Opens focus mode again.",
+    "placeholders": {
+      "{duration}": "A length of time in the app language, e.g. \"25 min\" or \"1 hr, 5 min\""
+    }
+  },
+  "tasks.focusList.menu": {
+    "text": "Focus on list",
+    "context": "Tasks: item in the menu of a list. Starts focus mode on the open tasks of the list, one after another."
+  },
+  "focus.pageTitle": {
+    "text": "Focus",
+    "context": "Browser tab title of focus mode."
+  },
+  "focus.exit": {
+    "text": "Exit focus",
+    "context": "Focus mode: button at the top that leaves focus mode."
+  },
+  "focus.status.running": {
+    "text": "Focusing",
+    "context": "Focus mode: badge above the task while the clock runs."
+  },
+  "focus.status.paused": {
+    "text": "Paused",
+    "context": "Focus mode: badge above the task while the clock is paused. Also starts the browser tab title then."
+  },
+  "focus.clockCaption": {
+    "text": "Time spent on this task",
+    "context": "Focus mode: caption under the big clock."
+  },
+  "focus.pause": {
+    "text": "Pause",
+    "context": "Focus mode: button that pauses the clock."
+  },
+  "focus.resume": {
+    "text": "Resume",
+    "context": "Focus mode: button that starts the paused clock again."
+  },
+  "focus.markDone": {
+    "text": "Mark as done",
+    "context": "Focus mode: main button. Checks the task off and saves the time to the calendar."
+  },
+  "focus.subtasks": {
+    "text": "Subtasks",
+    "context": "Focus mode: heading above the checklist of the task's subtasks."
+  },
+  "focus.hint": {
+    "text": "When you check the task off, the time goes into your calendar.",
+    "context": "Focus mode: small note at the bottom of the screen."
+  },
+  "focus.done.title": {
+    "text": "Done",
+    "context": "Focus mode: heading after the task was checked off."
+  },
+  "focus.done.saved": {
+    "text": "{duration} saved to your calendar",
+    "context": "Focus mode: badge after the task was checked off. No full stop: it stands alone.",
+    "placeholders": {
+      "{duration}": "A length of time in the app language, e.g. \"25 min\" or \"1 hr, 5 min\""
+    }
+  },
+  "focus.done.next": {
+    "text": "Next: {title}",
+    "context": "Focus mode: button after a task was checked off. Opens the next open task in focus mode.",
+    "placeholders": {
+      "{title}": "Title of the next task"
+    }
+  },
+  "focus.done.calendar": {
+    "text": "Open calendar",
+    "context": "Focus mode: button after a task was checked off that opens the calendar."
+  },
+  "focus.done.back": {
+    "text": "Back to tasks",
+    "context": "Focus mode: button after a task was checked off that returns to the task list."
+  },
+  "focus.timeSaved": {
+    "text": "{duration} saved to your calendar.",
+    "context": "Notification after a task with time from focus mode was checked off.",
+    "placeholders": {
+      "{duration}": "A length of time in the app language, e.g. \"25 min\" or \"1 hr, 5 min\""
+    }
+  },
+  "focus.saveError": {
+    "text": "Could not save. The task is still open and its time was kept.",
+    "context": "Error notification when checking a task off in focus mode failed. Nothing was lost."
+  },
+  "focus.loadErrorMessage": {
+    "text": "Check your connection, then try again.",
+    "context": "Focus mode: text under the error that the tasks could not be loaded."
+  },
+  "focus.missing.title": {
+    "text": "This task is not here anymore",
+    "context": "Focus mode: heading when the task was deleted or cannot be opened."
+  },
+  "focus.missing.message": {
+    "text": "It may have been deleted, or it is in a space you cannot open.",
+    "context": "Focus mode: text under \"This task is not here anymore\"."
+  },
+  "focus.readOnly.title": {
+    "text": "You cannot check off tasks here",
+    "context": "Focus mode: heading in a shared space where the person may only read tasks."
+  },
+  "focus.readOnly.message": {
+    "text": "The owner of this space has not let you edit its tasks.",
+    "context": "Focus mode: text under the heading for a space where the person may only read tasks."
+  },
+  "focus.alreadyDone.title": {
+    "text": "This task is already done",
+    "context": "Focus mode: heading when the task is already checked off."
+  },
+  "focus.alreadyDone.message": {
+    "text": "Choose an open task to focus on.",
+    "context": "Focus mode: text under \"This task is already done\" when no time was taken on it."
+  },
+  "focus.alreadyDone.withTime": {
+    "text": "It was checked off somewhere else while its clock ran. Keep the {duration} in your calendar?",
+    "context": "Focus mode: the task was checked off on another device while its clock was running here. Asks whether to keep that time.",
+    "placeholders": {
+      "{duration}": "A length of time in the app language, e.g. \"25 min\" or \"1 hr, 5 min\""
+    }
+  },
+  "focus.alreadyDone.save": {
+    "text": "Save to calendar",
+    "context": "Focus mode: button that keeps the time of a task checked off elsewhere, in the calendar."
+  },
+  "focus.alreadyDone.discard": {
+    "text": "Discard",
+    "context": "Focus mode: button that throws away the time of a task checked off elsewhere."
+  },
+  "focus.list.upNext": {
+    "text": "Up next",
+    "context": "Focus mode on a list: label before the title of the task that comes after the current one."
+  },
+  "focus.list.skip": {
+    "text": "Skip",
+    "context": "Focus mode on a list: button that leaves the current task open and goes on to the next one. It comes round again later."
+  },
+  "focus.list.lastTask": {
+    "text": "Last task in this list",
+    "context": "Focus mode on a list: shown under the buttons when the current task is the only open one left."
+  },
+  "focus.list.progress": {
+    "text": {
+      "one": "{done} of {count} task done",
+      "other": "{done} of {count} tasks done"
+    },
+    "context": "Focus mode on a list: screen reader text of the progress bar at the top.",
+    "placeholders": {
+      "{done}": "Number of tasks checked off",
+      "{count}": "Number of tasks in the list"
+    }
+  },
+  "focus.list.checkedOff": {
+    "text": "Checked off: {title}",
+    "context": "Notification in focus mode on a list when a task was checked off and the next one opens.",
+    "placeholders": {
+      "{title}": "Title of the task"
+    }
+  },
+  "focus.list.checkedOffWithTime": {
+    "text": "Checked off: {title} · {duration} saved",
+    "context": "Notification in focus mode on a list when a task was checked off and its time went into the calendar.",
+    "placeholders": {
+      "{title}": "Title of the task",
+      "{duration}": "A length of time in the app language, e.g. \"25 min\""
+    }
+  },
+  "focus.list.allDone.title": {
+    "text": "List done",
+    "context": "Focus mode on a list: heading once every task of the list is checked off."
+  },
+  "focus.list.allDone.total": {
+    "text": "Total",
+    "context": "Focus mode on a list: label of the summed-up time below the checked-off tasks."
+  },
+  "focus.list.allDone.nothingLeft": {
+    "text": "Every task in this list is checked off.",
+    "context": "Focus mode on a list: shown at the end when no task was checked off in this run, because all were done already."
+  },
+  "calendar.title": {
+    "text": "Calendar",
+    "context": "Navigation item and page title: the calendar that shows when time was spent on tasks in focus mode."
+  },
+  "calendar.weekTotal": {
+    "text": "{week} · {duration} focused",
+    "context": "Calendar: subtitle with the week shown and the time worked in it.",
+    "placeholders": {
+      "{week}": "Date range of the week, e.g. \"16 – 22 Nov\"",
+      "{duration}": "Total time worked that week, e.g. \"6 hr, 20 min\""
+    }
+  },
+  "calendar.previousWeek": {
+    "text": "Previous week",
+    "context": "Calendar: button that shows the week before."
+  },
+  "calendar.nextWeek": {
+    "text": "Next week",
+    "context": "Calendar: button that shows the week after."
+  },
+  "calendar.thisWeek": {
+    "text": "This week",
+    "context": "Calendar: button that jumps back to the current week."
+  },
+  "calendar.dayTotal": {
+    "text": "{duration} focused",
+    "context": "Calendar: screen reader label of the time worked on one day, under its date.",
+    "placeholders": {
+      "{duration}": "A length of time in the app language, e.g. \"25 min\" or \"1 hr, 5 min\""
+    }
+  },
+  "calendar.emptyWeek": {
+    "text": "No focus time this week. Open a task in focus mode; when you check it off, its time shows up here.",
+    "context": "Calendar: note above an empty week."
+  },
+  "calendar.emptyDay": {
+    "text": "No focus time on this day.",
+    "context": "Calendar on phones: shown when the selected day has no focus time."
+  },
+  "calendar.loadError.title": {
+    "text": "Your calendar could not be loaded",
+    "context": "Calendar: heading when the entries could not be loaded."
+  },
+  "calendar.loadError.message": {
+    "text": "Check your connection, then reload the page.",
+    "context": "Calendar: text under the loading error."
+  },
+  "calendar.entry.total": {
+    "text": "Focused for {duration}",
+    "context": "Calendar: total time in the details of an entry (one task).",
+    "placeholders": {
+      "{duration}": "A length of time in the app language, e.g. \"25 min\" or \"1 hr, 5 min\""
+    }
+  },
+  "calendar.entry.delete": {
+    "text": "Delete entry",
+    "context": "Calendar: button in the details of an entry that deletes it."
+  },
+  "calendar.entry.deleted": {
+    "text": "Entry deleted.",
+    "context": "Notification after an entry was deleted. Comes with an Undo button."
+  },
+  "calendar.entry.deleteError": {
+    "text": "Could not delete the entry.",
+    "context": "Error notification when deleting an entry failed."
+  },
   "bookmarks.noAccess.title": {
     "text": "No access to bookmarks",
     "context": "Bookmarks: title shown when the space does not share its bookmarks with the person."
