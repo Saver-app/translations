@@ -712,7 +712,6 @@
   "Focus": "Fokussieren",
   "Focus on List": "Liste fokussieren",
   "Focused for %@": "%@ fokussiert",
-  "Focusing": "Im Fokus",
   "It may have been deleted, or it’s in a space you can’t open.": "Vielleicht wurde sie gelöscht, oder sie liegt in einem Space, den du nicht öffnen kannst.",
   "It was checked off somewhere else while its clock ran. Keep the %@ in your calendar?": "Sie wurde woanders abgehakt, während ihre Uhr lief. Die %@ in deinem Kalender behalten?",
   "Last task in this list": "Letzte Aufgabe dieser Liste",
@@ -724,7 +723,6 @@
   "No focus time this week. Open a task in focus mode; when you check it off, its time shows up here.": "Diese Woche noch keine Fokuszeit. Öffne eine Aufgabe im Fokusmodus – wenn du sie abhakst, erscheint ihre Zeit hier.",
   "Open Calendar": "Kalender öffnen",
   "Pause": "Pausieren",
-  "Paused": "Pausiert",
   "Previous Week": "Vorherige Woche",
   "Resume": "Fortsetzen",
   "Save to Calendar": "Im Kalender speichern",
@@ -745,5 +743,9 @@
   "You Can’t Check Off Tasks Here": "Hier kannst du keine Aufgaben abhaken",
   "Your Calendar Couldn’t Be Loaded": "Dein Kalender konnte nicht geladen werden",
   "Your focus time is saved to your account. Sign in, then check off a task in focus mode to see its time here.": "Deine Fokuszeit wird in deinem Konto gespeichert. Melde dich an und hake eine Aufgabe im Fokusmodus ab, dann siehst du ihre Zeit hier.",
-  "Task Done": "Erledigt"
+  "Task Done": "Erledigt",
+  "Focus options": "Fokus-Optionen",
+  "Next Task": "Nächste Aufgabe",
+  "Show next task": "Nächste Aufgabe anzeigen",
+  "Show subtasks": "Unteraufgaben anzeigen"
 }

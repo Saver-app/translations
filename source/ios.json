@@ -2913,10 +2913,6 @@
       "%@": "Time worked, such as “25 min” or “1 hr, 5 min”"
     }
   },
-  "Focusing": {
-    "text": "Focusing",
-    "context": "Status pill above the task in focus mode while the clock runs."
-  },
   "It may have been deleted, or it’s in a space you can’t open.": {
     "text": "It may have been deleted, or it’s in a space you can’t open.",
     "context": "Message under “This Task Isn’t Here Anymore”."
@@ -2966,10 +2962,6 @@
   "Pause": {
     "text": "Pause",
     "context": "Button in focus mode that pauses the clock."
-  },
-  "Paused": {
-    "text": "Paused",
-    "context": "Status pill above the task in focus mode while the clock is paused."
   },
   "Previous Week": {
     "text": "Previous Week",
@@ -3057,5 +3049,21 @@
   "Task Done": {
     "text": "Task Done",
     "context": "Title of the screen shown after a task was checked off in focus mode, under a big check mark."
+  },
+  "Focus options": {
+    "text": "Focus options",
+    "context": "Accessibility label of the sliders button at the top right of focus mode; it opens a menu of what focus mode shows."
+  },
+  "Next Task": {
+    "text": "Next Task",
+    "context": "Button after a task was checked off in focus mode that opens the next open task, when the focus options hide its title."
+  },
+  "Show next task": {
+    "text": "Show next task",
+    "context": "Checkmark item in the focus options menu: whether focus mode shows the title of the task that comes next."
+  },
+  "Show subtasks": {
+    "text": "Show subtasks",
+    "context": "Checkmark item in the focus options menu: whether focus mode lists the task’s subtasks."
   }
 }

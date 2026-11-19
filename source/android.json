@@ -958,13 +958,21 @@
     "text": "Exit focus",
     "context": "Screen reader label of the close button at the top of focus mode, which leaves it."
   },
+  "focus_options": {
+    "text": "Focus options",
+    "context": "Accessibility label of the sliders button at the top right of focus mode; it opens a menu of what focus mode shows."
+  },
+  "focus_options_subtasks": {
+    "text": "Show subtasks",
+    "context": "Checkmark item in the focus options menu: whether focus mode lists the task’s subtasks."
+  },
+  "focus_options_next": {
+    "text": "Show next task",
+    "context": "Checkmark item in the focus options menu: whether focus mode shows the title of the task that comes next."
+  },
   "focus_status_running": {
     "text": "Focusing",
-    "context": "Small status label above the task in focus mode while its clock runs; also the text of the notification that shows the running clock."
-  },
-  "focus_status_paused": {
-    "text": "Paused",
-    "context": "Small status label above the task in focus mode while its clock is paused."
+    "context": "Text of the quiet notification that shows the running focus clock while Saver is in the background, under the task title."
   },
   "focus_clock_caption": {
     "text": "Time spent on this task",
@@ -1011,6 +1019,10 @@
     "placeholders": {
       "%1$s": "Title of the next task"
     }
+  },
+  "focus_done_next_unnamed": {
+    "text": "Next task",
+    "context": "Button after a task was checked off in focus mode that opens the next open task, when the focus options hide its title."
   },
   "focus_done_calendar": {
     "text": "Open calendar",
