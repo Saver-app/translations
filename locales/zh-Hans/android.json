@@ -148,6 +148,7 @@
   "spaces_error_sign_in_to_publish": "请先登录，再将此空间设为在线。",
   "spaces_error_offline_missing": "离线空间已不再存储在此设备上。",
   "spaces_error_no_space_id": "服务器未返回空间 ID。",
+  "spaces_error_publish_over_limit": "此空间中的项目超出了你的方案可同步的数量。请删除部分项目或升级后再试一次。",
   "share_sheet_title": "保存到 Saver",
   "share_task": "任务",
   "share_bookmark": "书签",
@@ -448,6 +449,18 @@
   "subscription_synced_bookmarks": "同步书签",
   "subscription_active_habits": "活跃习惯",
   "subscription_collaborators": "每个空间的协作者",
+  "quota_reached_tasks": {
+    "other": "你的 %1$s 方案包含 %2$d 个同步任务。请删除一项或升级后再添加。"
+  },
+  "quota_reached_bookmarks": {
+    "other": "你的 %1$s 方案包含 %2$d 个同步书签。请删除一项或升级后再添加。"
+  },
+  "quota_reached_habits": {
+    "other": "你的 %1$s 方案包含 %2$d 个活跃习惯。请删除一项或升级后再添加。"
+  },
+  "quota_owner_reached_tasks": "此空间的所有者已达到其方案的同步任务上限。请让对方升级，或删除一个任务来腾出位置。",
+  "quota_owner_reached_bookmarks": "此空间的所有者已达到其方案的同步书签上限。请让对方升级，或删除一个书签来腾出位置。",
+  "quota_owner_reached_habits": "此空间的所有者已达到其方案的活跃习惯上限。请让对方升级，或删除一个习惯来腾出位置。",
   "space_no_spaces": "没有可用的空间",
   "space_owner_only": "只有所有者可以更改名称。",
   "space_sharing": "共享",

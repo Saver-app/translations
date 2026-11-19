@@ -148,6 +148,7 @@
   "spaces_error_sign_in_to_publish": "Masuk untuk menjadikan ruang ini online.",
   "spaces_error_offline_missing": "Ruang offline tidak lagi tersimpan di perangkat ini.",
   "spaces_error_no_space_id": "Server tidak mengembalikan ID ruang.",
+  "spaces_error_publish_over_limit": "Ruang ini berisi lebih banyak item daripada yang dapat disinkronkan paket Anda. Hapus beberapa item atau upgrade, lalu coba lagi.",
   "share_sheet_title": "Simpan ke Saver",
   "share_task": "Tugas",
   "share_bookmark": "Bookmark",
@@ -448,6 +449,18 @@
   "subscription_synced_bookmarks": "Bookmark tersinkron",
   "subscription_active_habits": "Kebiasaan aktif",
   "subscription_collaborators": "Kolaborator per ruang",
+  "quota_reached_tasks": {
+    "other": "Paket %1$s Anda mencakup %2$d tugas tersinkron. Hapus satu item atau upgrade untuk menambah lagi."
+  },
+  "quota_reached_bookmarks": {
+    "other": "Paket %1$s Anda mencakup %2$d bookmark tersinkron. Hapus satu item atau upgrade untuk menambah lagi."
+  },
+  "quota_reached_habits": {
+    "other": "Paket %1$s Anda mencakup %2$d kebiasaan aktif. Hapus satu item atau upgrade untuk menambah lagi."
+  },
+  "quota_owner_reached_tasks": "Pemilik ruang ini telah mencapai batas tugas tersinkron di paketnya. Minta pemilik untuk meng-upgrade, atau hapus satu tugas untuk memberi tempat.",
+  "quota_owner_reached_bookmarks": "Pemilik ruang ini telah mencapai batas bookmark tersinkron di paketnya. Minta pemilik untuk meng-upgrade, atau hapus satu bookmark untuk memberi tempat.",
+  "quota_owner_reached_habits": "Pemilik ruang ini telah mencapai batas kebiasaan aktif di paketnya. Minta pemilik untuk meng-upgrade, atau hapus satu kebiasaan untuk memberi tempat.",
   "space_no_spaces": "Tidak ada ruang",
   "space_owner_only": "Hanya pemilik yang dapat mengubah nama.",
   "space_sharing": "Berbagi",

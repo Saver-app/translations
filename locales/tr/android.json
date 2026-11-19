@@ -149,6 +149,7 @@
   "spaces_error_sign_in_to_publish": "Bu alanı çevrimiçi yapmak için giriş yap.",
   "spaces_error_offline_missing": "Çevrimdışı alan artık bu cihazda depolanmıyor.",
   "spaces_error_no_space_id": "Sunucu bir alan kimliği döndürmedi.",
+  "spaces_error_publish_over_limit": "Bu alan, planının senkronize edebileceğinden daha fazla öğe içeriyor. Birkaç öğeyi sil ya da planını yükselt, sonra tekrar dene.",
   "share_sheet_title": "Saver'a kaydet",
   "share_task": "Görev",
   "share_bookmark": "Yer imi",
@@ -466,6 +467,21 @@
   "subscription_synced_bookmarks": "Senkronize yer imleri",
   "subscription_active_habits": "Etkin alışkanlıklar",
   "subscription_collaborators": "Alan başına ortak çalışan",
+  "quota_reached_tasks": {
+    "one": "%1$s planın %2$d senkronize görev içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt.",
+    "other": "%1$s planın %2$d senkronize görev içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt."
+  },
+  "quota_reached_bookmarks": {
+    "one": "%1$s planın %2$d senkronize yer imi içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt.",
+    "other": "%1$s planın %2$d senkronize yer imi içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt."
+  },
+  "quota_reached_habits": {
+    "one": "%1$s planın %2$d etkin alışkanlık içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt.",
+    "other": "%1$s planın %2$d etkin alışkanlık içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt."
+  },
+  "quota_owner_reached_tasks": "Bu alanın sahibi, planındaki senkronize görev sınırına ulaştı. Planını yükseltmesini iste ya da yer açmak için bir görevi sil.",
+  "quota_owner_reached_bookmarks": "Bu alanın sahibi, planındaki senkronize yer imi sınırına ulaştı. Planını yükseltmesini iste ya da yer açmak için bir yer imini sil.",
+  "quota_owner_reached_habits": "Bu alanın sahibi, planındaki etkin alışkanlık sınırına ulaştı. Planını yükseltmesini iste ya da yer açmak için bir alışkanlığı sil.",
   "space_no_spaces": "Kullanılabilir alan yok",
   "space_owner_only": "Adı yalnızca sahibi değiştirebilir.",
   "space_sharing": "Paylaşım",

@@ -148,6 +148,7 @@
   "spaces_error_sign_in_to_publish": "このスペースをオンラインにするには、サインインしてください。",
   "spaces_error_offline_missing": "オフラインスペースは、このデバイスに保存されていません。",
   "spaces_error_no_space_id": "サーバーからスペースIDが返されませんでした。",
+  "spaces_error_publish_over_limit": "このスペースには、ご利用のプランで同期できる数を超える項目があります。項目をいくつか削除するかアップグレードしてから、もう一度お試しください。",
   "share_sheet_title": "Saverに保存",
   "share_task": "タスク",
   "share_bookmark": "ブックマーク",
@@ -448,6 +449,18 @@
   "subscription_synced_bookmarks": "同期ブックマーク",
   "subscription_active_habits": "有効な習慣",
   "subscription_collaborators": "スペースあたりの共同作業者",
+  "quota_reached_tasks": {
+    "other": "%1$sプランでは同期できるタスクは%2$d件までです。項目を削除するか、アップグレードしてください。"
+  },
+  "quota_reached_bookmarks": {
+    "other": "%1$sプランでは同期できるブックマークは%2$d件までです。項目を削除するか、アップグレードしてください。"
+  },
+  "quota_reached_habits": {
+    "other": "%1$sプランでは有効な習慣は%2$d件までです。項目を削除するか、アップグレードしてください。"
+  },
+  "quota_owner_reached_tasks": "このスペースのオーナーは、プランで同期できるタスクの上限に達しています。オーナーにアップグレードを依頼するか、タスクを削除して空きを作ってください。",
+  "quota_owner_reached_bookmarks": "このスペースのオーナーは、プランで同期できるブックマークの上限に達しています。オーナーにアップグレードを依頼するか、ブックマークを削除して空きを作ってください。",
+  "quota_owner_reached_habits": "このスペースのオーナーは、プランで有効にできる習慣の上限に達しています。オーナーにアップグレードを依頼するか、習慣を削除して空きを作ってください。",
   "space_no_spaces": "利用できるスペースがありません",
   "space_owner_only": "名前を変更できるのはオーナーだけです。",
   "space_sharing": "共有",

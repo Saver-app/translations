@@ -643,6 +643,10 @@
     "text": "The server did not return a space ID.",
     "context": "Reason shown when the server did not answer as expected while making a space online."
   },
+  "spaces_error_publish_over_limit": {
+    "text": "This space holds more items than your plan can sync. Delete some items or upgrade, then try again.",
+    "context": "Shown when making an offline space online would sync more items than the plan has room for. Nothing is uploaded."
+  },
   "share_sheet_title": {
     "text": "Save to Saver",
     "context": "Title of the sheet shown when something is shared into Saver from another app."
@@ -1858,6 +1862,51 @@
   "subscription_collaborators": {
     "text": "Collaborators per space",
     "context": "Number of people the plan allows in each space."
+  },
+  "quota_reached_tasks": {
+    "text": {
+      "one": "Your %1$s plan includes %2$d synced task. Delete an item or upgrade to add another.",
+      "other": "Your %1$s plan includes %2$d synced tasks. Delete an item or upgrade to add another."
+    },
+    "context": "Shown instead of adding a task when the person's own plan has no room left for it.",
+    "placeholders": {
+      "%1$s": "Plan name: Free, Plus or Pro",
+      "%2$d": "Number of synced tasks the plan includes"
+    }
+  },
+  "quota_reached_bookmarks": {
+    "text": {
+      "one": "Your %1$s plan includes %2$d synced bookmark. Delete an item or upgrade to add another.",
+      "other": "Your %1$s plan includes %2$d synced bookmarks. Delete an item or upgrade to add another."
+    },
+    "context": "Shown instead of adding a bookmark when the person's own plan has no room left for it.",
+    "placeholders": {
+      "%1$s": "Plan name: Free, Plus or Pro",
+      "%2$d": "Number of synced bookmarks the plan includes"
+    }
+  },
+  "quota_reached_habits": {
+    "text": {
+      "one": "Your %1$s plan includes %2$d active habit. Delete an item or upgrade to add another.",
+      "other": "Your %1$s plan includes %2$d active habits. Delete an item or upgrade to add another."
+    },
+    "context": "Shown instead of adding a habit when the person's own plan has no room left for it.",
+    "placeholders": {
+      "%1$s": "Plan name: Free, Plus or Pro",
+      "%2$d": "Number of active habits the plan includes"
+    }
+  },
+  "quota_owner_reached_tasks": {
+    "text": "The owner of this space has reached the limit of synced tasks on their plan. Ask them to upgrade, or delete a task to make room.",
+    "context": "Shown when someone adds a task to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
+  },
+  "quota_owner_reached_bookmarks": {
+    "text": "The owner of this space has reached the limit of synced bookmarks on their plan. Ask them to upgrade, or delete a bookmark to make room.",
+    "context": "Shown when someone adds a bookmark to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
+  },
+  "quota_owner_reached_habits": {
+    "text": "The owner of this space has reached the limit of active habits on their plan. Ask them to upgrade, or delete a habit to make room.",
+    "context": "Shown when someone adds a habit to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
   },
   "space_no_spaces": {
     "text": "No spaces available",

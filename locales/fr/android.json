@@ -150,6 +150,7 @@
   "spaces_error_sign_in_to_publish": "Connectez-vous pour passer cet espace en ligne.",
   "spaces_error_offline_missing": "L’espace hors ligne n’est plus stocké sur cet appareil.",
   "spaces_error_no_space_id": "Le serveur n’a pas renvoyé d’identifiant d’espace.",
+  "spaces_error_publish_over_limit": "Cet espace contient plus d’éléments que votre offre ne peut en synchroniser. Supprimez quelques éléments ou passez à une offre supérieure, puis réessayez.",
   "share_sheet_title": "Enregistrer dans Saver",
   "share_task": "Tâche",
   "share_bookmark": "Marque-page",
@@ -484,6 +485,24 @@
   "subscription_synced_bookmarks": "Marque-pages synchronisés",
   "subscription_active_habits": "Habitudes actives",
   "subscription_collaborators": "Collaborateurs par espace",
+  "quota_reached_tasks": {
+    "one": "Votre offre %1$s inclut %2$d tâche synchronisée. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
+    "many": "Votre offre %1$s inclut %2$d tâches synchronisées. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
+    "other": "Votre offre %1$s inclut %2$d tâches synchronisées. Supprimez un élément ou passez à une offre supérieure pour en ajouter."
+  },
+  "quota_reached_bookmarks": {
+    "one": "Votre offre %1$s inclut %2$d marque-page synchronisé. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
+    "many": "Votre offre %1$s inclut %2$d marque-pages synchronisés. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
+    "other": "Votre offre %1$s inclut %2$d marque-pages synchronisés. Supprimez un élément ou passez à une offre supérieure pour en ajouter."
+  },
+  "quota_reached_habits": {
+    "one": "Votre offre %1$s inclut %2$d habitude active. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
+    "many": "Votre offre %1$s inclut %2$d habitudes actives. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
+    "other": "Votre offre %1$s inclut %2$d habitudes actives. Supprimez un élément ou passez à une offre supérieure pour en ajouter."
+  },
+  "quota_owner_reached_tasks": "Le propriétaire de cet espace a atteint la limite de tâches synchronisées de son offre. Demandez-lui de passer à une offre supérieure, ou supprimez une tâche pour faire de la place.",
+  "quota_owner_reached_bookmarks": "Le propriétaire de cet espace a atteint la limite de marque-pages synchronisés de son offre. Demandez-lui de passer à une offre supérieure, ou supprimez un marque-page pour faire de la place.",
+  "quota_owner_reached_habits": "Le propriétaire de cet espace a atteint la limite d’habitudes actives de son offre. Demandez-lui de passer à une offre supérieure, ou supprimez une habitude pour faire de la place.",
   "space_no_spaces": "Aucun espace disponible",
   "space_owner_only": "Seul le propriétaire peut modifier le nom.",
   "space_sharing": "Partage",

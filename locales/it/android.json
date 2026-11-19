@@ -150,6 +150,7 @@
   "spaces_error_sign_in_to_publish": "Accedi per rendere online questo spazio.",
   "spaces_error_offline_missing": "Lo spazio offline non è più salvato su questo dispositivo.",
   "spaces_error_no_space_id": "Il server non ha restituito un ID dello spazio.",
+  "spaces_error_publish_over_limit": "Questo spazio contiene più elementi di quanti il tuo piano possa sincronizzarne. Elimina alcuni elementi o passa a un piano superiore, poi riprova.",
   "share_sheet_title": "Salva in Saver",
   "share_task": "Attività",
   "share_bookmark": "Segnalibro",
@@ -484,6 +485,24 @@
   "subscription_synced_bookmarks": "Segnalibri sincronizzati",
   "subscription_active_habits": "Abitudini attive",
   "subscription_collaborators": "Collaboratori per spazio",
+  "quota_reached_tasks": {
+    "one": "Il tuo piano %1$s include %2$d attività sincronizzata. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra.",
+    "many": "Il tuo piano %1$s include %2$d attività sincronizzate. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra.",
+    "other": "Il tuo piano %1$s include %2$d attività sincronizzate. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra."
+  },
+  "quota_reached_bookmarks": {
+    "one": "Il tuo piano %1$s include %2$d segnalibro sincronizzato. Elimina un elemento o passa a un piano superiore per aggiungerne un altro.",
+    "many": "Il tuo piano %1$s include %2$d segnalibri sincronizzati. Elimina un elemento o passa a un piano superiore per aggiungerne un altro.",
+    "other": "Il tuo piano %1$s include %2$d segnalibri sincronizzati. Elimina un elemento o passa a un piano superiore per aggiungerne un altro."
+  },
+  "quota_reached_habits": {
+    "one": "Il tuo piano %1$s include %2$d abitudine attiva. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra.",
+    "many": "Il tuo piano %1$s include %2$d abitudini attive. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra.",
+    "other": "Il tuo piano %1$s include %2$d abitudini attive. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra."
+  },
+  "quota_owner_reached_tasks": "Il proprietario di questo spazio ha raggiunto il limite di attività sincronizzate del suo piano. Chiedigli di passare a un piano superiore o elimina un'attività per liberare un posto.",
+  "quota_owner_reached_bookmarks": "Il proprietario di questo spazio ha raggiunto il limite di segnalibri sincronizzati del suo piano. Chiedigli di passare a un piano superiore o elimina un segnalibro per liberare un posto.",
+  "quota_owner_reached_habits": "Il proprietario di questo spazio ha raggiunto il limite di abitudini attive del suo piano. Chiedigli di passare a un piano superiore o elimina un'abitudine per liberare un posto.",
   "space_no_spaces": "Nessuno spazio disponibile",
   "space_owner_only": "Solo il proprietario può cambiare il nome.",
   "space_sharing": "Condivisione",
