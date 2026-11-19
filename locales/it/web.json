@@ -657,6 +657,9 @@
     "many": "Il tuo piano {plan} include {count} abitudini attive. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra.",
     "other": "Il tuo piano {plan} include {count} abitudini attive. Elimina un elemento o passa a un piano superiore per aggiungerne un'altra."
   },
+  "plans.quota.ownerFull.todos": "Il proprietario di questo spazio ha raggiunto il limite di attività sincronizzate del suo piano. Chiedigli di passare a un piano superiore o elimina un'attività per liberare un posto.",
+  "plans.quota.ownerFull.bookmarks": "Il proprietario di questo spazio ha raggiunto il limite di segnalibri sincronizzati del suo piano. Chiedigli di passare a un piano superiore o elimina un segnalibro per liberare un posto.",
+  "plans.quota.ownerFull.habits": "Il proprietario di questo spazio ha raggiunto il limite di abitudini attive del suo piano. Chiedigli di passare a un piano superiore o elimina un'abitudine per liberare un posto.",
   "plans.plus.title": "Per la produttività personale su tutti i tuoi dispositivi",
   "plans.pro.title": "Per spazi condivisi, team e community Discord",
   "plans.benefit.spaces": {

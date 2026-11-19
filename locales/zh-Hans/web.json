@@ -601,6 +601,9 @@
   "plans.quota.habits": {
     "other": "你的 {plan} 方案包含 {count} 个活跃习惯。请删除一项或升级后再添加。"
   },
+  "plans.quota.ownerFull.todos": "此空间的所有者已达到其方案的同步任务上限。请让对方升级，或删除一个任务来腾出位置。",
+  "plans.quota.ownerFull.bookmarks": "此空间的所有者已达到其方案的同步书签上限。请让对方升级，或删除一个书签来腾出位置。",
+  "plans.quota.ownerFull.habits": "此空间的所有者已达到其方案的活跃习惯上限。请让对方升级，或删除一个习惯来腾出位置。",
   "plans.plus.title": "适合在所有设备上提升个人效率",
   "plans.pro.title": "适合共享空间、团队和 Discord 社区",
   "plans.benefit.spaces": {

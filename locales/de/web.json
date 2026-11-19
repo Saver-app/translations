@@ -629,6 +629,9 @@
     "one": "Dein {plan}-Tarif enthält {count} aktive Gewohnheit. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen.",
     "other": "Dein {plan}-Tarif enthält {count} aktive Gewohnheiten. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen."
   },
+  "plans.quota.ownerFull.todos": "Der Besitzer dieses Space hat das Limit für synchronisierte Aufgaben seines Tarifs erreicht. Bitte ihn, seinen Tarif zu upgraden, oder lösche eine Aufgabe, um Platz zu schaffen.",
+  "plans.quota.ownerFull.bookmarks": "Der Besitzer dieses Space hat das Limit für synchronisierte Lesezeichen seines Tarifs erreicht. Bitte ihn, seinen Tarif zu upgraden, oder lösche ein Lesezeichen, um Platz zu schaffen.",
+  "plans.quota.ownerFull.habits": "Der Besitzer dieses Space hat das Limit für aktive Gewohnheiten seines Tarifs erreicht. Bitte ihn, seinen Tarif zu upgraden, oder lösche eine Gewohnheit, um Platz zu schaffen.",
   "plans.plus.title": "Für persönliche Produktivität auf all deinen Geräten",
   "plans.pro.title": "Für geteilte Spaces, Teams und Discord-Communitys",
   "plans.benefit.spaces": {

@@ -657,6 +657,9 @@
     "many": "Tu plan {plan} incluye {count} de hábitos activos. Elimina un elemento o mejora tu plan para añadir otro.",
     "other": "Tu plan {plan} incluye {count} hábitos activos. Elimina un elemento o mejora tu plan para añadir otro."
   },
+  "plans.quota.ownerFull.todos": "El propietario de este espacio ha alcanzado el límite de tareas sincronizadas de su plan. Pídele que mejore su plan o elimina una tarea para hacer sitio.",
+  "plans.quota.ownerFull.bookmarks": "El propietario de este espacio ha alcanzado el límite de marcadores sincronizados de su plan. Pídele que mejore su plan o elimina un marcador para hacer sitio.",
+  "plans.quota.ownerFull.habits": "El propietario de este espacio ha alcanzado el límite de hábitos activos de su plan. Pídele que mejore su plan o elimina un hábito para hacer sitio.",
   "plans.plus.title": "Para la productividad personal en todos tus dispositivos",
   "plans.pro.title": "Para espacios compartidos, equipos y comunidades de Discord",
   "plans.benefit.spaces": {
