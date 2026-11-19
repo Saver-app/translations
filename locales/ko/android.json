@@ -148,6 +148,7 @@
   "spaces_error_sign_in_to_publish": "이 스페이스를 온라인으로 전환하려면 로그인하세요.",
   "spaces_error_offline_missing": "오프라인 스페이스가 더 이상 이 기기에 저장되어 있지 않아요.",
   "spaces_error_no_space_id": "서버에서 스페이스 ID를 받지 못했어요.",
+  "spaces_error_publish_over_limit": "이 스페이스에는 요금제로 동기화할 수 있는 것보다 많은 항목이 있어요. 항목을 일부 삭제하거나 업그레이드한 뒤 다시 시도해 주세요.",
   "share_sheet_title": "Saver에 저장",
   "share_task": "할 일",
   "share_bookmark": "북마크",
@@ -448,6 +449,18 @@
   "subscription_synced_bookmarks": "동기화되는 북마크",
   "subscription_active_habits": "활성 습관",
   "subscription_collaborators": "스페이스당 공동 작업자",
+  "quota_reached_tasks": {
+    "other": "%1$s 요금제는 동기화되는 할 일 %2$d개를 포함해요. 항목을 삭제하거나 업그레이드하면 더 추가할 수 있어요."
+  },
+  "quota_reached_bookmarks": {
+    "other": "%1$s 요금제는 동기화되는 북마크 %2$d개를 포함해요. 항목을 삭제하거나 업그레이드하면 더 추가할 수 있어요."
+  },
+  "quota_reached_habits": {
+    "other": "%1$s 요금제는 활성 습관 %2$d개를 포함해요. 항목을 삭제하거나 업그레이드하면 더 추가할 수 있어요."
+  },
+  "quota_owner_reached_tasks": "이 스페이스의 소유자가 요금제의 동기화되는 할 일 한도에 도달했어요. 소유자에게 업그레이드를 요청하거나, 할 일을 삭제해 자리를 만들어 주세요.",
+  "quota_owner_reached_bookmarks": "이 스페이스의 소유자가 요금제의 동기화되는 북마크 한도에 도달했어요. 소유자에게 업그레이드를 요청하거나, 북마크를 삭제해 자리를 만들어 주세요.",
+  "quota_owner_reached_habits": "이 스페이스의 소유자가 요금제의 활성 습관 한도에 도달했어요. 소유자에게 업그레이드를 요청하거나, 습관을 삭제해 자리를 만들어 주세요.",
   "space_no_spaces": "사용 가능한 스페이스 없음",
   "space_owner_only": "소유자만 이름을 변경할 수 있어요.",
   "space_sharing": "공유",

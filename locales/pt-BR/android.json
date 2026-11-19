@@ -150,6 +150,7 @@
   "spaces_error_sign_in_to_publish": "Entre para tornar este espaço online.",
   "spaces_error_offline_missing": "O espaço offline não está mais armazenado neste dispositivo.",
   "spaces_error_no_space_id": "O servidor não retornou um ID de espaço.",
+  "spaces_error_publish_over_limit": "Este espaço contém mais itens do que seu plano consegue sincronizar. Exclua alguns itens ou faça upgrade e tente novamente.",
   "share_sheet_title": "Salvar no Saver",
   "share_task": "Tarefa",
   "share_bookmark": "Favorito",
@@ -484,6 +485,24 @@
   "subscription_synced_bookmarks": "Favoritos sincronizados",
   "subscription_active_habits": "Hábitos ativos",
   "subscription_collaborators": "Colaboradores por espaço",
+  "quota_reached_tasks": {
+    "one": "Seu plano %1$s inclui %2$d tarefa sincronizada. Exclua um item ou faça upgrade para adicionar outra.",
+    "many": "Seu plano %1$s inclui %2$d de tarefas sincronizadas. Exclua um item ou faça upgrade para adicionar outra.",
+    "other": "Seu plano %1$s inclui %2$d tarefas sincronizadas. Exclua um item ou faça upgrade para adicionar outra."
+  },
+  "quota_reached_bookmarks": {
+    "one": "Seu plano %1$s inclui %2$d favorito sincronizado. Exclua um item ou faça upgrade para adicionar outro.",
+    "many": "Seu plano %1$s inclui %2$d de favoritos sincronizados. Exclua um item ou faça upgrade para adicionar outro.",
+    "other": "Seu plano %1$s inclui %2$d favoritos sincronizados. Exclua um item ou faça upgrade para adicionar outro."
+  },
+  "quota_reached_habits": {
+    "one": "Seu plano %1$s inclui %2$d hábito ativo. Exclua um item ou faça upgrade para adicionar outro.",
+    "many": "Seu plano %1$s inclui %2$d de hábitos ativos. Exclua um item ou faça upgrade para adicionar outro.",
+    "other": "Seu plano %1$s inclui %2$d hábitos ativos. Exclua um item ou faça upgrade para adicionar outro."
+  },
+  "quota_owner_reached_tasks": "O proprietário deste espaço atingiu o limite de tarefas sincronizadas do plano dele. Peça para ele fazer upgrade ou exclua uma tarefa para liberar uma vaga.",
+  "quota_owner_reached_bookmarks": "O proprietário deste espaço atingiu o limite de favoritos sincronizados do plano dele. Peça para ele fazer upgrade ou exclua um favorito para liberar uma vaga.",
+  "quota_owner_reached_habits": "O proprietário deste espaço atingiu o limite de hábitos ativos do plano dele. Peça para ele fazer upgrade ou exclua um hábito para liberar uma vaga.",
   "space_no_spaces": "Nenhum espaço disponível",
   "space_owner_only": "Só o proprietário pode alterar o nome.",
   "space_sharing": "Compartilhamento",

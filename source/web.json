@@ -2809,6 +2809,18 @@
       "{count}": "Number of habits the plan includes"
     }
   },
+  "plans.quota.ownerFull.todos": {
+    "text": "The owner of this space has reached the limit of synced tasks on their plan. Ask them to upgrade, or delete a task to make room.",
+    "context": "Shown when someone adds a task to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
+  },
+  "plans.quota.ownerFull.bookmarks": {
+    "text": "The owner of this space has reached the limit of synced bookmarks on their plan. Ask them to upgrade, or delete a bookmark to make room.",
+    "context": "Shown when someone adds a bookmark to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
+  },
+  "plans.quota.ownerFull.habits": {
+    "text": "The owner of this space has reached the limit of active habits on their plan. Ask them to upgrade, or delete a habit to make room.",
+    "context": "Shown when someone adds a habit to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
+  },
   "plans.plus.title": {
     "text": "For personal productivity across all your devices",
     "context": "Upgrade dialog: headline of the Plus plan."

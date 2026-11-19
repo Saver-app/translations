@@ -150,6 +150,7 @@
   "spaces_error_sign_in_to_publish": "Melde dich an, um diesen Space online zu stellen.",
   "spaces_error_offline_missing": "Der Offline-Space ist nicht mehr auf diesem Gerät gespeichert.",
   "spaces_error_no_space_id": "Der Server hat keine Space-ID zurückgegeben.",
+  "spaces_error_publish_over_limit": "Dieser Space enthält mehr Elemente, als dein Tarif synchronisieren kann. Lösche einige Elemente oder wechsle zu einem größeren Tarif und versuche es dann noch einmal.",
   "share_sheet_title": "In Saver speichern",
   "share_task": "Aufgabe",
   "share_bookmark": "Lesezeichen",
@@ -528,6 +529,21 @@
   "subscription_synced_bookmarks": "Synchronisierte Lesezeichen",
   "subscription_active_habits": "Aktive Gewohnheiten",
   "subscription_collaborators": "Mitbearbeiter pro Space",
+  "quota_reached_tasks": {
+    "one": "Dein %1$s-Tarif enthält %2$d synchronisierte Aufgabe. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen.",
+    "other": "Dein %1$s-Tarif enthält %2$d synchronisierte Aufgaben. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen."
+  },
+  "quota_reached_bookmarks": {
+    "one": "Dein %1$s-Tarif enthält %2$d synchronisiertes Lesezeichen. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen.",
+    "other": "Dein %1$s-Tarif enthält %2$d synchronisierte Lesezeichen. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen."
+  },
+  "quota_reached_habits": {
+    "one": "Dein %1$s-Tarif enthält %2$d aktive Gewohnheit. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen.",
+    "other": "Dein %1$s-Tarif enthält %2$d aktive Gewohnheiten. Lösche ein Element oder wechsle zu einem größeren Tarif, um weitere hinzuzufügen."
+  },
+  "quota_owner_reached_tasks": "Der Besitzer dieses Space hat das Limit für synchronisierte Aufgaben seines Tarifs erreicht. Bitte ihn, seinen Tarif zu upgraden, oder lösche eine Aufgabe, um Platz zu schaffen.",
+  "quota_owner_reached_bookmarks": "Der Besitzer dieses Space hat das Limit für synchronisierte Lesezeichen seines Tarifs erreicht. Bitte ihn, seinen Tarif zu upgraden, oder lösche ein Lesezeichen, um Platz zu schaffen.",
+  "quota_owner_reached_habits": "Der Besitzer dieses Space hat das Limit für aktive Gewohnheiten seines Tarifs erreicht. Bitte ihn, seinen Tarif zu upgraden, oder lösche eine Gewohnheit, um Platz zu schaffen.",
   "space_no_spaces": "Keine Spaces verfügbar",
   "space_owner_only": "Nur der Besitzer kann den Namen ändern.",
   "space_sharing": "Teilen",

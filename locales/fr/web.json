@@ -657,6 +657,9 @@
     "many": "Votre offre {plan} inclut {count} habitudes actives. Supprimez un élément ou passez à une offre supérieure pour en ajouter.",
     "other": "Votre offre {plan} inclut {count} habitudes actives. Supprimez un élément ou passez à une offre supérieure pour en ajouter."
   },
+  "plans.quota.ownerFull.todos": "Le propriétaire de cet espace a atteint la limite de tâches synchronisées de son offre. Demandez-lui de passer à une offre supérieure, ou supprimez une tâche pour faire de la place.",
+  "plans.quota.ownerFull.bookmarks": "Le propriétaire de cet espace a atteint la limite de marque-pages synchronisés de son offre. Demandez-lui de passer à une offre supérieure, ou supprimez un marque-page pour faire de la place.",
+  "plans.quota.ownerFull.habits": "Le propriétaire de cet espace a atteint la limite d’habitudes actives de son offre. Demandez-lui de passer à une offre supérieure, ou supprimez une habitude pour faire de la place.",
   "plans.plus.title": "Pour être productif sur tous vos appareils",
   "plans.pro.title": "Pour les espaces partagés, les équipes et les communautés Discord",
   "plans.benefit.spaces": {

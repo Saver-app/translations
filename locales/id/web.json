@@ -601,6 +601,9 @@
   "plans.quota.habits": {
     "other": "Paket {plan} Anda mencakup {count} kebiasaan aktif. Hapus satu item atau upgrade untuk menambah lagi."
   },
+  "plans.quota.ownerFull.todos": "Pemilik ruang ini telah mencapai batas tugas tersinkron di paketnya. Minta pemilik untuk meng-upgrade, atau hapus satu tugas untuk memberi tempat.",
+  "plans.quota.ownerFull.bookmarks": "Pemilik ruang ini telah mencapai batas bookmark tersinkron di paketnya. Minta pemilik untuk meng-upgrade, atau hapus satu bookmark untuk memberi tempat.",
+  "plans.quota.ownerFull.habits": "Pemilik ruang ini telah mencapai batas kebiasaan aktif di paketnya. Minta pemilik untuk meng-upgrade, atau hapus satu kebiasaan untuk memberi tempat.",
   "plans.plus.title": "Untuk produktivitas pribadi di semua perangkat Anda",
   "plans.pro.title": "Untuk ruang bersama, tim, dan komunitas Discord",
   "plans.benefit.spaces": {

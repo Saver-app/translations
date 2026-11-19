@@ -629,6 +629,9 @@
     "one": "{plan} planın {count} etkin alışkanlık içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt.",
     "other": "{plan} planın {count} etkin alışkanlık içerir. Başka eklemek için bir öğeyi sil ya da planını yükselt."
   },
+  "plans.quota.ownerFull.todos": "Bu alanın sahibi, planındaki senkronize görev sınırına ulaştı. Planını yükseltmesini iste ya da yer açmak için bir görevi sil.",
+  "plans.quota.ownerFull.bookmarks": "Bu alanın sahibi, planındaki senkronize yer imi sınırına ulaştı. Planını yükseltmesini iste ya da yer açmak için bir yer imini sil.",
+  "plans.quota.ownerFull.habits": "Bu alanın sahibi, planındaki etkin alışkanlık sınırına ulaştı. Planını yükseltmesini iste ya da yer açmak için bir alışkanlığı sil.",
   "plans.plus.title": "Tüm cihazlarında kişisel verimlilik için",
   "plans.pro.title": "Paylaşılan alanlar, ekipler ve Discord toplulukları için",
   "plans.benefit.spaces": {

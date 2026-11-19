@@ -150,6 +150,7 @@
   "spaces_error_sign_in_to_publish": "Inicia sesión para poner este espacio online.",
   "spaces_error_offline_missing": "El espacio sin conexión ya no está almacenado en este dispositivo.",
   "spaces_error_no_space_id": "El servidor no devolvió un ID de espacio.",
+  "spaces_error_publish_over_limit": "Este espacio contiene más elementos de los que tu plan puede sincronizar. Elimina algunos elementos o mejora tu plan y vuelve a intentarlo.",
   "share_sheet_title": "Guardar en Saver",
   "share_task": "Tarea",
   "share_bookmark": "Marcador",
@@ -484,6 +485,24 @@
   "subscription_synced_bookmarks": "Marcadores sincronizados",
   "subscription_active_habits": "Hábitos activos",
   "subscription_collaborators": "Colaboradores por espacio",
+  "quota_reached_tasks": {
+    "one": "Tu plan %1$s incluye %2$d tarea sincronizada. Elimina un elemento o mejora tu plan para añadir otra.",
+    "many": "Tu plan %1$s incluye %2$d de tareas sincronizadas. Elimina un elemento o mejora tu plan para añadir otra.",
+    "other": "Tu plan %1$s incluye %2$d tareas sincronizadas. Elimina un elemento o mejora tu plan para añadir otra."
+  },
+  "quota_reached_bookmarks": {
+    "one": "Tu plan %1$s incluye %2$d marcador sincronizado. Elimina un elemento o mejora tu plan para añadir otro.",
+    "many": "Tu plan %1$s incluye %2$d de marcadores sincronizados. Elimina un elemento o mejora tu plan para añadir otro.",
+    "other": "Tu plan %1$s incluye %2$d marcadores sincronizados. Elimina un elemento o mejora tu plan para añadir otro."
+  },
+  "quota_reached_habits": {
+    "one": "Tu plan %1$s incluye %2$d hábito activo. Elimina un elemento o mejora tu plan para añadir otro.",
+    "many": "Tu plan %1$s incluye %2$d de hábitos activos. Elimina un elemento o mejora tu plan para añadir otro.",
+    "other": "Tu plan %1$s incluye %2$d hábitos activos. Elimina un elemento o mejora tu plan para añadir otro."
+  },
+  "quota_owner_reached_tasks": "El propietario de este espacio ha alcanzado el límite de tareas sincronizadas de su plan. Pídele que mejore su plan o elimina una tarea para hacer sitio.",
+  "quota_owner_reached_bookmarks": "El propietario de este espacio ha alcanzado el límite de marcadores sincronizados de su plan. Pídele que mejore su plan o elimina un marcador para hacer sitio.",
+  "quota_owner_reached_habits": "El propietario de este espacio ha alcanzado el límite de hábitos activos de su plan. Pídele que mejore su plan o elimina un hábito para hacer sitio.",
   "space_no_spaces": "No hay espacios disponibles",
   "space_owner_only": "Solo el propietario puede cambiar el nombre.",
   "space_sharing": "Compartir",
