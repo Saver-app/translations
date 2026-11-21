@@ -771,5 +771,10 @@
   "errors.sessionEnded": "Oturumun sona erdi. Tekrar giriş yap.",
   "errors.signInToChange": "Senkronize verileri değiştirmeden önce giriş yap.",
   "errors.signInToAddHabit": "Alışkanlık eklemeden önce giriş yap.",
-  "errors.cannotMove": "Bu öğe oraya taşınamaz."
+  "errors.cannotMove": "Bu öğe oraya taşınamaz.",
+  "board.pin": "Sabitle",
+  "board.unpin": "Sabitlemeyi kaldır",
+  "board.pinned": "Sabitlendi",
+  "board.pinError": "Bu öğe sabitlenemedi.",
+  "board.unpinError": "Bu öğenin sabitlemesi kaldırılamadı."
 }

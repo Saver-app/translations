@@ -668,5 +668,9 @@
   "Enter your email address to reset your password.": "Masukkan alamat email Anda untuk mengatur ulang kata sandi.",
   "Verify your email before signing in. Check your inbox for the verification link.": "Verifikasi email Anda sebelum masuk. Periksa kotak masuk untuk tautan verifikasi.",
   "Your email is already verified. Sign in to continue.": "Email Anda sudah terverifikasi. Masuk untuk melanjutkan.",
-  "Space details are unavailable. Try again.": "Detail ruang tidak tersedia. Coba lagi."
+  "Space details are unavailable. Try again.": "Detail ruang tidak tersedia. Coba lagi.",
+  "Pin": "Sematkan",
+  "Unpin": "Lepas sematan",
+  "Pinned": "Disematkan",
+  "The item of this reminder is no longer there.": "Item dari pengingat ini sudah tidak ada."
 }

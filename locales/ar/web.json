@@ -895,5 +895,10 @@
   "errors.sessionEnded": "انتهت جلستك. سجّل الدخول مرة أخرى.",
   "errors.signInToChange": "سجّل الدخول قبل تغيير البيانات المتزامنة.",
   "errors.signInToAddHabit": "سجّل الدخول قبل إضافة عادة.",
-  "errors.cannotMove": "لا يمكن نقل هذا العنصر إلى هناك."
+  "errors.cannotMove": "لا يمكن نقل هذا العنصر إلى هناك.",
+  "board.pin": "تثبيت",
+  "board.unpin": "إلغاء التثبيت",
+  "board.pinned": "مثبّت",
+  "board.pinError": "تعذّر تثبيت هذا العنصر.",
+  "board.unpinError": "تعذّر إلغاء تثبيت هذا العنصر."
 }

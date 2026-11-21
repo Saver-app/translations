@@ -586,5 +586,8 @@
   "notification_bookmark_title": "Pengingat bookmark",
   "notification_bookmark_text": "Anda meminta Saver untuk mengingatkan bookmark ini.",
   "notification_habit_title": "Pengingat kebiasaan",
-  "notification_habit_text": "Saatnya menjaga rentetan Anda."
+  "notification_habit_text": "Saatnya menjaga rentetan Anda.",
+  "pins_pin": "Sematkan",
+  "pins_unpin": "Lepas sematan",
+  "pins_indicator": "Disematkan"
 }

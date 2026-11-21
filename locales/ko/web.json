@@ -740,5 +740,10 @@
   "errors.sessionEnded": "세션이 종료되었어요. 다시 로그인해 주세요.",
   "errors.signInToChange": "동기화된 데이터를 변경하기 전에 로그인해 주세요.",
   "errors.signInToAddHabit": "습관을 추가하기 전에 로그인해 주세요.",
-  "errors.cannotMove": "해당 항목은 그곳으로 옮길 수 없어요."
+  "errors.cannotMove": "해당 항목은 그곳으로 옮길 수 없어요.",
+  "board.pin": "고정",
+  "board.unpin": "고정 해제",
+  "board.pinned": "고정됨",
+  "board.pinError": "해당 항목을 고정하지 못했어요.",
+  "board.unpinError": "해당 항목의 고정을 해제하지 못했어요."
 }

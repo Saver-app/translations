@@ -712,5 +712,9 @@
   "Enter your email address to reset your password.": "Saisissez votre adresse e-mail pour réinitialiser votre mot de passe.",
   "Verify your email before signing in. Check your inbox for the verification link.": "Vérifiez votre e-mail avant de vous connecter. Consultez votre boîte de réception pour trouver le lien de vérification.",
   "Your email is already verified. Sign in to continue.": "Votre e-mail est déjà vérifié. Connectez-vous pour continuer.",
-  "Space details are unavailable. Try again.": "Les détails de l’espace sont indisponibles. Réessayez."
+  "Space details are unavailable. Try again.": "Les détails de l’espace sont indisponibles. Réessayez.",
+  "Pin": "Épingler",
+  "Unpin": "Désépingler",
+  "Pinned": "Épinglé",
+  "The item of this reminder is no longer there.": "L’élément de ce rappel n’existe plus."
 }

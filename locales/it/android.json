@@ -632,5 +632,8 @@
   "notification_bookmark_title": "Promemoria segnalibro",
   "notification_bookmark_text": "Hai chiesto a Saver di riproporti questo segnalibro.",
   "notification_habit_title": "Promemoria abitudine",
-  "notification_habit_text": "È ora di mantenere la tua serie."
+  "notification_habit_text": "È ora di mantenere la tua serie.",
+  "pins_pin": "Fissa",
+  "pins_unpin": "Rimuovi fissaggio",
+  "pins_indicator": "Fissato"
 }

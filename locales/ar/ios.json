@@ -778,5 +778,9 @@
   "Enter your email address to reset your password.": "أدخل عنوان بريدك الإلكتروني لإعادة تعيين كلمة المرور.",
   "Verify your email before signing in. Check your inbox for the verification link.": "تحقق من بريدك الإلكتروني قبل تسجيل الدخول. ابحث في بريدك الوارد عن رابط التحقق.",
   "Your email is already verified. Sign in to continue.": "تم التحقق من بريدك الإلكتروني بالفعل. سجّل الدخول للمتابعة.",
-  "Space details are unavailable. Try again.": "تفاصيل المساحة غير متاحة. أعد المحاولة."
+  "Space details are unavailable. Try again.": "تفاصيل المساحة غير متاحة. أعد المحاولة.",
+  "Pin": "تثبيت",
+  "Unpin": "إلغاء التثبيت",
+  "Pinned": "مثبّت",
+  "The item of this reminder is no longer there.": "عنصر هذا التذكير لم يعد موجودًا."
 }

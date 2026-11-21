@@ -831,5 +831,10 @@
   "errors.sessionEnded": "Deine Sitzung wurde beendet. Melde dich erneut an.",
   "errors.signInToChange": "Melde dich an, bevor du synchronisierte Daten änderst.",
   "errors.signInToAddHabit": "Melde dich an, bevor du eine Gewohnheit hinzufügst.",
-  "errors.cannotMove": "Dieses Element kann nicht dorthin verschoben werden."
+  "errors.cannotMove": "Dieses Element kann nicht dorthin verschoben werden.",
+  "board.pin": "Anheften",
+  "board.unpin": "Loslösen",
+  "board.pinned": "Angeheftet",
+  "board.pinError": "Das Element konnte nicht angeheftet werden.",
+  "board.unpinError": "Das Element konnte nicht losgelöst werden."
 }

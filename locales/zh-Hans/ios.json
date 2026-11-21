@@ -668,5 +668,9 @@
   "Enter your email address to reset your password.": "请输入你的邮箱地址以重置密码。",
   "Verify your email before signing in. Check your inbox for the verification link.": "登录前请先验证邮箱。请在收件箱中查看验证链接。",
   "Your email is already verified. Sign in to continue.": "你的邮箱已验证。请登录以继续。",
-  "Space details are unavailable. Try again.": "空间详情不可用，请重试。"
+  "Space details are unavailable. Try again.": "空间详情不可用，请重试。",
+  "Pin": "置顶",
+  "Unpin": "取消置顶",
+  "Pinned": "已置顶",
+  "The item of this reminder is no longer there.": "此提醒对应的项目已不存在。"
 }

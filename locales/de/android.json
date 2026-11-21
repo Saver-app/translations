@@ -673,5 +673,8 @@
   "notification_bookmark_title": "Lesezeichenerinnerung",
   "notification_bookmark_text": "Du hast Saver gebeten, dich an dieses Lesezeichen zu erinnern.",
   "notification_habit_title": "Gewohnheitserinnerung",
-  "notification_habit_text": "Zeit, deine Serie am Laufen zu halten."
+  "notification_habit_text": "Zeit, deine Serie am Laufen zu halten.",
+  "pins_pin": "Anheften",
+  "pins_unpin": "Loslösen",
+  "pins_indicator": "Angeheftet"
 }

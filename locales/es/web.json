@@ -802,5 +802,10 @@
   "errors.sessionEnded": "Tu sesión ha terminado. Vuelve a iniciar sesión.",
   "errors.signInToChange": "Inicia sesión antes de cambiar datos sincronizados.",
   "errors.signInToAddHabit": "Inicia sesión antes de añadir un hábito.",
-  "errors.cannotMove": "Ese elemento no se puede mover ahí."
+  "errors.cannotMove": "Ese elemento no se puede mover ahí.",
+  "board.pin": "Fijar",
+  "board.unpin": "Dejar de fijar",
+  "board.pinned": "Fijado",
+  "board.pinError": "No se pudo fijar ese elemento.",
+  "board.unpinError": "No se pudo dejar de fijar ese elemento."
 }

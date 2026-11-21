@@ -668,5 +668,9 @@
   "Enter your email address to reset your password.": "비밀번호를 재설정하려면 이메일 주소를 입력하세요.",
   "Verify your email before signing in. Check your inbox for the verification link.": "로그인하기 전에 이메일을 인증하세요. 받은편지함에서 인증 링크를 확인하세요.",
   "Your email is already verified. Sign in to continue.": "이메일이 이미 인증되었어요. 계속하려면 로그인하세요.",
-  "Space details are unavailable. Try again.": "스페이스 정보를 사용할 수 없어요. 다시 시도해 주세요."
+  "Space details are unavailable. Try again.": "스페이스 정보를 사용할 수 없어요. 다시 시도해 주세요.",
+  "Pin": "고정",
+  "Unpin": "고정 해제",
+  "Pinned": "고정됨",
+  "The item of this reminder is no longer there.": "이 알림의 항목이 더 이상 없어요."
 }

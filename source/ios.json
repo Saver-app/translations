@@ -3065,5 +3065,21 @@
   "Show subtasks": {
     "text": "Show subtasks",
     "context": "Checkmark item in the focus options menu: whether focus mode lists the task’s subtasks."
+  },
+  "Pin": {
+    "text": "Pin",
+    "context": "Swipe action on a task, list, bookmark or folder that keeps it at the top of whatever it is in."
+  },
+  "Pinned": {
+    "text": "Pinned",
+    "context": "Accessibility label of the pin icon on the row of a task, list, bookmark or folder that is pinned to the top."
+  },
+  "The item of this reminder is no longer there.": {
+    "text": "The item of this reminder is no longer there.",
+    "context": "Message after tapping a reminder whose task, bookmark or habit was deleted or cannot be opened."
+  },
+  "Unpin": {
+    "text": "Unpin",
+    "context": "Swipe action on a pinned task, list, bookmark or folder that puts it back into the normal order."
   }
 }

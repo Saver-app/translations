@@ -586,5 +586,8 @@
   "notification_bookmark_title": "ブックマークのリマインダー",
   "notification_bookmark_text": "このブックマークを再表示するようSaverに依頼されていました。",
   "notification_habit_title": "習慣のリマインダー",
-  "notification_habit_text": "連続記録を続ける時間です。"
+  "notification_habit_text": "連続記録を続ける時間です。",
+  "pins_pin": "ピン留め",
+  "pins_unpin": "ピン留めを外す",
+  "pins_indicator": "ピン留め済み"
 }

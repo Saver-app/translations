@@ -833,5 +833,10 @@
   "errors.sessionEnded": "Сеанс завершён. Войдите снова.",
   "errors.signInToChange": "Войдите, прежде чем менять синхронизируемые данные.",
   "errors.signInToAddHabit": "Войдите, прежде чем добавлять привычку.",
-  "errors.cannotMove": "Элемент нельзя переместить туда."
+  "errors.cannotMove": "Элемент нельзя переместить туда.",
+  "board.pin": "Закрепить",
+  "board.unpin": "Открепить",
+  "board.pinned": "Закреплено",
+  "board.pinError": "Не удалось закрепить элемент.",
+  "board.unpinError": "Не удалось открепить элемент."
 }

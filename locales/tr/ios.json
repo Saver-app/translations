@@ -690,5 +690,9 @@
   "Enter your email address to reset your password.": "Parolanı sıfırlamak için e-posta adresini gir.",
   "Verify your email before signing in. Check your inbox for the verification link.": "Giriş yapmadan önce e-postanı doğrula. Doğrulama bağlantısı için gelen kutunu kontrol et.",
   "Your email is already verified. Sign in to continue.": "E-postan zaten doğrulanmış. Devam etmek için giriş yap.",
-  "Space details are unavailable. Try again.": "Alan ayrıntıları kullanılamıyor. Tekrar dene."
+  "Space details are unavailable. Try again.": "Alan ayrıntıları kullanılamıyor. Tekrar dene.",
+  "Pin": "Sabitle",
+  "Unpin": "Sabitlemeyi kaldır",
+  "Pinned": "Sabitlendi",
+  "The item of this reminder is no longer there.": "Bu hatırlatıcının öğesi artık yok."
 }

@@ -690,5 +690,9 @@
   "Enter your email address to reset your password.": "पासवर्ड रीसेट करने के लिए अपना ईमेल पता डालें।",
   "Verify your email before signing in. Check your inbox for the verification link.": "साइन इन से पहले अपना ईमेल वेरिफ़ाई करें। वेरिफ़िकेशन लिंक के लिए अपना इनबॉक्स देखें।",
   "Your email is already verified. Sign in to continue.": "आपका ईमेल पहले से वेरिफ़ाई है। जारी रखने के लिए साइन इन करें।",
-  "Space details are unavailable. Try again.": "स्पेस की जानकारी उपलब्ध नहीं है। फिर कोशिश करें।"
+  "Space details are unavailable. Try again.": "स्पेस की जानकारी उपलब्ध नहीं है। फिर कोशिश करें।",
+  "Pin": "पिन करें",
+  "Unpin": "अनपिन करें",
+  "Pinned": "पिन किया गया",
+  "The item of this reminder is no longer there.": "इस रिमाइंडर का आइटम अब मौजूद नहीं है।"
 }

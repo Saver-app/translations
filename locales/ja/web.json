@@ -740,5 +740,10 @@
   "errors.sessionEnded": "セッションが終了しました。もう一度サインインしてください。",
   "errors.signInToChange": "同期データを変更するには、サインインしてください。",
   "errors.signInToAddHabit": "習慣を追加するには、サインインしてください。",
-  "errors.cannotMove": "その項目はそこに移動できません。"
+  "errors.cannotMove": "その項目はそこに移動できません。",
+  "board.pin": "ピン留め",
+  "board.unpin": "ピン留めを外す",
+  "board.pinned": "ピン留め済み",
+  "board.pinError": "その項目をピン留めできませんでした。",
+  "board.unpinError": "その項目のピン留めを外せませんでした。"
 }

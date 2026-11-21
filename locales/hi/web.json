@@ -771,5 +771,10 @@
   "errors.sessionEnded": "आपका सेशन खत्म हो गया है। फिर साइन इन करें।",
   "errors.signInToChange": "सिंक किए डेटा में बदलाव से पहले साइन इन करें।",
   "errors.signInToAddHabit": "आदत जोड़ने से पहले साइन इन करें।",
-  "errors.cannotMove": "वह आइटम वहाँ नहीं ले जाया जा सकता।"
+  "errors.cannotMove": "वह आइटम वहाँ नहीं ले जाया जा सकता।",
+  "board.pin": "पिन करें",
+  "board.unpin": "अनपिन करें",
+  "board.pinned": "पिन किया गया",
+  "board.pinError": "वह आइटम पिन नहीं किया जा सका।",
+  "board.unpinError": "वह आइटम अनपिन नहीं किया जा सका।"
 }

@@ -740,5 +740,10 @@
   "errors.sessionEnded": "你的会话已结束。请重新登录。",
   "errors.signInToChange": "请先登录，再更改同步数据。",
   "errors.signInToAddHabit": "请先登录，再添加习惯。",
-  "errors.cannotMove": "无法将该项目移动到那里。"
+  "errors.cannotMove": "无法将该项目移动到那里。",
+  "board.pin": "置顶",
+  "board.unpin": "取消置顶",
+  "board.pinned": "已置顶",
+  "board.pinError": "无法置顶该项目。",
+  "board.unpinError": "无法取消置顶该项目。"
 }

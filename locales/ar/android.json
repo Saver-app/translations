@@ -701,5 +701,8 @@
   "notification_bookmark_title": "تذكير رابط",
   "notification_bookmark_text": "طلبت من Saver أن يعيد إليك هذا الرابط.",
   "notification_habit_title": "تذكير عادة",
-  "notification_habit_text": "حان وقت مواصلة سلسلتك."
+  "notification_habit_text": "حان وقت مواصلة سلسلتك.",
+  "pins_pin": "تثبيت",
+  "pins_unpin": "إلغاء التثبيت",
+  "pins_indicator": "مثبّت"
 }

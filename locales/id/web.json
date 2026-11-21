@@ -740,5 +740,10 @@
   "errors.sessionEnded": "Sesi Anda telah berakhir. Silakan masuk lagi.",
   "errors.signInToChange": "Masuk sebelum mengubah data tersinkron.",
   "errors.signInToAddHabit": "Masuk sebelum menambah kebiasaan.",
-  "errors.cannotMove": "Item itu tidak dapat dipindahkan ke sana."
+  "errors.cannotMove": "Item itu tidak dapat dipindahkan ke sana.",
+  "board.pin": "Sematkan",
+  "board.unpin": "Lepas sematan",
+  "board.pinned": "Disematkan",
+  "board.pinError": "Item itu tidak dapat disematkan.",
+  "board.unpinError": "Sematan item itu tidak dapat dilepas."
 }

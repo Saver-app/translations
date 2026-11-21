@@ -734,5 +734,9 @@
   "Enter your email address to reset your password.": "Введите адрес почты, чтобы сбросить пароль.",
   "Verify your email before signing in. Check your inbox for the verification link.": "Подтвердите почту перед входом. Ссылка для подтверждения ждёт вас во входящих.",
   "Your email is already verified. Sign in to continue.": "Ваша почта уже подтверждена. Войдите, чтобы продолжить.",
-  "Space details are unavailable. Try again.": "Сведения о пространстве недоступны. Попробуйте ещё раз."
+  "Space details are unavailable. Try again.": "Сведения о пространстве недоступны. Попробуйте ещё раз.",
+  "Pin": "Закрепить",
+  "Unpin": "Открепить",
+  "Pinned": "Закреплено",
+  "The item of this reminder is no longer there.": "Элемента этого напоминания больше нет."
 }

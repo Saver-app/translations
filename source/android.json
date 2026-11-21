@@ -1777,6 +1777,18 @@
     "text": "Could not save that reminder.",
     "context": "Message shown when a reminder could not be saved."
   },
+  "pins_pin": {
+    "text": "Pin",
+    "context": "Button on a task, list, bookmark or folder that keeps it at the top of whatever it is in."
+  },
+  "pins_unpin": {
+    "text": "Unpin",
+    "context": "Button on a pinned task, list, bookmark or folder that puts it back into the normal order."
+  },
+  "pins_indicator": {
+    "text": "Pinned",
+    "context": "Screen-reader label of the small pin icon on the row of a pinned task, list, bookmark or folder."
+  },
   "settings_manage": {
     "text": "Manage",
     "context": "Heading of the first group in Settings: account, subscription and space."

@@ -632,5 +632,8 @@
   "notification_bookmark_title": "Lembrete de favorito",
   "notification_bookmark_text": "Você pediu ao Saver para trazer este favorito de volta.",
   "notification_habit_title": "Lembrete de hábito",
-  "notification_habit_text": "Hora de manter sua sequência."
+  "notification_habit_text": "Hora de manter sua sequência.",
+  "pins_pin": "Fixar",
+  "pins_unpin": "Desafixar",
+  "pins_indicator": "Fixado"
 }

@@ -632,5 +632,8 @@
   "notification_bookmark_title": "Rappel de marque-page",
   "notification_bookmark_text": "Vous avez demandé à Saver de vous rappeler ce marque-page.",
   "notification_habit_title": "Rappel d’habitude",
-  "notification_habit_text": "C’est le moment de poursuivre votre série."
+  "notification_habit_text": "C’est le moment de poursuivre votre série.",
+  "pins_pin": "Épingler",
+  "pins_unpin": "Désépingler",
+  "pins_indicator": "Épinglé"
 }

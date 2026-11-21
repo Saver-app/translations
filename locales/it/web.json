@@ -802,5 +802,10 @@
   "errors.sessionEnded": "La tua sessione è terminata. Accedi di nuovo.",
   "errors.signInToChange": "Accedi prima di modificare i dati sincronizzati.",
   "errors.signInToAddHabit": "Accedi prima di aggiungere un'abitudine.",
-  "errors.cannotMove": "Impossibile spostare l'elemento lì."
+  "errors.cannotMove": "Impossibile spostare l'elemento lì.",
+  "board.pin": "Fissa",
+  "board.unpin": "Rimuovi fissaggio",
+  "board.pinned": "Fissato",
+  "board.pinError": "Impossibile fissare quell'elemento.",
+  "board.unpinError": "Impossibile rimuovere il fissaggio di quell'elemento."
 }

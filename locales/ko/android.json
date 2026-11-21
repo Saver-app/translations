@@ -586,5 +586,8 @@
   "notification_bookmark_title": "북마크 알림",
   "notification_bookmark_text": "Saver에 다시 알려 달라고 요청한 북마크예요.",
   "notification_habit_title": "습관 알림",
-  "notification_habit_text": "연속 기록을 이어 갈 시간이에요."
+  "notification_habit_text": "연속 기록을 이어 갈 시간이에요.",
+  "pins_pin": "고정",
+  "pins_unpin": "고정 해제",
+  "pins_indicator": "고정됨"
 }

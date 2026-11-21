@@ -747,5 +747,9 @@
   "Focus options": "Fokus-Optionen",
   "Next Task": "Nächste Aufgabe",
   "Show next task": "Nächste Aufgabe anzeigen",
-  "Show subtasks": "Unteraufgaben anzeigen"
+  "Show subtasks": "Unteraufgaben anzeigen",
+  "Pin": "Anheften",
+  "Unpin": "Loslösen",
+  "Pinned": "Angeheftet",
+  "The item of this reminder is no longer there.": "Das Element dieser Erinnerung ist nicht mehr da."
 }

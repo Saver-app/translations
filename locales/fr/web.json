@@ -802,5 +802,10 @@
   "errors.sessionEnded": "Votre session s’est terminée. Reconnectez-vous.",
   "errors.signInToChange": "Connectez-vous avant de modifier des données synchronisées.",
   "errors.signInToAddHabit": "Connectez-vous avant d’ajouter une habitude.",
-  "errors.cannotMove": "Impossible de déplacer cet élément à cet endroit."
+  "errors.cannotMove": "Impossible de déplacer cet élément à cet endroit.",
+  "board.pin": "Épingler",
+  "board.unpin": "Désépingler",
+  "board.pinned": "Épinglé",
+  "board.pinError": "Impossible d’épingler cet élément.",
+  "board.unpinError": "Impossible de désépingler cet élément."
 }

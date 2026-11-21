@@ -632,5 +632,8 @@
   "notification_bookmark_title": "Recordatorio de marcador",
   "notification_bookmark_text": "Pediste a Saver que te recordara este marcador.",
   "notification_habit_title": "Recordatorio de hábito",
-  "notification_habit_text": "Es hora de mantener tu racha."
+  "notification_habit_text": "Es hora de mantener tu racha.",
+  "pins_pin": "Fijar",
+  "pins_unpin": "Dejar de fijar",
+  "pins_indicator": "Fijado"
 }

@@ -668,5 +668,9 @@
   "Enter your email address to reset your password.": "パスワードをリセットするには、メールアドレスを入力してください。",
   "Verify your email before signing in. Check your inbox for the verification link.": "サインインする前にメールアドレスを確認してください。受信トレイの確認リンクをご覧ください。",
   "Your email is already verified. Sign in to continue.": "メールアドレスはすでに確認済みです。サインインして続行してください。",
-  "Space details are unavailable. Try again.": "スペースの詳細を利用できません。もう一度お試しください。"
+  "Space details are unavailable. Try again.": "スペースの詳細を利用できません。もう一度お試しください。",
+  "Pin": "ピン留め",
+  "Unpin": "ピン留めを外す",
+  "Pinned": "ピン留め済み",
+  "The item of this reminder is no longer there.": "このリマインダーの項目はもうありません。"
 }

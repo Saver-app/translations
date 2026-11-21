@@ -802,5 +802,10 @@
   "errors.sessionEnded": "Sua sessão terminou. Entre de novo.",
   "errors.signInToChange": "Entre antes de alterar dados sincronizados.",
   "errors.signInToAddHabit": "Entre antes de adicionar um hábito.",
-  "errors.cannotMove": "Esse item não pode ser movido para lá."
+  "errors.cannotMove": "Esse item não pode ser movido para lá.",
+  "board.pin": "Fixar",
+  "board.unpin": "Desafixar",
+  "board.pinned": "Fixado",
+  "board.pinError": "Não foi possível fixar esse item.",
+  "board.unpinError": "Não foi possível desafixar esse item."
 }

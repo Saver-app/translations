@@ -586,5 +586,8 @@
   "notification_bookmark_title": "书签提醒",
   "notification_bookmark_text": "你让 Saver 把这个书签再提醒你。",
   "notification_habit_title": "习惯提醒",
-  "notification_habit_text": "该保持你的连续记录了。"
+  "notification_habit_text": "该保持你的连续记录了。",
+  "pins_pin": "置顶",
+  "pins_unpin": "取消置顶",
+  "pins_indicator": "已置顶"
 }

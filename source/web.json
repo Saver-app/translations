@@ -945,6 +945,26 @@
     "text": "Edit reminder",
     "context": "Menu of a task, list or bookmark: item that changes its existing reminder."
   },
+  "board.pin": {
+    "text": "Pin",
+    "context": "Menu item on a task, list, bookmark or folder that keeps it at the top of whatever it is in."
+  },
+  "board.unpin": {
+    "text": "Unpin",
+    "context": "Menu item on a pinned task, list, bookmark or folder that puts it back into the normal order."
+  },
+  "board.pinned": {
+    "text": "Pinned",
+    "context": "Screen-reader label of the small pin icon next to the title of a pinned task, list, bookmark or folder."
+  },
+  "board.pinError": {
+    "text": "Could not pin that item.",
+    "context": "Error message when pinning a task, list, bookmark or folder failed."
+  },
+  "board.unpinError": {
+    "text": "Could not unpin that item.",
+    "context": "Error message when unpinning a task, list, bookmark or folder failed."
+  },
   "board.loadErrorMessage": {
     "text": "Check your connection and reload the page.",
     "context": "Tasks, Bookmarks and Habits: advice when the page failed to load."

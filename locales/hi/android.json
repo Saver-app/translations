@@ -609,5 +609,8 @@
   "notification_bookmark_title": "बुकमार्क रिमाइंडर",
   "notification_bookmark_text": "आपने Saver से इस बुकमार्क को वापस लाने को कहा था।",
   "notification_habit_title": "आदत का रिमाइंडर",
-  "notification_habit_text": "अपनी स्ट्रीक बनाए रखने का समय।"
+  "notification_habit_text": "अपनी स्ट्रीक बनाए रखने का समय।",
+  "pins_pin": "पिन करें",
+  "pins_unpin": "अनपिन करें",
+  "pins_indicator": "पिन किया गया"
 }

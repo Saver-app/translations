@@ -609,5 +609,8 @@
   "notification_bookmark_title": "Yer imi hatırlatıcısı",
   "notification_bookmark_text": "Saver'dan bu yer imini sana tekrar göstermesini istemiştin.",
   "notification_habit_title": "Alışkanlık hatırlatıcısı",
-  "notification_habit_text": "Serini sürdürmenin zamanı geldi."
+  "notification_habit_text": "Serini sürdürmenin zamanı geldi.",
+  "pins_pin": "Sabitle",
+  "pins_unpin": "Sabitlemeyi kaldır",
+  "pins_indicator": "Sabitlendi"
 }
