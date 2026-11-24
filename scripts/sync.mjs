@@ -3,19 +3,19 @@
 // the app has it: the apps own their source text, this repository owns the
 // translations.
 //
-//   npm run sync -- --web ../web-app --ios ../iOS-app --android ../android-app
+//   npm run sync -- --web ../web-app --ios ../iOS-app --android ../android-app --macos ../macos-app
 //   npm run sync -- --android ../android-app --check   (exit 1 when out of date)
 
 import { existsSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 import { filesFor } from './generate.mjs';
-import { GENERATED_NOTICE, activeProjects, loadLanguages, parseArgs, writeText } from './lib.mjs';
+import { GENERATED_NOTICE, activeProjects, appNames, loadLanguages, parseArgs, writeText } from './lib.mjs';
 
 const { options } = parseArgs();
-const apps = ['web', 'ios', 'android'].filter((app) => typeof options[app] === 'string');
+const apps = appNames().filter((app) => typeof options[app] === 'string');
 if (!apps.length) {
-  console.log('Usage: npm run sync -- [--web <dir>] [--ios <dir>] [--android <dir>] [--check]');
+  console.log(`Usage: npm run sync -- ${appNames().map((app) => `[--${app} <dir>]`).join(' ')} [--check]`);
   process.exit(2);
 }
 

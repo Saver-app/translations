@@ -36,6 +36,14 @@
       "format": "android-xml",
       "path": "app/src/main/res/values{-lang}/strings.xml",
       "placeholders": "java"
+    },
+    {
+      "id": "macos",
+      "name": "Mac app",
+      "app": "macos",
+      "format": "xcstrings",
+      "path": "Saver/Resources/Localizable.xcstrings",
+      "placeholders": "apple"
     }
   ]
 }

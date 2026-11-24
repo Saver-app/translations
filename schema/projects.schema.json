@@ -15,7 +15,10 @@
         "properties": {
           "id": { "type": "string", "description": "Also the file name under source/ and locales/<language>/." },
           "name": { "type": "string" },
-          "app": { "enum": ["web", "ios", "android"], "description": "Which app checkout the generated files go into." },
+          "app": {
+            "enum": ["web", "ios", "android", "macos"],
+            "description": "Which app checkout the generated files go into; also the option name of import and sync (--ios <dir>)."
+          },
           "repository": { "type": "string" },
           "format": { "enum": ["web-json", "xcstrings", "android-xml"] },
           "path": {

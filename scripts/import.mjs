@@ -3,7 +3,7 @@
 // source/<project>.json: new keys are added (with an empty context to fill
 // in), changed English text is updated, keys the app dropped are removed.
 //
-//   npm run import -- --web ../web-app --ios ../iOS-app --android ../android-app
+//   npm run import -- --web ../web-app --ios ../iOS-app --android ../android-app --macos ../macos-app
 //   npm run import -- --android ../android-app --drop-outdated
 //
 // --drop-outdated also deletes translations whose English text changed, so
@@ -13,6 +13,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 import {
+  appNames,
   loadLanguages,
   loadLocale,
   loadProjects,
@@ -27,9 +28,9 @@ import {
 } from './lib.mjs';
 
 const { options } = parseArgs();
-const apps = ['web', 'ios', 'android'].filter((app) => typeof options[app] === 'string');
+const apps = appNames().filter((app) => typeof options[app] === 'string');
 if (!apps.length) {
-  console.log('Usage: npm run import -- [--web <dir>] [--ios <dir>] [--android <dir>] [--drop-outdated]');
+  console.log(`Usage: npm run import -- ${appNames().map((app) => `[--${app} <dir>]`).join(' ')} [--drop-outdated]`);
   process.exit(2);
 }
 

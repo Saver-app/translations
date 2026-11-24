@@ -61,17 +61,17 @@ Placeholders are copied into every translation exactly as they appear in the Eng
 | Project | Placeholder syntax | Examples |
 | --- | --- | --- |
 | `web` | `{name}` | `{count}`, `{space}` |
-| `ios`, `ios-share-extension` | Apple format specifiers | `%@`, `%lld`, `%1$@`, `%2$lld`, `%%` for a literal percent sign |
+| `ios`, `ios-share-extension`, `macos` | Apple format specifiers | `%@`, `%lld`, `%1$@`, `%2$lld`, `%%` for a literal percent sign |
 | `android` | Java format specifiers, always numbered | `%1$s`, `%2$d`, `%%` for a literal percent sign |
 
-On iOS the key of a string is its English text, as in an Xcode String Catalog. On Android and the web keys are names.
+On iOS and the Mac the key of a string is its English text, as in an Xcode String Catalog. On Android and the web keys are names.
 
-Text is stored as plain text. Escaping for the target format (XML for Android, JSON for iOS) is done when the files are generated, so an apostrophe is written as `'`, never `\'`.
+Text is stored as plain text. Escaping for the target format (XML for Android, JSON for iOS and the Mac) is done when the files are generated, so an apostrophe is written as `'`, never `\'`.
 
 ## Keys
 
 * Web: dot separated, feature first, camelCase segments: `settings.account.deleteTitle`.
 * Android: Android resource names, snake case, feature first: `settings_account_delete_title`.
-* iOS: the English text, as Xcode extracts it from the code (`Delete Account`, `%lld tasks`).
+* iOS and Mac: the English text, as Xcode extracts it from the code (`Delete Account`, `%lld tasks`).
 
 A key never changes its meaning. If the English text of a string changes so much that existing translations become wrong, the string gets a new key.

@@ -4,7 +4,7 @@ Thank you for making Saver speak your language. You do not need to be a develope
 
 ## Fix a translation
 
-1. Open `locales/<language>/` and the file of the app you saw the text in: `web.json`, `ios.json`, `ios-share-extension.json` or `android.json`.
+1. Open `locales/<language>/` and the file of the app you saw the text in: `web.json`, `ios.json`, `ios-share-extension.json`, `android.json` or `macos.json`.
 2. Search for the text (on GitHub press `t` to find a file, then the browser's search inside it).
 3. Click the pencil icon, change the text after the colon, and choose **Propose changes**. GitHub forks the repository for you and opens a pull request.
 4. The checks run on your pull request. If one fails, the message says which key and what to fix.
@@ -19,7 +19,7 @@ If you plan a bigger review, open an issue first so two people do not review the
 
 ## Rules
 
-**Placeholders stay.** Everything in curly braces (`{count}`, `{space}`) and every format specifier (`%@`, `%lld`, `%1$@`, `%1$s`, `%2$d`) is replaced by the app with a value. Copy them exactly and put them where your grammar needs them. If two of them need to swap places in iOS or Android text, number them: `%1$@` and `%2$@`, `%1$s` and `%2$s`.
+**Placeholders stay.** Everything in curly braces (`{count}`, `{space}`) and every format specifier (`%@`, `%lld`, `%1$@`, `%1$s`, `%2$d`) is replaced by the app with a value. Copy them exactly and put them where your grammar needs them. If two of them need to swap places in iOS, Mac or Android text, number them: `%1$@` and `%2$@`, `%1$s` and `%2$s`.
 
 **Plurals have one form per category.** A string that depends on a number looks like this:
 

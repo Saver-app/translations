@@ -11,7 +11,7 @@ The platform is a friendly front end. It reads the JSON files and writes changes
 | Platform concept | Where it lives |
 | --- | --- |
 | Languages, with native name, writing direction, plural categories, review status, style guide | `languages.json` |
-| Projects (iOS, Android, web, …) | `projects.json` |
+| Projects (iOS, Android, Mac, web, …) | `projects.json` |
 | Strings: key, English text, context, placeholders, length limit | `source/<project>.json` |
 | Translations: one value per key, language and project | `locales/<lang>/<project>.json` |
 | Terminology | `glossary.json` |
@@ -51,4 +51,4 @@ A string counts as reviewed while the hash still matches the English text. When 
 
 ## Suggestions and machine translation
 
-The editor can offer a suggestion for an empty field (from a translation API or an LLM) and a "same English text elsewhere" suggestion from other projects, since iOS, Android and the web share many strings. Suggested text is saved like any other edit, so it goes through review like everything else.
+The editor can offer a suggestion for an empty field (from a translation API or an LLM) and a "same English text elsewhere" suggestion from other projects, since iOS, Android, the Mac and the web share many strings. Suggested text is saved like any other edit, so it goes through review like everything else.

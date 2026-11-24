@@ -1,0 +1,2737 @@
+{
+  "Tasks, habits and bookmarks.": {
+    "text": "Tasks, habits and bookmarks.",
+    "context": "Large headline on the dark brand panel at the left of the sign-in window; the next line “All in one place.” follows directly below it."
+  },
+  "All in one place.": {
+    "text": "All in one place.",
+    "context": "Second line of the headline on the sign-in window’s brand panel, shown in yellow right below “Tasks, habits and bookmarks.”; the two lines read as one sentence."
+  },
+  "Shared spaces that stay in sync across the web, your phone and your Mac.": {
+    "text": "Shared spaces that stay in sync across the web, your phone and your Mac.",
+    "context": "Small descriptive text under the headline on the sign-in window’s brand panel."
+  },
+  "Local emulators · %@": {
+    "text": "Local emulators · %@",
+    "context": "Small label at the bottom of the sign-in window’s brand panel, shown only in developer builds that use local test servers.",
+    "placeholders": {
+      "%@": "Technical project ID of the local test backend, such as “saver-dev”"
+    }
+  },
+  "Weekend": {
+    "text": "Weekend",
+    "context": "Name of a sample task list in the decorative app preview on the sign-in window."
+  },
+  "2 of 4 done": {
+    "text": "2 of 4 done",
+    "context": "Progress of the sample task list in the app preview on the sign-in window: 2 of its 4 tasks are done."
+  },
+  "Book the train tickets": {
+    "text": "Book the train tickets",
+    "context": "Sample task shown as done in the app preview on the sign-in window."
+  },
+  "Renew the library card": {
+    "text": "Renew the library card",
+    "context": "Sample task shown as done in the app preview on the sign-in window."
+  },
+  "Pick up fresh groceries": {
+    "text": "Pick up fresh groceries",
+    "context": "Sample task that is still open in the app preview on the sign-in window."
+  },
+  "Call Alex about dinner": {
+    "text": "Call Alex about dinner",
+    "context": "Sample task that is still open in the app preview on the sign-in window. Alex is a first name."
+  },
+  "or with email": {
+    "text": "or with email",
+    "context": "Small divider text in the sign-in window between the Apple and Google buttons and the email form."
+  },
+  "Email": {
+    "text": "Email",
+    "context": "Placeholder of the email address field in the sign-in window."
+  },
+  "Password": {
+    "text": "Password",
+    "context": "Placeholder of the password field in the sign-in window."
+  },
+  "Confirm password": {
+    "text": "Confirm password",
+    "context": "Placeholder of the second password field in the sign-in window when creating an account."
+  },
+  "Forgot password?": {
+    "text": "Forgot password?",
+    "context": "Link in the sign-in window that opens the form to reset the password."
+  },
+  "By continuing, you agree to Saver's Terms of Service and Privacy Policy.": {
+    "text": "By continuing, you agree to Saver's Terms of Service and Privacy Policy.",
+    "context": "Note at the bottom of the sign-in window, shown above the “Privacy” and “Terms” links; “Terms of Service” and “Privacy Policy” are not links here."
+  },
+  "Privacy": {
+    "text": "Privacy",
+    "context": "Link at the bottom of the sign-in window that opens the privacy policy in the browser; also a link in the plans sheet."
+  },
+  "Terms": {
+    "text": "Terms",
+    "context": "Link at the bottom of the sign-in window that opens the terms of service in the browser; also a link in the plans sheet."
+  },
+  "Welcome back": {
+    "text": "Welcome back",
+    "context": "Title of the sign-in form in the sign-in window, shown when signing in."
+  },
+  "Create your account": {
+    "text": "Create your account",
+    "context": "Title of the sign-in window when the person is creating a new account."
+  },
+  "Reset your password": {
+    "text": "Reset your password",
+    "context": "Title of the sign-in window when the person is resetting a forgotten password."
+  },
+  "Sign in to pick up your tasks, bookmarks and habits.": {
+    "text": "Sign in to pick up your tasks, bookmarks and habits.",
+    "context": "Line under the “Welcome back” title in the sign-in window."
+  },
+  "One account keeps everything in sync across your devices.": {
+    "text": "One account keeps everything in sync across your devices.",
+    "context": "Line under the “Create your account” title in the sign-in window."
+  },
+  "Enter the email of your account and we will send you a link to choose a new password.": {
+    "text": "Enter the email of your account and we will send you a link to choose a new password.",
+    "context": "Explanation under the “Reset your password” title in the sign-in window."
+  },
+  "Sign in": {
+    "text": "Sign in",
+    "context": "Main button of the sign-in form that signs in with email and password; also the link text in the sign-in window that returns to the sign-in form after “Already have an account?”."
+  },
+  "Create account": {
+    "text": "Create account",
+    "context": "Main button of the sign-in window that creates a new account with email and password."
+  },
+  "Send reset link": {
+    "text": "Send reset link",
+    "context": "Main button of the password reset form that sends the reset email."
+  },
+  "New to Saver?": {
+    "text": "New to Saver?",
+    "context": "Question at the bottom of the sign-in form, shown before the “Create an account” link."
+  },
+  "Create an account": {
+    "text": "Create an account",
+    "context": "Link at the bottom of the sign-in form, placed after “New to Saver?”, that switches to the account creation form."
+  },
+  "Already have an account?": {
+    "text": "Already have an account?",
+    "context": "Question at the bottom of the account creation form, shown before the “Sign in” link."
+  },
+  "Back to sign in": {
+    "text": "Back to sign in",
+    "context": "Link in the password reset form that goes back to the sign-in form."
+  },
+  "Continue with Apple": {
+    "text": "Continue with Apple",
+    "context": "Button in the sign-in window that signs in with an Apple Account. Use Apple’s standard wording."
+  },
+  "Continue with Google": {
+    "text": "Continue with Google",
+    "context": "Button in the sign-in window that signs in with a Google account. Keep “Google”."
+  },
+  "Enter your email address.": {
+    "text": "Enter your email address.",
+    "context": "Error message shown in the sign-in window when the email field is empty."
+  },
+  "Enter a valid email address.": {
+    "text": "Enter a valid email address.",
+    "context": "Error message shown in the sign-in window when the email address is not valid (also used when the server reports an invalid address)."
+  },
+  "If an account exists for %@, a reset link is on its way. Check your inbox.": {
+    "text": "If an account exists for %@, a reset link is on its way. Check your inbox.",
+    "context": "Confirmation message shown in the sign-in window after a password reset link was requested.",
+    "placeholders": {
+      "%@": "The email address the person entered, such as “anna@example.com”"
+    }
+  },
+  "Enter your password.": {
+    "text": "Enter your password.",
+    "context": "Error message shown in the sign-in window when the password field is empty."
+  },
+  "Use at least 6 characters for your password.": {
+    "text": "Use at least 6 characters for your password.",
+    "context": "Error message shown in the sign-in window when a new password is too short (also used when the server reports a weak password)."
+  },
+  "The passwords do not match.": {
+    "text": "The passwords do not match.",
+    "context": "Error message shown in the sign-in window when the password and its confirmation differ."
+  },
+  "The reset email could not be sent. Check the address and try again.": {
+    "text": "The reset email could not be sent. Check the address and try again.",
+    "context": "Error message shown in the password reset form when the reset email could not be sent."
+  },
+  "Check your inbox": {
+    "text": "Check your inbox",
+    "context": "Title of the verification screen shown after creating an email account, until the address is confirmed."
+  },
+  "We sent a verification link to %@. Open it, then come back here.": {
+    "text": "We sent a verification link to %@. Open it, then come back here.",
+    "context": "Explanation under “Check your inbox” on the verification screen.",
+    "placeholders": {
+      "%@": "The person’s email address, such as “anna@example.com”"
+    }
+  },
+  "We sent a verification link to your email. Open it, then come back here.": {
+    "text": "We sent a verification link to your email. Open it, then come back here.",
+    "context": "Explanation under “Check your inbox” on the verification screen when the email address is not known."
+  },
+  "I've verified my email": {
+    "text": "I've verified my email",
+    "context": "Button on the verification screen that the person presses after opening the link in the email."
+  },
+  "Resend email": {
+    "text": "Resend email",
+    "context": "Button on the verification screen that sends the verification email again."
+  },
+  "Sign out": {
+    "text": "Sign out",
+    "context": "Button on the verification screen that signs the person out."
+  },
+  "Not verified yet. Open the link in the email we sent.": {
+    "text": "Not verified yet. Open the link in the email we sent.",
+    "context": "Message on the verification screen after “I’ve verified my email” was pressed but the address is not confirmed yet."
+  },
+  "Could not check right now.": {
+    "text": "Could not check right now.",
+    "context": "Error message on the verification screen when checking the verification failed."
+  },
+  "Verification email sent.": {
+    "text": "Verification email sent.",
+    "context": "Confirmation message on the verification screen after the verification email was sent again."
+  },
+  "The email could not be sent. Try again in a minute.": {
+    "text": "The email could not be sent. Try again in a minute.",
+    "context": "Error message on the verification screen when sending the email again failed."
+  },
+  "Google sign in is not set up in this build.": {
+    "text": "Google sign in is not set up in this build.",
+    "context": "Error message in the sign-in window when Google sign-in is not configured in this app build; mainly seen in developer builds."
+  },
+  "Google sign in needs an open window.": {
+    "text": "Google sign in needs an open window.",
+    "context": "Error message in the sign-in window when Google sign-in cannot start because the app has no open window."
+  },
+  "Google did not return an account.": {
+    "text": "Google did not return an account.",
+    "context": "Error message in the sign-in window when Google sign-in ended without an account."
+  },
+  "Google did not return an identity token.": {
+    "text": "Google did not return an identity token.",
+    "context": "Error message in the sign-in window when Google gave no identity token (a technical sign-in credential)."
+  },
+  "Apple did not return an identity token.": {
+    "text": "Apple did not return an identity token.",
+    "context": "Error message in the sign-in window when Apple gave no identity token (a technical sign-in credential); can also appear after “Apple sign in failed:”."
+  },
+  "Google sign in was canceled before it finished.": {
+    "text": "Google sign in was canceled before it finished.",
+    "context": "Error message in the sign-in window when the Google sign-in window was closed early."
+  },
+  "Apple sign in was canceled before it finished.": {
+    "text": "Apple sign in was canceled before it finished.",
+    "context": "Error message in the sign-in window when the Apple sign-in was canceled early."
+  },
+  "Google sign in is not enabled.": {
+    "text": "Google sign in is not enabled.",
+    "context": "Error message in the sign-in window when Google sign-in is switched off on the server."
+  },
+  "Apple sign in is not enabled.": {
+    "text": "Apple sign in is not enabled.",
+    "context": "Error message in the sign-in window when Apple sign-in is switched off on the server."
+  },
+  "Sign in is not enabled.": {
+    "text": "Sign in is not enabled.",
+    "context": "Error message in the sign-in window when signing in with email and password is switched off on the server."
+  },
+  "Sign up is not enabled.": {
+    "text": "Sign up is not enabled.",
+    "context": "Error message in the sign-in window when creating accounts with email is switched off on the server."
+  },
+  "Either the email or password is incorrect, or you haven't created an account yet.": {
+    "text": "Either the email or password is incorrect, or you haven't created an account yet.",
+    "context": "Error message in the sign-in window when email and password sign-in failed."
+  },
+  "An account with this email already exists. Sign in instead.": {
+    "text": "An account with this email already exists. Sign in instead.",
+    "context": "Error message in the sign-in window when creating an account with an email address that already has one."
+  },
+  "Too many attempts. Wait a moment, then try again.": {
+    "text": "Too many attempts. Wait a moment, then try again.",
+    "context": "Error message in the sign-in window after too many failed attempts."
+  },
+  "Saver could not reach the server. Check your connection and try again.": {
+    "text": "Saver could not reach the server. Check your connection and try again.",
+    "context": "Error message in the sign-in window when there is no connection to the server."
+  },
+  "Saver could not store your sign-in in the keychain. This build needs to be signed with the Saver team.": {
+    "text": "Saver could not store your sign-in in the keychain. This build needs to be signed with the Saver team.",
+    "context": "Error message in the sign-in window when the sign-in cannot be saved in the macOS keychain; mainly seen in developer builds that are not signed by the Saver team."
+  },
+  "Google sign in failed. Please try again.": {
+    "text": "Google sign in failed. Please try again.",
+    "context": "Error message in the sign-in window when Google sign-in failed without a specific reason."
+  },
+  "Google sign in failed: %@": {
+    "text": "Google sign in failed: %@",
+    "context": "Error message in the sign-in window when Google sign-in failed; the reason follows after the colon.",
+    "placeholders": {
+      "%@": "Reason for the failure, a sentence such as “Google did not return an identity token.” or a system error text"
+    }
+  },
+  "Apple sign in failed. Please try again.": {
+    "text": "Apple sign in failed. Please try again.",
+    "context": "Error message in the sign-in window when Apple sign-in failed without a specific reason."
+  },
+  "Apple sign in failed: %@": {
+    "text": "Apple sign in failed: %@",
+    "context": "Error message in the sign-in window when Apple sign-in failed; the reason follows after the colon.",
+    "placeholders": {
+      "%@": "Reason for the failure, a sentence such as “Apple did not return an identity token.” or a system error text"
+    }
+  },
+  "Sign in failed. Please try again.": {
+    "text": "Sign in failed. Please try again.",
+    "context": "Error message in the sign-in window when email sign-in failed without a specific reason."
+  },
+  "Sign in failed: %@": {
+    "text": "Sign in failed: %@",
+    "context": "Error message in the sign-in window when email sign-in failed; the reason follows after the colon.",
+    "placeholders": {
+      "%@": "Reason for the failure, a system or server error text"
+    }
+  },
+  "Sign up failed. Please try again.": {
+    "text": "Sign up failed. Please try again.",
+    "context": "Error message in the sign-in window when creating the account failed without a specific reason."
+  },
+  "Sign up failed: %@": {
+    "text": "Sign up failed: %@",
+    "context": "Error message in the sign-in window when creating the account failed; the reason follows after the colon.",
+    "placeholders": {
+      "%@": "Reason for the failure, a system or server error text"
+    }
+  },
+  "Apple did not return an Apple ID.": {
+    "text": "Apple did not return an Apple ID.",
+    "context": "Error message in the sign-in window when Apple returned no Apple ID; can appear after “Apple sign in failed:”."
+  },
+  "Close": {
+    "text": "Close",
+    "context": "Accessibility label of the small close (X) button of the message banner at the bottom of the main window; also the Close button of the plans sheet."
+  },
+  "Search tasks": {
+    "text": "Search tasks",
+    "context": "Placeholder of the search field in the main window toolbar while the Tasks section is shown."
+  },
+  "Search bookmarks": {
+    "text": "Search bookmarks",
+    "context": "Placeholder of the search field in the main window toolbar while the Bookmarks section is shown."
+  },
+  "Search habits": {
+    "text": "Search habits",
+    "context": "Placeholder of the search field in the main window toolbar while the Habits section is shown."
+  },
+  "Search the calendar": {
+    "text": "Search the calendar",
+    "context": "Placeholder of the search field in the main window toolbar while the Calendar section is shown."
+  },
+  "Your spaces could not be loaded": {
+    "text": "Your spaces could not be loaded",
+    "context": "Title of the error state in the main window when the list of spaces failed to load."
+  },
+  "Check your connection, then try again.": {
+    "text": "Check your connection, then try again.",
+    "context": "Message under an error title in the main window when content failed to load; also used on the Tasks, Bookmarks, Habits and Calendar pages."
+  },
+  "Create your first space": {
+    "text": "Create your first space",
+    "context": "Title of the empty state in the main window for someone who is not in any space yet."
+  },
+  "A space holds tasks, bookmarks and habits. Keep one for yourself or share it.": {
+    "text": "A space holds tasks, bookmarks and habits. Keep one for yourself or share it.",
+    "context": "Explanation under “Create your first space” in the main window."
+  },
+  "Create a space": {
+    "text": "Create a space",
+    "context": "Button in the main window’s empty state that opens the dialog to create a space; also the tooltip of the plus button in the Spaces settings tab."
+  },
+  "Join with a link": {
+    "text": "Join with a link",
+    "context": "Button in the main window’s empty state that opens the dialog to join a space with an invite link; also in the Spaces settings tab."
+  },
+  "Get more from Saver": {
+    "text": "Get more from Saver",
+    "context": "Title of the upgrade card at the bottom of the sidebar (free plan only); also its accessibility label and a title in the plans sheet."
+  },
+  "More spaces, tasks and habits": {
+    "text": "More spaces, tasks and habits",
+    "context": "Short line under “Get more from Saver” on the upgrade card in the sidebar."
+  },
+  "Spaces": {
+    "text": "Spaces",
+    "context": "Section header in the space switcher menu above the list of spaces; also the tooltip of the space switcher when there is no space, and the Spaces tab title in Settings."
+  },
+  "Shared": {
+    "text": "Shared",
+    "context": "Word added after the name of a space in the space switcher menu when someone else owns the space, written as “Family · Shared”."
+  },
+  "Create Space…": {
+    "text": "Create Space…",
+    "context": "Menu item in the space switcher menu (sidebar) that opens the dialog to create a space; also in the Space menu of the menu bar."
+  },
+  "Join with a Link…": {
+    "text": "Join with a Link…",
+    "context": "Menu item in the space switcher menu (sidebar) that opens the dialog to join a space with an invite link; also in the Space menu of the menu bar."
+  },
+  "Invite People…": {
+    "text": "Invite People…",
+    "context": "Menu item in the space switcher menu (sidebar), for space owners, that opens the invite dialog; also in the Space menu of the menu bar."
+  },
+  "Space Settings…": {
+    "text": "Space Settings…",
+    "context": "Menu item in the space switcher menu (sidebar) that opens the settings of the current space."
+  },
+  "Leave Space…": {
+    "text": "Leave Space…",
+    "context": "Menu item in the space switcher menu (sidebar), for spaces owned by others, that starts leaving the space."
+  },
+  "No space": {
+    "text": "No space",
+    "context": "Name line of the space switcher at the top of the sidebar, shown when the person is in no space yet."
+  },
+  "Shared with you": {
+    "text": "Shared with you",
+    "context": "Small line under the space name in the space switcher when someone else owns the space; also a label in the Spaces settings tab."
+  },
+  "Your space": {
+    "text": "Your space",
+    "context": "Small line under the space name in the space switcher when the person owns the space."
+  },
+  "Create one": {
+    "text": "Create one",
+    "context": "Small line under “No space” in the space switcher, inviting the person to create a space."
+  },
+  "Space: %@. Switch space": {
+    "text": "Space: %@. Switch space",
+    "context": "Tooltip of the space switcher at the top of the sidebar.",
+    "placeholders": {
+      "%@": "Name of the current space, such as “Family”"
+    }
+  },
+  "Leave %@?": {
+    "text": "Leave %@?",
+    "context": "Title of the confirmation dialog before leaving a space; also used in the Spaces settings tab.",
+    "placeholders": {
+      "%@": "Name of the space, such as “Family”"
+    }
+  },
+  "You lose access to everything in it. You can rejoin later with an invite.": {
+    "text": "You lose access to everything in it. You can rejoin later with an invite.",
+    "context": "Message of the confirmation dialog before leaving a space."
+  },
+  "Leave Space": {
+    "text": "Leave Space",
+    "context": "Destructive button in the confirmation dialog that leaves the space; also used in the Spaces settings tab."
+  },
+  "Cancel": {
+    "text": "Cancel",
+    "context": "Button that closes a dialog or sheet without doing anything; used in the create/join space dialogs, the reminder sheet and other dialogs."
+  },
+  "Could not leave that space.": {
+    "text": "Could not leave that space.",
+    "context": "Error message banner shown when leaving a space failed."
+  },
+  "You left %@.": {
+    "text": "You left %@.",
+    "context": "Message banner shown after the person left a space.",
+    "placeholders": {
+      "%@": "Name of the space, such as “Family”"
+    }
+  },
+  "You": {
+    "text": "You",
+    "context": "Name shown for the person themselves when the account has no name or email: in the account button at the bottom of the sidebar, and in the Spaces settings tab."
+  },
+  "Settings…": {
+    "text": "Settings…",
+    "context": "Menu item in the account menu at the bottom of the sidebar that opens the Settings window."
+  },
+  "Plans": {
+    "text": "Plans",
+    "context": "Menu item in the account menu at the bottom of the sidebar that opens the plans sheet, shown to people who already have a paid plan; also the title of the plans sheet."
+  },
+  "Upgrade": {
+    "text": "Upgrade",
+    "context": "Menu item in the account menu at the bottom of the sidebar that opens the plans sheet, shown on the free plan."
+  },
+  "Appearance": {
+    "text": "Appearance",
+    "context": "Label of the picker in the account menu at the bottom of the sidebar to choose System, Light or Dark; also a Settings tab title."
+  },
+  "Sign Out": {
+    "text": "Sign Out",
+    "context": "Menu item in the account menu at the bottom of the sidebar that signs the person out; also a button in Settings."
+  },
+  "%@ plan": {
+    "text": "%@ plan",
+    "context": "Small line under the name in the account button at the bottom of the sidebar, giving the current plan.",
+    "placeholders": {
+      "%@": "Name of the plan, such as “Free”, “Plus” or “Pro”"
+    }
+  },
+  "Tasks": {
+    "text": "Tasks",
+    "context": "Name of the Tasks section: item in the sidebar and the Go menu, title of the Tasks page and top breadcrumb, group label above the tasks, switch in the Settings sections list, and label in the space permissions."
+  },
+  "Bookmarks": {
+    "text": "Bookmarks",
+    "context": "Name of the Bookmarks section: item in the sidebar and the Go menu, title of the Bookmarks page and top breadcrumb, group label above the bookmarks, switch in the Settings sections list, and label in the space permissions."
+  },
+  "Habits": {
+    "text": "Habits",
+    "context": "Name of the Habits section: item in the sidebar and the Go menu, title of the Habits page, switch in the Settings sections list, and label in the space permissions."
+  },
+  "Calendar": {
+    "text": "Calendar",
+    "context": "Name of the Calendar section: item in the sidebar and the Go menu and title of the Calendar page; also a menu item of a habit that opens its month view."
+  },
+  "A space keeps its own tasks, bookmarks and habits. Invite others whenever you like.": {
+    "text": "A space keeps its own tasks, bookmarks and habits. Invite others whenever you like.",
+    "context": "Explanation in the Create a space dialog under its title."
+  },
+  "Name": {
+    "text": "Name",
+    "context": "Placeholder label of the name text field in the Create a space dialog; also the field label for names in sheets and settings."
+  },
+  "New space": {
+    "text": "New space",
+    "context": "Example text shown in the empty space name field of the Create a space dialog; also used as the name of the space when the name is left empty."
+  },
+  "Create Space": {
+    "text": "Create Space",
+    "context": "Default button of the Create a space dialog that creates the space."
+  },
+  "Space created.": {
+    "text": "Space created.",
+    "context": "Message banner shown after a space was created."
+  },
+  "Could not create that space.": {
+    "text": "Could not create that space.",
+    "context": "Error message banner shown when creating a space failed."
+  },
+  "Join a space": {
+    "text": "Join a space",
+    "context": "Title of the dialog to join a space with an invite link."
+  },
+  "Paste the invite link someone shared with you.": {
+    "text": "Paste the invite link someone shared with you.",
+    "context": "Explanation under the title of the Join a space dialog."
+  },
+  "Invite link or code": {
+    "text": "Invite link or code",
+    "context": "Label of the text field in the Join a space dialog where the invite link or code is pasted."
+  },
+  "Join Space": {
+    "text": "Join Space",
+    "context": "Default button of the Join a space dialog that joins the space."
+  },
+  "Enter an invite link or code.": {
+    "text": "Enter an invite link or code.",
+    "context": "Error message in the Join a space dialog when the field is empty."
+  },
+  "Could not read that invite.": {
+    "text": "Could not read that invite.",
+    "context": "Error message in the Join a space dialog when the text is not a valid invite."
+  },
+  "You joined the space.": {
+    "text": "You joined the space.",
+    "context": "Message banner shown after the person joined a space."
+  },
+  "Could not join that space.": {
+    "text": "Could not join that space.",
+    "context": "Error message when joining a space failed, shown in the Join a space dialog and as a banner."
+  },
+  "Invite to %@": {
+    "text": "Invite to %@",
+    "context": "Title of the invite dialog for a space.",
+    "placeholders": {
+      "%@": "Name of the space, such as “Family”"
+    }
+  },
+  "Copy Link": {
+    "text": "Copy Link",
+    "context": "Button that copies the invite link to the clipboard (invite dialog and space settings); also a menu item for copying a bookmark’s link."
+  },
+  "Creating an invite…": {
+    "text": "Creating an invite…",
+    "context": "Text shown in the invite dialog while the invite link is being created."
+  },
+  "Done": {
+    "text": "Done",
+    "context": "Button that closes the invite dialog; also used on other sheets such as the habit sheet and the focus window."
+  },
+  "Could not create an invite.": {
+    "text": "Could not create an invite.",
+    "context": "Error message when creating an invite link failed, shown in the invite dialog and the Spaces settings tab."
+  },
+  "Invite link copied.": {
+    "text": "Invite link copied.",
+    "context": "Message banner shown after the invite link was copied to the clipboard."
+  },
+  "Plans…": {
+    "text": "Plans…",
+    "context": "Menu item in the app menu (next to “About”) that opens the plans sheet, shown to people with a paid plan."
+  },
+  "Upgrade…": {
+    "text": "Upgrade…",
+    "context": "Menu item in the app menu (next to “About”) that opens the upgrade sheet on the free plan; also a button in Settings."
+  },
+  "Find…": {
+    "text": "Find…",
+    "context": "Menu item in the Edit menu of the menu bar that moves the cursor to the search field."
+  },
+  "Go": {
+    "text": "Go",
+    "context": "Title of the Go menu in the menu bar, which lists the sections and the focus window."
+  },
+  "Focus Window": {
+    "text": "Focus Window",
+    "context": "Menu item in the Go menu of the menu bar that opens the focus window."
+  },
+  "Space": {
+    "text": "Space",
+    "context": "Title of the Space menu in the menu bar, which lists the spaces and space actions."
+  },
+  "New Bookmark": {
+    "text": "New Bookmark",
+    "context": "Menu item in the File menu of the menu bar that creates a bookmark, shown while the Bookmarks section is open."
+  },
+  "New Habit": {
+    "text": "New Habit",
+    "context": "Menu item in the File menu of the menu bar that creates a habit, shown while the Habits section is open."
+  },
+  "New Task": {
+    "text": "New Task",
+    "context": "Menu item in the File menu of the menu bar that creates a task, shown for sections other than Bookmarks and Habits."
+  },
+  "New Folder": {
+    "text": "New Folder",
+    "context": "Menu item in the File menu of the menu bar that creates a bookmark folder, shown while the Bookmarks section is open; also a title in the Bookmarks page."
+  },
+  "New List": {
+    "text": "New List",
+    "context": "Menu item in the File menu of the menu bar that creates a task list, shown while the Tasks section is open; also a title in the Tasks page."
+  },
+  "Focus": {
+    "text": "Focus",
+    "context": "Title of the focus window (the window with the timer); also a context menu item of a task that starts a focus session, and a section heading in Settings."
+  },
+  "Add a task": {
+    "text": "Add a task",
+    "context": "Placeholder of the field at the top of the Tasks screen that adds a task, shown at the top level of the space."
+  },
+  "Add a task to %@": {
+    "text": "Add a task to %@",
+    "context": "Placeholder of the field at the top of the Tasks screen when a list is open; a task typed there is added to that list.",
+    "placeholders": {
+      "%@": "Title of the list that is open, such as “Groceries”"
+    }
+  },
+  "No access to tasks": {
+    "text": "No access to tasks",
+    "context": "Title of the empty state on the Tasks screen when the owner of a shared space has not shared its tasks with you."
+  },
+  "The owner of this space has not shared its tasks with you.": {
+    "text": "The owner of this space has not shared its tasks with you.",
+    "context": "Message under “No access to tasks” on the Tasks screen."
+  },
+  "Tasks could not be loaded": {
+    "text": "Tasks could not be loaded",
+    "context": "Title of the error state on the Tasks screen when loading failed; a message about checking the connection follows below it."
+  },
+  "No tasks yet": {
+    "text": "No tasks yet",
+    "context": "Title of the empty state on the main Tasks screen (not inside a list) when the space has no tasks or lists."
+  },
+  "This list is empty": {
+    "text": "This list is empty",
+    "context": "Title of the empty state on the Tasks screen when the open list contains nothing."
+  },
+  "Type above and press Return to add the first one.": {
+    "text": "Type above and press Return to add the first one.",
+    "context": "Message of the Tasks empty state for people who can edit; “above” is the add-task field at the top of the screen."
+  },
+  "Nothing has been added here yet.": {
+    "text": "Nothing has been added here yet.",
+    "context": "Message of the Tasks empty state for people who can only view the space."
+  },
+  "Lists": {
+    "text": "Lists",
+    "context": "Small section heading above the list cards on the Tasks screen, with the number of lists next to it."
+  },
+  "%lld lists": {
+    "text": {
+      "one": "%lld list",
+      "other": "%lld lists"
+    },
+    "context": "Detail next to the “Lists” heading on the Tasks screen and in a list card: how many lists there are. Used for 2 or more; “1 list” is a separate string.",
+    "placeholders": {
+      "%lld": "Number of lists, 2 or more"
+    }
+  },
+  "1 list": {
+    "text": "1 list",
+    "context": "Detail next to the “Lists” heading on the Tasks screen and in a list card when there is exactly one list."
+  },
+  "All done": {
+    "text": "All done",
+    "context": "Detail next to the “Tasks” heading on the Tasks screen when no task is left open."
+  },
+  "%lld open tasks": {
+    "text": {
+      "one": "%lld open task",
+      "other": "%lld open tasks"
+    },
+    "context": "Detail next to the “Tasks” heading on the Tasks screen: how many tasks are not done yet. Used for 2 or more; “1 open task” is a separate string and “All done” is used for 0.",
+    "placeholders": {
+      "%lld": "Number of open tasks, 2 or more"
+    }
+  },
+  "1 open task": {
+    "text": "1 open task",
+    "context": "Detail next to the “Tasks” heading on the Tasks screen when exactly one task is not done yet."
+  },
+  "Show %lld completed tasks": {
+    "text": {
+      "one": "Show %lld completed task",
+      "other": "Show %lld completed tasks"
+    },
+    "context": "Button below the task list that shows the completed tasks again after “Hide completed” was on. Used for 2 or more; “Show 1 completed task” is a separate string.",
+    "placeholders": {
+      "%lld": "Number of hidden completed tasks, 2 or more"
+    }
+  },
+  "Show 1 completed task": {
+    "text": "Show 1 completed task",
+    "context": "Button below the task list that shows the one hidden completed task again."
+  },
+  "Rename list": {
+    "text": "Rename list",
+    "context": "Title of the dialog for renaming a task list."
+  },
+  "Rename task": {
+    "text": "Rename task",
+    "context": "Title of the dialog for renaming a task."
+  },
+  "Save": {
+    "text": "Save",
+    "context": "Button in several dialogs and sheets that saves the changes; here the rename dialog for a task or list, the reminder sheet and the bookmark edit sheet, also used in Habits and Settings."
+  },
+  "%lld open": {
+    "text": "%lld open",
+    "context": "Subtitle in the header of the Tasks screen: how many tasks are not done yet. On the main screen it follows the space name and a “·”, such as “Family · 3 open”; inside a list it is shown alone.",
+    "placeholders": {
+      "%lld": "Number of open tasks"
+    }
+  },
+  "Nothing open": {
+    "text": "Nothing open",
+    "context": "Subtitle in the header of the Tasks screen when no task is open (same place as “%lld open”); on the main screen it follows the space name and a “·”."
+  },
+  "Hide completed": {
+    "text": "Hide completed",
+    "context": "Checkbox item in the sort menu of the Tasks toolbar that hides tasks that are done."
+  },
+  "New list": {
+    "text": "New list",
+    "context": "Tooltip of the toolbar button that creates a task list; also the title and text field placeholder of the dialog that asks for the list name, and the name used when no name is entered."
+  },
+  "List Options": {
+    "text": "List Options",
+    "context": "Label of the “…” menu button in the Tasks toolbar that opens the menu for the open list (shown in the toolbar overflow or as a menu item name)."
+  },
+  "List options": {
+    "text": "List options",
+    "context": "Tooltip of the “…” button that opens the menu of a task list, in the Tasks toolbar and on a list card."
+  },
+  "Focus on List": {
+    "text": "Focus on List",
+    "context": "Menu item in the menu of a task list (toolbar menu and context menu of a list card) that starts focus mode with the tasks of that list."
+  },
+  "Rename…": {
+    "text": "Rename…",
+    "context": "Menu item in the menu of a task list, a bookmark folder or a bookmark folder card that opens a dialog to rename it."
+  },
+  "Add Reminder…": {
+    "text": "Add Reminder…",
+    "context": "Menu item in the menu of a task, list or bookmark that opens the sheet to add a reminder; shown when it has no reminder yet."
+  },
+  "Edit Reminder…": {
+    "text": "Edit Reminder…",
+    "context": "Menu item in the menu of a task, list or bookmark that opens the sheet to change its existing reminder."
+  },
+  "Move to…": {
+    "text": "Move to…",
+    "context": "Menu item in the menu of a task, list, bookmark or folder that opens a dialog to choose where to move it."
+  },
+  "Delete List": {
+    "text": "Delete List",
+    "context": "Menu item in the menu of a task list (toolbar menu and context menu of a list card) that deletes the list."
+  },
+  "Create list": {
+    "text": "Create list",
+    "context": "Confirm button of the New list dialog on the Tasks screen."
+  },
+  "Could not switch to manual order.": {
+    "text": "Could not switch to manual order.",
+    "context": "Error message shown after choosing manual sort order in the Tasks or Bookmarks sort menu when the change could not be saved."
+  },
+  "No matches": {
+    "text": "No matches",
+    "context": "Title of the empty state when a search finds nothing, on the Tasks and Bookmarks screens."
+  },
+  "No task or list contains “%@”.": {
+    "text": "No task or list contains “%@”.",
+    "context": "Message under “No matches” on the Tasks screen when the search text matches no task or list.",
+    "placeholders": {
+      "%@": "The search text typed by the person, such as “milk”"
+    }
+  },
+  "Results": {
+    "text": "Results",
+    "context": "Small section heading above the search results on the Tasks and Bookmarks screens, with the number of results next to it."
+  },
+  "%lld tasks": {
+    "text": {
+      "one": "%lld task",
+      "other": "%lld tasks"
+    },
+    "context": "Detail line of a list card on the Tasks screen: how many tasks the list holds. Used for 2 or more; “1 task” is a separate string. When the list also has sublists it follows the lists count and a “·”, such as “2 lists · 5 tasks”.",
+    "placeholders": {
+      "%lld": "Number of tasks in the list, 2 or more"
+    }
+  },
+  "1 task": {
+    "text": "1 task",
+    "context": "Detail line of a list card on the Tasks screen when the list holds exactly one task; may follow the lists count and a “·”."
+  },
+  "Mark %@ as done": {
+    "text": "Mark %@ as done",
+    "context": "Accessibility label of the round checkbox of a task (Tasks screen, subtasks in the Focus window) while the task is not done.",
+    "placeholders": {
+      "%@": "Title of the task or subtask"
+    }
+  },
+  "Mark %@ as not done": {
+    "text": "Mark %@ as not done",
+    "context": "Accessibility label of the round checkbox of a task (Tasks screen, subtasks in the Focus window) while the task is done.",
+    "placeholders": {
+      "%@": "Title of the task or subtask"
+    }
+  },
+  "%@ so far. Continue in focus mode": {
+    "text": "%@ so far. Continue in focus mode",
+    "context": "Tooltip of the small timer button under a task that has focus time not yet saved to the calendar; clicking it reopens the Focus window.",
+    "placeholders": {
+      "%@": "Time worked on the task so far, such as “1 h 15 min”"
+    }
+  },
+  "Focus on this task": {
+    "text": "Focus on this task",
+    "context": "Tooltip and accessibility label of the timer button shown when hovering a task row; starts focus mode for the task."
+  },
+  "Add subtask": {
+    "text": "Add subtask",
+    "context": "Tooltip and accessibility label of the plus button shown when hovering a task row; adds a subtask under the task."
+  },
+  "Task options": {
+    "text": "Task options",
+    "context": "Tooltip of the “…” button shown when hovering a task row that opens the menu of the task."
+  },
+  "Hide subtasks": {
+    "text": "Hide subtasks",
+    "context": "Tooltip of the arrow on a task row that collapses its subtasks; shown while they are visible."
+  },
+  "Show subtasks": {
+    "text": "Show subtasks",
+    "context": "Tooltip of the arrow on a task row that expands its subtasks; shown while they are hidden."
+  },
+  "Edit": {
+    "text": "Edit",
+    "context": "Menu item in the context menu and “…” menu of a task that edits its title and notes in place; also used in Settings."
+  },
+  "Add Subtask": {
+    "text": "Add Subtask",
+    "context": "Menu item in the context menu and “…” menu of a task that adds a subtask under it."
+  },
+  "Delete": {
+    "text": "Delete",
+    "context": "Menu item in the context menu and “…” menu of a task or bookmark that deletes it; also used for habits."
+  },
+  "Task title": {
+    "text": "Task title",
+    "context": "Accessibility label of the title field while a task is being edited in place."
+  },
+  "Add notes": {
+    "text": "Add notes",
+    "context": "Placeholder of the notes field below the title while a task is being edited in place."
+  },
+  "Add a subtask": {
+    "text": "Add a subtask",
+    "context": "Placeholder of the field under a task where a subtask is typed."
+  },
+  "Could not add that task.": {
+    "text": "Could not add that task.",
+    "context": "Error message when adding a task (or subtask) failed."
+  },
+  "Could not create that list.": {
+    "text": "Could not create that list.",
+    "context": "Error message when creating a task list failed."
+  },
+  "Could not update that task.": {
+    "text": "Could not update that task.",
+    "context": "Error message when ticking a task off, or back on, failed; also in the Focus window for subtasks."
+  },
+  "%@ saved to your calendar.": {
+    "text": "%@ saved to your calendar.",
+    "context": "Short message after a task was completed that had focus time: the time worked was saved as a calendar entry. Also shown in the Focus window.",
+    "placeholders": {
+      "%@": "Time worked, such as “1 h 15 min”"
+    }
+  },
+  "Could not save that task.": {
+    "text": "Could not save that task.",
+    "context": "Error message when saving the edited title or notes of a task failed."
+  },
+  "Could not rename it.": {
+    "text": "Could not rename it.",
+    "context": "Error message when renaming a task or list failed."
+  },
+  "List deleted.": {
+    "text": "List deleted.",
+    "context": "Short message after an empty task list was deleted, with an Undo button."
+  },
+  "List and 1 item inside deleted.": {
+    "text": "List and 1 item inside deleted.",
+    "context": "Short message after a task list containing exactly one task or sublist was deleted, with an Undo button. Used only for 1; “List and %lld items inside deleted.” is used for 2 or more."
+  },
+  "List and %lld items inside deleted.": {
+    "text": {
+      "one": "List and %lld item inside deleted.",
+      "other": "List and %lld items inside deleted."
+    },
+    "context": "Short message after a task list with several tasks or sublists inside was deleted, with an Undo button. Used for 2 or more; the case of 1 is a separate string.",
+    "placeholders": {
+      "%lld": "Number of items that were inside the list, 2 or more"
+    }
+  },
+  "Task deleted.": {
+    "text": "Task deleted.",
+    "context": "Short message after a task without subtasks was deleted, with an Undo button."
+  },
+  "Task and 1 item inside deleted.": {
+    "text": "Task and 1 item inside deleted.",
+    "context": "Short message after a task with exactly one subtask was deleted, with an Undo button. Used only for 1; “Task and %lld items inside deleted.” is used for 2 or more."
+  },
+  "Task and %lld items inside deleted.": {
+    "text": {
+      "one": "Task and %lld item inside deleted.",
+      "other": "Task and %lld items inside deleted."
+    },
+    "context": "Short message after a task with several subtasks was deleted, with an Undo button. Used for 2 or more; the case of 1 is a separate string.",
+    "placeholders": {
+      "%lld": "Number of items that were inside the task, 2 or more"
+    }
+  },
+  "Undo": {
+    "text": "Undo",
+    "context": "Button in the short message after deleting a task, list, bookmark or folder (and in Habits and Calendar) that brings the item back."
+  },
+  "Could not restore it.": {
+    "text": "Could not restore it.",
+    "context": "Error message when undoing a deletion failed (Tasks, Bookmarks, Calendar)."
+  },
+  "Could not delete it.": {
+    "text": "Could not delete it.",
+    "context": "Error message when deleting a task, list, bookmark or folder failed."
+  },
+  "Could not move that item.": {
+    "text": "Could not move that item.",
+    "context": "Error message when moving a task, list, bookmark or folder into another list or folder failed."
+  },
+  "Moved to the top level.": {
+    "text": "Moved to the top level.",
+    "context": "Short message after a task, list, bookmark or folder was moved out of every list or folder, so it now sits at the top of the section."
+  },
+  "Moved to “%@”.": {
+    "text": "Moved to “%@”.",
+    "context": "Short message after a task, list, bookmark or folder was moved into a list or folder.",
+    "placeholders": {
+      "%@": "Name of the list or folder it was moved into"
+    }
+  },
+  "Could not save the new order.": {
+    "text": "Could not save the new order.",
+    "context": "Error message when dragging a task, list, bookmark, folder or habit to a new place in manual order could not be saved."
+  },
+  "Sort by": {
+    "text": "Sort by",
+    "context": "Heading of the group of sort options in the sort menu of the toolbar (Tasks, Bookmarks; used as the label of the sort picker)."
+  },
+  "Sort: %@": {
+    "text": "Sort: %@",
+    "context": "Label of the sort menu button in the toolbar and its tooltip, showing the current sort order.",
+    "placeholders": {
+      "%@": "Name of the current sort order, such as “Newest first” or “Manual”"
+    }
+  },
+  "Move “%@”": {
+    "text": "Move “%@”",
+    "context": "Title of the dialog for moving a task, list, bookmark or folder.",
+    "placeholders": {
+      "%@": "Name of the item being moved"
+    }
+  },
+  "Choose the folder it should go into.": {
+    "text": "Choose the folder it should go into.",
+    "context": "Message under the title of the Move dialog when a bookmark or folder is moved."
+  },
+  "Choose the list it should go into.": {
+    "text": "Choose the list it should go into.",
+    "context": "Message under the title of the Move dialog when a task or list is moved."
+  },
+  "Top level": {
+    "text": "Top level",
+    "context": "First choice in the Move dialog: moves the item out of every list or folder so it sits at the top of the section."
+  },
+  "There is no folder to move it into yet.": {
+    "text": "There is no folder to move it into yet.",
+    "context": "Message in the Move dialog for a bookmark or folder when the space has no other folder."
+  },
+  "There is no list to move it into yet.": {
+    "text": "There is no list to move it into yet.",
+    "context": "Message in the Move dialog for a task or list when the space has no other list."
+  },
+  "Add reminder": {
+    "text": "Add reminder",
+    "context": "Title of the reminder sheet when the item has no reminder yet; the item’s name is shown below it."
+  },
+  "Edit reminder": {
+    "text": "Edit reminder",
+    "context": "Title of the reminder sheet when the item already has a reminder."
+  },
+  "Date": {
+    "text": "Date",
+    "context": "Label of the date and time picker in the reminder sheet (only the time is shown when the reminder repeats weekly)."
+  },
+  "Repeat weekly": {
+    "text": "Repeat weekly",
+    "context": "Label of the switch in the reminder sheet that makes the reminder repeat on chosen weekdays; weekday buttons appear below it."
+  },
+  "Play a sound": {
+    "text": "Play a sound",
+    "context": "Label of the switch in the reminder sheet that makes the notification play a sound."
+  },
+  "Important": {
+    "text": "Important",
+    "context": "Label of the switch in the reminder sheet that makes the notification important (Time Sensitive); the next line explains it."
+  },
+  "Can break through Focus on your phone.": {
+    "text": "Can break through Focus on your phone.",
+    "context": "Explanation under the “Important” switch in the reminder sheet. “Focus” is the do-not-disturb feature of iPhones; use Apple’s name for it."
+  },
+  "Reminders arrive as notifications in the Saver apps on your phone.": {
+    "text": "Reminders arrive as notifications in the Saver apps on your phone.",
+    "context": "Note at the bottom of the reminder sheet saying where reminders are delivered."
+  },
+  "Remove": {
+    "text": "Remove",
+    "context": "Button in the reminder sheet that deletes the existing reminder; also used in Settings."
+  },
+  "Choose a time in the future.": {
+    "text": "Choose a time in the future.",
+    "context": "Error message in the reminder sheet when a one-time reminder lies in the past."
+  },
+  "Reminder saved.": {
+    "text": "Reminder saved.",
+    "context": "Short confirmation message after a reminder was saved."
+  },
+  "Could not save the reminder.": {
+    "text": "Could not save the reminder.",
+    "context": "Error message in the reminder sheet when saving the reminder failed."
+  },
+  "Reminder removed.": {
+    "text": "Reminder removed.",
+    "context": "Short message after a reminder was deleted."
+  },
+  "Could not remove the reminder.": {
+    "text": "Could not remove the reminder.",
+    "context": "Error message in the reminder sheet when deleting the reminder failed."
+  },
+  "New folder": {
+    "text": "New folder",
+    "context": "Tooltip of the toolbar button that creates a bookmark folder; also the title and placeholder of the dialog that asks for the folder name, and the name used when a folder has no name."
+  },
+  "New bookmark": {
+    "text": "New bookmark",
+    "context": "Name used for a bookmark that has no title and no link."
+  },
+  "Could not save that bookmark.": {
+    "text": "Could not save that bookmark.",
+    "context": "Error message when adding a bookmark failed."
+  },
+  "Could not create that folder.": {
+    "text": "Could not create that folder.",
+    "context": "Error message when creating a bookmark folder failed."
+  },
+  "Could not save the changes.": {
+    "text": "Could not save the changes.",
+    "context": "Error message when saving an edited bookmark or folder failed."
+  },
+  "Link copied.": {
+    "text": "Link copied.",
+    "context": "Short message after the web address of a bookmark was copied to the clipboard; also used in Settings."
+  },
+  "Bookmark deleted.": {
+    "text": "Bookmark deleted.",
+    "context": "Short message after a bookmark was deleted, with an Undo button."
+  },
+  "Folder deleted.": {
+    "text": "Folder deleted.",
+    "context": "Short message after an empty bookmark folder was deleted, with an Undo button."
+  },
+  "Folder and 1 item inside deleted.": {
+    "text": "Folder and 1 item inside deleted.",
+    "context": "Short message after a bookmark folder containing exactly one item was deleted, with an Undo button. Used only for 1; “Folder and %lld items inside deleted.” is used for 2 or more."
+  },
+  "Folder and %lld items inside deleted.": {
+    "text": {
+      "one": "Folder and %lld item inside deleted.",
+      "other": "Folder and %lld items inside deleted."
+    },
+    "context": "Short message after a bookmark folder with several items inside was deleted, with an Undo button. Used for 2 or more; the case of 1 is a separate string.",
+    "placeholders": {
+      "%lld": "Number of items that were inside the folder, 2 or more"
+    }
+  },
+  "No access to bookmarks": {
+    "text": "No access to bookmarks",
+    "context": "Title of the empty state on the Bookmarks screen when the owner of a shared space has not shared its bookmarks with you."
+  },
+  "The owner of this space has not shared its bookmarks with you.": {
+    "text": "The owner of this space has not shared its bookmarks with you.",
+    "context": "Message under “No access to bookmarks” on the Bookmarks screen."
+  },
+  "Bookmarks could not be loaded": {
+    "text": "Bookmarks could not be loaded",
+    "context": "Title of the error state on the Bookmarks screen when loading failed; a message about checking the connection follows below it."
+  },
+  "No bookmarks yet": {
+    "text": "No bookmarks yet",
+    "context": "Title of the empty state on the main Bookmarks screen when the space has no bookmarks or folders."
+  },
+  "This folder is empty": {
+    "text": "This folder is empty",
+    "context": "Title of the empty state on the Bookmarks screen when the open folder contains nothing."
+  },
+  "Paste a link above to keep it, or save pages with the Saver browser extension.": {
+    "text": "Paste a link above to keep it, or save pages with the Saver browser extension.",
+    "context": "Message of the Bookmarks empty state for people who can edit; “above” is the link field at the top of the screen."
+  },
+  "Nothing has been saved here yet.": {
+    "text": "Nothing has been saved here yet.",
+    "context": "Message of the Bookmarks empty state for people who can only view the space."
+  },
+  "Folders": {
+    "text": "Folders",
+    "context": "Small section heading above the folder cards on the Bookmarks screen, with the number of folders next to it."
+  },
+  "%lld folders": {
+    "text": {
+      "one": "%lld folder",
+      "other": "%lld folders"
+    },
+    "context": "Detail next to the “Folders” heading on the Bookmarks screen and in a folder card: how many folders there are. Used for 2 or more; “1 folder” is a separate string.",
+    "placeholders": {
+      "%lld": "Number of folders, 2 or more"
+    }
+  },
+  "1 folder": {
+    "text": "1 folder",
+    "context": "Detail next to the “Folders” heading on the Bookmarks screen and in a folder card when there is exactly one folder."
+  },
+  "%lld bookmarks": {
+    "text": {
+      "one": "%lld bookmark",
+      "other": "%lld bookmarks"
+    },
+    "context": "Detail next to the “Bookmarks” heading, in the Bookmarks screen header (after the space name and a “·”) and in a folder card: how many bookmarks there are. Used for 2 or more; “1 bookmark” is a separate string. In a folder card it may follow the folders count and a “·”.",
+    "placeholders": {
+      "%lld": "Number of bookmarks, 2 or more"
+    }
+  },
+  "1 bookmark": {
+    "text": "1 bookmark",
+    "context": "Detail next to the “Bookmarks” heading, in the Bookmarks screen header and in a folder card when there is exactly one bookmark."
+  },
+  "Folder Options": {
+    "text": "Folder Options",
+    "context": "Label of the “…” menu button in the Bookmarks toolbar that opens the menu for the open folder."
+  },
+  "Paste a link": {
+    "text": "Paste a link",
+    "context": "Placeholder of the link field at the top of the Bookmarks screen that adds a bookmark."
+  },
+  "Title": {
+    "text": "Title",
+    "context": "Placeholder of the optional title field next to the link field at the top of the Bookmarks screen; also the label of the title field in the bookmark edit sheet."
+  },
+  "Delete Folder": {
+    "text": "Delete Folder",
+    "context": "Menu item in the menu of a bookmark folder (toolbar menu and context menu of a folder card) that deletes the folder."
+  },
+  "Create folder": {
+    "text": "Create folder",
+    "context": "Confirm button of the New folder dialog on the Bookmarks screen."
+  },
+  "No bookmark or folder contains “%@”.": {
+    "text": "No bookmark or folder contains “%@”.",
+    "context": "Message under “No matches” on the Bookmarks screen when the search text matches no bookmark or folder.",
+    "placeholders": {
+      "%@": "The search text typed by the person, such as “recipe”"
+    }
+  },
+  "No link yet": {
+    "text": "No link yet",
+    "context": "Line under the title of a bookmark row that has no web address."
+  },
+  "Copy link": {
+    "text": "Copy link",
+    "context": "Tooltip and accessibility label of the copy button shown when hovering a bookmark row; copies its web address."
+  },
+  "Bookmark options": {
+    "text": "Bookmark options",
+    "context": "Tooltip of the “…” button shown when hovering a bookmark row that opens the menu of the bookmark."
+  },
+  "Open Link": {
+    "text": "Open Link",
+    "context": "Menu item in the context menu and “…” menu of a bookmark that opens its web address in the browser."
+  },
+  "Edit…": {
+    "text": "Edit…",
+    "context": "Menu item in the menu of a bookmark (and of a habit) that opens the edit sheet."
+  },
+  "Edit bookmark": {
+    "text": "Edit bookmark",
+    "context": "Title of the sheet for editing a bookmark’s title and link."
+  },
+  "Rename folder": {
+    "text": "Rename folder",
+    "context": "Title of the sheet for renaming a bookmark folder."
+  },
+  "Link": {
+    "text": "Link",
+    "context": "Label of the web address field in the bookmark edit sheet."
+  },
+  "%lld habits": {
+    "text": {
+      "one": "%lld habit",
+      "other": "%lld habits"
+    },
+    "context": "Subtitle of the Habits section header after the space name and a “·”: how many habits there are. Used for numbers other than 1.",
+    "placeholders": {
+      "%lld": "Number of habits, 2 or more (or 0)"
+    }
+  },
+  "1 habit": {
+    "text": "1 habit",
+    "context": "Subtitle of the Habits section header after the space name and a “·”: exactly one habit."
+  },
+  "Add a habit": {
+    "text": "Add a habit",
+    "context": "Placeholder of the text field at the top of the Habits section where you type the name of a new habit."
+  },
+  "No access to habits": {
+    "text": "No access to habits",
+    "context": "Title of the empty state in the Habits section when the owner of a shared space has hidden its habits from you."
+  },
+  "Habits in this space are private to the people its owner chose.": {
+    "text": "Habits in this space are private to the people its owner chose.",
+    "context": "Message under “No access to habits” in the Habits section."
+  },
+  "Habits could not be loaded": {
+    "text": "Habits could not be loaded",
+    "context": "Title of the error state in the Habits section when loading failed; the message below tells you to check your connection."
+  },
+  "No habits yet": {
+    "text": "No habits yet",
+    "context": "Title of the empty state in the Habits section when the space has no habits."
+  },
+  "Name something you want to do regularly. Saver keeps the streak.": {
+    "text": "Name something you want to do regularly. Saver keeps the streak.",
+    "context": "Message of the empty Habits section for people who can add habits; it points to the field at the top."
+  },
+  "Nothing is being tracked here yet.": {
+    "text": "Nothing is being tracked here yet.",
+    "context": "Message of the empty Habits section for people who can only view the space."
+  },
+  "This week": {
+    "text": "This week",
+    "context": "Small group heading above the list of habit cards in the Habits section; the cards show the days of the current week."
+  },
+  "Could not add that habit.": {
+    "text": "Could not add that habit.",
+    "context": "Error message banner shown when adding a new habit failed."
+  },
+  "Could not delete that habit.": {
+    "text": "Could not delete that habit.",
+    "context": "Error message banner shown when deleting a habit failed."
+  },
+  "Habit deleted.": {
+    "text": "Habit deleted.",
+    "context": "Short message banner after a habit was deleted, shown next to an Undo button."
+  },
+  "Could not restore that habit.": {
+    "text": "Could not restore that habit.",
+    "context": "Error message banner shown when undoing the deletion of a habit failed."
+  },
+  "Habit options": {
+    "text": "Habit options",
+    "context": "Tooltip and accessibility label of the “…” menu button on a habit card."
+  },
+  "Could not save that day.": {
+    "text": "Could not save that day.",
+    "context": "Error message banner shown when ticking a day of a habit on or off failed; used on the habit card and in the month sheet."
+  },
+  "%@ this week": {
+    "text": "%@ this week",
+    "context": "Progress text on a habit card for habits with a weekly goal (window of 7 days).",
+    "placeholders": {
+      "%@": "Progress as “done/goal”, such as “2/3”"
+    }
+  },
+  "%@ in %lld days": {
+    "text": "%1$@ in %2$lld days",
+    "context": "Progress text on a habit card for habits with a goal over a custom window of days other than 7 (and other than 1).",
+    "placeholders": {
+      "%1$@": "Progress as “done/goal”, such as “2/4”",
+      "%2$lld": "Length of the window in days, 2 or more (not 7)"
+    }
+  },
+  "%@ in 1 day": {
+    "text": "%@ in 1 day",
+    "context": "Progress text on a habit card for a goal whose window is exactly one day.",
+    "placeholders": {
+      "%@": "Progress as “done/goal”, such as “1/1”"
+    }
+  },
+  "keep it going today": {
+    "text": "keep it going today",
+    "context": "Small line under the streak on a habit card, shown when today still has to be done to keep the streak; starts in lowercase."
+  },
+  "best %lld": {
+    "text": "best %lld",
+    "context": "Small line under the streak on a habit card: the best streak so far, shown when it is longer than the current one. The number is not followed by a unit.",
+    "placeholders": {
+      "%lld": "Length of the best streak, such as 12"
+    }
+  },
+  "%@: done": {
+    "text": "%@: done",
+    "context": "Accessibility label of a day tile on a habit card or in the month sheet when the day is done.",
+    "placeholders": {
+      "%@": "Full date, such as “Wednesday, 19 November 2026”"
+    }
+  },
+  "%@: %lld of %lld": {
+    "text": "%1$@: %2$lld of %3$lld",
+    "context": "Accessibility label of a day tile for a habit that has to be done several times a day: how many times it was done that day.",
+    "placeholders": {
+      "%1$@": "Full date, such as “Wednesday, 19 November 2026”",
+      "%2$lld": "Times done that day",
+      "%3$lld": "Times required per day"
+    }
+  },
+  "%@: not done": {
+    "text": "%@: not done",
+    "context": "Accessibility label of a day tile on a habit card or in the month sheet when the day is not done.",
+    "placeholders": {
+      "%@": "Full date, such as “Wednesday, 19 November 2026”"
+    }
+  },
+  "%lld days completed": {
+    "text": {
+      "one": "%lld day completed",
+      "other": "%lld days completed"
+    },
+    "context": "Message in the habit month sheet under the habit name: how many days of the shown month are completed. Used for numbers other than 1.",
+    "placeholders": {
+      "%lld": "Number of completed days, 0 or 2 or more"
+    }
+  },
+  "1 day completed": {
+    "text": "1 day completed",
+    "context": "Message in the habit month sheet under the habit name when exactly one day of the shown month is completed."
+  },
+  "Previous month": {
+    "text": "Previous month",
+    "context": "Tooltip of the left arrow button in the habit month sheet that shows the previous month."
+  },
+  "Next month": {
+    "text": "Next month",
+    "context": "Tooltip of the right arrow button in the habit month sheet that shows the next month."
+  },
+  "Back to this month": {
+    "text": "Back to this month",
+    "context": "Link-style button in the habit month sheet that jumps back to the current month."
+  },
+  "Edit habit": {
+    "text": "Edit habit",
+    "context": "Title of the sheet where you edit a habit’s name and goal."
+  },
+  "How often": {
+    "text": "How often",
+    "context": "Label of the picker in the habit sheet for the kind of goal (every day, days per week, days per 14 days, custom)."
+  },
+  "Window in days": {
+    "text": "Window in days",
+    "context": "Label of the stepper in the habit sheet (custom goal) for the length of the period, in days, that the goal counts over; the number is shown next to it."
+  },
+  "Days to reach": {
+    "text": "Days to reach",
+    "context": "Label of the stepper in the habit sheet for how many days within each window have to be done; the number is shown next to it."
+  },
+  "Window starts": {
+    "text": "Window starts",
+    "context": "Label of the date picker in the habit sheet: the first day of the habit’s window."
+  },
+  "Times per day": {
+    "text": "Times per day",
+    "context": "Label of the stepper in the habit sheet for how many times a day the habit has to be done; the number is shown next to it."
+  },
+  "Could not save that habit.": {
+    "text": "Could not save that habit.",
+    "context": "Error message banner shown when saving an edited habit failed."
+  },
+  "Every day": {
+    "text": "Every day",
+    "context": "Option of the “How often” picker in the habit sheet; also the goal text on a habit card for a habit that has to be done daily."
+  },
+  "Days per week": {
+    "text": "Days per week",
+    "context": "Option of the “How often” picker in the habit sheet: the goal is a number of days in each week."
+  },
+  "Days per 14 days": {
+    "text": "Days per 14 days",
+    "context": "Option of the “How often” picker in the habit sheet: the goal is a number of days in each 14-day window."
+  },
+  "Custom": {
+    "text": "Custom",
+    "context": "Option of the “How often” picker in the habit sheet: the goal is a number of days within a window length you choose."
+  },
+  "The streak counts consecutive days.": {
+    "text": "The streak counts consecutive days.",
+    "context": "Hint text under the “How often” picker in the habit sheet for the “Every day” option."
+  },
+  "Reach the goal each week to keep the streak.": {
+    "text": "Reach the goal each week to keep the streak.",
+    "context": "Hint text under the “How often” picker in the habit sheet for the “Days per week” option."
+  },
+  "Reach the goal every two weeks.": {
+    "text": "Reach the goal every two weeks.",
+    "context": "Hint text under the “How often” picker in the habit sheet for the “Days per 14 days” option."
+  },
+  "Pick your own window length.": {
+    "text": "Pick your own window length.",
+    "context": "Hint text under the “How often” picker in the habit sheet for the “Custom” option; the window is the period of days the goal counts over."
+  },
+  "%lld days a week": {
+    "text": {
+      "one": "%lld day a week",
+      "other": "%lld days a week"
+    },
+    "context": "Goal text on a habit card for a weekly goal. Used for numbers other than 1; may be followed by “ · ” and “%lld per day”.",
+    "placeholders": {
+      "%lld": "Number of days per week, 2 to 7"
+    }
+  },
+  "1 day a week": {
+    "text": "1 day a week",
+    "context": "Goal text on a habit card for a goal of one day per week; may be followed by “ · ” and “%lld per day”."
+  },
+  "1 day every %lld days": {
+    "text": {
+      "one": "1 day every %lld day",
+      "other": "1 day every %lld days"
+    },
+    "context": "Goal text on a habit card for a goal of one day within a window of several days (not 7); may be followed by “ · ” and “%lld per day”.",
+    "placeholders": {
+      "%lld": "Length of the window in days, such as 10"
+    }
+  },
+  "%lld days every %lld days": {
+    "text": "%1$lld days every %2$lld days",
+    "context": "Goal text on a habit card for a goal of several days within a window of several days (not 7), for example “4 days every 10 days”; may be followed by “ · ” and “%lld per day”.",
+    "placeholders": {
+      "%1$lld": "Number of days to reach, 2 or more",
+      "%2$lld": "Length of the window in days, such as 14"
+    }
+  },
+  "%lld per day": {
+    "text": {
+      "one": "%lld per day",
+      "other": "%lld per day"
+    },
+    "context": "Goal text added after a “ · ” to the goal on a habit card when the habit has to be done several times a day.",
+    "placeholders": {
+      "%lld": "Times per day, 2 or more"
+    }
+  },
+  "No streak yet": {
+    "text": "No streak yet",
+    "context": "Streak line on a habit card (tooltip-like text next to the flame) for a habit that never had a streak."
+  },
+  "No streak right now · best %lld days": {
+    "text": {
+      "one": "No streak right now · best %lld day",
+      "other": "No streak right now · best %lld days"
+    },
+    "context": "Streak line on a habit card when there is no current streak; the part after “·” is the best streak so far, counted in days. Used for numbers other than 1; “window” means a period of days the goal counts over.",
+    "placeholders": {
+      "%lld": "Best streak length in days, 0 or 2 or more"
+    }
+  },
+  "No streak right now · best 1 day": {
+    "text": "No streak right now · best 1 day",
+    "context": "Streak line on a habit card when there is no current streak; the part after “·” says the best streak so far was exactly 1 day; “window” means a period of days the goal counts over."
+  },
+  "No streak right now · best %lld weeks": {
+    "text": {
+      "one": "No streak right now · best %lld week",
+      "other": "No streak right now · best %lld weeks"
+    },
+    "context": "Streak line on a habit card when there is no current streak; the part after “·” is the best streak so far, counted in weeks. Used for numbers other than 1; “window” means a period of days the goal counts over.",
+    "placeholders": {
+      "%lld": "Best streak length in weeks, 0 or 2 or more"
+    }
+  },
+  "No streak right now · best 1 week": {
+    "text": "No streak right now · best 1 week",
+    "context": "Streak line on a habit card when there is no current streak; the part after “·” says the best streak so far was exactly 1 week; “window” means a period of days the goal counts over."
+  },
+  "No streak right now · best %lld windows": {
+    "text": {
+      "one": "No streak right now · best %lld window",
+      "other": "No streak right now · best %lld windows"
+    },
+    "context": "Streak line on a habit card when there is no current streak; the part after “·” is the best streak so far, counted in windows. Used for numbers other than 1; “window” means a period of days the goal counts over.",
+    "placeholders": {
+      "%lld": "Best streak length in windows, 0 or 2 or more"
+    }
+  },
+  "No streak right now · best 1 window": {
+    "text": "No streak right now · best 1 window",
+    "context": "Streak line on a habit card when there is no current streak; the part after “·” says the best streak so far was exactly 1 window; “window” means a period of days the goal counts over."
+  },
+  "%lld days in a row": {
+    "text": {
+      "one": "%lld day in a row",
+      "other": "%lld days in a row"
+    },
+    "context": "Streak line on a habit card: the current streak, counted in days. Used for numbers other than 1; “window” means a period of days the goal counts over.",
+    "placeholders": {
+      "%lld": "Current streak length in days, 2 or more"
+    }
+  },
+  "1 day in a row": {
+    "text": "1 day in a row",
+    "context": "Streak line on a habit card: the current streak is exactly 1 day; “window” means a period of days the goal counts over."
+  },
+  "%lld weeks in a row": {
+    "text": {
+      "one": "%lld week in a row",
+      "other": "%lld weeks in a row"
+    },
+    "context": "Streak line on a habit card: the current streak, counted in weeks. Used for numbers other than 1; “window” means a period of days the goal counts over.",
+    "placeholders": {
+      "%lld": "Current streak length in weeks, 2 or more"
+    }
+  },
+  "1 week in a row": {
+    "text": "1 week in a row",
+    "context": "Streak line on a habit card: the current streak is exactly 1 week; “window” means a period of days the goal counts over."
+  },
+  "%lld windows in a row": {
+    "text": {
+      "one": "%lld window in a row",
+      "other": "%lld windows in a row"
+    },
+    "context": "Streak line on a habit card: the current streak, counted in windows. Used for numbers other than 1; “window” means a period of days the goal counts over.",
+    "placeholders": {
+      "%lld": "Current streak length in windows, 2 or more"
+    }
+  },
+  "1 window in a row": {
+    "text": "1 window in a row",
+    "context": "Streak line on a habit card: the current streak is exactly 1 window; “window” means a period of days the goal counts over."
+  },
+  "Choose a task to focus on": {
+    "text": "Choose a task to focus on",
+    "context": "Title of the empty state in the focus window when no task is being focused."
+  },
+  "Pick Focus in the menu of a task. Its clock runs while this window is open, and the time goes into your calendar when you check it off.": {
+    "text": "Pick Focus in the menu of a task. Its clock runs while this window is open, and the time goes into your calendar when you check it off.",
+    "context": "Message under “Choose a task to focus on” in the empty focus window; “Focus” is the menu item on a task."
+  },
+  "Keep on Top": {
+    "text": "Keep on Top",
+    "context": "Label of the toggle button in the focus window toolbar that keeps the window above other windows."
+  },
+  "Keep on top of other windows": {
+    "text": "Keep on top of other windows",
+    "context": "Tooltip of the “Keep on Top” toolbar toggle in the focus window while it is off."
+  },
+  "Stays above other windows": {
+    "text": "Stays above other windows",
+    "context": "Tooltip of the “Keep on Top” toolbar toggle in the focus window while it is on."
+  },
+  "This task is not here anymore": {
+    "text": "This task is not here anymore",
+    "context": "Title of a message in the focus window when the focused task cannot be found."
+  },
+  "It may have been deleted, or it is in a space you cannot open.": {
+    "text": "It may have been deleted, or it is in a space you cannot open.",
+    "context": "Message under “This task is not here anymore” in the focus window."
+  },
+  "You cannot check off tasks here": {
+    "text": "You cannot check off tasks here",
+    "context": "Title of a message in the focus window when you only have view access to the space."
+  },
+  "The owner of this space has not let you edit its tasks.": {
+    "text": "The owner of this space has not let you edit its tasks.",
+    "context": "Message under “You cannot check off tasks here” in the focus window."
+  },
+  "%lld of %lld tasks done": {
+    "text": "%1$lld of %2$lld tasks done",
+    "context": "Small text under the progress bar in the focus window when focusing through the tasks of a list: how many of the list’s tasks are done. Used for totals other than 1.",
+    "placeholders": {
+      "%1$lld": "Number of tasks done so far",
+      "%2$lld": "Total number of tasks in the list, 0 or 2 or more"
+    }
+  },
+  "%lld of 1 task done": {
+    "text": "%lld of 1 task done",
+    "context": "Small text under the progress bar in the focus window when the list has exactly one task: how many are done (0 or 1).",
+    "placeholders": {
+      "%lld": "Number of tasks done, 0 or 1"
+    }
+  },
+  "Pause": {
+    "text": "Pause",
+    "context": "Button in the focus window that stops the clock; shown while the clock runs."
+  },
+  "Resume": {
+    "text": "Resume",
+    "context": "Button in the focus window that restarts the clock; shown while the clock is paused."
+  },
+  "Mark as Done": {
+    "text": "Mark as Done",
+    "context": "Primary button in the focus window that checks the task off and saves the time to the calendar."
+  },
+  "When you check the task off, the time goes into your calendar.": {
+    "text": "When you check the task off, the time goes into your calendar.",
+    "context": "Small hint under the Pause and Mark as Done buttons in the focus window."
+  },
+  "Subtasks": {
+    "text": "Subtasks",
+    "context": "Heading above the list of subtasks of the focused task in the focus window."
+  },
+  "Up next": {
+    "text": "Up next",
+    "context": "Small heading in the focus window above the title of the next task in the list."
+  },
+  "Skip": {
+    "text": "Skip",
+    "context": "Button in the “Up next” box of the focus window that switches to the next task without finishing the current one."
+  },
+  "Last task in this list": {
+    "text": "Last task in this list",
+    "context": "Small text in the focus window shown when there is no further task after the current one in the list."
+  },
+  "Show Subtasks": {
+    "text": "Show Subtasks",
+    "context": "Toggle item in the “Focus Options” toolbar menu of the focus window that shows or hides the subtasks."
+  },
+  "Show Next Task": {
+    "text": "Show Next Task",
+    "context": "Toggle item in the “Focus Options” toolbar menu of the focus window that shows or hides the “Up next” box."
+  },
+  "Focus Options": {
+    "text": "Focus Options",
+    "context": "Label (tooltip/accessibility) of the toolbar menu button with display options in the focus window."
+  },
+  "Paused": {
+    "text": "Paused",
+    "context": "Small caption under the clock in the focus window while the clock is paused; also used at the start of the window title, before a “·” and the task name."
+  },
+  "Time spent on this task": {
+    "text": "Time spent on this task",
+    "context": "Small caption under the clock in the focus window while the clock runs."
+  },
+  "This task is already done": {
+    "text": "This task is already done",
+    "context": "Title of a message in the focus window when the focused task was checked off elsewhere."
+  },
+  "It was checked off somewhere else while its clock ran. Keep the %@ in your calendar?": {
+    "text": "It was checked off somewhere else while its clock ran. Keep the %@ in your calendar?",
+    "context": "Message in the focus window under “This task is already done” asking whether to keep the tracked time; buttons “Discard” and “Save to Calendar” follow.",
+    "placeholders": {
+      "%@": "A duration such as “1 h 15 min”"
+    }
+  },
+  "Choose an open task to focus on.": {
+    "text": "Choose an open task to focus on.",
+    "context": "Message under “This task is already done” in the focus window when no time was tracked."
+  },
+  "Discard": {
+    "text": "Discard",
+    "context": "Button in the focus window that throws away the tracked time of a task that is already done."
+  },
+  "Save to Calendar": {
+    "text": "Save to Calendar",
+    "context": "Button in the focus window that saves the tracked time of an already finished task to the calendar."
+  },
+  "%@ saved to your calendar": {
+    "text": "%@ saved to your calendar",
+    "context": "Text on the “Done” screen of the focus window saying how much time was added to the calendar.",
+    "placeholders": {
+      "%@": "A duration such as “1 h 15 min”"
+    }
+  },
+  "Next task": {
+    "text": "Next task",
+    "context": "Button on the “Done” screen of the focus window that opens the next task; used when the next task’s name is hidden."
+  },
+  "Next: %@": {
+    "text": "Next: %@",
+    "context": "Button on the “Done” screen of the focus window that opens the next task, showing its title.",
+    "placeholders": {
+      "%@": "Title of the next task"
+    }
+  },
+  "Open Calendar": {
+    "text": "Open Calendar",
+    "context": "Button on the “Done” screen and the “List done” screen of the focus window that opens the Calendar section."
+  },
+  "List done": {
+    "text": "List done",
+    "context": "Title of the final screen in the focus window after every task of a list is checked off."
+  },
+  "Every task in this list is checked off.": {
+    "text": "Every task in this list is checked off.",
+    "context": "Message under “List done” in the focus window."
+  },
+  "Total": {
+    "text": "Total",
+    "context": "Label of the last row in the “List done” summary of the focus window; next to it is the total focused time."
+  },
+  "Checked off: %@ · %@ saved": {
+    "text": "Checked off: %1$@ · %2$@ saved",
+    "context": "Short message banner after checking off a task in the focus window, with the time saved to the calendar.",
+    "placeholders": {
+      "%1$@": "Title of the task",
+      "%2$@": "A duration such as “25 min”"
+    }
+  },
+  "Checked off: %@": {
+    "text": "Checked off: %@",
+    "context": "Short message banner after checking off a task in the focus window when no time was tracked.",
+    "placeholders": {
+      "%@": "Title of the task"
+    }
+  },
+  "Could not save. The task is still open and its time was kept.": {
+    "text": "Could not save. The task is still open and its time was kept.",
+    "context": "Error message banner in the focus window when checking off a task or saving its time failed."
+  },
+  "%@ focused": {
+    "text": "%@ focused",
+    "context": "Subtitle of the Calendar section header after the week range and a “·”: the total focus time in the shown week.",
+    "placeholders": {
+      "%@": "A duration such as “3 h 20 min”"
+    }
+  },
+  "Your calendar could not be loaded": {
+    "text": "Your calendar could not be loaded",
+    "context": "Title of the error state in the Calendar section when loading failed; the message below tells you to check your connection."
+  },
+  "No focus time this week. Open a task in focus mode; when you check it off, its time shows up here.": {
+    "text": "No focus time this week. Open a task in focus mode; when you check it off, its time shows up here.",
+    "context": "Message under the week grid in the Calendar section when no focus time was saved in the shown week."
+  },
+  "Previous Week": {
+    "text": "Previous Week",
+    "context": "Label of the toolbar button in the Calendar section that shows the previous week (menu/accessibility name)."
+  },
+  "Previous week": {
+    "text": "Previous week",
+    "context": "Tooltip of the “Previous Week” toolbar button in the Calendar section."
+  },
+  "This Week": {
+    "text": "This Week",
+    "context": "Toolbar button in the Calendar section that jumps back to the current week."
+  },
+  "Next Week": {
+    "text": "Next Week",
+    "context": "Label of the toolbar button in the Calendar section that shows the next week (menu/accessibility name)."
+  },
+  "Next week": {
+    "text": "Next week",
+    "context": "Tooltip of the “Next Week” toolbar button in the Calendar section."
+  },
+  "Untitled": {
+    "text": "Untitled",
+    "context": "Shown instead of a title for a task without one: on a focus entry block in the Calendar section and in its details popover; also used for other items without a title."
+  },
+  "Focused for %@": {
+    "text": "Focused for %@",
+    "context": "Line in the details popover of a focus entry in the Calendar section: how long the task was focused.",
+    "placeholders": {
+      "%@": "A duration such as “1 h 15 min”"
+    }
+  },
+  "Delete Entry": {
+    "text": "Delete Entry",
+    "context": "Button in the details popover of a focus entry in the Calendar section that deletes the entry."
+  },
+  "Entry deleted.": {
+    "text": "Entry deleted.",
+    "context": "Short message banner after a Calendar focus entry was deleted, shown next to an Undo button."
+  },
+  "Could not delete the entry.": {
+    "text": "Could not delete the entry.",
+    "context": "Error message banner shown when deleting a Calendar focus entry failed."
+  },
+  "Your %@ plan was bought %@. Change or cancel it there.": {
+    "text": "Your %1$@ plan was bought %2$@. Change or cancel it there.",
+    "context": "Info line at the top of the plans sheet when the plan was bought outside the Mac App Store; the second placeholder is one of “on Android”, “on the web” or “elsewhere”, inserted at the end of the sentence.",
+    "placeholders": {
+      "%1$@": "Name of the plan: Free, Plus or Pro",
+      "%2$@": "Where the plan was bought: “on Android”, “on the web” or “elsewhere”"
+    }
+  },
+  "Billing": {
+    "text": "Billing",
+    "context": "Accessibility label of the segmented Monthly/Yearly switch in the plans sheet (not visible on screen)."
+  },
+  "Monthly": {
+    "text": "Monthly",
+    "context": "Plans sheet: segment of the billing switch that shows monthly prices."
+  },
+  "Yearly": {
+    "text": "Yearly",
+    "context": "Plans sheet: segment of the billing switch that shows yearly prices."
+  },
+  "For personal productivity across all your devices": {
+    "text": "For personal productivity across all your devices",
+    "context": "Plans sheet: short description under the price on the Plus plan card."
+  },
+  "For shared spaces, teams, and Discord communities": {
+    "text": "For shared spaces, teams, and Discord communities",
+    "context": "Plans sheet: short description under the price on the Pro plan card."
+  },
+  "Try Again": {
+    "text": "Try Again",
+    "context": "Plans sheet: button next to the error message that loads the plan options again."
+  },
+  "Restore Purchases": {
+    "text": "Restore Purchases",
+    "context": "Button that checks the Apple Account for an existing subscription: in the plans sheet, also in Settings > Account under Plan."
+  },
+  "Manage Subscription": {
+    "text": "Manage Subscription",
+    "context": "Button that opens the App Store subscription management: in the plans sheet, also in Settings > Account under Plan (only shown with a paid plan)."
+  },
+  "Subscriptions renew automatically until you cancel them in the App Store settings of your Apple Account. A plan applies to every Saver app you sign in to with this account.": {
+    "text": "Subscriptions renew automatically until you cancel them in the App Store settings of your Apple Account. A plan applies to every Saver app you sign in to with this account.",
+    "context": "Small print at the bottom of the plans sheet about automatic renewal and plans working across all Saver apps."
+  },
+  "OK": {
+    "text": "OK",
+    "context": "Button that closes an alert in the plans sheet (purchase or restore result)."
+  },
+  "You are on the %@ plan.": {
+    "text": "You are on the %@ plan.",
+    "context": "Plans sheet: subtitle under the title that says which plan the person has now.",
+    "placeholders": {
+      "%@": "Name of the plan: Free, Plus or Pro"
+    }
+  },
+  "Current": {
+    "text": "Current",
+    "context": "Plans sheet: small tag on the plan card of the plan the person has now."
+  },
+  "%@ a month": {
+    "text": "%@ a month",
+    "context": "Plans sheet: price on a plan card per month (the large price when the Monthly option is chosen, and the small monthly equivalent line under a yearly price).",
+    "placeholders": {
+      "%@": "A price such as “€4.99”"
+    }
+  },
+  "%@ a year": {
+    "text": "%@ a year",
+    "context": "Plans sheet: price on a plan card per year, shown when the Yearly option is chosen.",
+    "placeholders": {
+      "%@": "A price such as “€49.99”"
+    }
+  },
+  "Save %@": {
+    "text": "Save %@",
+    "context": "Plans sheet: small green note under the yearly price on a plan card, saying how much the yearly option saves compared with monthly.",
+    "placeholders": {
+      "%@": "The saving of the yearly price in percent, such as “17%”"
+    }
+  },
+  "Create up to %lld spaces": {
+    "text": {
+      "one": "Create up to %lld space",
+      "other": "Create up to %lld spaces"
+    },
+    "context": "Plans sheet: benefit line on a plan card, how many spaces the plan allows. Also used for other numbers than 1 in the plural form.",
+    "placeholders": {
+      "%lld": "Number of spaces the plan allows, such as 3 or 10"
+    }
+  },
+  "Sync up to %lld tasks and %lld bookmarks": {
+    "text": "Sync up to %1$lld tasks and %2$lld bookmarks",
+    "context": "Plans sheet: benefit line on a plan card, how many tasks and bookmarks the plan syncs.",
+    "placeholders": {
+      "%1$lld": "Maximum number of tasks",
+      "%2$lld": "Maximum number of bookmarks"
+    }
+  },
+  "Track up to %lld active habits": {
+    "text": {
+      "one": "Track up to %lld active habit",
+      "other": "Track up to %lld active habits"
+    },
+    "context": "Plans sheet: benefit line on a plan card, how many active habits the plan allows.",
+    "placeholders": {
+      "%lld": "Number of active habits the plan allows"
+    }
+  },
+  "%lld collaborators across all spaces": {
+    "text": {
+      "one": "%lld collaborator across all spaces",
+      "other": "%lld collaborators across all spaces"
+    },
+    "context": "Plans sheet: benefit line on a plan card, how many people the plan lets the person share spaces with in total.",
+    "placeholders": {
+      "%lld": "Number of collaborators the plan allows"
+    }
+  },
+  "This is your plan": {
+    "text": "This is your plan",
+    "context": "Plans sheet: label of the large subscribe button (disabled) when the chosen plan and period is already the active one."
+  },
+  "Subscribe": {
+    "text": "Subscribe",
+    "context": "Plans sheet: label of the large subscribe button while no price is available yet."
+  },
+  "Subscribe to %@ · %@ a month": {
+    "text": "Subscribe to %1$@ · %2$@ a month",
+    "context": "Plans sheet: label of the large subscribe button for the monthly option.",
+    "placeholders": {
+      "%1$@": "Name of the plan: Plus or Pro",
+      "%2$@": "A price such as “€4.99”"
+    }
+  },
+  "Subscribe to %@ · %@ a year": {
+    "text": "Subscribe to %1$@ · %2$@ a year",
+    "context": "Plans sheet: label of the large subscribe button for the yearly option.",
+    "placeholders": {
+      "%1$@": "Name of the plan: Plus or Pro",
+      "%2$@": "A price such as “€49.99”"
+    }
+  },
+  "on Android": {
+    "text": "on Android",
+    "context": "Fragment inserted at the end of “Your %@ plan was bought %@. Change or cancel it there.” in the plans sheet: the plan was bought in the Android app."
+  },
+  "on the web": {
+    "text": "on the web",
+    "context": "Fragment inserted at the end of “Your %@ plan was bought %@. Change or cancel it there.” in the plans sheet: the plan was bought on the Saver website."
+  },
+  "elsewhere": {
+    "text": "elsewhere",
+    "context": "Fragment inserted at the end of “Your %@ plan was bought %@. Change or cancel it there.” in the plans sheet: the plan was bought in another store."
+  },
+  "Purchases are switched off in the demo.": {
+    "text": "Purchases are switched off in the demo.",
+    "context": "Short message banner in the demo version of the Mac app when someone tries to subscribe."
+  },
+  "Welcome to Saver %@.": {
+    "text": "Welcome to Saver %@.",
+    "context": "Short message banner after a successful purchase, shown once the plans sheet closes.",
+    "placeholders": {
+      "%@": "Name of the plan: Plus or Pro"
+    }
+  },
+  "Purchase Not Completed": {
+    "text": "Purchase Not Completed",
+    "context": "Title of the alert in the plans sheet when buying a plan failed."
+  },
+  "Restore Complete": {
+    "text": "Restore Complete",
+    "context": "Title of the alert in the plans sheet after restoring purchases worked."
+  },
+  "Your subscription is active again on this Mac.": {
+    "text": "Your subscription is active again on this Mac.",
+    "context": "Message after restoring purchases found a subscription: alert in the plans sheet, also a message banner from Settings > Account."
+  },
+  "No active subscription was found for this Apple Account.": {
+    "text": "No active subscription was found for this Apple Account.",
+    "context": "Message after restoring purchases found nothing: alert in the plans sheet, also a message banner from Settings > Account."
+  },
+  "Purchases Not Restored": {
+    "text": "Purchases Not Restored",
+    "context": "Title of the alert in the plans sheet when restoring purchases failed."
+  },
+  "Free": {
+    "text": "Free",
+    "context": "Name of the free plan, inserted into sentences such as “You are on the %@ plan.” and “Your %@ plan includes …”, and shown as the current plan in Settings › Account. The paid plans are called Plus and Pro."
+  },
+  "Your %@ plan includes 1 synced task. Delete an item or upgrade to add another.": {
+    "text": "Your %@ plan includes 1 synced task. Delete an item or upgrade to add another.",
+    "context": "Message shown when the task limit of the plan is reached and the plan allows exactly 1 task.",
+    "placeholders": {
+      "%@": "Name of the plan: Free, Plus or Pro"
+    }
+  },
+  "Your %@ plan includes %lld synced tasks. Delete an item or upgrade to add another.": {
+    "text": "Your %1$@ plan includes %2$lld synced tasks. Delete an item or upgrade to add another.",
+    "context": "Message shown when the task limit of the plan is reached; used for numbers other than 1 (a separate string covers exactly 1).",
+    "placeholders": {
+      "%1$@": "Name of the plan: Free, Plus or Pro",
+      "%2$lld": "Number of tasks the plan allows"
+    }
+  },
+  "Your %@ plan includes 1 synced bookmark. Delete an item or upgrade to add another.": {
+    "text": "Your %@ plan includes 1 synced bookmark. Delete an item or upgrade to add another.",
+    "context": "Message shown when the bookmark limit of the plan is reached and the plan allows exactly 1 bookmark.",
+    "placeholders": {
+      "%@": "Name of the plan: Free, Plus or Pro"
+    }
+  },
+  "Your %@ plan includes %lld synced bookmarks. Delete an item or upgrade to add another.": {
+    "text": "Your %1$@ plan includes %2$lld synced bookmarks. Delete an item or upgrade to add another.",
+    "context": "Message shown when the bookmark limit of the plan is reached; used for numbers other than 1 (a separate string covers exactly 1).",
+    "placeholders": {
+      "%1$@": "Name of the plan: Free, Plus or Pro",
+      "%2$lld": "Number of bookmarks the plan allows"
+    }
+  },
+  "Your %@ plan includes 1 active habit. Delete an item or upgrade to add another.": {
+    "text": "Your %@ plan includes 1 active habit. Delete an item or upgrade to add another.",
+    "context": "Message shown when the habit limit of the plan is reached and the plan allows exactly 1 active habit.",
+    "placeholders": {
+      "%@": "Name of the plan: Free, Plus or Pro"
+    }
+  },
+  "Your %@ plan includes %lld active habits. Delete an item or upgrade to add another.": {
+    "text": "Your %1$@ plan includes %2$lld active habits. Delete an item or upgrade to add another.",
+    "context": "Message shown when the habit limit of the plan is reached; used for numbers other than 1 (a separate string covers exactly 1).",
+    "placeholders": {
+      "%1$@": "Name of the plan: Free, Plus or Pro",
+      "%2$lld": "Number of active habits the plan allows"
+    }
+  },
+  "Plan options are unavailable right now. Please try again later.": {
+    "text": "Plan options are unavailable right now. Please try again later.",
+    "context": "Error message in the plans sheet when the plan options are not set up or cannot be loaded."
+  },
+  "No Saver plans are available right now.": {
+    "text": "No Saver plans are available right now.",
+    "context": "Error message in the plans sheet when the store offers no plans."
+  },
+  "Saver could not reach the App Store. Check your connection and try again.": {
+    "text": "Saver could not reach the App Store. Check your connection and try again.",
+    "context": "Error message in the plans sheet or Settings when a purchase or restore failed because of the network."
+  },
+  "Purchases are not allowed on this Mac. Check Screen Time restrictions.": {
+    "text": "Purchases are not allowed on this Mac. Check Screen Time restrictions.",
+    "context": "Error message when a purchase failed because purchases are restricted on this Mac."
+  },
+  "You already have this plan. Use Restore Purchases to bring it back.": {
+    "text": "You already have this plan. Use Restore Purchases to bring it back.",
+    "context": "Error message when buying a plan the person already owns; “Restore Purchases” refers to the button of that name."
+  },
+  "The purchase is waiting for approval. Your plan starts once it is approved.": {
+    "text": "The purchase is waiting for approval. Your plan starts once it is approved.",
+    "context": "Message when a purchase needs approval, for example from a family organizer (Ask to Buy)."
+  },
+  "The purchase could not be completed. Please try again.": {
+    "text": "The purchase could not be completed. Please try again.",
+    "context": "Generic error message when a purchase or restore failed for an unknown reason."
+  },
+  "Account": {
+    "text": "Account",
+    "context": "Settings window: name of the first tab (Account)."
+  },
+  "Profile": {
+    "text": "Profile",
+    "context": "Settings > Account: section header above the name and email of the person."
+  },
+  "No email on this account": {
+    "text": "No email on this account",
+    "context": "Settings > Account: shown under the name instead of the email address when the account has none."
+  },
+  "Display name": {
+    "text": "Display name",
+    "context": "Settings > Account: placeholder and label of the name text field."
+  },
+  "Shown to the people you share spaces with.": {
+    "text": "Shown to the people you share spaces with.",
+    "context": "Settings > Account: note under the display name field."
+  },
+  "Plan": {
+    "text": "Plan",
+    "context": "Settings > Account: section header above the plan name and plan buttons."
+  },
+  "Current plan": {
+    "text": "Current plan",
+    "context": "Settings > Account: label of the row that shows the name of the plan (Free, Plus or Pro)."
+  },
+  "Change Plan…": {
+    "text": "Change Plan…",
+    "context": "Settings > Account: button that opens the plans sheet when the person has a paid plan (the free plan shows “Upgrade…” instead)."
+  },
+  "Session": {
+    "text": "Session",
+    "context": "Settings > Account: section header above the Sign Out button."
+  },
+  "Signing out keeps everything in your account.": {
+    "text": "Signing out keeps everything in your account.",
+    "context": "Settings > Account: explanation next to the Sign Out button."
+  },
+  "Delete account": {
+    "text": "Delete account",
+    "context": "Settings > Account: section header of the section for deleting the account."
+  },
+  "You still own spaces. Delete them in their settings first, then you can delete your account.": {
+    "text": "You still own spaces. Delete them in their settings first, then you can delete your account.",
+    "context": "Settings > Account: shown in the Delete account section instead of the button while the person still owns spaces."
+  },
+  "Delete Account…": {
+    "text": "Delete Account…",
+    "context": "Settings > Account: red button that starts deleting the account; the dots mean a confirmation follows."
+  },
+  "Removes your account and takes you out of every space you joined.": {
+    "text": "Removes your account and takes you out of every space you joined.",
+    "context": "Settings > Account: explanation next to the Delete Account button."
+  },
+  "Delete your account?": {
+    "text": "Delete your account?",
+    "context": "Title of the confirmation dialog before the account is deleted."
+  },
+  "Delete Account": {
+    "text": "Delete Account",
+    "context": "Button of the confirmation dialog that deletes the account for good."
+  },
+  "Could not delete your account.": {
+    "text": "Could not delete your account.",
+    "context": "Error message shown when deleting the account failed."
+  },
+  "This removes your account for good and takes you out of every space. It cannot be undone.": {
+    "text": "This removes your account for good and takes you out of every space. It cannot be undone.",
+    "context": "Message of the confirmation dialog before the account is deleted."
+  },
+  "Name updated.": {
+    "text": "Name updated.",
+    "context": "Short message banner after the display name was saved."
+  },
+  "Could not update your name.": {
+    "text": "Could not update your name.",
+    "context": "Error message when saving the display name failed."
+  },
+  "Theme": {
+    "text": "Theme",
+    "context": "Settings > Appearance: label of the segmented control for System, Light and Dark."
+  },
+  "Style": {
+    "text": "Style",
+    "context": "Settings > Appearance: label of the segmented control for the visual style (Original or Black & White)."
+  },
+  "Black & White takes every colour out of Saver.": {
+    "text": "Black & White takes every colour out of Saver.",
+    "context": "Settings › Appearance: note under the style picker (Original or Black & White) that explains the Black & White style."
+  },
+  "Sections": {
+    "text": "Sections",
+    "context": "Settings > Appearance: section header above the switches that show or hide the Tasks, Bookmarks and Habits pages."
+  },
+  "Keep the focus window on top": {
+    "text": "Keep the focus window on top",
+    "context": "Settings > Appearance, Focus section: switch that keeps the focus window above other windows."
+  },
+  "Show the next task": {
+    "text": "Show the next task",
+    "context": "Settings > Appearance, Focus section: switch that shows the next task in the focus window."
+  },
+  "1 space · the %@ plan allows %lld": {
+    "text": "1 space · the %1$@ plan allows %2$lld",
+    "context": "Header of the space list in Settings > Spaces when the person has exactly 1 space, with how many spaces the plan allows.",
+    "placeholders": {
+      "%1$@": "Name of the plan: Free, Plus or Pro",
+      "%2$lld": "Number of spaces the plan allows"
+    }
+  },
+  "%lld spaces · the %@ plan allows %lld": {
+    "text": "%1$lld spaces · the %2$@ plan allows %3$lld",
+    "context": "Header of the space list in Settings > Spaces; used for other numbers than 1 (a separate string covers exactly 1).",
+    "placeholders": {
+      "%1$lld": "Number of spaces the person has, 0 or 2 or more",
+      "%2$@": "Name of the plan: Free, Plus or Pro",
+      "%3$lld": "Number of spaces the plan allows"
+    }
+  },
+  "You own this space": {
+    "text": "You own this space",
+    "context": "Settings > Spaces: line under a space name in the space list when the person is the owner."
+  },
+  "Choose a space": {
+    "text": "Choose a space",
+    "context": "Settings > Spaces: placeholder shown in the detail area when no space is selected."
+  },
+  "Space name": {
+    "text": "Space name",
+    "context": "Settings > Spaces: label of the text field for the name of the space."
+  },
+  "Only the owner can rename this space.": {
+    "text": "Only the owner can rename this space.",
+    "context": "Settings > Spaces: note under the name field for members who are not the owner."
+  },
+  "Members": {
+    "text": "Members",
+    "context": "Settings > Spaces: section header above the member list; also the name of the Members permission area in the permissions table."
+  },
+  "Decide what each person can see and change.": {
+    "text": "Decide what each person can see and change.",
+    "context": "Settings > Spaces: explanation under the Members list, shown to the owner."
+  },
+  "Anyone with the general link can join": {
+    "text": "Anyone with the general link can join",
+    "context": "Settings > Spaces: label of the switch that turns the general invite link on or off."
+  },
+  "General link": {
+    "text": "General link",
+    "context": "Settings > Spaces: section header above the general invite link switch."
+  },
+  "Anyone with this link can join with the default permissions.": {
+    "text": "Anyone with this link can join with the default permissions.",
+    "context": "Settings > Spaces: explanation under the General link section."
+  },
+  "New Invite": {
+    "text": "New Invite",
+    "context": "Settings > Spaces: button that creates a new personal invite link."
+  },
+  "No invites yet.": {
+    "text": "No invites yet.",
+    "context": "Settings > Spaces: shown when there are no personal invites."
+  },
+  "Personal invites": {
+    "text": "Personal invites",
+    "context": "Settings > Spaces: section header above the list of personal invite links."
+  },
+  "Each personal invite link works once and expires after 7 days.": {
+    "text": "Each personal invite link works once and expires after 7 days.",
+    "context": "Settings > Spaces: explanation under the Personal invites list."
+  },
+  "Default permissions": {
+    "text": "Default permissions",
+    "context": "Settings > Spaces: section header of the permissions table that applies to new members."
+  },
+  "What new members get from the general link and from new invites.": {
+    "text": "What new members get from the general link and from new invites.",
+    "context": "Settings > Spaces: explanation under Default permissions."
+  },
+  "Delete Space…": {
+    "text": "Delete Space…",
+    "context": "Settings > Spaces: red button that starts deleting the space; the dots mean a confirmation follows."
+  },
+  "Deletes the space and everything in it for all members.": {
+    "text": "Deletes the space and everything in it for all members.",
+    "context": "Settings > Spaces: explanation next to the Delete Space button."
+  },
+  "Delete space": {
+    "text": "Delete space",
+    "context": "Settings > Spaces: section header of the section for deleting the space."
+  },
+  "Leave…": {
+    "text": "Leave…",
+    "context": "Settings > Spaces: button that starts leaving the space; the dots mean a confirmation follows."
+  },
+  "You can rejoin later if someone invites you again.": {
+    "text": "You can rejoin later if someone invites you again.",
+    "context": "Settings > Spaces: explanation next to the Leave button."
+  },
+  "Leave space": {
+    "text": "Leave space",
+    "context": "Settings > Spaces: section header of the section for leaving the space."
+  },
+  "Delete %@?": {
+    "text": "Delete %@?",
+    "context": "Title of the confirmation dialog before a space is deleted.",
+    "placeholders": {
+      "%@": "Name of the space, such as “Family”"
+    }
+  },
+  "Delete Space": {
+    "text": "Delete Space",
+    "context": "Red button of the confirmation dialog that deletes the space."
+  },
+  "Could not delete the space.": {
+    "text": "Could not delete the space.",
+    "context": "Error message when deleting the space failed."
+  },
+  "Space deleted.": {
+    "text": "Space deleted.",
+    "context": "Short message banner after a space was deleted."
+  },
+  "Every task, bookmark and habit in this space is deleted for everyone in it. This cannot be undone.": {
+    "text": "Every task, bookmark and habit in this space is deleted for everyone in it. This cannot be undone.",
+    "context": "Message of the confirmation dialog before a space is deleted."
+  },
+  "Could not leave the space.": {
+    "text": "Could not leave the space.",
+    "context": "Error message when leaving the space failed."
+  },
+  "Remove %@?": {
+    "text": "Remove %@?",
+    "context": "Title of the confirmation dialog before a member is removed from the space.",
+    "placeholders": {
+      "%@": "Name of the member, or “Member” if the member has no name"
+    }
+  },
+  "Could not remove that member.": {
+    "text": "Could not remove that member.",
+    "context": "Error message when removing a member from the space failed."
+  },
+  "%@ was removed.": {
+    "text": "%@ was removed.",
+    "context": "Short message banner after a member was removed from the space.",
+    "placeholders": {
+      "%@": "Name of the member, or “Member” if the member has no name"
+    }
+  },
+  "They lose access to this space. You can invite them again later.": {
+    "text": "They lose access to this space. You can invite them again later.",
+    "context": "Message of the confirmation dialog before a member is removed."
+  },
+  "Member": {
+    "text": "Member",
+    "context": "Name shown for a member who has no name, in the member list, in the remove confirmation and in the access sheet title."
+  },
+  "Owner": {
+    "text": "Owner",
+    "context": "Settings > Spaces: small tag next to the owner in the member list."
+  },
+  "Full access": {
+    "text": "Full access",
+    "context": "Settings > Spaces: line under the owner in the member list."
+  },
+  "Access…": {
+    "text": "Access…",
+    "context": "Settings > Spaces: button on a member row that opens the sheet to change what that member may see and edit."
+  },
+  "Remove %@": {
+    "text": "Remove %@",
+    "context": "Tooltip of the icon button on a member row that removes the member.",
+    "placeholders": {
+      "%@": "Name of the member, or “Member” if the member has no name"
+    }
+  },
+  "bookmarks": {
+    "text": "bookmarks",
+    "context": "Settings > Spaces: the bookmarks of a space as a lowercase word; put into the list of “Can edit %@”, “Can view %@” and “Can edit %@ · view %@” on a member row (several words are joined with “and”)."
+  },
+  "habits": {
+    "text": "habits",
+    "context": "Settings > Spaces: the habits of a space as a lowercase word; put into the list of “Can edit %@”, “Can view %@” and “Can edit %@ · view %@” on a member row (several words are joined with “and”)."
+  },
+  "tasks": {
+    "text": "tasks",
+    "context": "Settings > Spaces: the tasks of a space as a lowercase word; put into the list of “Can edit %@”, “Can view %@” and “Can edit %@ · view %@” on a member row (several words are joined with “and”)."
+  },
+  "Can edit %@ · view %@": {
+    "text": "Can edit %1$@ · view %2$@",
+    "context": "Settings > Spaces: line under a member that says which areas the member can edit and which only view.",
+    "placeholders": {
+      "%1$@": "List of areas the member can edit, such as “tasks and bookmarks” (words tasks, bookmarks, habits)",
+      "%2$@": "List of areas the member can only view, such as “habits”"
+    }
+  },
+  "Can edit %@": {
+    "text": "Can edit %@",
+    "context": "Settings > Spaces: line under a member who can edit some areas and nothing else.",
+    "placeholders": {
+      "%@": "List of areas, such as “tasks and bookmarks” (words tasks, bookmarks, habits)"
+    }
+  },
+  "Can view %@": {
+    "text": "Can view %@",
+    "context": "Settings > Spaces: line under a member who can only view some areas.",
+    "placeholders": {
+      "%@": "List of areas, such as “tasks and bookmarks” (words tasks, bookmarks, habits)"
+    }
+  },
+  "No access yet": {
+    "text": "No access yet",
+    "context": "Settings > Spaces: line under a member who may see nothing."
+  },
+  "Active": {
+    "text": "Active",
+    "context": "Settings > Spaces: status in an invite row for an invite that still works."
+  },
+  "Expired": {
+    "text": "Expired",
+    "context": "Settings > Spaces: status in an invite row for an invite whose time ran out."
+  },
+  "Used": {
+    "text": "Used",
+    "context": "Settings > Spaces: status in an invite row for an invite that was used as often as allowed."
+  },
+  "%lld of %lld used · %@": {
+    "text": "%1$lld of %2$lld used · %3$@",
+    "context": "Settings > Spaces: first line of an invite row with how often it was used and its status.",
+    "placeholders": {
+      "%1$lld": "Times the invite was used",
+      "%2$lld": "Times the invite can be used at most",
+      "%3$@": "Status of the invite: Active, Expired or Used"
+    }
+  },
+  "Expires %@": {
+    "text": "Expires %@",
+    "context": "Settings > Spaces: second line of an invite row, when the invite expires.",
+    "placeholders": {
+      "%@": "Date and time such as “Nov 25, 2026 at 9:00 AM”"
+    }
+  },
+  "Never expires": {
+    "text": "Never expires",
+    "context": "Settings > Spaces: second line of an invite row for an invite without an end date."
+  },
+  "Copy invite link": {
+    "text": "Copy invite link",
+    "context": "Tooltip of the icon button on an invite row that copies the invite link."
+  },
+  "Could not delete the invite.": {
+    "text": "Could not delete the invite.",
+    "context": "Error message when deleting an invite failed."
+  },
+  "Invite deleted.": {
+    "text": "Invite deleted.",
+    "context": "Short message banner after an invite was deleted."
+  },
+  "Delete invite": {
+    "text": "Delete invite",
+    "context": "Tooltip of the trash button on an invite row."
+  },
+  "A space needs a name.": {
+    "text": "A space needs a name.",
+    "context": "Error message when the space name field is empty on save."
+  },
+  "Could not rename the space.": {
+    "text": "Could not rename the space.",
+    "context": "Error message when renaming the space failed."
+  },
+  "Space renamed.": {
+    "text": "Space renamed.",
+    "context": "Short message banner after the space was renamed."
+  },
+  "Anyone with the link can join now.": {
+    "text": "Anyone with the link can join now.",
+    "context": "Short message banner after the general link was switched on."
+  },
+  "The general link is switched off.": {
+    "text": "The general link is switched off.",
+    "context": "Short message banner after the general link was switched off."
+  },
+  "Could not change the link.": {
+    "text": "Could not change the link.",
+    "context": "Error message when switching the general link on or off failed."
+  },
+  "Could not copy that invite.": {
+    "text": "Could not copy that invite.",
+    "context": "Error message when the link of an invite could not be fetched for copying."
+  },
+  "Could not save the permissions.": {
+    "text": "Could not save the permissions.",
+    "context": "Error message when saving the default permissions failed."
+  },
+  "Default permissions saved.": {
+    "text": "Default permissions saved.",
+    "context": "Short message banner after the default permissions were saved."
+  },
+  "Area": {
+    "text": "Area",
+    "context": "Permissions table (default permissions and member access sheet): column heading above the rows Tasks, Bookmarks, Habits and Members."
+  },
+  "View": {
+    "text": "View",
+    "context": "Permissions table: column heading of the checkboxes that allow seeing an area."
+  },
+  "View %@": {
+    "text": "View %@",
+    "context": "Accessibility label of a checkbox in the permissions table that allows seeing an area.",
+    "placeholders": {
+      "%@": "Name of the area: Tasks, Bookmarks, Habits or Members"
+    }
+  },
+  "Edit %@": {
+    "text": "Edit %@",
+    "context": "Accessibility label of a checkbox in the permissions table that allows editing an area.",
+    "placeholders": {
+      "%@": "Name of the area: Tasks, Bookmarks, Habits or Members"
+    }
+  },
+  "Access for %@": {
+    "text": "Access for %@",
+    "context": "Title of the sheet where the owner changes what one member may see and edit.",
+    "placeholders": {
+      "%@": "Name of the member, or “Member” if the member has no name"
+    }
+  },
+  "Could not update the access.": {
+    "text": "Could not update the access.",
+    "context": "Error message when saving a member's permissions failed."
+  },
+  "Access updated.": {
+    "text": "Access updated.",
+    "context": "Short message banner after a member's permissions were saved."
+  },
+  "Black & White": {
+    "text": "Black & White",
+    "context": "Settings > Appearance: option of the Style switch for the monochrome look."
+  },
+  "System": {
+    "text": "System",
+    "context": "Settings > Appearance: option of the Theme switch that follows the Mac's light or dark mode."
+  },
+  "Light": {
+    "text": "Light",
+    "context": "Settings > Appearance: option of the Theme switch, always light."
+  },
+  "Dark": {
+    "text": "Dark",
+    "context": "Settings > Appearance: option of the Theme switch, always dark."
+  },
+  "Could not sign out. Try again.": {
+    "text": "Could not sign out. Try again.",
+    "context": "Error message when signing out failed."
+  },
+  "The server did not return a space ID.": {
+    "text": "The server did not return a space ID.",
+    "context": "Error message when creating a space failed because the server's answer was incomplete."
+  },
+  "Sign in to add a habit.": {
+    "text": "Sign in to add a habit.",
+    "context": "Error message when adding a habit while not signed in."
+  },
+  "Invite details were not returned.": {
+    "text": "Invite details were not returned.",
+    "context": "Error message when creating an invite failed because the server's answer was incomplete."
+  },
+  "Invite code was not returned.": {
+    "text": "Invite code was not returned.",
+    "context": "Error message when copying an invite failed because the server's answer was incomplete."
+  },
+  "Sign in to change this.": {
+    "text": "Sign in to change this.",
+    "context": "Error message when changing something (such as a focus entry) while not signed in."
+  },
+  "Your session has ended. Sign in again.": {
+    "text": "Your session has ended. Sign in again.",
+    "context": "Error message when the account was signed out by the server, for example after it was deleted elsewhere."
+  },
+  "Something went wrong.": {
+    "text": "Something went wrong.",
+    "context": "Error message used when nothing more specific is known."
+  },
+  "Habit": {
+    "text": "Habit",
+    "context": "Name shown for a habit that has no name."
+  },
+  "Every day at %@": {
+    "text": "Every day at %@",
+    "context": "Summary of a habit reminder that repeats every day.",
+    "placeholders": {
+      "%@": "Time of day such as “9:00 AM”"
+    }
+  },
+  "%@ at %@": {
+    "text": "%1$@ at %2$@",
+    "context": "Summary of a repeating habit reminder on some weekdays, such as “Mon, Wed at 9:00 AM”.",
+    "placeholders": {
+      "%1$@": "List of short weekday names such as “Mon, Wed”",
+      "%2$@": "Time of day such as “9:00 AM”"
+    }
+  },
+  "Manual": {
+    "text": "Manual",
+    "context": "Sort option name: keep the order the person dragged the items into."
+  },
+  "Newest first": {
+    "text": "Newest first",
+    "context": "Sort option name: newest items first."
+  },
+  "Oldest first": {
+    "text": "Oldest first",
+    "context": "Sort option name: oldest items first."
+  },
+  "Title A–Z": {
+    "text": "Title A–Z",
+    "context": "Sort option name: alphabetical by title."
+  },
+  "Title Z–A": {
+    "text": "Title Z–A",
+    "context": "Sort option name: reverse alphabetical by title."
+  },
+  "Open Saver": {
+    "text": "Open Saver",
+    "context": "Button at the bottom of the panel that opens under the Saver icon in the Mac’s menu bar; it brings up Saver’s main window. Also the button in that panel when there is no space yet or no open task."
+  },
+  "Quit Saver": {
+    "text": "Quit Saver",
+    "context": "Button at the bottom of the panel that opens under the Saver icon in the Mac’s menu bar; it quits the app."
+  },
+  "Show Saver in the menu bar": {
+    "text": "Show Saver in the menu bar",
+    "context": "Switch in Settings › Appearance, section “Focus”. It shows or hides the Saver icon in the Mac’s menu bar, which starts focus mode on a task from anywhere."
+  },
+  "Clear search": {
+    "text": "Clear search",
+    "context": "VoiceOver name of the small × button at the end of the search field in the panel under the Saver icon in the Mac’s menu bar; it empties the field. Not shown as text."
+  },
+  "A plan limit was reached.": {
+    "text": "A plan limit was reached.",
+    "context": "Plans sheet: reason shown at the top when an action was refused because of the plan."
+  },
+  "Apple sign in failed. Check in System Settings that this Mac is signed in to an Apple Account, then try again.": {
+    "text": "Apple sign in failed. Check in System Settings that this Mac is signed in to an Apple Account, then try again.",
+    "context": "Sign-in window: error when macOS could not offer an Apple Account."
+  },
+  "Ask the space owner to upgrade their plan.": {
+    "text": "Ask the space owner to upgrade their plan.",
+    "context": "Added to an error message when the plan of the owner of a space is full."
+  },
+  "At least one section has to stay visible.": {
+    "text": "At least one section has to stay visible.",
+    "context": "Settings ▸ Appearance: message when the last visible section would be switched off."
+  },
+  "Choose at least one day.": {
+    "text": "Choose at least one day.",
+    "context": "Reminder sheet: error when Repeat weekly is on and no day is chosen."
+  },
+  "Contact Support": {
+    "text": "Contact Support",
+    "context": "Help menu: opens the support page of the website."
+  },
+  "Custom Discord bot branding": {
+    "text": "Custom Discord bot branding",
+    "context": "Plans sheet: benefit of the Pro plan."
+  },
+  "Delete Invite": {
+    "text": "Delete Invite",
+    "context": "Button of the dialog that asks before an invite is deleted."
+  },
+  "Delete this invite?": {
+    "text": "Delete this invite?",
+    "context": "Title of the dialog before an invite that still works is deleted."
+  },
+  "Folder options": {
+    "text": "Folder options",
+    "context": "Tooltip of the toolbar button with the menu of the open folder."
+  },
+  "Its link stops working. People who already joined stay in the space.": {
+    "text": "Its link stops working. People who already joined stay in the space.",
+    "context": "Text of the dialog before an invite is deleted."
+  },
+  "No custom Discord bot branding": {
+    "text": "No custom Discord bot branding",
+    "context": "Plans sheet: what the Plus plan does not include."
+  },
+  "No habit contains “%@”.": {
+    "text": "No habit contains “%@”.",
+    "context": "Habits page while searching: nothing was found. %@ is what was searched for."
+  },
+  "Saver %@ starts when your current plan ends.": {
+    "text": "Saver %@ starts when your current plan ends.",
+    "context": "Message after buying a smaller plan, which starts later. %@ is Plus or Pro."
+  },
+  "Saver Color": {
+    "text": "Saver Color",
+    "context": "Settings ▸ Appearance: name of the coloured style, the other one is Black & White."
+  },
+  "Saver Help": {
+    "text": "Saver Help",
+    "context": "Help menu: opens the documentation."
+  },
+  "Show %lld more": {
+    "text": "Show %lld more",
+    "context": "Settings ▸ Spaces: button under the first invites that shows the rest. %lld is how many."
+  },
+  "Show fewer": {
+    "text": "Show fewer",
+    "context": "Settings ▸ Spaces: button that hides the older invites again."
+  },
+  "Starts with %@ free": {
+    "text": "Starts with %@ free",
+    "context": "Plans sheet: under the price of a plan with a free trial. %@ is a length of time such as “1 week”."
+  },
+  "That was a lot at once. Wait a few seconds and try again.": {
+    "text": "That was a lot at once. Wait a few seconds and try again.",
+    "context": "Error when the server refuses too many requests in a short time."
+  },
+  "The owner of this space has reached the limit of active habits on their plan. Ask them to upgrade, or delete a habit to make room.": {
+    "text": "The owner of this space has reached the limit of active habits on their plan. Ask them to upgrade, or delete a habit to make room.",
+    "context": "Message when a habit cannot be added to someone else’s space."
+  },
+  "The owner of this space has reached the limit of synced bookmarks on their plan. Ask them to upgrade, or delete a bookmark to make room.": {
+    "text": "The owner of this space has reached the limit of synced bookmarks on their plan. Ask them to upgrade, or delete a bookmark to make room.",
+    "context": "Message when a bookmark cannot be added to someone else’s space."
+  },
+  "The owner of this space has reached the limit of synced tasks on their plan. Ask them to upgrade, or delete a task to make room.": {
+    "text": "The owner of this space has reached the limit of synced tasks on their plan. Ask them to upgrade, or delete a task to make room.",
+    "context": "Message when a task cannot be added to someone else’s space."
+  },
+  "This invite is no longer available. Ask the person who shared it for a new link.": {
+    "text": "This invite is no longer available. Ask the person who shared it for a new link.",
+    "context": "Join dialog: error when an invite link was used up, expired or deleted."
+  },
+  "Time": {
+    "text": "Time",
+    "context": "Reminder sheet: label of the time picker when the reminder repeats weekly."
+  },
+  "You already have an account with this email. Sign in the way you did before.": {
+    "text": "You already have an account with this email. Sign in the way you did before.",
+    "context": "Sign-in window: error after signing in with Apple or Google when the email already has an account with another way of signing in."
+  },
+  "Your %@ plan includes %lld spaces. Upgrade to add another.": {
+    "text": "Your %@ plan includes %lld spaces. Upgrade to add another.",
+    "context": "Plans sheet: why no further space can be created or joined. %@ is the name of the plan."
+  },
+  "Your purchases could not be restored. Please try again.": {
+    "text": "Your purchases could not be restored. Please try again.",
+    "context": "Plans sheet and Settings: error after Restore Purchases."
+  },
+  "Your subscription is not cancelled with it. Cancel it where you bought it.": {
+    "text": "Your subscription is not cancelled with it. Cancel it where you bought it.",
+    "context": "Dialog before the account is deleted, added for people with a paid plan."
+  }
+}

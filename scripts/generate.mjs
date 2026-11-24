@@ -55,6 +55,7 @@ export function filesFor(project, { includeSource = true, existing = () => null 
   } else if (project.format === 'xcstrings') {
     const path = outputPath(project, languages[0]);
     const current = existing(path);
+    // iOS and the Mac use the same Apple localization codes (platforms.ios).
     const iosCodes = Object.fromEntries(languages.map((language) => [language.code, language.platforms?.ios ?? language.code]));
     const catalog = mergeCatalog(current ? JSON.parse(current) : null, source, byLang, { iosCodes, sourceCode: sourceLang });
     files.push({ path, content: stringifyXcstrings(catalog) + '\n', language: '*' });

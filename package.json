@@ -2,7 +2,7 @@
   "name": "saver-translations",
   "private": true,
   "version": "1.0.0",
-  "description": "Translations of the Saver apps (iOS, Android, web) into 14 languages.",
+  "description": "Translations of the Saver apps (iOS, Android, Mac, web) into 14 languages.",
   "type": "module",
   "engines": {
     "node": ">=20"

@@ -13,7 +13,7 @@ body:
     id: app
     attributes:
       label: App
-      options: [iOS, Android, Web, Several]
+      options: [iOS, Android, Mac, Web, Several]
     validations:
       required: true
   - type: textarea

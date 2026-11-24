@@ -25,9 +25,9 @@
           },
           "platforms": {
             "type": "object",
-            "description": "Code of the language on each platform: iOS localization, Android resource qualifier, web locale.",
+            "description": "Code of the language on each platform: Apple localization (iOS and Mac), Android resource qualifier, web locale.",
             "properties": {
-              "ios": { "type": "string" },
+              "ios": { "type": "string", "description": "Localization code on Apple platforms, used by the iOS and the Mac app." },
               "android": { "type": "string" },
               "web": { "type": "string" }
             }

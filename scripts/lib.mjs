@@ -52,6 +52,11 @@ export function loadProjects() {
   return readJson(join(ROOT, 'projects.json')).projects;
 }
 
+/** The apps of projects.json (web, ios, …), which import and sync take as options. */
+export function appNames() {
+  return [...new Set(loadProjects().map((project) => project.app))];
+}
+
 export const sourceFile = (project) => join(ROOT, 'source', `${project}.json`);
 export const localeFile = (lang, project) => join(ROOT, 'locales', lang, `${project}.json`);
 
