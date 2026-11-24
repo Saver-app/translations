@@ -507,6 +507,10 @@
     "text": "An account with this email already exists. Sign in instead.",
     "context": "Sign-up form: error message when the email address already has an account."
   },
+  "auth.error.otherMethod": {
+    "text": "You already have an account with this email. Sign in the way you did before.",
+    "context": "Sign-in page: error after signing in with Apple or Google when the email already has an account with another way of signing in."
+  },
   "auth.error.tooManyAttempts": {
     "text": "Too many attempts. Wait a moment, then try again.",
     "context": "Sign-in page: error message after too many failed attempts."
@@ -814,6 +818,10 @@
   "linkDevice.submit": {
     "text": "Link tablet",
     "context": "Link-your-reMarkable page and Settings › Connections: button that approves the tablet."
+  },
+  "linkDevice.invalidCode": {
+    "text": "That code is not valid. Check the code on your tablet.",
+    "context": "Page that links a reMarkable tablet: error under the code field when the code typed in does not exist."
   },
   "linkDevice.error": {
     "text": "Could not link that tablet.",
@@ -2175,6 +2183,10 @@
     "text": "Could not read that invite.",
     "context": "Join space dialog: error message when the text is not an invite link."
   },
+  "spaces.join.unavailable": {
+    "text": "This invite is no longer available. Ask the person who shared it for a new link.",
+    "context": "Join dialog and invite page: error when an invite link was used up, expired or deleted."
+  },
   "spaces.join.done": {
     "text": "You joined the space.",
     "context": "Confirmation after the person joined a space."
@@ -2809,6 +2821,13 @@
       "{count}": "Number of habits the plan includes"
     }
   },
+  "plans.quota.spaces": {
+    "text": {
+      "one": "Your {plan} plan includes {count} space. Upgrade to add another.",
+      "other": "Your {plan} plan includes {count} spaces. Upgrade to add another."
+    },
+    "context": "Upgrade dialog: why no further space can be created or joined."
+  },
   "plans.quota.ownerFull.todos": {
     "text": "The owner of this space has reached the limit of synced tasks on their plan. Ask them to upgrade, or delete a task to make room.",
     "context": "Shown when someone adds a task to another person's space and the space owner's plan has no room left. Only the owner can upgrade that plan."
@@ -3096,6 +3115,10 @@
     "text": "This removes your account for good and takes you out of every space. It cannot be undone.",
     "context": "Question dialog before the account is deleted: explanation."
   },
+  "settings.account.deletePlanMessage": {
+    "text": "Your subscription is not cancelled with it. Cancel it where you bought it.",
+    "context": "Question dialog before the account is deleted, added for people with a paid plan."
+  },
   "settings.account.deleteConfirm": {
     "text": "Delete account",
     "context": "Question dialog before the account is deleted: button that permanently deletes it."
@@ -3362,6 +3385,10 @@
   "settings.remarkable.tokenError": {
     "text": "Could not create a device token.",
     "context": "Settings › Connections: error message when creating a device token failed."
+  },
+  "settings.remarkable.limit": {
+    "text": "You can link up to 10 tablets. Revoke one to link another.",
+    "context": "Settings › Connections: error when linking one tablet too many."
   },
   "settings.token.title": {
     "text": "Device token",

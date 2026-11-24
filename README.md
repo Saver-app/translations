@@ -9,20 +9,20 @@ Every text of the Saver apps on iOS, Android, the Mac and the web, in 14 languag
 <!-- stats:start -->
 | Language | Web app | iOS app | iOS share extension | Android app | Mac app | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bahasa Indonesia (`id`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| Bahasa Indonesia (`id`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
 | Deutsch (`de`) | 100 % | 100 % | 100 % | 100 % | 100 % | machine translated |
-| Español (`es`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| Français (`fr`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| Italiano (`it`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| Português (Brasil) (`pt-BR`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| Türkçe (`tr`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| Русский (`ru`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| العربية (`ar`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| हिन्दी (`hi`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| 日本語 (`ja`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| 한국어 (`ko`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| 简体中文 (`zh-Hans`) | 92 % | 91 % | 100 % | 89 % | 100 % | machine translated |
-| **Strings in English** | **737** | **683** | **50** | **603** | **591** |  |
+| Español (`es`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| Français (`fr`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| Italiano (`it`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| Português (Brasil) (`pt-BR`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| Türkçe (`tr`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| Русский (`ru`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| العربية (`ar`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| हिन्दी (`hi`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| 日本語 (`ja`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| 한국어 (`ko`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| 简体中文 (`zh-Hans`) | 100 % | 91 % | 100 % | 89 % | 100 % | machine translated |
+| **Strings in English** | **743** | **683** | **50** | **603** | **591** |  |
 <!-- stats:end -->
 
 The apps follow the language of the device and let people pick another one in Settings (on the Mac in System Settings).
